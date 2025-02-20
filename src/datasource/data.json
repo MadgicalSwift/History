@@ -793,10 +793,10 @@
                           },
                           {
                             "question": "Which two religions flourished under Chola patronage?",
-                            "options": ["Hinduism", "Buddhism and Jainism", "Hinduism and Islam", "Jainism and Christianity"],
-                            "answer": "Hinduism",
+                            "options": ["Hinduism", "Buddhism and Jainism", "Saivism and Vaishnavism", "Jainism and Christianity"],
+                            "answer": "Saivism and Vaishnavism",
                             "explanation": "Saivism and Vaishnavism, two sects of Hinduism, flourished under Chola patronage."
-                          },
+                          },                          
                           {
                             "question": "What was the primary purpose behind Chola temple construction?",
                             "options": ["Royal power", "Public housing", "Educational institutions", "Marketplaces"],
