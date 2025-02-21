@@ -41,7 +41,7 @@ export class ChatbotService {
 
   public async processMessage(body: any): Promise<any> {
     // Destructure 'from', 'text', and 'button_response' from the body
-    const { from, text, button_response } = body;
+    const { from, text, button_response, persistent_menu_response } = body;
 
     // Retrieve botID from environment variables
     const botID = process.env.BOT_ID;
@@ -55,6 +55,30 @@ export class ChatbotService {
   
     // Convert plain user data to a User class instance
     const user = plainToClass(User, userData);
+    
+
+    // ✅ Persistent Menu Response Handling
+if (persistent_menu_response && persistent_menu_response.body) {
+  const menuSelection = persistent_menu_response.body;
+  console.log('Handling Persistent Menu Response:', menuSelection);
+
+  if (menuSelection === 'Class Selection') {
+      console.log('Triggering class selection menu...');
+      await this.message.sendInitialTopics(from);
+  } else if (menuSelection === 'Topic Selection') {
+      console.log('Triggering topic selection menu...');
+      const topic = this.topics.find((t) => t.topicName === user.selectedMainTopic);
+      if (topic) {
+          await this.message.sendSubTopics(from, topic.topicName);
+      } else {
+          console.error('Error: Selected topic not found.');
+      }
+  }
+  return 'ok';
+}
+  
+
+
 
     // Handle button response from the user
     if (button_response) {
@@ -300,6 +324,8 @@ export class ChatbotService {
 
     return 'ok';
   }
+
+
   async handleViewChallenges(from: string, userData: any): Promise<void>{
     try { 
       console.log(userData)
