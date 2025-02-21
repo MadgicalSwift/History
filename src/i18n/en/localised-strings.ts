@@ -3,7 +3,7 @@ export const localised = {
   language_hindi: 'हिन्दी',
   language_english: 'English',
   language_changed: 'Language changed to English',
-  welcomeMessage: `😊 *Welcome to the Indian Medieval History Chatbot!* 🏰\n📚 This bot is designed for students of Class 4-12, based on the NCERT curriculum. \n🔎 First, the bot will ask for your class, and then it will provide topics according to your grade. Let's dive into history! 🚀`,
+  welcomeMessage: `😊 *Welcome to the Indian History Chatbot!* 🏰\n📚 This bot is designed for students of Class 4-12, based on the NCERT curriculum. \n🔎 Let's dive into history! 🚀`,
  validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
   selectSubtopic: (topicName: string) =>
   `📜 Please select a topic for *${topicName}*:`,
@@ -17,7 +17,7 @@ export const localised = {
   explanation: (subtopicName: string, description: string) =>
   `📖 *Explanation of ${subtopicName}:*\n${description}`,
   moreExplanation: (subtopicName: string, description: string) =>
-  `📝 More Explanation of *${subtopicName}:*\n${description}`,
+  `📝 *${subtopicName}:*\n${description}`,
   difficulty: `🎯 Choose your quiz level to get started!🚀`,
   rightAnswer: (explanation: string) =>
   `🌟 Fantastic! You got it 👍right!\nCheck this out: *${explanation}*`,
