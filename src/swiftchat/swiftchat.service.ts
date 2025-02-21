@@ -15,6 +15,7 @@ import {
   optionButton,
   buttonWithScore
 } from 'src/i18n/buttons/button';
+import axios from 'axios';
 dotenv.config();
 
 @Injectable()
@@ -145,7 +146,6 @@ export class SwiftchatMessageService extends MessageService {
   ) {
     let completeDescription = '';
     description.forEach((desc, index) => {
-      // Add each element to the string, ensuring no commas are added
       completeDescription += desc;
     });
     const messageData = createTestYourSelfButton(
@@ -160,62 +160,6 @@ export class SwiftchatMessageService extends MessageService {
     );
     return response;
   }
-  // async handleViewChallenges(from: string, userData: any): Promise<void>{
-  //   try {
-      
-  //     const topStudents = await this.userService.getTopStudents(
-  //       userData.Botid,
-  //       userData.currentTopic,
-  //       userData.setNumber,
-  //     );
-  //     if (topStudents.length === 0) {
-  
-  //       await this.swiftchatMessageService.sendMessage({
-  //         to: from,
-  //         type: 'text',
-  //         text: { body: 'No challenges have been completed yet.' },
-  //       });
-  //       return;
-  //     }
-  //     // Format the response message with the top 3 students
-  //     let message = 'Top 3 Users:\n\n';
-  //     topStudents.forEach((student, index) => {
-  //       const totalScore = student.score || 0;
-  //       const studentName = student.name || 'Unknown';
-      
-  //       let badge = '';
-  //       if (totalScore === 10) {
-  //         badge = 'Gold 🥇';
-  //       } else if (totalScore >= 7) {
-  //         badge = 'Silver 🥈';
-  //       } else if (totalScore >= 5) {
-  //         badge = 'Bronze 🥉';
-  //       } else {
-  //         badge = 'No';
-  //       }
-
-  //       message += `${index + 1}. ${studentName}\n`;
-  //       message += `    Score: ${totalScore}\n`;
-  //       message += `    Badge: ${badge}\n\n`;
-  //     });
-
-  //     // Send the message with the top students' names, scores, and badges
-  //     await this.sendMessage(this.baseUrl,{
-  //       to: from,
-  //       type: 'text',
-  //       text: { body: message },
-  //     }, this.apiKey);
-  //   } catch (error) {
-  //     console.error('Error handling View Challenges:', error);
-  //     await this.sendMessage(this.baseUrl,{
-  //       to: from,
-  //       type: 'text',
-  //       text: {
-  //         body: 'An error occurred while fetching challenges. Please try again later.',
-  //       },
-  //     }, this.apiKey);
-  //   }
-  // }
   async checkAnswer(
     from: string,
     answer: string,
@@ -273,18 +217,56 @@ export class SwiftchatMessageService extends MessageService {
     return { response, randomSet };
   }
 
-  async sendScore(from: string, score: number, totalQuestions: number, badge:string) {
-  
 
+  // new add 
+  async newscorecard(from: string, score: number, totalQuestions: number, badge: string) {
+    let backgroundColor = "teal";
+    if (score >= 9) backgroundColor = "orange";
+    else if (score >= 7) backgroundColor = "blue";
+    else if (score >= 5) backgroundColor = "green";
+    else if (score >= 3) backgroundColor = "pink";
+    
+    let shareMessage = "Keep going! You got this!";
+    if (score >= 9) shareMessage = "Outstanding! Keep shining!";
+    else if (score >= 7) shareMessage = "Great work! Keep improving!";
+    else if (score >= 5) shareMessage = "Good effort! Keep practicing!";
+    else if (score >= 3) shareMessage = "Nice try! You’re learning!";
+    
+    const performanceScore = `${(score / totalQuestions) * 100}%`;
+    
+    const payload = {
+        to: from,
+        type: "scorecard",
+        scorecard: {
+            theme: "theme2",
+            background: backgroundColor,
+            performance: "high",
+            share_message: shareMessage,
+            text1: `Quiz-${new Date().getDate()}-${new Date().getMonth() + 1}-${new Date().getFullYear() % 100}`,
+            text2: shareMessage,
+            text3: performanceScore,
+            text4: `${badge} `,
+            score: `${score}/${totalQuestions}`,
+            animation: "confetti"
+        }
+    };
+    
+    const response = await axios.post(this.baseUrl, payload, {
+      headers: {
+        Authorization: `Bearer ${this.apiKey}`,
+        'Content-Type': 'application/json',
+      },
+    });
+    
     const messageData = buttonWithScore(from, score, totalQuestions, badge);
-    const response = await this.sendMessage(
-      this.baseUrl,
-      messageData,
-      this.apiKey,
-    );
+    await this.sendMessage(this.baseUrl, messageData, this.apiKey);
+    
     return response;
-  }
+}
 
+
+
+  
   async sendLanguageChangedMessage(from: string, language: string) {
     const localisedStrings = LocalizationService.getLocalisedString(language);
     const requestData = this.prepareRequestData(
