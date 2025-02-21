@@ -208,15 +208,8 @@ export class ChatbotService {
             challengeData,
           );
           console.log("Challenge Data:",challengeData)
-          // console.log("user:", user )
-          
-          await this.message.sendScore(
-            from,
-            user.score,
-            user.questionsAnswered,
-            badge
-          );
-
+          await this.message.newscorecard(from, user.score, user.questionsAnswered, badge)
+        
           return 'ok';
         }
         // Send the next quiz question

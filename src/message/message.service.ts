@@ -68,8 +68,8 @@ export abstract class MessageService {
     randomSet: string,
     currentQuestionIndex: number,
   );
-  // abstract handleViewChallenges(from:string, userData:any);
-  abstract sendScore(from: string, score: number, totalQuestions: number, badge:string);
   abstract endMessage(from:string);
   abstract sendLanguageChangedMessage(from: string, language: string);
+  abstract newscorecard(from,score, questionsAnswered, badge);
+        
 }
