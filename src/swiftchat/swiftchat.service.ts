@@ -141,16 +141,13 @@ export class SwiftchatMessageService extends MessageService {
 
   async sendCompleteExplanation(
     from: string,
-    description: string[],
+    description: string,
     subtopicName: string,
   ) {
-    let completeDescription = '';
-    description.forEach((desc, index) => {
-      completeDescription += desc;
-    });
+    
     const messageData = createTestYourSelfButton(
       from,
-      completeDescription,
+      description,
       subtopicName,
     );
     const response = await this.sendMessage(

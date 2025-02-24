@@ -176,10 +176,25 @@ export class UserService {
         selectedDifficulty: user.selectedDifficulty,
         selectedSet: user.selectedSet,
         questionsAnswered: user.questionsAnswered,
+        descriptionIndex : user.descriptionIndex,
         score: user.score,
       },
     };
     return await dynamoDBClient().put(updateUser).promise();
+  }
+
+  async resetUserData(user: User): Promise<User | any> {
+    user.selectedSet = null;
+    user.selectedMainTopic = null;
+    user.selectedSubtopic = null;
+    user.score = 0;
+    user.topics = null;
+    user.questionsAnswered = 0;
+    user.descriptionIndex =0 ;
+
+    // Save the updated user object to DynamoDB
+    await this.saveUser(user);
+    return user;
   }
   async deleteUser(mobileNumber: string, Botid: string): Promise<void> {
     try {
