@@ -58,15 +58,16 @@ export class ChatbotService {
     
 
     // ✅ Persistent Menu Response Handling
-if (persistent_menu_response && persistent_menu_response.body) {
-  const menuSelection = persistent_menu_response.body;
-  console.log('Handling Persistent Menu Response:', menuSelection);
-
-  if (menuSelection === 'Class Selection') {
+if (persistent_menu_response ) {
+  
+  if (persistent_menu_response.body == 'Class Selection') {
       console.log('Triggering class selection menu...');
+      await this.resetQuizData(user);
       await this.message.sendInitialTopics(from);
-  } else if (menuSelection === 'Topic Selection') {
+      return 'ok';
+  } else if (persistent_menu_response.body== 'Topic Selection') {
       console.log('Triggering topic selection menu...');
+      await this.resetQuizData(user);
       const topic = this.topics.find((t) => t.topicName === user.selectedMainTopic);
       if (topic) {
           await this.message.sendSubTopics(from, topic.topicName);
@@ -130,22 +131,54 @@ if (persistent_menu_response && persistent_menu_response.body) {
         return 'ok';
       }
       // Handle 'More Explanation' button - send complete explanation for the subtopic
+
+
+
+
+
+
+
+
+
       if (buttonBody === localised.Moreexplanation) {
         const topic = user.selectedSubtopic;
+
         // Find the selected subtopic in the list of topics
         const subtopic = this.topics
           .flatMap((topic) => topic.subtopics)
           .find((subtopic) => subtopic.subtopicName === topic);
         if (subtopic) {
-          const description = subtopic.description;
+          const descriptions = subtopic.description;
+         
+          
+          let description = descriptions[user.descriptionIndex]
+          const subtopicName = subtopic.subtopicName;
+          if ((descriptions.length-1) == user.descriptionIndex){
+            
+            
+            await this.message.sendCompleteExplanation(from, description, topic);
+          }
+          else{
+            await this.message.sendExplanation(from, description, subtopicName);
+            user.descriptionIndex += 1; 
+            await this.userService.saveUser(user);
 
-          await this.message.sendCompleteExplanation(from, description, topic);
-        } else {
-          
-          
-        }
+          }
+        } 
         return 'ok';
       }
+
+
+
+
+
+
+
+
+
+
+
+
       // Handle 'Test Yourself' button - show difficulty options to the user
 
       if (buttonBody === localised.testYourself) {
@@ -256,11 +289,14 @@ if (persistent_menu_response && persistent_menu_response.body) {
       if (topic) {
         const mainTopic = topic.topicName;
 
-        user.selectedMainTopic = mainTopic;
-
-        await this.userService.saveUser(user);
-
-        await this.message.sendSubTopics(from, mainTopic);
+       // 🛑 Check if the topic is already selected to prevent duplicate messages
+  if (user.selectedMainTopic !== mainTopic) {
+    user.selectedMainTopic = mainTopic;
+    await this.userService.saveUser(user);
+    await this.message.sendSubTopics(from, mainTopic);
+  } 
+        
+        return 'ok';
       } else {
         // Handle subtopic selection - find the subtopic and send an explanation
         const subtopic = this.topics
@@ -278,6 +314,7 @@ if (persistent_menu_response && persistent_menu_response.body) {
           await this.userService.saveUser(user);
 
           await this.message.sendExplanation(from, description, subtopicName);
+          return 'ok';
         } else {
           
         }
@@ -325,6 +362,16 @@ if (persistent_menu_response && persistent_menu_response.body) {
     return 'ok';
   }
 
+  //added
+  private async resetQuizData(user: User): Promise<void> {
+    
+    user.selectedSet = null;
+    user.questionsAnswered = 0;
+    user.score = 0;
+    user.descriptionIndex = 0;
+    await this.userService.saveUser(user);
+  }
+  
 
   async handleViewChallenges(from: string, userData: any): Promise<void>{
     try { 

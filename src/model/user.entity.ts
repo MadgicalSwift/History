@@ -5,6 +5,9 @@ export class User {
   mobileNumber: string;
 
   @IsString()
+  topics: string;
+
+  @IsString()
   language: string;
 
   @IsString()
@@ -18,6 +21,10 @@ export class User {
 
   @IsString()
   selectedSubtopic: string | null;
+
+
+  @IsString()
+  descriptionIndex: number = 0;
 
   @IsString()
   selectedDifficulty: string | null;
