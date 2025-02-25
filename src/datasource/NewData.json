@@ -473,22 +473,166 @@
                 "subtopics": [
                   { 
                     "subtopicName": "Changing Terminologies Over the Centuries", 
-                    "description": [], 
+                    "description": [
+                      {
+                        "title": "Language and Meaning Changes Over Time",
+                        "content": "Historical records exist in various languages, and these languages have evolved. For example, medieval Persian is different from modern Persian in grammar and vocabulary. Words also change in meaning over time, making it important for historians to interpret them in their historical context."
+                      },
+                      {
+                        "title": "The Changing Meaning of \"Hindustan\"",
+                        "content": "In the 13th century, Minhaj-i-Siraj used 'Hindustan' to refer to Punjab, Haryana, and the land between the Ganga and Yamuna. Babur, in the 16th century, used it to describe geography, flora, and culture rather than a political entity. Unlike today, it did not imply a nation-state."
+                      },
+                      {
+                        "title": "Different Uses of the Word \"Foreigner\"",
+                        "content": "In medieval times, a ‘foreigner’ was someone from outside a particular village or social group. A city-dweller might consider a forest-dweller a foreigner, but two peasants from different castes in the same village were not seen as foreigners."
+                      },
+                      {
+                        "title": "Impact of Cultural Exchanges on Terminologies",
+                        "content": "The influx of different cultures influenced languages. Persian words were incorporated into local dialects, and Sanskrit-based terms evolved. This linguistic exchange shaped the vocabulary and meaning of terms used in administration, trade, and daily life."
+                      },
+                      {
+                        "title": "Region and Language Influence on Words",
+                        "content": "Different regions in India developed distinct linguistic identities. The 14th-century poet Amir Khusrau mentioned languages like Sindhi, Kashmiri, Gujari, and Awadhi. He distinguished Sanskrit as a scholarly language unknown to common people, emphasizing how language was tied to social hierarchy."
+                      },
+                      {
+                        "title": "Evolution of Political Terminologies",
+                        "content": "Words used to define rulers and empires also changed. 'Raja' and 'Maharaja' evolved in meaning, while Persian terms like 'Padshah' (Emperor) were introduced during the Delhi Sultanate and Mughal periods."
+                      },
+                      {
+                        "title": "Social and Religious Changes Reflected in Language",
+                        "content": "Terms associated with caste, occupation, and religious beliefs changed. The introduction of Bhakti and Sufi traditions led to the widespread use of vernacular languages, replacing Sanskrit and Persian in many aspects of life."
+                      },
+                      {
+                        "title": "Changes in Administrative Terms",
+                        "content": "Many modern administrative terms have medieval roots. 'Diwan' (chief revenue officer), 'Amil' (tax collector), and 'Jagir' (land grant) were used in different contexts over centuries, adapting to political changes."
+                      },
+                      {
+                        "title": "Economic Terms and their Evolution",
+                        "content": "Trade-related words like 'bazaar' (market) and 'sarai' (rest house) were Persian in origin but became common in Indian languages. Over time, their meanings and usage evolved with economic transformations."
+                      },
+                      {
+                        "title": "Colonial Influence on Indian Terminologies",
+                        "content": "The British colonial period introduced terms like 'district,' 'collector,' and 'zamindar,' which had different meanings in Mughal administration. The British redefined these terms to suit their governance style, altering their significance."
+                      }
+                    ], 
                     "questionSets": []
                  },
                   {
                      "subtopicName": "Historians and Their Sources", 
-                     "description": [], 
+                     "description": [
+                      {
+                        "title": "Types of Historical Sources",
+                        "content": "Historians use various sources to study the past. These include coins, inscriptions, architecture, and textual records. Over time, the availability of textual records increased significantly. These sources help historians understand governance, trade, and daily life in different periods."
+                      },
+                      {
+                        "title": "The Role of Manuscripts",
+                        "content": "Manuscripts were an important source of information. They were copied by hand before the invention of the printing press. As scribes copied texts, small changes crept in, leading to variations in different copies. Historians compare multiple versions to determine the original content."
+                      },
+                      {
+                        "title": "Preservation of Historical Records",
+                        "content": "Wealthy individuals, rulers, monasteries, and temples collected manuscripts and stored them in libraries and archives. Today, national and state governments maintain archives where they preserve official documents, judicial records, and letters, ensuring that historical evidence remains accessible."
+                      },
+                      {
+                        "title": "The Impact of Paper Availability",
+                        "content": "In the 13th century, paper was expensive and scarce. Scholars had to reuse old manuscripts by washing off the ink. By the 14th century, paper became more common, even being used to wrap goods in markets. This change led to an increase in written records."
+                      },
+                      {
+                        "title": "The Importance of Language in History",
+                        "content": "Historical records exist in many languages, including Sanskrit, Persian, and local dialects. The meaning of words has evolved over time, requiring historians to carefully interpret texts. For example, the term 'Hindustan' meant different things in the 13th and 16th centuries."
+                      }
+                     ], 
                      "questionSets": []
                      },
                   { 
                     "subtopicName": "New Social and Political Groups", 
-                    "description": [],
+                    "description": [
+                      {
+                        "title": "Technological and Agricultural Changes",
+                        "content": "Between 700 and 1750, several technological advancements transformed society. The Persian wheel improved irrigation, the spinning wheel boosted weaving, and new crops like potatoes and tea were introduced. These changes were accompanied by migration, as people moved to seek new opportunities, leading to the emergence of distinct social and economic groups."
+                      },
+                      {
+                        "title": "Rise of the Rajputs",
+                        "content": "The term 'Rajput' originally meant 'Rajaputra' (son of a ruler). By the 8th to 14th centuries, it was broadly used for a group of warriors who claimed Kshatriya status. They served as rulers, chieftains, and soldiers, adhering to a strict code of chivalry, which emphasized extreme valor and loyalty."
+                      },
+                      {
+                        "title": "Emergence of New Administrative Elites",
+                        "content": "As kingdoms expanded, administrators like Kayasthas (scribes) gained importance. Their literacy and expertise in Persian helped them secure bureaucratic roles under different rulers. This period saw the integration of diverse social groups into government structures, altering traditional power dynamics."
+                      },
+                      {
+                        "title": "Impact on Tribal Communities",
+                        "content": "Many forest-dwelling communities were either displaced or integrated into agrarian societies. Some took up farming and were absorbed into the caste system, while others resisted and maintained their distinct identities. Over time, some powerful tribes even formed their own kingdoms, changing the political landscape."
+                      },
+                      {
+                        "title": "Growth of Peasant Societies",
+                        "content": "As agriculture spread, new peasant communities emerged. They cleared forests and settled in villages, where they paid taxes to rulers, landlords, and temples. This shift deepened social and economic inequalities, leading to class distinctions among peasants."
+                      },
+                      {
+                        "title": "Formation of New Political Structures",
+                        "content": "The medieval period saw shifting power dynamics, with local chieftains gaining authority. Some established independent rule, while others allied with larger empires. Political structures became more decentralized, allowing new groups to rise in prominence."
+                      },
+                      {
+                        "title": "Religious and Cultural Developments",
+                        "content": "The spread of Islam and Bhakti movements influenced social structures. While some groups gained power through religious patronage, others faced marginalization. New cultural traditions emerged as a result of these interactions."
+                      },
+                      {
+                        "title": "Caste and Social Stratification",
+                        "content": "The integration of new groups into society often led to their classification into castes. Artisans, traders, and warrior clans were either incorporated into existing hierarchies or formed new sub-castes. Over time, these distinctions shaped social mobility and access to power."
+                      },
+                      {
+                        "title": "Expansion of Trade and Urban Centers",
+                        "content": "Trade flourished as merchants and guilds gained influence. Cities expanded as commercial hubs, attracting people from different backgrounds. This led to the emergence of new social groups, including wealthy traders who rivaled traditional landowning elites in power and prestige."
+                      },
+                      {
+                        "title": "Political Fragmentation and New Alliances",
+                        "content": "As larger empires weakened, regional powers like the Marathas and Rajputs filled the vacuum. These new rulers built alliances through marriage, warfare, and patronage, leading to the formation of unique political identities."
+                      }
+                    ],
                      "questionSets": [] 
                     },
                   {
                      "subtopicName": "Region and Empire", 
-                     "description": [], 
+                     "description": [
+                      {
+                        "title": "The Extent of Empires",
+                        "content": "Historical records indicate that empires often claimed vast territories stretching from Bengal in the east to Afghanistan in the west. These claims were sometimes exaggerated but highlighted the ambition of rulers to establish control over diverse regions."
+                      },
+                      {
+                        "title": "Languages and Regional Identity",
+                        "content": "By 1318, poet Amir Khusrau noted that India had numerous regional languages such as Sindhi, Kashmiri, Telugu, and Awadhi. While Sanskrit was considered a scholarly language, common people primarily spoke local dialects, reinforcing regional identities."
+                      },
+                      {
+                        "title": "Pan-Regional Empires",
+                        "content": "Despite strong regional cultures, certain empires like the Cholas, Khaljis, Tughluqs, and Mughals expanded their rule across multiple regions. These pan-regional empires integrated different traditions, but their stability varied."
+                      },
+                      {
+                        "title": "Impact of Empire Decline",
+                        "content": "The decline of the Mughal Empire in the 18th century led to the emergence of regional states. Former provinces gained independence while retaining administrative and cultural influences from earlier empires."
+                      },
+                      {
+                        "title": "Economic and Administrative Legacies",
+                        "content": "Large empires introduced revenue systems and trade networks that shaped regional economies. Even after their fall, local rulers continued using administrative techniques developed by the Mughals and other predecessors."
+                      },
+                      {
+                        "title": "Integration and Distinctiveness",
+                        "content": "While large empires sought to integrate regions under one rule, local traditions and governance structures ensured that regions retained their unique identities despite being part of a broader empire."
+                      },
+                      {
+                        "title": "Religious and Cultural Influence",
+                        "content": "The spread of religions such as Islam and Hinduism across regions was closely tied to empire-building. The construction of temples and mosques by rulers demonstrated both devotion and political authority."
+                      },
+                      {
+                        "title": "Regional Conflicts and Alliances",
+                        "content": "The expansion of empires often led to conflicts with local rulers. At times, strategic alliances were formed through marriages and agreements, allowing certain regional powers to maintain autonomy under imperial rule."
+                      },
+                      {
+                        "title": "Mughal Influence on Regional States",
+                        "content": "Even after the Mughal Empire weakened, many regional rulers in places like Awadh and Hyderabad continued to follow Mughal administrative traditions, preserving elements of centralized governance."
+                      },
+                      {
+                        "title": "Evolving Regional Structures",
+                        "content": "Over centuries, shifting political boundaries and economic transformations altered regional identities. While empires attempted to centralize power, local communities adapted to new rulers, ensuring a balance between imperial authority and regional traditions."
+                      }
+                     ], 
                      "questionSets": []
                      }
                 ]
@@ -496,19 +640,330 @@
               {
                 "topicName": "Kings and Kingdoms",
                 "subtopics": [
-                  { "subtopicName": "Emergence of New Dynasties", "description": [], "questionSets": [] },
-                  { "subtopicName": "Administration of Kingdoms", "description": [], "questionSets": [] },
-                  { "subtopicName": "Warfare for Wealth", "description": [], "questionSets": [] },
-                  { "subtopicName": "Prashastis and Land Grants", "description": [], "questionSets": [] }
+                  {
+                     "subtopicName": "Emergence of New Dynasties",
+                      "description": [
+                        {
+                          "title": "The Rise of Samantas",
+                          "content": "By the seventh century, powerful landlords or warrior chiefs, known as Samantas, controlled different regions. These Samantas were initially subordinates of existing kings, offering them gifts, military support, and attending their courts."
+                        },
+                        {
+                          "title": "Transition from Subordinate to Independent Rulers",
+                          "content": "As these Samantas grew in power, they declared themselves as Maharaja (great king) or Mahamandaleshvara (great lord of a circle), asserting their independence. This transformation led to the formation of new ruling dynasties."
+                        },
+                        {
+                          "title": "Example of Rashtrakutas",
+                          "content": "The Rashtrakutas of the Deccan were originally vassals of the Chalukyas of Karnataka. In the mid-eighth century, Dantidurga, a Rashtrakuta chief, overthrew the Chalukyas and performed a Hiranyagarbha ritual, which was believed to give Kshatriya status to those not born into the caste."
+                        },
+                        {
+                          "title": "Brahmana Kings and Military Leaders",
+                          "content": "Some kings were not born as Kshatriyas but rose to power through military success. For example, Mayurasharman (Kadamba dynasty) and Harichandra (Gurjara-Pratihara dynasty) were Brahmanas who took up arms and established kingdoms in Karnataka and Rajasthan, respectively."
+                        },
+                        {
+                          "title": "Administration of the New Kingdoms",
+                          "content": "Many new kings adopted grand titles such as Maharajadhiraja (great king, overlord of kings) and Tribhuvana-Chakravartin (lord of the three worlds). Despite such claims, they had to share power with their subordinates, traders, and religious institutions."
+                        },
+                        {
+                          "title": "Revenue Collection and Economy",
+                          "content": "The kingdoms depended on revenue from peasants, cattle-keepers, and artisans. Some of this revenue was collected in the form of forced labor or taxes on traders. Wealthy temples also played a role in administration and economic activities."
+                        },
+                        {
+                          "title": "Regional Kingdoms and the Tripartite Struggle",
+                          "content": "Between the eighth and tenth centuries, three powerful dynasties—the Gurjara-Pratiharas, Rashtrakutas, and Palas—fought for control over Kannauj, an important trade and political center in the Ganga valley. This was known as the Tripartite Struggle."
+                        },
+                        {
+                          "title": "Chola Dynasty's Expansion",
+                          "content": "The Cholas, initially minor chiefs, gained prominence when Vijayalaya captured the Kaveri delta from the Muttaraiyars in the ninth century. His successors, Rajaraja I and Rajendra I, expanded the empire, establishing an efficient administration and a strong navy."
+                        },
+                        {
+                          "title": "Temple Building as a Symbol of Power",
+                          "content": "Many new kings built grand temples to display their power and wealth. The Cholas constructed Brihadeshwara Temple at Thanjavur, while the Palas were known for their Mahavihara Buddhist monasteries."
+                        },
+                        {
+                          "title": "Impact of New Dynasties on Society",
+                          "content": "These emerging dynasties reshaped the social hierarchy by granting land to Brahmanas and temples, which reinforced caste divisions. Tribal leaders and warrior groups like the Rajputs also became part of the ruling class over time."
+                        }
+                      ], 
+                      "questionSets": []
+                     },
+                  { 
+                    "subtopicName": "Administration of Kingdoms",
+                     "description": [
+                      {
+                        "title": "Emergence of New Dynasties",
+                        "content": "By the seventh century, landlords or warrior chiefs in different regions became powerful and were acknowledged as subordinates by existing kings. Some, like the Rashtrakutas, declared independence and performed rituals to legitimize their rule."
+                      },
+                      {
+                        "title": "Administrative Hierarchy",
+                        "content": "Kings adopted grand titles like 'Maharajadhiraja' (great king, overlord of kings) but often shared power with samantas (subordinate rulers), as well as with associations of peasants, traders, and Brahmanas."
+                      },
+                      {
+                        "title": "Revenue Collection and Taxes",
+                        "content": "Taxes were collected from peasants, cattle-keepers, and artisans, sometimes as forced labor or specific taxes like 'vetti' (labor tax) and 'kadamai' (land revenue). Chola inscriptions mention over 400 types of taxes."
+                      },
+                      {
+                        "title": "Role of Local Governance",
+                        "content": "The administration was decentralized, with village assemblies like the 'ur' and 'sabha' performing administrative functions, including tax collection and justice. Rich peasants played a significant role in governance."
+                      },
+                      {
+                        "title": "Military and Governance under the Delhi Sultans",
+                        "content": "The Delhi Sultanate relied on a well-trained military, including special slaves (bandagan), who were appointed as governors to maintain law and order. This system created stability but also led to political instability since loyalty was personal, not hereditary."
+                      },
+                      {
+                        "title": "Mughal Mansabdari System",
+                        "content": "The Mughal Empire introduced the 'Mansabdari' system, where officials (mansabdars) were assigned land (jagirs) to collect revenue and maintain troops. However, this system later became corrupt, leading to financial strain."
+                      },
+                      {
+                        "title": "Centralization and Provincial Governance",
+                        "content": "The Mughal administration divided the empire into 'subas' (provinces), each managed by a 'subadar' (governor), with responsibilities including revenue collection, law enforcement, and military management."
+                      },
+                      {
+                        "title": "Ahom Administrative System",
+                        "content": "In the Ahom kingdom (Assam), governance depended on forced labor (paiks), and a census was taken to allocate workforce duties. People were shifted between regions to prevent rebellion."
+                      },
+                      {
+                        "title": "Chola Bureaucracy and Local Autonomy",
+                        "content": "The Chola Empire had a structured bureaucracy, where temples played a crucial role in administration, acting as centers of economic, social, and political life. Village assemblies managed irrigation and tax collection."
+                      },
+                      {
+                        "title": "18th-Century Political Changes",
+                        "content": "With the decline of the Mughal Empire, regional rulers like the Rajputs, Marathas, and Nawabs of Bengal asserted autonomy. Political fragmentation led to new power centers, but British colonial expansion soon followed."
+                      }
+                     ],
+                      "questionSets": [] 
+                    },
+                  {
+                     "subtopicName": "Warfare for Wealth", 
+                     "description": [
+                      {
+                        "title": "The Pursuit of Kanauj",
+                        "content": "For centuries, rulers fought to control Kanauj, a prized city in the Ganga valley. This struggle, known as the 'tripartite struggle,' involved the Gurjara-Pratiharas, Rashtrakutas, and Pala dynasties. Controlling Kanauj meant access to trade routes, fertile lands, and political dominance."
+                      },
+                      {
+                        "title": "Temple Raids and Symbolic Power",
+                        "content": "Kings demonstrated their power by building large temples, which were often the target of attacks. Mahmud of Ghazni, an Afghan ruler, raided India 17 times between 1000 and 1025. His most famous raid was on the wealthy Somnath temple in Gujarat, where he looted vast treasures to finance his empire."
+                      },
+                      {
+                        "title": "Expansion Through Conquest",
+                        "content": "Many medieval Indian rulers expanded their territories through warfare. The Chahamanas (Chauhans), for example, attempted to extend their control over western and eastern regions, facing opposition from the Chalukyas of Gujarat and the Gahadavalas of western Uttar Pradesh."
+                      },
+                      {
+                        "title": "Mongol Invasions and Delhi Sultanate",
+                        "content": "The Mongols, under Genghis Khan, invaded parts of India, forcing rulers like Alauddin Khalji and Muhammad Tughluq to maintain a large standing army. Defensive strategies included fortifications, tax policies, and a strong spy network."
+                      },
+                      {
+                        "title": "The Maratha Raids and Military Strategy",
+                        "content": "The Marathas under Shivaji and later the Peshwas bypassed fortified Mughal areas and engaged in guerrilla warfare. By raiding cities and disrupting supply lines, they expanded their influence into Rajasthan, Punjab, Bengal, and the Deccan, making many rulers pay tribute."
+                      },
+                      {
+                        "title": "The Mughal Expansion and Mansabdari System",
+                        "content": "The Mughal emperors, from Babur to Aurangzeb, waged constant wars to expand their empire. They used the Mansabdari system, which ranked nobles based on the number of soldiers they provided. This ensured a strong, well-equipped army but also put financial strain on the empire."
+                      },
+                      {
+                        "title": "Rajput Fortifications and Defensive Tactics",
+                        "content": "Rajput rulers built massive forts on hilltops, which served as centers of power and defense. Forts like Chittorgarh and Mehrangarh housed palaces, temples, trading centers, and water storage systems, allowing rulers to withstand long sieges."
+                      },
+                      {
+                        "title": "Peasant Uprisings and Economic Warfare",
+                        "content": "While rulers fought for wealth, their excessive taxation led to peasant revolts. By the late Mughal period, excessive taxation and corruption weakened the empire. Many regional rulers, such as the Nawabs of Bengal and Awadh, became independent as Mughal power declined."
+                      }
+                     ], 
+                     "questionSets": []
+                     },
+                  { 
+                    "subtopicName": "Prashastis and Land Grants",
+                     "description": [
+                      {
+                        "title": "What are Prashastis?",
+                        "content": "Prashastis were inscriptions composed by learned Brahmanas to praise rulers. These texts often exaggerated the king’s achievements, portraying them as valiant and victorious warriors. Though not always historically accurate, they provide insight into how rulers wanted to be perceived."
+                      },
+                      {
+                        "title": "Examples of Prashastis",
+                        "content": "One example of a prashasti found in Gwalior describes the exploits of Nagabhata, a Pratihara king. It claims he defeated rulers of Bengal, Gujarat, Madhya Pradesh, and other regions, emphasizing his military strength and conquests."
+                      },
+                      {
+                        "title": "Land Grants and Their Records",
+                        "content": "Kings often rewarded Brahmanas with land grants, which were recorded on copper plates. These inscriptions included details of the land, its boundaries, and the rights given to the recipient, such as collecting taxes and maintaining the land."
+                      },
+                      {
+                        "title": "Tamil Land Grant Details",
+                        "content": "A Tamil land grant from the Chola period describes demarcating land with embankments and thorny bushes. It also lists what was included in the grant—gardens, orchards, wells, and lakes. The recipient had the authority to collect taxes and develop the land."
+                      },
+                      {
+                        "title": "Significance of Land Grants",
+                        "content": "Land grants played a key role in expanding agricultural settlements and consolidating royal authority. Brahmana settlements grew in different regions due to these grants, influencing administration, religious practices, and economic activities."
+                      }
+                     ], 
+                     "questionSets": [] }
                 ]
               },
               {
                 "topicName": "Delhi: 12th to 15th Century",
                 "subtopics": [
-                  { "subtopicName": "The Rajput Dynasties", "description": [], "questionSets": [] },
-                  { "subtopicName": "The Delhi Sultanate", "description": [], "questionSets": [] },
-                  { "subtopicName": "Expansion of the Delhi Sultanate", "description": [], "questionSets": [] },
-                  { "subtopicName": "Administration of the Sultanate", "description": [], "questionSets": [] }
+                  { "subtopicName": "The Rajput Dynasties", 
+                  "description": [
+                    {
+                      "title": "Origins and Rise of Rajputs",
+                      "content": "The Rajputs were primarily warrior clans that emerged between the 8th and 12th centuries. They belonged to various lineages like the Pratiharas, Chandelas, Chalukyas, and Chauhans. Many Rajput clans started as tribal groups but later gained power, adopting Hindu social structures with the support of Brahmanas."
+                    },
+                    {
+                      "title": "Political Dominance",
+                      "content": "From the 8th century onwards, Rajput dynasties controlled large parts of northern and central India. They ruled over Rajasthan and its surrounding regions. The Chauhans of Ajmer, the Sisodias of Mewar, and the Rathores of Marwar were some of the most prominent Rajput clans."
+                    },
+                    {
+                      "title": "Wars and Expansion",
+                      "content": "Rajput rulers engaged in frequent battles to defend their territories or expand them. The Tripartite Struggle between the Gurjara-Pratiharas, Palas, and Rashtrakutas for control of Kanauj was a significant conflict. Later, Rajputs fought against the Ghaznavid and Ghurid invasions, with rulers like Prithviraj Chauhan resisting Muhammad Ghori."
+                    },
+                    {
+                      "title": "Rajput Resistance Against the Mughals",
+                      "content": "Many Rajput states, like Amber and Jodhpur, allied with the Mughals, gaining administrative positions and autonomy in their watan jagirs. However, Mewar, under Rana Pratap, fiercely resisted Mughal rule. Despite Mughal attempts to bring them under control, Rajput kings retained their influence and power."
+                    },
+                    {
+                      "title": "Rajput Architecture and Fortifications",
+                      "content": "Rajput rulers built grand forts such as Chittorgarh, Mehrangarh, and Kumbhalgarh, which became centers of administration, trade, and military defense. These forts had extensive water reservoirs, palaces, and temples, reflecting the architectural brilliance of the Rajputs."
+                    },
+                    {
+                      "title": "Culture and Traditions",
+                      "content": "Rajputs are known for their valor, chivalry, and adherence to a warrior code. Stories of Rajput bravery were immortalized in poetry and folklore. Minstrels and bards composed heroic ballads celebrating rulers like Prithviraj Chauhan and Rana Pratap. The Rajput tradition of Sati and Jauhar was linked to their warrior ethos."
+                    },
+                    {
+                      "title": "Social Structure and Caste Integration",
+                      "content": "Over time, tribal groups who adopted Hindu customs and military lifestyles were absorbed into Rajput society. While dominant Rajput families held ruling positions, many others joined lower social classes. However, several groups in Punjab and Sind refused the caste hierarchy and continued their independent traditions."
+                    },
+                    {
+                      "title": "Scientific Contributions",
+                      "content": "Rajput rulers also made contributions to astronomy and science. Sawai Jai Singh of Jaipur built five Jantar Mantars, astronomical observatories located in Delhi, Jaipur, Ujjain, Mathura, and Varanasi. These observatories helped study celestial movements and time measurement."
+                    },
+                    {
+                      "title": "Decline of Rajput Power",
+                      "content": "After the decline of the Mughal Empire, Rajput states struggled against Maratha invasions in the 18th century. Although Rajputs tried to maintain their independence, internal conflicts and external pressures led to the weakening of their kingdoms, and many fell under British rule by the 19th century."
+                    },
+                    {
+                      "title": "Rajputs in Modern India",
+                      "content": "Despite losing political dominance, Rajputs retained cultural influence. Their heroic traditions, forts, and festivals continue to be celebrated in Rajasthan. Rajput rulers played a role in shaping India's feudal and administrative structures, and many Rajput families remained influential even during British rule and post-independence India."
+                    }
+                  ], 
+                  "questionSets": []
+                 },
+                  { 
+                    "subtopicName": "The Delhi Sultanate",
+                     "description": [
+                      {
+                        "title": "The Rise of Delhi as a Capital",
+                        "content": "Delhi became significant only in the 12th century under the Tomara Rajputs, who made it a commercial hub. The Chauhans of Ajmer later took over, strengthening its role as a key center. Coins minted in Delhi had a wide circulation, marking its economic importance."
+                      },
+                      {
+                        "title": "The Establishment of the Delhi Sultanate",
+                        "content": "The foundation of the Delhi Sultanate began in the 13th century with Qutbuddin Aybak. Several dynasties ruled it, including the Mamluks, Khaljis, Tughlaqs, Sayyids, and Lodis. Each dynasty expanded the territory and administrative framework, transforming Delhi into a center of power."
+                      },
+                      {
+                        "title": "Persian Histories and Administration",
+                        "content": "The Delhi Sultans used Persian as the language of administration. Histories written by scholars served as records and advisory texts, promoting ideas of just rule. They emphasized the 'Circle of Justice,' where rulers had to ensure the prosperity of subjects to maintain stability."
+                      },
+                      {
+                        "title": "Raziyya Sultan: A Woman Ruler",
+                        "content": "Raziyya, daughter of Iltutmish, became the first female Sultan in 1236. Although she was capable, she faced opposition from nobles who believed women should not rule. She was deposed in 1240. Her reign highlights the gender biases of medieval Indian society."
+                      },
+                      {
+                        "title": "The Mongol Threat and Military Expansion",
+                        "content": "The Mongols, led by Genghis Khan, invaded parts of North India in the early 13th century. The Delhi Sultans, especially Alauddin Khalji and Muhammad Tughluq, built strong fortifications and maintained large standing armies to defend their territory."
+                      },
+                      {
+                        "title": "The Economic Policies of the Delhi Sultans",
+                        "content": "The Sultanate controlled land revenue collection, canceling the tax rights of local chieftains. Under Alauddin Khalji, land was measured, and taxes were fixed at 50% of produce. Other taxes included Khums (one-fifth of war spoils), Zakat (charity tax), and Jizya (tax on non-Muslims)."
+                      },
+                      {
+                        "title": "The Khalji and Tughluq Administrations",
+                        "content": "The Khaljis and Tughluqs relied on a strong administrative system. They appointed governors to different regions and ensured military service in exchange for land revenue rights. However, power was not hereditary, leading to frequent shifts in governance."
+                      },
+                      {
+                        "title": "Tughluq’s Ambitious but Failed Policies",
+                        "content": "Muhammad bin Tughluq attempted radical reforms, including shifting the capital to Daulatabad and introducing token currency. These measures failed due to poor execution, financial loss, and public resistance, weakening the Sultanate."
+                      },
+                      {
+                        "title": "The Decline of the Delhi Sultanate",
+                        "content": "By the 15th century, the Sultanate’s control weakened as regional rulers like the Rajputs and Afghans gained power. Bengal, Malwa, Gujarat, and the Deccan declared independence. The rise of the Mughals eventually ended the Sultanate's rule."
+                      },
+                      {
+                        "title": "Legacy of the Delhi Sultanate",
+                        "content": "Despite its decline, the Delhi Sultanate left a lasting impact on administration, architecture, and culture. Persian influence on language, the development of Indo-Islamic architecture, and centralized governance became integral to Indian history."
+                      }
+                   
+                     ],
+                      "questionSets": []
+                     },
+                  { 
+                    "subtopicName": "Expansion of the Delhi Sultanate",
+                     "description": [
+                      {
+                        "title": "Establishment of the Sultanate",
+                        "content": "The Delhi Sultanate was established in the 13th century with the foundation of the Mamluk dynasty by Qutbuddin Aibak. Over time, it expanded beyond Delhi to various regions, including Bengal, Gujarat, and the Deccan. The expansion was achieved through military campaigns, alliances, and administrative reforms."
+                      },
+                      {
+                        "title": "Alauddin Khalji's Expansion",
+                        "content": "Under Alauddin Khalji (1296-1316), the Sultanate expanded significantly. His campaigns in Gujarat, Rajasthan, and the Deccan brought new territories under control. He introduced a strict revenue system and maintained a large standing army to suppress revolts and Mongol invasions. His rule marked a shift towards direct administration over conquered regions."
+                      },
+                      {
+                        "title": "Tughlaq Conquests and Decline",
+                        "content": "Muhammad bin Tughlaq (1325-1351) attempted vast territorial expansion. He launched ambitious campaigns into the Deccan and moved the capital to Daulatabad. However, administrative failures, rebellions, and economic hardships weakened the empire. Many regions, like Bengal and the Deccan, soon declared independence."
+                      },
+                      {
+                        "title": "Challenging Local Chieftains",
+                        "content": "The Delhi Sultans faced resistance from local chieftains and landlords. Alauddin Khalji and Muhammad bin Tughlaq tried to bring these areas under direct control by imposing taxes and military supervision. However, some regions, particularly in Bengal and the Deccan, remained outside firm control."
+                      },
+                      {
+                        "title": "Emergence of New Rulers",
+                        "content": "By the late 14th and early 15th centuries, the Sultanate began fragmenting. The Sayyid and Lodi dynasties struggled to retain control as regional powers like the Vijayanagara Empire and the Bahmani Sultanate emerged. These independent kingdoms marked the end of centralized control over the subcontinent."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    },
+                  { 
+                    "subtopicName": "Administration of the Sultanate",
+                     "description": [
+                      {
+                        "title": "Centralized Administration",
+                        "content": "The Delhi Sultans maintained a highly centralized administration. The Sultan was the supreme authority, responsible for governance, military control, and justice. He was assisted by ministers and officials in charge of revenue, military, and religious affairs. The administration was influenced by Persian traditions."
+                      },
+                      {
+                        "title": "Revenue System",
+                        "content": "Under the Delhi Sultans, the land revenue system was strictly controlled. Alauddin Khalji introduced land measurement and fixed tax rates. Peasants were required to pay nearly 50% of their produce as tax. Other taxes included jizyah (a tax on non-Muslims), zakat (charity tax), and khums (war booty tax)."
+                      },
+                      {
+                        "title": "Military Administration",
+                        "content": "The Sultanate maintained a large standing army to counter Mongol invasions and internal revolts. Military commanders, known as ‘iqtadars,’ were given control over provinces called ‘iqtas.’ They were responsible for collecting revenue and maintaining troops. However, the iqtas were not hereditary, and their holders were frequently transferred to prevent rebellion."
+                      },
+                      {
+                        "title": "Justice and Law",
+                        "content": "Justice in the Sultanate was based on Islamic law (Sharia) but also included local customs. The Sultan acted as the highest judicial authority, while qadis (judges) handled civil and criminal cases. Punishments were often severe, including fines, imprisonment, and corporal punishment, to maintain strict law and order."
+                      },
+                      {
+                        "title": "Provincial and Local Administration",
+                        "content": "The empire was divided into provinces (muqtas), governed by officers responsible for administration and tax collection. Below them, local officials, including village headmen and revenue collectors, managed smaller regions. Despite the Sultanate’s efforts, many remote areas remained under local chieftains' control."
+                      },
+                      {
+                        "title": "The Role of Slaves in Administration",
+                        "content": "Early Delhi Sultans, especially Iltutmish, relied on special slaves called ‘bandagan’ for administrative duties. These slaves were trained for military and governance roles and remained loyal to the Sultan. However, this system created instability as these officers often lacked hereditary claims and power struggles were common."
+                      },
+                      {
+                        "title": "Challenges in Administration",
+                        "content": "The vast territory of the Sultanate made governance difficult. Frequent Mongol invasions, revolts by nobles, and conflicts with local rulers led to instability. Some rulers, like Muhammad bin Tughluq, introduced ambitious but unsuccessful reforms, such as shifting the capital and experimenting with token currency."
+                      },
+                      {
+                        "title": "The ‘Circle of Justice’ Concept",
+                        "content": "The concept of the ‘Circle of Justice’ emphasized interdependence between the king, soldiers, and peasants. Soldiers needed salaries, which came from revenue collected from peasants. Peasants, in turn, needed protection and fair governance from the king. This idea was promoted by Persian scholars in the Sultanate."
+                      },
+                      {
+                        "title": "Persian Influence on Governance",
+                        "content": "The administration was deeply influenced by Persian traditions. Official records were kept in Persian, and Persian etiquette was followed in the royal court. Historians of the period, such as Ziauddin Barani and Minhaj-i-Siraj, documented the administration and advised rulers on governance."
+                      },
+                      {
+                        "title": "Decline and Fragmentation",
+                        "content": "By the late Sultanate period, internal weaknesses, corruption, and constant warfare led to its decline. The provincial governors (muqtis) started asserting independence, leading to the rise of regional kingdoms. This fragmentation eventually paved the way for the Mughal Empire’s expansion in the 16th century."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    }
                 ]
               },
               {
@@ -516,49 +971,922 @@
                 "subtopics": [
                   { 
                     "subtopicName": "Who Were the Mughals?",
-                   "description": [],
+                   "description": [
+                    {
+                      "title": "Mughal Ancestry and Lineage",
+                      "content": "The Mughals descended from two prominent ruling lineages. On their mother's side, they traced their ancestry to Genghis Khan, the Mongol ruler of China and Central Asia. On their father’s side, they descended from Timur, who ruled over Iran, Iraq, and modern-day Turkey. Despite their Mongol lineage, they preferred to associate with Timur due to Genghis Khan's reputation for mass killings and his link to the Uzbegs, their Mongol competitors."
+                    },
+                    {
+                      "title": "Foundation of the Mughal Empire",
+                      "content": "The Mughal Empire was established by Babur, who inherited his father’s kingdom in Central Asia at the age of 12. However, he was soon forced to flee due to Mongol invasions. After years of struggle, he captured Kabul in 1504 and later conquered Delhi and Agra in 1526, marking the beginning of the Mughal rule in India."
+                    },
+                    {
+                      "title": "Inheritance and Succession",
+                      "content": "The Mughals followed a system of coparcenary inheritance, where all sons received a share of the empire instead of the eldest alone inheriting it. This often led to power struggles among brothers, unlike the primogeniture system followed in many European monarchies."
+                    },
+                    {
+                      "title": "Empire Expansion and Rajput Relations",
+                      "content": "The Mughals expanded their empire through military campaigns. Some rulers resisted them, while others voluntarily joined the empire. The Rajputs played a significant role in Mughal administration, with some marrying into the royal family and others opposing Mughal rule."
+                    },
+                    {
+                      "title": "Mansabdari System",
+                      "content": "The Mughals introduced the mansabdari system, where nobles were assigned military ranks (mansabs) based on their Zat ranking. Higher ranks meant greater salaries and military responsibilities. During Akbar’s reign, there were 29 mansabdars with a rank of 5,000 zat, which increased to 79 under Aurangzeb."
+                    },
+                    {
+                      "title": "Revenue System and Administration",
+                      "content": "The Mughals implemented an efficient revenue system known as zabt, introduced by Akbar’s minister, Todar Mal. This system assessed crop yields and fixed tax rates, ensuring stable revenue collection and economic growth."
+                    },
+                    {
+                      "title": "Policy of Religious Tolerance",
+                      "content": "One key Mughal policy was Sulh-i-kul (universal peace), promoted by Akbar. It emphasized religious tolerance, allowing people of different faiths to coexist peacefully. Hindus, Muslims, Christians, and Jews were encouraged to practice their religions freely under this policy."
+                    },
+                    {
+                      "title": "Wealth and International Recognition",
+                      "content": "The Mughal Empire’s wealth and prosperity attracted international attention. European travelers described India as a land of immense riches but also noted stark inequalities, with extreme poverty among the lower classes. The economy thrived on trade, agriculture, and revenue from land taxes."
+                    },
+                    {
+                      "title": "Decline of the Mughal Empire",
+                      "content": "The Mughal Empire declined after Aurangzeb’s reign due to internal conflicts, financial strains, and external invasions. By the 18th century, provincial governors in regions like Hyderabad, Awadh, and Bengal declared independence, leading to the empire’s fragmentation and eventual fall."
+                    }
+                   ],
                     "questionSets": [] 
                 },
-                  { "subtopicName": "Mughal Military Campaigns", "description": [], "questionSets": [] },
-                  { "subtopicName": "Administration: Mansabdars and Jagirdars", "description": [], "questionSets": [] },
-                  { "subtopicName": "Relations with Other Rulers", "description": [], "questionSets": [] },
-                  { "subtopicName": "Decline of the Mughal Empire", "description": [], "questionSets": [] }
+                  { 
+                    "subtopicName": "Mughal Military Campaigns",
+                     "description": [
+                      {
+                        "title": "Babur’s Invasions (1526-1530)",
+                        "content": "Babur, the founder of the Mughal Empire, captured Kabul in 1504 and later defeated Ibrahim Lodi at the First Battle of Panipat in 1526. This marked the beginning of Mughal rule in India. He continued his campaigns, defeating Rajput forces at Khanwa (1527) and the Afghans at Ghaghra (1529)."
+                      },
+                      {
+                        "title": "Akbar’s Expansion (1556-1605)",
+                        "content": "Akbar expanded the Mughal Empire across northern and central India. He defeated Hemu at the Second Battle of Panipat (1556) and later subdued Gujarat (1572), Bengal (1574), and the Deccan regions. His policy of diplomacy and military strength helped integrate Rajput kingdoms into the empire."
+                      },
+                      {
+                        "title": "Aurangzeb’s Deccan Campaigns (1680-1707)",
+                        "content": "Aurangzeb waged prolonged campaigns in the Deccan against the Marathas, leading to the annexation of Golconda and Bijapur. However, his military expansion drained the empire’s resources. The rise of Maratha guerrilla warfare under Shivaji and later his successors severely challenged Mughal authority."
+                      },
+                      {
+                        "title": "Mughal-Rajput Relations",
+                        "content": "The Mughals constantly campaigned against Rajput rulers who resisted their authority. While many Rajput clans like the Kachhwahas and Rathores allied with the Mughals through marriages and governance roles, others, such as Mewar’s Rana Pratap, fiercely resisted Mughal dominance."
+                      },
+                      {
+                        "title": "Decline and Regional Challenges (18th Century)",
+                        "content": "By the 18th century, the Mughal Empire faced challenges from regional powers like the Marathas, Sikhs, and Jats. Rebellions and European interventions, combined with economic instability, weakened Mughal military strength, leading to the empire’s gradual disintegration."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    },
+                  { 
+                    "subtopicName": "Administration: Mansabdars and Jagirdars",
+                     "description": [
+                      {
+                        "title": "Introduction to Mansabdari System",
+                        "content": "The Mughal Empire introduced the Mansabdari system, a hierarchical administrative and military framework. Officials, called mansabdars, were ranked based on their zat, which determined their status and salary. Higher ranks meant greater prestige and responsibilities, ensuring loyalty to the emperor."
+                      },
+                      {
+                        "title": "Military Responsibilities of Mansabdars",
+                        "content": "Each mansabdar was required to maintain a specific number of cavalrymen, called sawar, based on their rank. These soldiers were reviewed regularly, and their horses were branded for identification. This system ensured a well-maintained and disciplined army, directly under the control of the emperor."
+                      },
+                      {
+                        "title": "Revenue and Salaries",
+                        "content": "Instead of fixed cash salaries, mansabdars were often paid through jagirs—land revenue assignments. However, they did not directly administer these lands. Instead, their agents collected revenue from peasants, which sometimes led to excessive taxation and exploitation."
+                      },
+                      {
+                        "title": "Jagirdars and Their Role",
+                        "content": "Jagirdars were responsible for collecting revenue from their assigned jagirs. They had to ensure the smooth flow of funds to pay soldiers and manage administration. However, many jagirdars focused on extracting maximum revenue, which led to distress among peasants, especially during Aurangzeb’s reign."
+                      },
+                      {
+                        "title": "Increase in the Number of Mansabdars",
+                        "content": "The number of mansabdars increased significantly over time. Under Akbar, there were 29 mansabdars with a zat rank of 5,000, but by Aurangzeb’s reign, this number had increased to 79. This expansion increased the financial burden on the empire."
+                      },
+                      {
+                        "title": "Mismatch Between Revenue and Salaries",
+                        "content": "During Akbar’s time, jagirs were carefully assessed to match the mansabdars’ salaries. However, by Aurangzeb’s reign, the revenue from jagirs was often lower than expected, causing financial instability. Many mansabdars had to wait long periods before receiving new jagirs."
+                      },
+                      {
+                        "title": "Effects on Peasantry",
+                        "content": "Due to revenue shortages, some jagirdars resorted to harsh taxation methods, leading to suffering among peasants. This economic strain, coupled with military expenditures, weakened the Mughal administration in the later years of the empire."
+                      },
+                      {
+                        "title": "Regional Power Shifts",
+                        "content": "As Mughal authority declined, some powerful mansabdars and jagirdars established semi-independent states, such as Hyderabad and Awadh. Though they continued recognizing the Mughal emperor, they ruled autonomously, reducing imperial control."
+                      },
+                      {
+                        "title": "Corruption and Decline",
+                        "content": "By the late Mughal period, corruption was rampant. Some jagirdars would collect more revenue than they were entitled to, while others took bribes. This weakened the empire, making it vulnerable to external invasions and internal rebellions."
+                      },
+                      {
+                        "title": "End of the Mansabdari System",
+                        "content": "With the decline of the Mughal Empire, the mansabdari system gradually collapsed. British colonial rulers replaced it with their own administrative policies, marking the end of this influential governance structure in Indian history."
+                      }
+                     ], 
+                     "questionSets": []
+                     },
+                  { "subtopicName": "Relations with Other Rulers",
+                   "description": [
+                    {
+                      "title": "Mughal Alliances and Conflicts",
+                      "content": "The Mughal rulers engaged in constant military campaigns to assert their dominance. However, many rulers voluntarily allied with them. The Rajputs, for instance, played a significant role—some married their daughters into Mughal families and secured high-ranking positions, while others resisted Mughal rule."
+                    },
+                    {
+                      "title": "Marriage Alliances with Rajputs",
+                      "content": "The Mughals strategically married into powerful Rajput families to strengthen their rule. The mother of Jahangir was a Kachhwaha princess from Amber (Jaipur), and Shah Jahan’s mother was a Rathor princess from Marwar (Jodhpur). These alliances helped in consolidating Mughal authority over the Rajput states."
+                    },
+                    {
+                      "title": "Balancing Defeat and Honor",
+                      "content": "When the Mughals defeated other rulers, they treated them with respect. Defeated rulers were often reinstated as administrators, maintaining a careful balance between showing strength and ensuring loyalty. This approach helped sustain Mughal rule for an extended period."
+                    },
+                    {
+                      "title": "Mughal Military and Regional Diversity",
+                      "content": "The Mughal administration included a variety of nobles, such as Turanis (Turkish nobles), Iranians, Indian Muslims, Afghans, Rajputs, and Marathas. Those who joined the Mughal service were enrolled as mansabdars and given positions based on rank (zat). Their responsibilities included maintaining cavalrymen and overseeing revenue collection."
+                    },
+                    {
+                      "title": "The Mansabdari System",
+                      "content": "Under the mansabdari system, nobles were granted revenue assignments (jagirs), but most did not reside in these regions. Instead, their revenue was collected by their servants while they served the empire elsewhere. This system ensured the loyalty of officials but also led to corruption and inefficiencies in later years."
+                    },
+                    {
+                      "title": "Rajput Resistance and Acceptance",
+                      "content": "While some Rajputs accepted Mughal rule, others resisted. Rana Pratap of Mewar refused to submit to Akbar, continuing his fight against Mughal expansion. However, other Rajput rulers like those of Amber and Jodhpur formed close ties with the Mughal administration."
+                    },
+                    {
+                      "title": "The Role of Mughal Nobles",
+                      "content": "Nobles held high ranks and influenced governance. Under Akbar, there were 29 mansabdars with a rank of 5,000 zat. By Aurangzeb’s reign, this number had grown to 79, increasing the empire’s expenditure. The rise in the number of high-ranking officials led to competition and political instability."
+                    },
+                    {
+                      "title": "Expansion of Mughal Influence",
+                      "content": "As the empire expanded, the Mughals faced continuous challenges from different rulers. Some, like the Ahoms in Assam and the Marathas in the Deccan, fought fiercely against Mughal domination. The Mughal strategy involved both military campaigns and diplomatic negotiations to bring these regions under control."
+                    },
+                    {
+                      "title": "The Decline of Mughal Power",
+                      "content": "Over time, the growing number of nobles and administrative inefficiencies weakened Mughal authority. By Aurangzeb’s reign, revenue collection became unreliable, leading to economic decline. This ultimately paved the way for regional rulers like the Marathas and the British to gain control."
+                    },
+                    {
+                      "title": "Legacy of Mughal Governance",
+                      "content": "Despite their decline, the Mughals left a lasting impact on governance in the Indian subcontinent. Their administrative systems, revenue collection policies, and military strategies were later adopted by the British and other rulers who followed."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                  { 
+                    "subtopicName": "Decline of the Mughal Empire",
+                     "description": [
+                      {
+                        "title": "Aurangzeb’s Overextension",
+                        "content": "Aurangzeb’s long wars in the Deccan exhausted the Mughal treasury and military. His strict policies alienated many regional rulers, leading to widespread discontent. The empire became too vast to control effectively, and local chieftains began asserting independence."
+                      },
+                      {
+                        "title": "Weak Successors",
+                        "content": "After Aurangzeb's death in 1707, his successors were weak and inefficient. The later Mughal emperors, such as Farrukh Siyar and Ahmad Shah, were often controlled by nobles. Many rulers were assassinated or blinded, weakening central authority."
+                      },
+                      {
+                        "title": "Provincial Governors Gained Power",
+                        "content": "Governors (subadars) of Bengal, Awadh, and Hyderabad became independent in all but name. Instead of sending revenues to Delhi, they kept resources for themselves, reducing Mughal financial strength."
+                      },
+                      {
+                        "title": "Zamindari and Peasant Rebellions",
+                        "content": "Heavy taxation led to peasant revolts. Zamindars, who collected taxes, often refused to send revenues to the Mughal capital. Many took advantage of the empire’s weakness to establish regional control."
+                      },
+                      {
+                        "title": "Nadir Shah’s Invasion (1739)",
+                        "content": "The Persian ruler Nadir Shah invaded Delhi and looted immense wealth, including the famous Peacock Throne. His army massacred thousands, severely damaging Mughal prestige and financial stability."
+                      },
+                      {
+                        "title": "Rise of the Marathas",
+                        "content": "The Marathas gradually replaced Mughal authority in central and western India. By the mid-18th century, they had taken over Malwa and Gujarat and challenged Mughal dominance in Delhi."
+                      },
+                      {
+                        "title": "British and European Interference",
+                        "content": "By the mid-18th century, the British and French began interfering in Indian politics. The British East India Company expanded its influence, particularly in Bengal, after the Battle of Plassey in 1757."
+                      },
+                      {
+                        "title": "Factionalism in the Mughal Court",
+                        "content": "Court politics were dominated by two powerful groups—the Iranis and the Turanis—who constantly plotted against each other. This weakened the empire and allowed regional rulers to act independently."
+                      },
+                      {
+                        "title": "Ahmad Shah Abdali’s Raids",
+                        "content": "The Afghan ruler Ahmad Shah Abdali invaded India multiple times between 1748 and 1761. His attacks further destabilized the Mughals, culminating in the Third Battle of Panipat (1761), where the Marathas suffered a major defeat."
+                      },
+                      {
+                        "title": "Final Collapse",
+                        "content": "By the late 18th century, Mughal rule was largely symbolic. The empire had shrunk to just Delhi and its surroundings. The British formally ended the Mughal Empire in 1857 after the Revolt, exiling the last emperor, Bahadur Shah II."
+                      }
+                     ], 
+                     "questionSets": []
+                     }
                 ]
               },
               {
                 "topicName": "Devotional Paths to the Divine",
                 "subtopics": [
-                  { "subtopicName": "Bhakti Movement: Saints and Their Teachings", "description": [], "questionSets": [] },
-                  { "subtopicName": "Sufism: Mysticism in Islam", "description": [], "questionSets": [] },
-                  { "subtopicName": "Growth of Regional Devotional Traditions", "description": [], "questionSets": [] },
-                  { "subtopicName": "Philosophy and Bhakti", "description": [], "questionSets": [] }
+                  { 
+                    "subtopicName": "Bhakti Movement: Saints and Their Teachings", 
+                    "description": [
+                      {
+                        "title": "Introduction to Bhakti Movement",
+                        "content": "The Bhakti Movement emerged as a spiritual reform movement that emphasized devotion to a personal god. It rejected rigid rituals and caste-based discrimination. Saints from various social backgrounds spread the message of love and equality through their teachings and poetry, often in regional languages."
+                      },
+                      {
+                        "title": "Bhakti in South India: Nayanars and Alvars",
+                        "content": "The movement began in South India with the Nayanars, devoted to Shiva, and the Alvars, devoted to Vishnu. They composed devotional hymns and traveled to temples, inspiring a deep connection with God beyond caste barriers. Their poetry, later compiled, influenced temple worship and religious practices."
+                      },
+                      {
+                        "title": "Basavanna and Virashaivism",
+                        "content": "In Karnataka, Basavanna and his followers, the Virashaivas, rejected idol worship and caste hierarchies. They promoted devotion through vachanas (sayings) and saw temples in one's body rather than in physical structures. Their ideas strongly opposed orthodox Brahmanical traditions."
+                      },
+                      {
+                        "title": "Mirabai: The Devotee of Krishna",
+                        "content": "A Rajput princess, Mirabai defied social norms to dedicate herself to Krishna. Her devotional songs, often challenging caste distinctions, became popular in Gujarat and Rajasthan. She rejected royal privileges and lived among common people, spreading her message through poetry."
+                      },
+                      {
+                        "title": "Kabir: Uniting Hindu and Islamic Thought",
+                        "content": "Kabir, a 15th-century poet-saint, was critical of both Hindu and Muslim orthodoxy. He emphasized a formless God and questioned ritualistic practices. His dohas (couplets) encouraged inner devotion over external worship. His teachings influenced both Bhakti and Sufi traditions."
+                      },
+                      {
+                        "title": "Guru Nanak and Sikhism",
+                        "content": "Guru Nanak, the founder of Sikhism, stressed equality and devotion to one God. He opposed caste-based discrimination and encouraged social harmony. His teachings were compiled in the Guru Granth Sahib, which remains the central scripture of Sikhism."
+                      },
+                      {
+                        "title": "Tulsidas and the Ramcharitmanas",
+                        "content": "Tulsidas, a devotee of Rama, composed the Ramcharitmanas in Awadhi, making the epic accessible to the common people. His work reinforced bhakti ideals while upholding moral and social values. His storytelling helped bridge classical Sanskrit traditions with folk devotion."
+                      },
+                      {
+                        "title": "Sant Tukaram and Social Equality",
+                        "content": "In Maharashtra, Tukaram’s abhangs (devotional hymns) emphasized service to others as a form of worship. He rejected social inequalities and saw God in the suffering of the poor. His teachings inspired the Warkari movement, which remains a major devotional tradition."
+                      },
+                      {
+                        "title": "Chaitanya Mahaprabhu and Krishna Bhakti",
+                        "content": "Chaitanya Mahaprabhu from Bengal spread devotion through ecstatic singing and dancing in praise of Krishna. His movement attracted people from all backgrounds, promoting a direct and emotional connection with the divine through kirtans (devotional songs)."
+                      },
+                      {
+                        "title":"Impact of the Bhakti Movement",
+                         "content" :"The Bhakti Movement led to a cultural transformation by making religious teachings accessible to all. It fostered regional languages, promoted social equality, and influenced later reform movements. The saints’ poetry continues to inspire spiritual and social thought today​"
+                      }
+                    ],
+                     "questionSets": [] 
+                    },
+                  { "subtopicName": "Sufism: Mysticism in Islam",
+                   "description": [
+                    {
+                      "title": "Introduction to Bhakti Movement",
+                      "content": "The Bhakti Movement emphasized devotion to a personal god while rejecting rigid rituals and caste discrimination. Saints from diverse backgrounds spread messages of love and equality through regional languages."
+                    },
+                    {
+                      "title": "Bhakti in South India: Nayanars and Alvars",
+                      "content": "The movement began in South India with the Nayanars (Shiva devotees) and Alvars (Vishnu devotees), who composed devotional hymns that influenced temple worship and religious practices."
+                    },
+                    {
+                      "title": "Basavanna and Virashaivism",
+                      "content": "Basavanna and the Virashaivas of Karnataka rejected idol worship and caste distinctions, promoting devotion through vachanas (sayings) and viewing the human body as a temple."
+                    },
+                    {
+                      "title": "Mirabai: The Devotee of Krishna",
+                      "content": "Rajput princess Mirabai defied social norms to dedicate herself to Krishna. Her devotional songs challenged caste distinctions and became popular across Gujarat and Rajasthan."
+                    },
+                    {
+                      "title": "Kabir: Uniting Hindu and Islamic Thought",
+                      "content": "15th-century poet-saint Kabir criticized both Hindu and Muslim orthodoxy, advocating for a formless God and inner devotion over ritualistic practices through his dohas (couplets)."
+                    },
+                    {
+                      "title": "Guru Nanak and Sikhism",
+                      "content": "Guru Nanak, the founder of Sikhism, emphasized devotion to one God and opposed caste discrimination. His teachings, compiled in the Guru Granth Sahib, promoted social harmony."
+                    },
+                    {
+                      "title": "Tulsidas and the Ramcharitmanas",
+                      "content": "Tulsidas composed the Ramcharitmanas in Awadhi, making the epic accessible to common people. His work blended bhakti ideals with moral and social teachings."
+                    },
+                    {
+                      "title": "Sant Tukaram and Social Equality",
+                      "content": "Maharashtrian saint Tukaram’s abhangs (devotional hymns) emphasized service to others as worship. He rejected social inequalities, inspiring the Warkari movement."
+                    },
+                    {
+                      "title": "Chaitanya Mahaprabhu and Krishna Bhakti",
+                      "content": "Chaitanya Mahaprabhu from Bengal spread Krishna devotion through ecstatic kirtans (devotional songs), attracting followers from all backgrounds to an emotional connection with the divine."
+                    }
+                  
+                   ], 
+                   "questionSets": [] 
+                  },
+                  { 
+                    "subtopicName": "Growth of Regional Devotional Traditions",
+                     "description": [
+                      {
+                        "title": "Origins of Regional Bhakti Traditions",
+                        "content": "The Bhakti movement spread across India, adapting to local cultures. It emphasized personal devotion to God and opposed caste-based discrimination. Saints like Kabir, Mirabai, and Tulsidas composed devotional poetry in regional languages, making their messages accessible to the common people."
+                      },
+                      {
+                        "title": "Bhakti in South India – Nayanars and Alvars",
+                        "content": "In Tamil Nadu, the Nayanars (Shiva devotees) and Alvars (Vishnu devotees) led the Bhakti movement. They composed poetry that rejected caste hierarchies and rituals. The Chola and Pandya rulers built temples around their shrines, strengthening the link between Bhakti and temple worship."
+                      },
+                      {
+                        "title": "The Bhakti Movement in Maharashtra",
+                        "content": "Maharashtra saw the rise of saint-poets like Dnyaneshwar, Namdev, Eknath, and Tukaram. They rejected ritualism and caste-based divisions, emphasizing devotion through simple Marathi verses. The Vitthala temple at Pandharpur became a major pilgrimage center, attracting devotees from various backgrounds."
+                      },
+                      {
+                        "title": "Sufism and Devotional Traditions",
+                        "content": "Sufism, an Islamic mystical tradition, paralleled Bhakti ideals. Sufi saints like Khwaja Moinuddin Chishti of Ajmer emphasized love for God over rituals. Their teachings, often in local languages, drew people from different communities and influenced devotional practices across India."
+                      },
+                      {
+                        "title": "Mirabai’s Challenge to Social Norms",
+                        "content": "Mirabai, a Rajput princess, renounced her royal life to follow Krishna. Her devotional songs, composed in Rajasthani and Gujarati, challenged social norms and caste restrictions. She became an icon of unconditional devotion, inspiring generations of Bhakti poets."
+                      },
+                      {
+                        "title": "Kabir’s Message of Unity",
+                        "content": "Kabir’s poetry blended Hindu and Islamic themes, advocating a formless God beyond rituals. He criticized both Brahmanical orthodoxy and Islamic formalism, urging people to seek truth within. His dohas (couplets) became popular across North India and influenced Sikhism’s spiritual outlook."
+                      },
+                      {
+                        "title": "The Influence of Ramanuja and Shankara",
+                        "content": "The philosopher Ramanuja promoted Vishishtadvaita (qualified non-dualism), advocating personal devotion to Vishnu. Shankara, on the other hand, emphasized Advaita (absolute non-dualism), seeing all existence as one with Brahman. Their ideas shaped different strands of Bhakti across regions."
+                      },
+                      {
+                        "title": "Chaitanya and Vaishnavism in Bengal",
+                        "content": "Chaitanya Mahaprabhu’s teachings in Bengal promoted intense love for Krishna through singing and dancing (kirtan). His movement made Bhakti accessible to all, attracting lower-caste communities. The Bengali Vaishnava tradition inspired later reform movements in Hinduism."
+                      },
+                      {
+                        "title": "Jagannatha Cult in Odisha",
+                        "content": "The Jagannatha temple in Puri became a center of devotion, integrating tribal and Brahmanical traditions. King Anantavarman of the Ganga dynasty promoted this deity, reinforcing the temple’s regional significance. The annual Rath Yatra remains a major religious event, drawing devotees from all over."
+                      },
+                      {
+                        "title": "The Lingayat Movement in Karnataka",
+                        "content": "Basavanna’s Lingayat movement opposed caste distinctions and Brahmanical rituals. It emphasized devotion to Shiva through direct worship, without temple intermediaries. The Lingayats rejected conventional Hindu practices like rebirth and emphasized social equality, influencing later reform movements."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    },
+                  { 
+                    "subtopicName": "Philosophy and Bhakti",
+                     "description": [
+                      {
+                        "title": "Advaita Philosophy of Shankara",
+                        "content": "Shankara, a philosopher from Kerala in the eighth century, advocated Advaita, the doctrine of the oneness of the individual soul and the Supreme God, which he called Brahman. He taught that Brahman was formless and without attributes. He believed the world was an illusion (maya) and that renouncing the material world was necessary to attain salvation."
+                      },
+                      {
+                        "title": "Ramanuja and Vishishtadvaita",
+                        "content": "Ramanuja, an eleventh-century philosopher from Tamil Nadu, was deeply influenced by the Alvars. He opposed Shankara’s idea of a formless Brahman. Instead, he preached Vishishtadvaita, which meant that while the individual soul could unite with the Supreme God (Vishnu), it would remain distinct. His teachings greatly influenced the Bhakti movement in North India."
+                      },
+                      {
+                        "title": "The Nayanars and Alvars",
+                        "content": "The Nayanars (devotees of Shiva) and Alvars (devotees of Vishnu) were early Bhakti saints from Tamil Nadu (7th to 9th centuries). They came from diverse backgrounds, including castes considered 'untouchable.' They composed poems in Tamil, which were later compiled into texts like the Tevaram and Divya Prabandham."
+                      },
+                      {
+                        "title": "Virashaiva Movement in Karnataka",
+                        "content": "In the 12th century, Basavanna and his followers, like Allama Prabhu and Akkamahadevi, started the Virashaiva (Lingayat) movement. They rejected caste distinctions, opposed rituals, and idol worship. The Virashaivas believed in devotion to Lord Shiva and upheld social equality."
+                      },
+                      {
+                        "title": "Bhakti in Maharashtra",
+                        "content": "The Bhakti movement in Maharashtra (13th to 17th centuries) was led by saint-poets like Dnyaneshwar, Namdev, Eknath, and Tukaram. They emphasized devotion to Vitthala (a form of Vishnu). Unlike earlier saints, they rejected renunciation and preferred to live as householders while spreading Bhakti."
+                      },
+                      {
+                        "title": "Sant Tukaram’s Teachings",
+                        "content": "Sant Tukaram, a 17th-century Marathi Bhakti saint, rejected all forms of ritualism and caste discrimination. His abhangs (devotional songs) emphasized love for God and compassion for the downtrodden. He famously said, 'God is with the battered and the beaten.'"
+                      },
+                      {
+                        "title": "Mirabai’s Bhakti",
+                        "content": "Mirabai, a 16th-century Rajput princess, was an ardent devotee of Krishna. She composed devotional songs that expressed her deep longing for God. Her compositions, written in Rajasthani and Hindi, became popular among common people, challenging the norms of the 'upper' castes."
+                      },
+                      {
+                        "title": "The Role of Kabir in Bhakti",
+                        "content": "Kabir (15th century) rejected both Hindu and Muslim orthodoxies. His poetry, composed in a mix of Hindi and Persian, emphasized devotion to a formless God and criticized caste discrimination and rituals. His teachings appealed to both Hindus and Muslims."
+                      },
+                      {
+                        "title": "Baba Guru Nanak’s Teachings",
+                        "content": "Guru Nanak, the founder of Sikhism, believed in the unity of God, rejection of caste divisions, and the importance of honest living. His teachings were compiled in the Guru Granth Sahib and led to the formation of a distinct Sikh identity."
+                      },
+                      {
+                        "title": "Impact of Bhakti on Society",
+                        "content": "The Bhakti movement provided a spiritual alternative to Brahmanical Hinduism and rigid caste divisions. It emphasized equality, personal devotion, and direct communion with God, influencing later religious reforms and movements across India."
+                      }
+                     ], 
+                     "questionSets": []
+                     }
                 ]
               },
               {
                 "topicName": "The Making of Regional Cultures",
                 "subtopics": [
-                  { "subtopicName": "The Cheras and Malayalam", "description": [], "questionSets": [] },
-                  { "subtopicName": "Jagannatha Cult in Orissa", "description": [], "questionSets": [] },
-                  { "subtopicName": "Rajputs and Traditions of Heroism", "description": [], "questionSets": [] },
-                  { "subtopicName": "Regional Languages and Literature", "description": [], "questionSets": [] }
+                  { "subtopicName": "The Cheras and Malayalam",
+                   "description": [
+                    {
+                      "title": "The Chera Kingdom and Malayalam",
+                      "content": "The Chera kingdom of Mahodayapuram was established in the ninth century in present-day Kerala. It is believed that Malayalam was spoken in this region. The Chera rulers played a key role in introducing Malayalam in their inscriptions, making it one of the earliest regional languages used for official purposes."
+                    },
+                    {
+                      "title": "Influence of Sanskrit on Malayalam",
+                      "content": "The Cheras adopted several elements from Sanskritic traditions. The temple theatre of Kerala, which evolved during this period, borrowed many stories from Sanskrit literature. The earliest known literary works in Malayalam, dating back to the twelfth century, were heavily influenced by Sanskrit in both style and vocabulary."
+                    },
+                    {
+                      "title": "Development of Manipravalam",
+                      "content": "In the fourteenth century, a unique literary style called Manipravalam emerged. The term means 'diamonds and corals,' symbolizing a blend of Sanskrit and Malayalam. A notable text from this period, the Lilatilakam, focused on grammar and poetics, reflecting the deep connection between the two languages."
+                    },
+                    {
+                      "title": "Religious and Cultural Aspects",
+                      "content": "The Cheras contributed to the cultural development of Kerala by promoting religious traditions. Temple inscriptions and performances like Koodiyattam (Sanskrit theatre) and Kathakali were influenced by a mix of local and Sanskrit traditions. This fusion helped shape the region's distinctive cultural identity."
+                    },
+                    {
+                      "title": "Malayalam as a Regional Language",
+                      "content": "Over time, Malayalam developed a distinct identity, separate from Tamil and Sanskrit. By the medieval period, it had its own literary works, including religious texts and folk tales. The Chera rulers' use of Malayalam in inscriptions marked a significant step in establishing it as an administrative and cultural language."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                  { "subtopicName": "Jagannatha Cult in Orissa",
+                   "description": [
+                    {
+                      "title": "Origins of the Cult",
+                      "content": "The Jagannatha cult is centered around the deity Jagannatha, meaning 'Lord of the World,' who is worshipped in Puri, Odisha. The deity is believed to have originated from local tribal traditions, where wooden images were carved and worshipped. Over time, these traditions merged with Vaishnavism, associating Jagannatha with Vishnu."
+                    },
+                    {
+                      "title": "The Role of the Ganga Dynasty",
+                      "content": "In the 12th century, Anantavarman, a ruler of the Eastern Ganga dynasty, constructed a grand temple at Puri dedicated to Purushottama Jagannatha. This temple became a major religious center. Later, in 1230, King Anangabhima III declared his kingdom as belonging to Jagannatha, establishing himself as the deity's deputy."
+                    },
+                    {
+                      "title": "Rituals and Worship Practices",
+                      "content": "The worship of Jagannatha involves daily rituals, annual festivals, and temple offerings. The Rath Yatra (Chariot Festival) is the most famous event, where the deities Jagannatha, Balabhadra, and Subhadra are taken in a grand procession on massive wooden chariots, drawing thousands of devotees."
+                    },
+                    {
+                      "title": "The Unique Wooden Deity",
+                      "content": "Unlike traditional stone or metal idols, the Jagannatha deity is made of wood and is periodically replaced through the Nabakalebara ritual. The wooden logs are selected from sacred trees and carved following strict religious guidelines. This practice highlights the tribal influence in Jagannatha worship."
+                    },
+                    {
+                      "title": "Political and Social Influence",
+                      "content": "Over the centuries, rulers sought control over the Jagannatha temple to gain legitimacy and acceptance among the local people. The Mughals, Marathas, and later the British attempted to manage temple affairs, recognizing its significance in Orissa’s socio-political structure."
+                    },
+                    {
+                      "title": "The Temple Administration",
+                      "content": "The administration of the Jagannatha temple has been historically controlled by a body of priests and servitors. The Gajapati King of Puri is considered the temple’s chief servitor, reinforcing the link between religion and governance. The temple continues to be managed under a special law in independent India."
+                    },
+                    {
+                      "title": "The Bhakti Movement and Jagannatha",
+                      "content": "The Bhakti saints, including Chaitanya Mahaprabhu, played a crucial role in popularizing the Jagannatha cult. Chaitanya, an ardent devotee of Krishna, spent his final years in Puri, influencing devotional practices and reinforcing the deity’s connection to Vaishnavism."
+                    },
+                    {
+                      "title": "Pilgrimage and Devotees",
+                      "content": "Puri has been one of the four Char Dhams (four holy pilgrimage sites) of Hinduism, attracting devotees from across India. The temple’s offerings, particularly the Mahaprasad, hold religious significance and are shared among pilgrims, reflecting the temple’s role in community bonding."
+                    },
+                    {
+                      "title": "Influence on Art and Literature",
+                      "content": "The Jagannatha cult has influenced Odia literature, music, and temple architecture. Poets like Jayadeva composed devotional songs dedicated to Jagannatha, and the temple's art and inscriptions showcase a blend of tribal and classical Hindu aesthetics."
+                    },
+                    {
+                      "title": "The Continuing Legacy",
+                      "content": "Today, the Jagannatha cult remains a defining feature of Odisha’s religious identity. The temple’s grand celebrations and rituals continue to attract millions of devotees, making it a vital spiritual and cultural center in India."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                  { "subtopicName": "Rajputs and Traditions of Heroism", 
+                  "description": [
+                    {
+                      "title": "Rajputana and Rajput Identity",
+                      "content": "In the 19th century, the British called present-day Rajasthan 'Rajputana.' While this implied that Rajputs dominated the region, many other groups also lived there. Rajputs, however, played a significant role in shaping Rajasthan’s distinct culture, closely linked to their rulers' aspirations and heroic traditions."
+                    },
+                    {
+                      "title": "The Ideal of Heroism",
+                      "content": "From the 8th century onward, Rajasthan was ruled by Rajput families like the Chauhans and Rathores. These rulers upheld the ideal of a brave warrior who fought courageously and preferred death over dishonor. Their heroic stories were immortalized in songs and poems, narrated by trained minstrels."
+                    },
+                    {
+                      "title": "Oral Traditions and Warrior Culture",
+                      "content": "Minstrels recited heroic tales of Rajput warriors, preserving their memories for future generations. These stories depicted dramatic emotions such as loyalty, friendship, and valor. They inspired others to follow Rajput ideals and glorified their fearless battles against invaders."
+                    },
+                    {
+                      "title": "Women in Rajput Traditions",
+                      "content": "Women found a place in Rajput heroic traditions, often depicted as devoted wives who followed their husbands in life and death. The practice of sati—widows immolating themselves on their husband's funeral pyre—was considered an ultimate act of loyalty and honor."
+                    },
+                    {
+                      "title": "Resistance and Alliances",
+                      "content": "While some Rajput rulers fought against invaders, others formed strategic alliances. Many Rajput families married their daughters into Mughal dynasties and gained influential positions in the imperial court. However, others, like Maharana Pratap, resisted Mughal rule and fought fiercely to protect their independence."
+                    },
+                    {
+                      "title": "The Role of Forts in Rajput Defense",
+                      "content": "Rajputs built massive forts, such as Chittorgarh and Mehrangarh, which became centers of power. These forts housed royal palaces, temples, water storage systems, and marketplaces. They served as strongholds during conflicts, allowing Rajput rulers to resist enemy invasions."
+                    },
+                    {
+                      "title": "Rajput Warrior Ethics",
+                      "content": "Rajputs followed a strict code of conduct, which emphasized honor, bravery, and loyalty. A Rajput warrior would rather die in battle than surrender. This tradition, known as Jauhar and Shaka, saw Rajput women self-immolating while men charged into battle one last time."
+                    },
+                    {
+                      "title": "Decline and Challenges",
+                      "content": "By the 18th century, Rajput rulers faced challenges from the Marathas and British. While some Rajput states retained their autonomy, many became subordinate to the British, marking the end of their independent warrior traditions."
+                    }
+                  ],
+                   "questionSets": []
+                   },
+                  { "subtopicName": "Regional Languages and Literature",
+                   "description": [
+                    {
+                      "title": "The Growth of Bengali",
+                      "content": "While Bengali is now recognized as a language derived from Sanskrit, ancient inscriptions suggest that the people of Bengal did not originally speak Sanskritic languages. From the fourth to third centuries BCE, commercial ties with Magadha introduced Sanskrit influences. Over time, the Bengali language evolved through various stages, incorporating words from tribal languages, Persian, and European languages."
+                    },
+                    {
+                      "title": "Two Types of Early Bengali Literature",
+                      "content": "Bengali literature is categorized into two types: one influenced by Sanskrit epics, including the Mangalakavyas (poems about local deities) and Bhakti literature, and another comprising Nath literature, folk tales, ballads, and stories related to Dharma Thakur, a regional deity."
+                    },
+                    {
+                      "title": "The Role of Pirs in Language and Culture",
+                      "content": "With the migration of people from western Bengal to southeastern Bengal in the sixteenth century, new communities formed. Religious figures, known as Pirs, played a crucial role in integrating various traditions. Their influence extended to literature and religious practices, reflecting the cultural fusion in Bengal."
+                    },
+                    {
+                      "title": "Temple Architecture and Language Influence",
+                      "content": "The rise of temple architecture in Bengal contributed to regional linguistic identity. Many temples were funded by 'low' social groups who gained economic status through trade. These temples often featured inscriptions in regional languages, promoting their use in religious and literary contexts."
+                    },
+                    {
+                      "title": "Manipravalam – A Fusion of Sanskrit and Malayalam",
+                      "content": "The development of Malayalam as a regional language is linked to the Chera kingdom. The fourteenth-century text Lilatilakam, written in Manipravalam (a blend of Sanskrit and Malayalam), demonstrates the interplay between Sanskritic and local linguistic traditions."
+                    },
+                    {
+                      "title": "The Role of Bhakti Literature in Language Growth",
+                      "content": "The Bhakti movement played a significant role in shaping regional languages by promoting devotion in the vernacular rather than Sanskrit. In Bengal, Bhakti texts such as the biographies of Chaitanya Mahaprabhu contributed to the spread of Bengali literature."
+                    },
+                    {
+                      "title": "Kathak and Language in Performing Arts",
+                      "content": "The evolution of Kathak dance, originally linked to temple storytelling traditions in North India, shows how regional languages were used in artistic expressions. With Mughal influence, Kathak incorporated Persian and Urdu elements, further enriching regional linguistic traditions."
+                    },
+                    {
+                      "title": "Rajput Court Poetry and Regional Languages",
+                      "content": "In Rajasthan, Rajput rulers encouraged poetry and storytelling in regional languages such as Rajasthani and Braj Bhasha. Court poets narrated tales of heroism and romance, strengthening linguistic identity and literature in the region."
+                    },
+                    {
+                      "title": "Miniature Paintings and Literary Themes",
+                      "content": "The tradition of miniature painting in regions like Rajasthan and Himachal Pradesh often illustrated themes from local literary traditions. The Kangra school of painting, for instance, focused on Vaishnavite themes, using regional languages in manuscript illustrations."
+                    },
+                    {
+                      "title": "Food, Language, and Cultural Identity",
+                      "content": "Food habits also played a role in shaping linguistic identity. In Bengal, the widespread consumption of fish led to its representation in Bengali literature, with references in both Hindu and Buddhist texts. Such cultural elements reinforced regional linguistic distinctiveness."
+                    }
+                  
+                   ], 
+                   "questionSets": [] 
+                  }
                 ]
               },
               {
                 "topicName": "Eighteenth-Century Political Formations",
                 "subtopics": [
-                  { "subtopicName": "The Later Mughals and the Crisis of the Empire", "description": [], "questionSets": [] },
-                  { "subtopicName": "Emergence of New States: Awadh, Hyderabad, and Bengal", "description": [], "questionSets": [] },
-                  { "subtopicName": "The Marathas and the Sikhs", "description": [], "questionSets": [] },
-                  { "subtopicName": "Rise of the British in India", "description": [], "questionSets": [] }
+                  { 
+                    "subtopicName": "The Later Mughals and the Crisis of the Empire", 
+                  "description": [
+                    {
+                      "title": "The Decline Begins",
+                      "content": "Aurangzeb’s prolonged Deccan campaigns drained the Mughal treasury and weakened the empire. His successors struggled to control the powerful regional governors, leading to administrative breakdowns. Nobles appointed as subadars began acting independently, reducing revenue remittances to Delhi."
+                    },
+                    {
+                      "title": "Revolts and Fragmentation",
+                      "content": "Peasant uprisings and zamindari rebellions further destabilized the empire. High taxation and administrative corruption fueled discontent. Previously suppressed groups seized control of economic resources, challenging Mughal authority. The later Mughal emperors lacked the strength to curb these shifts."
+                    },
+                    {
+                      "title": "Economic Crisis",
+                      "content": "A contemporary writer noted the empire’s financial ruin. Though peasants reaped good harvests, feudal lords failed to collect revenue. The military suffered due to unpaid salaries, weakening the empire’s defense capabilities. This economic collapse led to the empire’s vulnerability to external invasions."
+                    },
+                    {
+                      "title": "Nadir Shah’s Invasion",
+                      "content": "In 1739, Nadir Shah of Iran sacked Delhi, looting immense wealth, including the Peacock Throne. His attack left the city in ruins, reducing its former masters to beggars. This event marked the Mughal Empire’s irreversible decline and emboldened other invaders."
+                    },
+                    {
+                      "title": "Power Struggles and Court Intrigue",
+                      "content": "The Mughal court became a battleground for rival noble factions. The Iranis and Turanis competed for control over the emperor. Some later Mughal rulers, like Farrukh Siyar and Alamgir II, were assassinated, while others, like Shah Alam II, were blinded by nobles."
+                    },
+                    {
+                      "title": "Provincial Independence",
+                      "content": "As Mughal power declined, provincial governors such as those of Awadh, Bengal, and Hyderabad declared autonomy. Though they maintained nominal allegiance to the Mughal throne, they operated as independent rulers, further fragmenting the empire."
+                    },
+                    {
+                      "title": "Rise of Regional Powers",
+                      "content": "The Rajputs, Sikhs, Jats, and Marathas expanded their influence, challenging Mughal supremacy. The Marathas, under Peshwa leadership, launched campaigns across India, while the Jats controlled territories near Delhi and Agra. These powers emerged as key players in 18th-century politics."
+                    },
+                    {
+                      "title": "British Expansion",
+                      "content": "As the Mughal Empire weakened, the British East India Company seized the opportunity. By 1765, the British had established control over Bengal and parts of eastern India, marking the beginning of colonial rule and the final phase of Mughal decline."
+                    }
+                  ],
+                   "questionSets": [] 
+                  },
+                  { "subtopicName": "Emergence of New States: Awadh, Hyderabad, and Bengal", 
+                  "description": [
+                    {
+                      "title": "Decline of the Mughal Empire",
+                      "content": "By the early 18th century, the Mughal Empire's central authority weakened. Powerful governors, once appointed by the emperor, began asserting independence. Among them, the governors of Awadh, Hyderabad, and Bengal gradually stopped sending revenue to Delhi and started ruling autonomously."
+                    },
+                    {
+                      "title": "Awadh: A Strong Regional Power",
+                      "content": "In 1722, Saadat Khan was appointed the Subadar (governor) of Awadh. He reduced Mughal influence, controlled revenue collection, and reorganized administration. Awadh became wealthy due to its fertile land, which supported agriculture and trade. It became an important center of power in North India."
+                    },
+                    {
+                      "title": "Hyderabad: Foundation by Nizam-ul-Mulk",
+                      "content": "Hyderabad was established by Nizam-ul-Mulk Asaf Jah in 1724. Though he continued to recognize the Mughal emperor, he ruled independently. The Deccan’s rich resources helped Hyderabad flourish. It became known for its well-organized administration and strong military."
+                    },
+                    {
+                      "title": "Bengal: Economic Strength",
+                      "content": "Bengal, under Murshid Quli Khan, became an economic powerhouse. He restructured the tax system, favoring local zamindars and merchants. The region had a flourishing textile industry, and its ports, like Murshidabad, handled extensive trade with European companies."
+                    },
+                    {
+                      "title": "European Influence in Bengal",
+                      "content": "By the mid-18th century, European trading companies—especially the British and the French—competed for influence in Bengal. They benefited from the weakened Mughal control, securing trade privileges. The British East India Company’s growing power in Bengal would later lead to the Battle of Plassey (1757)."
+                    },
+                    {
+                      "title": "Military and Administrative Strategies",
+                      "content": "The rulers of Awadh, Hyderabad, and Bengal built strong armies to protect their autonomy. They recruited local soldiers and improved fortifications. Each state established efficient revenue collection systems, ensuring financial stability despite the declining Mughal Empire."
+                    },
+                    {
+                      "title": "Hyderabad’s Challenges and Alliances",
+                      "content": "Hyderabad faced pressure from the Marathas and internal court rivalries. To maintain its power, the Nizam often sought British and French support. Over time, Hyderabad’s dependence on European forces would shape its political future."
+                    },
+                    {
+                      "title": "Awadh’s Cultural and Political Significance",
+                      "content": "Awadh became a center of culture, art, and administration. The Nawabs patronized poets, musicians, and architects. Lucknow, its capital, developed into a hub of Urdu literature and Mughal-style architecture, even as the region distanced itself from Mughal political control."
+                    },
+                    {
+                      "title": "Bengal’s Growing European Ties",
+                      "content": "Bengal’s economic prosperity attracted European traders. The British gained significant influence, using their economic strength to interfere in local politics. The region’s strong revenue base made it a target for British colonial expansion."
+                    },
+                    {
+                      "title": "Impact on the Mughal Empire",
+                      "content": "The rise of these independent states further weakened the Mughal Empire. With Delhi’s declining authority, regional powers set their own policies. While they paid nominal allegiance to the Mughal emperor, in reality, they ruled independently, marking a significant shift in India’s political landscape."
+                    }
+                  ], 
+                  "questionSets": [] 
+                },
+                  { 
+                    "subtopicName": "The Marathas and the Sikhs",
+                     "description": [
+                      {
+                        "title": "Foundation of the Maratha Kingdom",
+                        "content": "The Maratha kingdom was founded by Chhatrapati Shivaji Maharaj in 1630. He established a stable rule with the support of deshmukhs (local chieftains) and kunbis (peasant-pastoralists). His military tactics included guerrilla warfare, quick raids, and strategic fortifications, which helped him resist Mughal expansion."
+                      },
+                      {
+                        "title": "Expansion under the Peshwas",
+                        "content": "After Shivaji’s death in 1680, the Peshwas (prime ministers) became powerful. Under Baji Rao I, the Marathas expanded beyond the Deccan. By the 1730s, they controlled Malwa and Gujarat and levied taxes like chauth (25% land revenue) and sardeshmukhi (9-10% additional tax) across their territories."
+                      },
+                      {
+                        "title": "Maratha Administration and Economy",
+                        "content": "The Marathas developed an efficient administration to govern their expanding empire. Revenue was collected based on local conditions, encouraging agriculture and trade. Cities like Poona, Indore, and Ujjain became major economic hubs. Trade routes connected silk production centers in Chanderi with Poona and Nagpur."
+                      },
+                      {
+                        "title": "Military Campaigns and Conflicts",
+                        "content": "The Marathas faced resistance from the Mughal Empire, but their military campaigns extended into Rajasthan, Bengal, Punjab, and South India. However, these campaigns created conflicts with other regional powers. The Third Battle of Panipat (1761) marked a major defeat for the Marathas, weakening their influence."
+                      },
+                      {
+                        "title": "Maratha Confederacies and British Influence",
+                        "content": "The Maratha empire fragmented into independent Maratha confederacies, led by chiefs like Sindhia of Gwalior, Gaekwad of Baroda, and Bhonsle of Nagpur. Though powerful, their divided nature made them vulnerable, and they eventually lost influence with the rise of the British."
+                      },
+                      {
+                        "title": "Formation of the Sikh Political Organization",
+                        "content": "The Sikh political organization began under Guru Gobind Singh, who established the Khalsa in 1699. The Khalsa was a military and religious order that resisted Mughal rule. After Guru Gobind Singh’s death in 1708, Banda Bahadur led a Sikh uprising and set up an administration in Punjab."
+                      },
+                      {
+                        "title": "Rise of the Sikh Confederacy",
+                        "content": "By the 18th century, the Sikhs organized themselves into misls (warrior bands), forming a confederation known as the Dal Khalsa. They met at Amritsar during Baisakhi and Diwali, making decisions through Gurmatas (resolutions of the Guru). They also introduced the rakhi system, where they protected farmers in exchange for taxes."
+                      },
+                      {
+                        "title": "Sikh Independence and Military Success",
+                        "content": "The Khalsa declared independence in 1765 by striking coins in the names of Guru Nanak and Guru Gobind Singh. Sikh forces successfully fought the Mughal governors and Ahmad Shah Abdali, gaining control over Punjab. However, Punjab remained divided among different Sikh rulers."
+                      },
+                      {
+                        "title": "Rule of Maharaja Ranjit Singh",
+                        "content": "Maharaja Ranjit Singh (1799–1839) unified the Sikh territories, making Lahore his capital. He modernized the army, incorporating European military techniques, and maintained a secular administration. His rule marked the peak of Sikh power, extending over Punjab, Kashmir, and parts of Afghanistan."
+                      },
+                      {
+                        "title": "Decline of the Sikh Empire",
+                        "content": "After Ranjit Singh’s death, the Sikh Empire weakened due to internal conflicts and British expansion. The Anglo-Sikh Wars (1845–1849) led to the annexation of Punjab by the British. Despite their military strength, the lack of unity among Sikh rulers contributed to their downfall."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    },
+                  {
+                     "subtopicName": "Rise of the British in India",
+                      "description": [
+                        {
+                          "title": "Decline of the Mughals",
+                          "content": "The Mughal Empire weakened in the early 18th century due to financial instability, weak successors, and regional uprisings. Governors and local chieftains gained power, leading to fragmented rule. This created a power vacuum, which foreign trading companies, especially the British, sought to exploit."
+                        },
+                        {
+                          "title": "Emergence of European Powers",
+                          "content": "By the early 18th century, European trading companies, including the British, French, Dutch, and Portuguese, had established settlements in India. The British East India Company, originally formed for trade, slowly expanded its influence through military and political strategies."
+                        },
+                        {
+                          "title": "Battle of Plassey (1757)",
+                          "content": "The turning point for British dominance came with the Battle of Plassey. Robert Clive led British forces against Nawab Siraj-ud-Daulah of Bengal. With the betrayal of Mir Jafar, the British won and gained control over Bengal’s resources, marking the beginning of their rule."
+                        },
+                        {
+                          "title": "Battle of Buxar (1764)",
+                          "content": "The British solidified their power after defeating the combined forces of Mir Qasim (Bengal), Shuja-ud-Daula (Awadh), and the Mughal emperor Shah Alam II. This victory gave them the Diwani (revenue collection rights) of Bengal, Bihar, and Orissa, significantly increasing their financial strength."
+                        },
+                        {
+                          "title": "Expansion through Treaties",
+                          "content": "The British adopted policies like the Subsidiary Alliance, introduced by Lord Wellesley. Indian rulers were forced to accept British protection, disband their armies, and station British troops in return for financial compensation, leading to British control over major princely states."
+                        },
+                        {
+                          "title": "Doctrine of Lapse",
+                          "content": "Lord Dalhousie implemented the Doctrine of Lapse, which allowed the British to annex states where rulers died without a direct male heir. Using this policy, they annexed Satara, Jhansi, Nagpur, and Awadh, further expanding British rule."
+                        },
+                        {
+                          "title": "Economic Exploitation",
+                          "content": "The British transformed India into a supplier of raw materials and a market for British goods. Traditional industries declined, and high taxes burdened Indian peasants. This economic drain fueled discontent among Indians, ultimately leading to resistance movements."
+                        },
+                        {
+                          "title": "Resistance and Revolts",
+                          "content": "The British faced several resistances, including tribal uprisings and revolts by regional rulers. The most significant was the Revolt of 1857, where Indian soldiers, peasants, and displaced rulers fought against British rule, marking the first major challenge to British authority."
+                        },
+                        {
+                          "title": "Establishment of British Governance",
+                          "content": "After the 1857 revolt, the British Crown took direct control of India from the East India Company, marking the beginning of the British Raj. Queen Victoria’s Proclamation of 1858 assured non-interference in religious matters, but real power remained with British officials."
+                        },
+                        {
+                          "title": "Impact on India",
+                          "content": "British rule brought administrative reforms, Western education, and infrastructure like railways, but also caused economic hardships, social unrest, and exploitation. The resentment against British policies eventually fueled the Indian freedom movement in the late 19th and early 20th centuries."
+                        }
+                      
+                      ],
+                       "questionSets": []
+                       }
                 ]
               },
               {
                 "topicName": "Tribes, Nomads, and Settled Communities",
                 "subtopics": [
-                  { "subtopicName": "Who Were the Tribal People?", "description": [], "questionSets": [] },
-                  { "subtopicName": "Tribal Society and Economy", "description": [], "questionSets": [] },
-                  { "subtopicName": "Nomadic Communities and Their Livelihood", "description": [], "questionSets": [] },
-                  { "subtopicName": "Changes in Tribal Societies", "description": [], "questionSets": [] }
+                  { "subtopicName": "Who Were the Tribal People?",
+                   "description": [
+                    {
+                      "title": "Definition of Tribes",
+                      "content": "Tribes were communities that did not follow the caste-based social structure. They had their own customs, traditions, and governance systems. Many tribes lived in forests, hills, and remote regions, which helped them maintain their independence. They were often self-sufficient, relying on agriculture, hunting, gathering, and cattle herding."
+                    },
+                    {
+                      "title": "Sources of Information on Tribes",
+                      "content": "Contemporary historians and travelers provided very little written information about tribes. Since tribal communities rarely maintained records, their history was preserved through oral traditions. These traditions were passed down generations, providing valuable insights into their culture, governance, and way of life."
+                    },
+                    {
+                      "title": "Diversity of Tribes in India",
+                      "content": "Tribes existed in various parts of India, including the north, central, and southern regions. Some major tribes included the Gonds, Bhils, Santhals, Ahoms, and Nagas. Their social structures varied—some were large and powerful, while others lived in smaller communities."
+                    },
+                    {
+                      "title": "Tribal Political Influence",
+                      "content": "Some powerful tribes controlled large territories and played significant political roles. For example, the Khokhars and Gakkhars in Punjab resisted Mughal expansion, while the Langahs and Arghuns dominated parts of Multan and Sind before being subdued by the Mughals."
+                    },
+                    {
+                      "title": "The Gonds and Their Kingdoms",
+                      "content": "The Gonds lived in the forested region of Gondwana. They practiced shifting cultivation and had well-organized kingdoms. The Gond kingdom of Garha Katanga had 70,000 villages and a centralized administrative system. Over time, some Gond rulers adopted Rajput traditions and claimed Kshatriya status."
+                    },
+                    {
+                      "title": "The Ahoms and Their State Formation",
+                      "content": "The Ahoms migrated from present-day Myanmar to the Brahmaputra Valley in the 13th century. They built a strong kingdom, defeated rival tribes, and introduced new administrative and military structures. Their society was highly organized, with common people providing forced labor, called ‘Paiks’."
+                    },
+                    {
+                      "title": "Interaction Between Tribes and Caste Society",
+                      "content": "Tribal communities and caste-based societies interacted in various ways. Some tribes maintained their independence, while others were gradually absorbed into caste hierarchies. This process led to changes in social structures, with some tribal leaders becoming rulers, landlords, or part of the ruling elite."
+                    },
+                    {
+                      "title": "Economic Activities of Tribes",
+                      "content": "Tribal economies were diverse—some relied on agriculture, while others were hunter-gatherers or herders. Many tribes engaged in trade with settled communities. For instance, the Banjaras were nomadic traders who transported goods across long distances, supplying grain and other essentials."
+                    },
+                    {
+                      "title": "Tribal Conflicts and Resistance",
+                      "content": "Many tribal groups resisted outside control. The Cheros of Bihar and Jharkhand fought against the Mughals, though they were eventually subdued. Similarly, the Bhils and Gonds often clashed with expanding kingdoms but continued to retain elements of their traditional governance systems."
+                    },
+                    {
+                      "title": "Tribal Societies and Cultural Contributions",
+                      "content": "Tribes contributed to India’s cultural diversity through their unique traditions, art, and oral literature. Many tribal customs and festivals continue to be celebrated today. The tribal communities preserved their distinct identities despite centuries of interaction with mainstream society."
+                    }
+                  
+                   ], 
+                   "questionSets": [] 
+                  },
+                  { 
+                    "subtopicName": "Tribal Society and Economy",
+                     "description": [
+                      {
+                        "title": "Understanding Tribal Societies",
+                        "content": "Tribes were self-governing communities that did not adhere to the caste-based social structure. They followed distinct customs, traditions, and governance systems. Many tribes lived in forests, hills, and remote regions, maintaining autonomy through self-sufficient agricultural, hunting, gathering, and cattle-herding practices."
+                      },
+                      {
+                        "title": "Limited Historical Records on Tribes",
+                        "content": "Historical records on tribes are scarce since tribal societies primarily relied on oral traditions rather than written documentation. Contemporary historians and travelers provided limited information, with much of tribal history being preserved through folklore, songs, and oral narratives."
+                      },
+                      {
+                        "title": "Diversity of Tribes in India",
+                        "content": "India’s tribal communities varied greatly across regions. Prominent tribes included the Gonds, Bhils, Santhals, Ahoms, and Nagas. Their social structures ranged from small, scattered groups to well-organized polities with significant territorial control."
+                      },
+                      {
+                        "title": "Tribal Political Influence",
+                        "content": "Some powerful tribes exercised significant political influence. The Khokhars and Gakkhars of Punjab resisted Mughal expansion, while the Langahs and Arghuns controlled parts of Multan and Sind before falling to the Mughals."
+                      },
+                      {
+                        "title": "The Gonds and Their Kingdoms",
+                        "content": "The Gonds inhabited the forested region of Gondwana, practicing shifting cultivation. Their kingdom of Garha Katanga had a well-structured administrative system overseeing 70,000 villages. Over time, some Gond rulers assimilated into mainstream Indian polity, adopting Rajput traditions and claiming Kshatriya status."
+                      },
+                      {
+                        "title": "The Ahoms and Their State Formation",
+                        "content": "Migrating from present-day Myanmar, the Ahoms established a strong kingdom in the Brahmaputra Valley in the 13th century. They subdued rival tribes, developed a centralized administration, and maintained a system where common people performed forced labor known as ‘Paiks’."
+                      },
+                      {
+                        "title": "Interaction Between Tribes and Caste Society",
+                        "content": "Tribes and caste-based societies engaged in various interactions. Some tribes retained independence, while others integrated into the caste hierarchy. This integration led to socio-political transformations, with certain tribal leaders becoming landlords, rulers, or assimilating into the ruling elite."
+                      },
+                      {
+                        "title": "Tribal Economic Activities",
+                        "content": "Tribes engaged in diverse economic activities, including agriculture, hunting, gathering, and herding. Some, like the Banjaras, were nomadic traders transporting goods across vast distances. Many tribes maintained trade relations with settled communities, contributing to regional economies."
+                      },
+                      {
+                        "title": "Tribal Resistance and Conflicts",
+                        "content": "Many tribal groups actively resisted external control. The Cheros of Bihar and Jharkhand fought against Mughal forces but were eventually subdued. Similarly, the Bhils and Gonds resisted encroachments by expanding kingdoms while striving to preserve their traditional governance."
+                      },
+                      {
+                        "title": "Tribal Cultural Contributions",
+                        "content": "Tribal communities enriched India’s cultural landscape with their unique traditions, festivals, art, and oral literature. Despite centuries of interaction with mainstream society, many tribes retained distinct cultural identities that continue to thrive today."
+                      }
+                     ], 
+                     "questionSets": []
+                     },
+                  { 
+                    "subtopicName": "Nomadic Communities and Their Livelihood",
+                     "description": [
+                      {
+                        "title": "Definition and Movement",
+                        "content": "Nomadic communities are groups of people who move from place to place in search of food, pasture, and livelihood. They do not have a fixed home but travel seasonally. Some are pastoralists, depending on animals for milk, wool, and trade, while others are traders, entertainers, or artisans."
+                      },
+                      {
+                        "title": "Tribal Societies and Livelihood",
+                        "content": "Many nomadic communities were part of tribal societies. Some tribes lived in forests and hills, practicing agriculture, hunting, or herding. Others combined multiple activities to survive. Their livelihoods depended on nature, and they often moved to find better resources, escaping harsh weather or political pressures."
+                      },
+                      {
+                        "title": "Nomadic Pastoralists",
+                        "content": "Pastoral nomads raised livestock such as cattle, sheep, goats, and camels. They lived off milk and traded wool, ghee, and animals with settled farmers for grains and other goods. The movement of nomads was crucial in connecting different parts of the subcontinent through trade."
+                      },
+                      {
+                        "title": "The Banjaras: Trading Nomads",
+                        "content": "The Banjaras were a significant trading nomadic group. They moved in caravans called tandas and transported goods like food grains, salt, and textiles across India. Historical records show that they supplied grain to military camps and markets, playing an essential role in the economy."
+                      },
+                      {
+                        "title": "Interaction with Settled Societies",
+                        "content": "While nomads lived independently, they interacted with settled communities for trade and services. They exchanged animals, food, and handmade goods with villagers. Some provided entertainment as musicians, acrobats, or storytellers. These interactions shaped local cultures and economies."
+                      },
+                      {
+                        "title": "Difficulties Faced by Nomads",
+                        "content": "Nomadic communities often faced challenges such as harsh weather, limited access to resources, and conflicts with settled groups. As kingdoms expanded, rulers sought to control and tax them. Over time, many nomadic groups were forced to settle, losing their traditional way of life."
+                      },
+                      {
+                        "title": "Political Relations and Military Role",
+                        "content": "Some nomadic groups were hired as soldiers or scouts by rulers. They had excellent survival skills and knowledge of terrain, making them valuable in warfare. The Mughal emperor Jahangir mentioned how the Banjaras transported supplies for the army during military campaigns."
+                      },
+                      {
+                        "title": "Religious and Cultural Aspects",
+                        "content": "Nomadic tribes had rich oral traditions, including folklore, songs, and religious beliefs. Many worshipped local deities, and their stories were passed down through generations. Over time, some tribes integrated into mainstream society, adopting settled lifestyles and caste identities."
+                      },
+                      {
+                        "title": "Modern-Day Nomads",
+                        "content": "Some nomadic communities still exist in India today, including the Gujjars, Bakarwals, and Rabaris. However, government policies on land ownership, conservation, and urban expansion have made it difficult for them to continue their traditional way of life. Many have transitioned to settled farming or labor work."
+                      },
+                      {
+                        "title": "Impact of Colonial and Modern Policies",
+                        "content": "During British rule, nomads were often labeled as 'criminal tribes' and faced restrictions on movement. This disrupted their traditional economies. Post-independence, some policies aimed to rehabilitate them, but many still struggle for recognition, education, and livelihood security."
+                      }
+                     ], 
+                     "questionSets": []
+                     },
+                  { 
+                    "subtopicName": "Changes in Tribal Societies",
+                     "description": [
+                      {
+                        "title": "Tribal Societies and Caste System",
+                        "content": "Unlike caste-based societies, tribal communities were more egalitarian. They did not follow rigid social hierarchies dictated by Brahmanical traditions. However, as kingdoms expanded, many tribal groups were integrated into the caste system, often at lower social ranks."
+                      },
+                      {
+                        "title": "Livelihood of Tribes",
+                        "content": "Tribal communities practiced a variety of occupations. Some were hunter-gatherers, others engaged in shifting cultivation, and many were herders. Land and resources were commonly owned and distributed among members, following their own rules rather than those set by kingdoms."
+                      },
+                      {
+                        "title": "Conflict and Interaction with Settled Societies",
+                        "content": "As settled kingdoms expanded, they often came into conflict with tribal groups. The Mughals and other rulers tried to conquer tribal lands. At the same time, tribes provided valuable resources, such as forest produce and cattle, leading to economic exchanges."
+                      },
+                      {
+                        "title": "Oral Traditions and History",
+                        "content": "Unlike kingdoms that kept written records, tribal societies relied on oral traditions to pass down their history, customs, and folklore. Present-day historians use these oral sources to reconstruct the history of tribal communities."
+                      },
+                      {
+                        "title": "Tribal Kingdoms and Political Change",
+                        "content": "Some tribes established large political structures. The Gond kingdom of Garha Katanga, with 70,000 villages, had a central administration. Tribal rulers like Rani Durgawati resisted Mughal expansion but were eventually defeated."
+                      },
+                      {
+                        "title": "Economic Contributions of Nomadic Tribes",
+                        "content": "Nomadic tribes like the Banjaras played a crucial role in trade. They transported grain, salt, and other commodities across long distances. Some traders were also engaged in military supply chains, supporting large armies."
+                      },
+                      {
+                        "title": "Transformation of Tribes into Castes",
+                        "content": "Over time, many tribes were absorbed into the caste hierarchy. Some, like the Rajputs, ascended to ruling positions, while others were assigned lower caste statuses. This transition led to changes in their social and economic structures."
+                      },
+                      {
+                        "title": "Religious Changes in Tribal Societies",
+                        "content": "Initially, tribes followed their own animistic and nature-worshipping traditions. However, with the rise of Brahmanical influence, many adopted Hindu practices. Some tribal rulers granted land to Brahmins, leading to the spread of temples and Sanskritization."
+                      },
+                      {
+                        "title": "Impact of Mughal and British Policies",
+                        "content": "The Mughals tried to integrate tribes by granting their chiefs administrative roles. Under British rule, many tribal lands were taken for commercial agriculture, leading to tribal revolts. These policies significantly altered traditional tribal lifestyles."
+                      },
+                      {
+                        "title": "Resistance and Survival",
+                        "content": "Despite pressures from empires and settled societies, many tribes retained their distinct identities. Some, like the Bhils and Gonds, continued to resist external control and maintained traditional governance systems even into modern times."
+                      }
+                     ], 
+                     "questionSets": [] 
+                    }
                 ]
               }
         ]
@@ -569,7 +1897,7 @@
 
 
 
-      
+
       {
         "class": 8,
         "topics": [
