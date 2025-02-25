@@ -131,6 +131,33 @@
                 ]
               },
               {
+                "topicName": "Devotional Paths to the Divine",
+                "subtopics": [
+                  { "subtopicName": "Bhakti Movement: Saints and Their Teachings", "description": [], "questionSets": [] },
+                  { "subtopicName": "Sufism: Mysticism in Islam", "description": [], "questionSets": [] },
+                  { "subtopicName": "Growth of Regional Devotional Traditions", "description": [], "questionSets": [] },
+                  { "subtopicName": "Philosophy and Bhakti", "description": [], "questionSets": [] }
+                ]
+              },
+              {
+                "topicName": "The Making of Regional Cultures",
+                "subtopics": [
+                  { "subtopicName": "The Cheras and Malayalam", "description": [], "questionSets": [] },
+                  { "subtopicName": "Jagannatha Cult in Orissa", "description": [], "questionSets": [] },
+                  { "subtopicName": "Rajputs and Traditions of Heroism", "description": [], "questionSets": [] },
+                  { "subtopicName": "Regional Languages and Literature", "description": [], "questionSets": [] }
+                ]
+              },
+              {
+                "topicName": "Eighteenth-Century Political Formations",
+                "subtopics": [
+                  { "subtopicName": "The Later Mughals and the Crisis of the Empire", "description": [], "questionSets": [] },
+                  { "subtopicName": "Emergence of New States: Awadh, Hyderabad, and Bengal", "description": [], "questionSets": [] },
+                  { "subtopicName": "The Marathas and the Sikhs", "description": [], "questionSets": [] },
+                  { "subtopicName": "Rise of the British in India", "description": [], "questionSets": [] }
+                ]
+              },
+              {
                 "topicName": "Tribes, Nomads, and Settled Communities",
                 "subtopics": [
                   { "subtopicName": "Who Were the Tribal People?", "description": [], "questionSets": [] },
