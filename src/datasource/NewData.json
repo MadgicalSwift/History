@@ -2582,53 +2582,1250 @@
             {
               "topicName": "The Rise of Nationalism in Europe",
               "subtopics": [
-                { "subtopicName": "The French Revolution and the Idea of the Nation", "description": [], "questionSets": [] },
-                { "subtopicName": "The Making of Nationalism in Europe", "description": [], "questionSets": [] },
-                { "subtopicName": "The Age of Revolutions (1830-1848)", "description": [], "questionSets": [] },
-                { "subtopicName": "The Making of Germany and Italy", "description": [], "questionSets": [] },
-                { "subtopicName": "Visualizing the Nation", "description": [], "questionSets": [] },
-                { "subtopicName": "Nationalism and Imperialism", "description": [], "questionSets": [] }
+                {
+                   "subtopicName": "The French Revolution and the Idea of the Nation", 
+                   "description": [
+                    {
+                      "title": "The French Revolution: A Turning Point",
+                      "content": "The French Revolution of 1789 marked a significant shift in European history by fostering nationalism. It transformed France from an absolute monarchy to a nation-state, where sovereignty rested with the people. The ideals of liberty, equality, and fraternity introduced by the revolution shaped modern citizenship and national identity."
+                    },
+                    {
+                      "title": "Transfer of Sovereignty to the People",
+                      "content": "Before the revolution, France was ruled by an absolute monarchy. The revolution of 1789 transferred sovereignty from the king to the people, affirming that they had the right to determine their own government. This shift played a crucial role in shaping the future of democracy in Europe."
+                    },
+                    {
+                      "title": "Symbols of National Unity",
+                      "content": "To establish a collective national identity, the revolutionaries introduced new symbols and practices. The tricolour flag replaced the royal standard, the National Assembly was formed through elections, and hymns and oaths promoted national unity. The ideas of la patrie (the fatherland) and le citoyen (the citizen) emphasized that all French people belonged to a single, united nation."
+                    },
+                    {
+                      "title": "Administrative Reforms and Nation-Building",
+                      "content": "The revolution introduced significant administrative changes to create a unified nation. A centralized system replaced feudal divisions, ensuring uniform laws for all citizens. Internal tariffs and dues were abolished, and French was established as the official language. These reforms aimed to eliminate regional identities and strengthen national unity."
+                    },
+                    {
+                      "title": "Spread of Revolutionary Ideas Across Europe",
+                      "content": "The French Revolution inspired liberation movements across Europe. Revolutionaries believed they had a duty to spread ideas of freedom and democracy beyond France. The French armies carried these ideals into Holland, Belgium, Switzerland, and Italy, influencing nationalist movements in these regions."
+                    },
+                    {
+                      "title": "Napoleonic Wars and the Expansion of Nationalism",
+                      "content": "Under Napoleon Bonaparte, France expanded its territories and enforced Napoleonic reforms in conquered lands. The Civil Code of 1804 (Napoleonic Code) abolished privileges based on birth, introduced equality before the law, and secured property rights. However, Napoleon’s rule also imposed military conscription and heavy taxation, leading to resistance in many regions."
+                    },
+                    {
+                      "title": "Resistance Against French Rule",
+                      "content": "Initially, the French armies were welcomed as liberators in many parts of Europe. However, forced conscription, high taxes, and censorship led to growing resistance. Nationalist uprisings emerged, ultimately contributing to the downfall of Napoleon’s empire and the reassertion of local identities."
+                    },
+                    {
+                      "title": "Legacy of the French Revolution",
+                      "content": "Despite the fall of Napoleon, the ideals of nationalism and democracy spread across Europe. The French Revolution laid the foundation for modern nation-states, emphasizing that a nation should be defined by its people, shared culture, and history rather than by a monarch’s rule. These principles influenced major unification movements in Germany and Italy during the 19th century."
+                    }
+                   ],
+                   "questionSets": [] 
+                  },
+                { "subtopicName": "The Making of Nationalism in Europe",
+                 "description": [
+                  {
+                    "title": "The Aristocracy and the New Middle Class",
+                    "content": "In the early 19th century, European society was dominated by a landed aristocracy that owned vast estates and maintained a common lifestyle across different regions. However, a new middle class emerged, consisting of industrialists, businessmen, and professionals. This group played a vital role in spreading nationalist ideas."
+                  },
+                  {
+                    "title": "The Rise of Liberal Nationalism",
+                    "content": "Liberalism, derived from the Latin word 'liber' (meaning free), emphasized freedom, equality, and individual rights. It opposed absolute monarchy and supported a constitution, representative government, and suffrage. However, voting rights were often limited to property-owning men, excluding women and the lower classes."
+                  },
+                  {
+                    "title": "Economic Nationalism and Zollverein",
+                    "content": "In 1834, the Zollverein, a customs union led by Prussia, was established. It abolished internal trade barriers and standardized currency, weights, and measures across German states. This economic unification strengthened nationalist sentiments by demonstrating the benefits of a common economic system."
+                  },
+                  {
+                    "title": "The Role of the French Revolution",
+                    "content": "The French Revolution (1789) spread nationalist ideas across Europe. It abolished feudal privileges, introduced a national flag, and created common legal systems. The French armies carried these revolutionary ideals to other parts of Europe, inspiring nationalist movements. However, Napoleon's rule later became authoritarian, restricting democratic freedoms."
+                  },
+                  {
+                    "title": "The Impact of the Napoleonic Wars",
+                    "content": "Napoleon introduced the Napoleonic Code (1804), which abolished feudalism and established legal equality, property rights, and merit-based government jobs. These reforms spread across Europe, encouraging nationalist movements. However, Napoleon’s military conquests also led to heavy taxation, forced conscription, and censorship, making him unpopular in many regions."
+                  },
+                  {
+                    "title": "The Growth of Revolutionary Movements",
+                    "content": "During the early 19th century, secret societies such as the Carbonari in Italy and nationalist groups in Germany sought to overthrow monarchies and establish nation-states. Revolutionaries like Giuseppe Mazzini played a key role in advocating for a unified and democratic Italy."
+                  },
+                  {
+                    "title": "The Age of Revolutions (1830-1848)",
+                    "content": "The revolutions of 1830 and 1848 were driven by economic hardships and political repression. In France (1830), King Charles X was overthrown, leading to the establishment of a constitutional monarchy under Louis-Philippe. The 1848 revolutions spread across Europe, demanding constitutional governments, suffrage, and national unification in Germany and Italy."
+                  },
+                  {
+                    "title": "The Unification of Germany",
+                    "content": "Germany was divided into 39 states under the loose structure of the German Confederation. In 1866, Otto von Bismarck, the Prime Minister of Prussia, used military force and diplomacy to unify Germany. After victories against Austria (1866) and France (1870-71), Germany was unified under King Wilhelm I of Prussia."
+                  },
+                  {
+                    "title": "The Unification of Italy",
+                    "content": "Italy was divided into multiple states controlled by Austria, the Bourbons, and the Papacy. Giuseppe Mazzini, Count Cavour, and Giuseppe Garibaldi led the unification efforts. Cavour allied with France to defeat Austria, while Garibaldi’s army of Red Shirts liberated southern Italy. In 1861, Victor Emmanuel II was declared the King of a unified Italy."
+                  },
+                  {
+                    "title": "Nationalism and Imperialism",
+                    "content": "By the late 19th century, nationalism became linked with imperial ambitions. European powers expanded their territories in Asia and Africa, justifying colonialism in the name of nationalism. This intense competition among nations contributed to the outbreak of World War I (1914-1918)."
+                  }
+                 ], 
+                 "questionSets": []
+                 },
+                { 
+                  "subtopicName": "The Age of Revolutions (1830-1848)", 
+                  "description": [
+                    {
+                      "title": "The Rise of Liberal Nationalism",
+                      "content": "After the Congress of Vienna (1815), conservative forces dominated Europe. However, liberal nationalists sought constitutional government and individual freedoms. Secret societies emerged, opposing monarchies and advocating sovereignty. The revolutions of the 1830s and 1840s were driven by these ideals, along with economic hardships faced by the working class."
+                    },
+                    {
+                      "title": "The July Revolution of 1830",
+                      "content": "In July 1830, a revolution in France overthrew King Charles X, replacing him with constitutional monarch Louis-Philippe. This sparked revolts across Europe. Belgium separated from the Netherlands and became an independent nation, while nationalist uprisings spread in Poland and Italy, though they were brutally suppressed by conservative rulers."
+                    },
+                    {
+                      "title": "The Role of Middle-Class Liberals",
+                      "content": "The revolutions were largely led by the educated middle class, including professionals and business owners who demanded constitutional governance and civil liberties. However, these movements often lacked mass support, as peasants and workers had different grievances. This division weakened their impact against the conservative monarchies."
+                    },
+                    {
+                      "title": "The Impact on Germany and Italy",
+                      "content": "In the German states and Italy, nationalists attempted to overthrow absolute monarchies and unify their regions. The uprisings in Italy (1831) and Germany (1848) sought to establish independent nation-states. However, due to repression and lack of coordination, many of these movements were crushed by powerful conservative forces."
+                    },
+                    {
+                      "title": "The February Revolution of 1848 in France",
+                      "content": "In February 1848, economic crisis and political unrest led to another revolution in France. Louis-Philippe was forced to abdicate, and a republic was declared. This revolution introduced universal male suffrage and social reforms. It also inspired revolutionary waves across Europe, with people demanding democracy and national unification."
+                    },
+                    {
+                      "title": "The Role of the Working Class",
+                      "content": "Unlike previous revolts, the 1848 revolutions saw greater participation from workers and artisans. In France, they demanded employment rights, leading to the establishment of national workshops. However, these movements often clashed with middle-class liberals, who feared radical changes. This internal division weakened revolutionary efforts."
+                    },
+                    {
+                      "title": "The Frankfurt Parliament in Germany",
+                      "content": "In May 1848, representatives from German states gathered in Frankfurt to create a constitution for a unified Germany. They proposed a constitutional monarchy under the Prussian king. However, King Frederick William IV rejected the offer, leading to the failure of the parliament and the continued dominance of conservative rulers."
+                    },
+                    {
+                      "title": "Women in the Revolutions",
+                      "content": "Women actively participated in the 1848 revolutions, demanding voting rights, education, and legal equality. However, they were mostly excluded from political decision-making. Despite their efforts, women’s rights were largely ignored, and their demands remained unfulfilled in most revolutionary settlements."
+                    },
+                    {
+                      "title": "The Suppression of Revolutions",
+                      "content": "Despite initial successes, most 1848 revolutions were crushed by conservative forces. Monarchs used military power to regain control, and many revolutionary leaders were arrested or exiled. Although these uprisings failed in the short term, they planted the seeds for future national unification movements in Italy and Germany."
+                    },
+                    {
+                      "title": "The Legacy of the 1848 Revolutions",
+                      "content": "Though the revolutions of 1830 and 1848 failed to achieve immediate success, they had a lasting impact. They demonstrated the power of nationalist and democratic ideals, leading to later movements for unification in Italy and Germany. By the late 19th century, these nations emerged as unified states, fulfilling the dreams of earlier revolutionaries."
+                    }
+                  ],
+                   "questionSets": []
+                   },
+                { 
+                  "subtopicName": "The Making of Germany and Italy",
+                   "description": [
+                    {
+                      "title": "German Unification and Prussia’s Role",
+                      "content": "By the mid-19th century, Germany was divided into several independent states. Prussia emerged as the most powerful among them. The unification process gained momentum under the leadership of Otto von Bismarck, the Prussian Prime Minister, who played a key role in bringing together the German states through diplomacy and military action."
+                    },
+                    {
+                      "title": "Wars of Unification",
+                      "content": "Bismarck used a strategy called 'Blood and Iron' to unify Germany. He led three major wars: against Denmark (1864), Austria (1866), and France (1870-71). The victory in the Franco-Prussian War led to the final unification, with King Wilhelm I of Prussia being crowned as the German Emperor in 1871."
+                    },
+                    {
+                      "title": "The Role of Nationalist Sentiments",
+                      "content": "German nationalism grew due to economic progress, military victories, and cultural unity. The Zollverein, a customs union, helped integrate the German economy. The nationalist movement was driven by middle-class liberals who wanted a united, strong Germany, free from Austrian influence and under Prussian leadership."
+                    },
+                    {
+                      "title": "Proclamation of the German Empire",
+                      "content": "On 18th January 1871, Germany was officially unified. The ceremony took place at the Palace of Versailles, where Wilhelm I was declared the Emperor (Kaiser) of Germany. This moment symbolized the triumph of militarism and monarchy over liberal ideals, shaping Germany’s future as a dominant European power."
+                    },
+                    {
+                      "title": "Challenges After Unification",
+                      "content": "Even after unification, Germany faced political and social challenges. The new empire had a strong central government but local states retained some power. Bismarck adopted policies to suppress opposition, especially from socialists and Catholics, using strategies like Kulturkampf (anti-Catholic measures) and strict control over socialist movements."
+                    },
+                    {
+                      "title": "Italy Before Unification",
+                      "content": "Before 1861, Italy was fragmented into several kingdoms, including the Papal States, the Kingdom of Sardinia-Piedmont, and regions controlled by Austria. Italian nationalists, inspired by the ideas of Mazzini, Cavour, and Garibaldi, sought to unify the country and remove foreign influence."
+                    },
+                    {
+                      "title": "Giuseppe Mazzini and Young Italy",
+                      "content": "Mazzini, a passionate nationalist, founded Young Italy in 1831, aiming for a democratic and unified Italy. However, his revolts failed as they lacked military support. Despite this, his ideas inspired many, including Count Cavour and Giuseppe Garibaldi, who later played key roles in unification."
+                    },
+                    {
+                      "title": "Count Cavour and Diplomatic Efforts",
+                      "content": "Cavour, the Prime Minister of Sardinia-Piedmont, used diplomacy to unify Italy. He allied with France and fought Austria in 1859, gaining Lombardy. His strategic policies strengthened Piedmont and laid the foundation for unification, making him a crucial architect of modern Italy."
+                    },
+                    {
+                      "title": "Garibaldi and the Red Shirts",
+                      "content": "In 1860, Garibaldi, a revolutionary leader, led the Red Shirts in a military campaign to free southern Italy. His forces defeated the Bourbon rulers of Sicily and Naples. Garibaldi handed over his conquered territories to King Victor Emmanuel II, ensuring a unified Italy under a constitutional monarchy."
+                    },
+                    {
+                      "title": "The Final Steps to Unification",
+                      "content": "In 1861, Victor Emmanuel II was declared the first King of Italy. However, Venetia (1866) and Rome (1870) were annexed later to complete unification. Rome became the capital in 1871. Despite unity, Italy struggled with economic disparities and political divisions for years."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Visualizing the Nation",
+                   "description": [
+                    {
+                      "title": "The Use of Symbols and Allegory",
+                      "content": "During the 19th century, artists in Europe personified nations as female figures. This helped people imagine their country as a unified entity. These figures were used to represent national ideals, such as liberty, justice, and unity. In France, the nation was depicted as Marianne, symbolizing strength and freedom."
+                    },
+                    {
+                      "title": "Marianne: The French National Allegory",
+                      "content": "Marianne became the symbol of the French Republic. She was shown wearing a red cap (liberty cap) and carrying the tricolor flag. Her images were printed on coins and stamps to promote a collective national identity. The use of her figure encouraged people to associate France with the ideas of revolution and democracy."
+                    },
+                    {
+                      "title": "Germania: The German Allegory",
+                      "content": "In Germany, the national allegory was Germania, depicted as a powerful woman wearing armor and a crown with an oak leaf, a symbol of heroism. She was portrayed holding a sword or the imperial banner. Germania represented the struggle for national unification, which was achieved in 1871 under Otto von Bismarck’s leadership."
+                    },
+                    {
+                      "title": "The Role of Art in Nationalism",
+                      "content": "Artists played a key role in shaping nationalist sentiments by creating visual representations of the nation. These images were displayed in public places, including government buildings and public squares. Such representations instilled patriotic feelings among the people and helped in the formation of a collective identity."
+                    },
+                    {
+                      "title": "The Impact of National Symbols",
+                      "content": "National symbols and allegories helped ordinary people connect emotionally with the idea of a nation. Flags, anthems, and statues were used to strengthen unity. These symbols also played a crucial role in anti-colonial movements, where countries under imperial rule used similar representations to inspire resistance against foreign domination."
+                    },
+                    {
+                      "title": "Maps and the Idea of the Nation",
+                      "content": "Maps became an essential tool for visualizing the nation. In the 19th century, countries started defining their borders more clearly, emphasizing their territorial identity. Nationalist leaders used maps to promote a sense of belonging, making people aware of their country’s geographical and political unity."
+                    },
+                    {
+                      "title": "The Role of Folklore in Nationalism",
+                      "content": "Folklore, including folk songs and tales, was collected to revive a sense of national identity. Johann Gottfried Herder, a German philosopher, emphasized the importance of folk culture in uniting people. Many nationalist movements across Europe used traditional stories to promote unity and national pride."
+                    },
+                    {
+                      "title": "The Role of Language in National Identity",
+                      "content": "A common language helped unify people within a nation. In some countries, linguistic differences created divisions, while in others, a shared language strengthened national identity. For example, in France, regional dialects were discouraged, and French was made the official language to foster unity."
+                    },
+                    {
+                      "title": "National Flags and Their Significance",
+                      "content": "Flags became powerful symbols of national identity. The French tricolor flag, the German black-red-gold flag, and others became rallying points for nationalist movements. Raising the flag during revolutions or wars helped unite people under a common cause, reinforcing the idea of the nation as a single entity."
+                    },
+                    {
+                      "title": "Conclusion: The Power of Imagery in Nationalism",
+                      "content": "Visual representations of the nation played a vital role in shaping nationalist movements. Symbols, flags, allegories, and folklore created a shared identity among diverse populations. These representations helped people develop a sense of belonging, reinforcing the idea of a unified nation-state in 19th-century Europe."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Nationalism and Imperialism",
+                   "description": [
+                    {
+                      "title": "The Late 19th Century: A Shift in Nationalism",
+                      "content": "By the last quarter of the 19th century, nationalism had changed. Instead of unifying people for independence, it became associated with imperialism. Powerful European nations used nationalist feelings to justify territorial expansion, leading to aggressive competition among countries for colonies and influence across the world."
+                    },
+                    {
+                      "title": "Imperialist Expansion and Rivalries",
+                      "content": "European powers like Britain, France, Germany, and Italy competed to colonize Africa and Asia. National pride fueled these expansions, with governments portraying conquests as a symbol of national strength. The race for colonies intensified international rivalries, increasing tensions that would eventually contribute to the outbreak of World War I."
+                    },
+                    {
+                      "title": "Balkan Region: A Hotbed of Nationalism",
+                      "content": "The Balkans, home to multiple ethnic groups, was under Ottoman rule for centuries. Inspired by nationalist ideas, different ethnic communities in the region struggled for independence. This led to conflicts, as big European powers supported rival factions to expand their own influence, making the Balkans a politically unstable region."
+                    },
+                    {
+                      "title": "The Role of Big Powers in the Balkans",
+                      "content": "Russia, Germany, England, and Austria-Hungary all had strategic interests in the Balkans. Russia saw itself as the protector of Slavic people, while Austria-Hungary wanted to suppress Slavic nationalism. These conflicting interests made the Balkans a ground for geopolitical battles, increasing hostilities between European nations."
+                    },
+                    {
+                      "title": "Balkan Wars and Their Impact",
+                      "content": "As the Ottoman Empire weakened, nationalist movements in the Balkans gained momentum. Serbia, Greece, Bulgaria, and Montenegro fought wars to expand their territories. The conflicts led to instability, causing larger European powers to intervene, ultimately contributing to the tensions that led to World War I."
+                    },
+                    {
+                      "title": "Nationalism Turns Aggressive",
+                      "content": "By the early 20th century, nationalism was no longer about unity and freedom—it became aggressive and competitive. Countries built powerful armies and justified wars as a way to assert national pride. Nationalist propaganda glorified war, making conflicts like World War I seem inevitable."
+                    },
+                    {
+                      "title": "The Idea of National Superiority",
+                      "content": "Nationalist movements began promoting the idea that certain nations were superior. This ideology justified imperialism, where powerful countries took over weaker ones, claiming it was their duty to ‘civilize’ them. This belief led to large-scale exploitation of colonized regions, intensifying resentment against imperial rule."
+                    },
+                    {
+                      "title": "The First World War: A Result of Nationalist Tensions",
+                      "content": "By 1914, European nations had formed military alliances to protect their interests. The assassination of Archduke Franz Ferdinand of Austria-Hungary in the Balkans triggered World War I. The war was fueled by nationalist sentiments, as each country believed it was fighting for its rightful place in global politics."
+                    },
+                    {
+                      "title": "Nationalism Beyond Europe",
+                      "content": "While nationalism in Europe led to imperialism, in colonized nations like India and Vietnam, it inspired resistance. People in these countries began to see nationalism as a means of gaining independence from foreign rule. Thus, nationalism had two opposing impacts—one driving conquest, the other fueling freedom struggles."
+                    },
+                    {
+                      "title": "Lessons from Nationalism and Imperialism",
+                      "content": "The 19th-century link between nationalism and imperialism shows that strong nationalistic feelings can both unite and divide. While nationalism helped nations achieve independence, it also led to wars, colonial exploitation, and global conflicts like World War I. The challenge remains in balancing national pride with peace and cooperation."
+                    }
+                   ], 
+                   "questionSets": []
+                   }
               ]
             },
             {
               "topicName": "Nationalism in India",
               "subtopics": [
-                { "subtopicName": "The First World War, Khilafat, and Non-Cooperation", "description": [], "questionSets": [] },
-                { "subtopicName": "Differing Strands within the Movement", "description": [], "questionSets": [] },
-                { "subtopicName": "Towards Civil Disobedience", "description": [], "questionSets": [] },
-                { "subtopicName": "The Sense of Collective Belonging", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "The First World War, Khilafat, and Non-Cooperation",
+                   "description": [
+                    {
+                      "title": "Impact of the First World War on India",
+                      "content": "The First World War (1914-1918) led to heavy economic burdens on Indians. Taxes were raised, income tax was introduced, and prices of essential goods doubled between 1913 and 1918. The British forced rural Indians to join the army, leading to widespread resentment. Crop failures and a deadly influenza epidemic worsened hardships."
+                    },
+                    {
+                      "title": "The Idea of Satyagraha",
+                      "content": "Mahatma Gandhi introduced satyagraha, a method of non-violent resistance, after returning from South Africa in 1915. He organized movements in Champaran (1917) for indigo farmers, Kheda (1917) for peasants facing famine, and Ahmedabad (1918) for textile workers. Satyagraha emphasized truth, non-violence, and moral force over physical aggression."
+                    },
+                    {
+                      "title": "The Rowlatt Act (1919) and Protests",
+                      "content": "The British passed the Rowlatt Act in 1919, allowing imprisonment without trial for two years. Gandhi called for a nationwide hartal (strike) on April 6, 1919. Protests erupted across India. The British feared disruption and responded with harsh repression, leading to widespread unrest."
+                    },
+                    {
+                      "title": "The Jallianwala Bagh Massacre (April 13, 1919)",
+                      "content": "On April 13, 1919, thousands gathered at Jallianwala Bagh in Amritsar. General Dyer blocked exits and ordered soldiers to fire on the unarmed crowd. Hundreds were killed. The brutality shocked the nation, turning many loyal Indians against British rule. The massacre strengthened the demand for full independence."
+                    },
+                    {
+                      "title": "Rise of the Khilafat Movement",
+                      "content": "Muslims in India were angered by British policies towards the Ottoman Empire after World War I. The Khilafat Committee was formed in 1919 by Shaukat Ali and Muhammad Ali to defend the Ottoman Caliph (Khalifa). Gandhi saw the Khilafat issue as an opportunity to unite Hindus and Muslims against British rule."
+                    },
+                    {
+                      "title": "Non-Cooperation Movement Begins (1920)",
+                      "content": "Gandhi proposed the Non-Cooperation Movement at the Calcutta Congress (1920), urging Indians to:\n (1) Boycott British institutions, courts, and schools. \n(2) Resign from government jobs. \n(3) Stop buying foreign goods.\n (4) Promote khadi (handspun cloth). The movement aimed to paralyze British rule through mass civil disobedience."
+                    },
+                    {
+                      "title": "Non-Cooperation in Cities",
+                      "content": "The Non-Cooperation Movement was popular in cities. Students left government schools, lawyers stopped attending courts, and workers went on strike. Foreign cloth imports fell from ₹102 crores (1921) to ₹57 crores (1922). However, the movement slowed as khadi was expensive, and alternative Indian institutions were scarce."
+                    },
+                    {
+                      "title": "Non-Cooperation in Rural India",
+                      "content": "In rural areas, peasants opposed landlords and protested high taxes. In Awadh, farmers under Baba Ramchandra refused to work for landlords. In Andhra Pradesh, tribal communities attacked British officials. In Bengal, villagers protested police oppression. Many expected land redistribution, but Gandhi's focus remained on non-violence and self-rule."
+                    },
+                    {
+                      "title": "The Chauri Chaura Incident (1922)",
+                      "content": "On February 5, 1922, a violent mob in Chauri Chaura (Uttar Pradesh) set a police station on fire, killing 22 policemen. Gandhi, believing in strict non-violence, called off the Non-Cooperation Movement in response. Many Congress leaders were disappointed, and the movement lost momentum."
+                    },
+                    {
+                      "title": "The End of the Movement & Its Impact",
+                      "content": "Despite ending in 1922, the Non-Cooperation Movement was a major success: \n(✔) It united Hindus and Muslims.\n (✔) It made self-rule a national demand.\n (✔) It showed that mass protests could challenge British authority. However, differences between Hindus and Muslims later weakened the movement."
+                    }
+                   ], 
+                   "questionSets": []
+                   },
+                {
+                   "subtopicName": "Differing Strands within the Movement", 
+                   "description": [
+                    {
+                      "title": "Middle-Class Participation in Cities",
+                      "content": "The Non-Cooperation-Khilafat Movement initially saw strong support from the urban middle class. Thousands of students left government schools and colleges, teachers resigned, and lawyers gave up their practices. Many traders refused to trade in foreign goods. However, over time, the movement slowed due to the lack of alternative institutions."
+                    },
+                    {
+                      "title": "Economic Impact and Boycott of Foreign Goods",
+                      "content": "The boycott of foreign goods had a significant impact. Liquor shops were picketed, and foreign cloth was burnt in large bonfires. The import of foreign cloth halved between 1921 and 1922. Many merchants and traders stopped financing foreign trade. As a result, Indian textile production increased, boosting handloom industries."
+                    },
+                    {
+                      "title": "Decline of the Movement in Cities",
+                      "content": "The movement faced challenges as khadi was expensive, making it difficult for the poor to afford. Many people could not keep up with the boycott of British institutions as Indian-run schools, colleges, and courts were limited. Eventually, students and professionals started returning to government institutions, causing a slowdown."
+                    },
+                    {
+                      "title": "Peasants in Rural Areas Join the Movement",
+                      "content": "In rural areas, peasants participated with hopes of ending oppressive land revenue demands. In Awadh, under the leadership of Baba Ramchandra, peasants opposed high rents and forced labor. The movement called for a reduction of revenue and the abolition of begar (unpaid labor), but Congress leaders were reluctant to fully support violent protests."
+                    },
+                    {
+                      "title": "Tribal Uprisings and Forest Laws",
+                      "content": "In Andhra Pradesh, tribal communities in forests revolted against colonial restrictions on grazing and movement. Led by Alluri Sitarama Raju, the tribals attacked British police stations. Raju believed in Gandhi’s ideals but also encouraged violent rebellion. Eventually, he was captured and executed, bringing an end to the tribal resistance."
+                    },
+                    {
+                      "title": "Plantation Workers’ Struggles",
+                      "content": "Tea plantation workers in Assam joined the movement, inspired by the call for Swaraj. They demanded freedom of movement beyond the plantations, which was restricted under colonial laws. Thousands defied these laws and tried to return to their villages, but they were caught and brutally suppressed by the British authorities."
+                    },
+                    {
+                      "title": "Workers in Factories and Mines",
+                      "content": "Industrial workers in some regions participated in protests. However, their issues were different from those of peasants and middle-class nationalists. Many supported Gandhi’s call for boycott but had their own demands, like better wages and working conditions. The Congress, mainly focused on middle-class concerns, did not fully integrate worker struggles into the movement."
+                    },
+                    {
+                      "title": "The Role of Women in the Movement",
+                      "content": "Women actively participated in picketing liquor shops, foreign cloth stores, and organizing protests. They were encouraged by Gandhi to take part in public life. However, the movement largely remained male-dominated, and women were often confined to supporting roles rather than leadership positions in Congress."
+                    },
+                    {
+                      "title": "Growing Differences Among Social Groups",
+                      "content": "Different social groups interpreted Swaraj in their own ways. For peasants, it meant land reforms, for workers, better conditions, and for business owners, freedom from British economic restrictions. These differing aspirations often created conflicts, weakening the unity of the movement."
+                    },
+                    {
+                      "title": "End of the Non-Cooperation Movement",
+                      "content": "In February 1922, violent clashes in Chauri Chaura, Uttar Pradesh, led to police killings. In response, Gandhi immediately called off the movement, believing that the people were not yet ready for mass civil disobedience. This decision disappointed many young nationalists who wanted to continue the struggle."
+                    }
+                   ], 
+                   "questionSets": []
+                   },
+                { 
+                  "subtopicName": "Towards Civil Disobedience",
+                   "description": [
+                    {
+                      "title": "End of Non-Cooperation Movement",
+                      "content": "The Non-Cooperation Movement was withdrawn in 1922 after the violent Chauri Chaura incident. However, the spirit of nationalism continued to grow. Many leaders, including Jawaharlal Nehru and Subhas Chandra Bose, felt the need for a more assertive struggle against British rule."
+                    },
+                    {
+                      "title": "Simon Commission and Opposition",
+                      "content": "In 1927, the British government sent the Simon Commission to India to suggest constitutional reforms. Since it had no Indian members, Indians opposed it with slogans like 'Simon Go Back.' The protest led to widespread discontent, and in 1929, the demand for Purna Swaraj (Complete Independence) was declared."
+                    },
+                    {
+                      "title": "Lahore Session and Demand for Purna Swaraj",
+                      "content": "At the Lahore Congress Session of 1929, presided over by Jawaharlal Nehru, the Indian National Congress formally adopted the resolution of Purna Swaraj. It was decided that 26 January 1930 would be celebrated as Independence Day, and the struggle for full freedom would continue."
+                    },
+                    {
+                      "title": "Dandi March and Salt Satyagraha",
+                      "content": "Mahatma Gandhi chose salt as the symbol of protest because it was a basic necessity and heavily taxed by the British. On 12 March 1930, Gandhi, along with 78 followers, marched 240 miles from Sabarmati Ashram to Dandi and broke the salt law on 6 April 1930, launching the Civil Disobedience Movement."
+                    },
+                    {
+                      "title": "Spread of the Movement",
+                      "content": "The Salt March inspired people across India. Women, students, and farmers joined the movement. In many regions, people refused to pay taxes, boycotted foreign goods, and picketed liquor shops. The movement spread to rural and urban areas, leading to mass participation against British policies."
+                    },
+                    {
+                      "title": "Government’s Repression",
+                      "content": "The British government responded harshly. Congress leaders, including Gandhi, Nehru, and Patel, were arrested. Peaceful protesters were lathi-charged and imprisoned. The British used brutal measures to suppress the movement, but people remained determined to fight for independence."
+                    },
+                    {
+                      "title": "Gandhi-Irwin Pact (March 1931)",
+                      "content": "After mass arrests and protests, Gandhi and Lord Irwin signed a pact in March 1931. The British agreed to release political prisoners, and Gandhi agreed to suspend the movement and attend the Second Round Table Conference in London. However, the talks failed as the British refused to grant full independence."
+                    },
+                    {
+                      "title": "Failure of Round Table Conference",
+                      "content": "At the Second Round Table Conference (1931) in London, the British government ignored Indian demands for complete independence. Gandhi returned disappointed, and on his return, the British arrested him again. The Civil Disobedience Movement was resumed but faced severe repression."
+                    },
+                    {
+                      "title": "Decline of the Movement",
+                      "content": "By 1934, the Civil Disobedience Movement had slowed down due to British repression and internal conflicts within Congress. The movement was finally withdrawn. However, it had successfully united Indians against British rule and strengthened the idea of Swaraj."
+                    },
+                    {
+                      "title": "Impact of Civil Disobedience Movement",
+                      "content": "The movement marked a significant step towards independence. It increased nationalist sentiments, mobilized various sections of society, and weakened British control. Although it did not immediately achieve freedom, it paved the way for future struggles leading to India’s independence in 1947."
+                    }
+                   ], 
+                   "questionSets": []
+                   },
+                { 
+                  "subtopicName": "The Sense of Collective Belonging", 
+                  "description": [
+                    {
+                      "title": "What is Collective Belonging?",
+                      "content": "Nationalism did not emerge overnight. It was developed through the feeling of collective belonging. This sense of unity was created through cultural movements, folklore, symbols, and shared struggles. Indian people, despite different backgrounds, started identifying themselves as part of one nation, fighting against colonial rule together."
+                    },
+                    {
+                      "title": "Role of Folklore in Nationalism",
+                      "content": "Folklore, songs, and legends played a crucial role in spreading nationalism. Leaders like Rabindranath Tagore and others collected folk tales to revive a sense of national pride. These stories helped Indians understand their rich heritage and resist British narratives that portrayed them as backward or uncivilized."
+                    },
+                    {
+                      "title": "National Symbols and Imagery",
+                      "content": "Symbols such as Bharat Mata were created to personify India. Initially painted by Bankim Chandra Chattopadhyay, Bharat Mata was depicted as a goddess in a saffron robe, representing India’s unity. Such imagery helped people emotionally connect with the idea of India as a nation."
+                    },
+                    {
+                      "title": "The Role of Swadeshi and Boycotts",
+                      "content": "The Swadeshi movement (started during the partition of Bengal in 1905) encouraged people to use Indian-made goods and boycott British products. This economic resistance created a sense of unity among Indians, as they collectively participated in acts of defiance against colonial rule."
+                    },
+                    {
+                      "title": "The Contribution of Mahatma Gandhi",
+                      "content": "Gandhi played a key role in shaping a collective national identity. His promotion of khadi as a symbol of self-reliance and non-cooperation movements united people across social classes. His vision of Swaraj (self-rule) inspired Indians to join the freedom struggle beyond regional and religious divides."
+                    },
+                    {
+                      "title": "Revival of Indian History and Cultural Pride",
+                      "content": "Nationalists worked to rediscover India’s glorious past. Historical figures like Ashoka, Akbar, and Shivaji were celebrated as symbols of India’s strength and unity. By highlighting India’s rich civilization, leaders countered British propaganda that India had always been a fragmented and weak country."
+                    },
+                    {
+                      "title": "Role of Language and Literature",
+                      "content": "Books, newspapers, and patriotic literature helped spread nationalist ideas. Bankim Chandra Chattopadhyay’s ‘Vande Mataram’ became a rallying cry for freedom fighters. Newspapers like Kesari and Young India provided a platform for leaders to communicate nationalist ideas to the masses."
+                    },
+                    {
+                      "title": "Festivals as Nationalist Gatherings",
+                      "content": "Public celebrations of Ganesh Chaturthi and Shivaji Jayanti became platforms for expressing nationalist sentiments. These events, popularized by Bal Gangadhar Tilak, transformed religious gatherings into acts of resistance, helping unify people from different backgrounds under a common national cause."
+                    },
+                    {
+                      "title": "Uniting Peasants and Workers",
+                      "content": "To strengthen the sense of nationalism, leaders included peasants, workers, and tribals in the movement. For example, Gandhi’s Champaran and Kheda satyagrahas addressed peasants' issues while integrating them into the broader nationalist struggle, creating a common identity beyond class differences."
+                    },
+                    {
+                      "title": "Indian Nationalism Beyond Borders",
+                      "content": "Indian nationalism was not just limited to India. Leaders like Subhas Chandra Bose and Lala Lajpat Rai sought international support for India's freedom. The idea of a free India resonated with Indians living abroad, further strengthening the movement and creating global awareness of colonial oppression."
+                    }
+                  ], 
+                  "questionSets": [] 
+                }
               ]
             },
             {
               "topicName": "The Making of a Global World",
               "subtopics": [
-                { "subtopicName": "The Pre-modern World", "description": [], "questionSets": [] },
-                { "subtopicName": "The Nineteenth-Century Global Economy", "description": [], "questionSets": [] },
-                { "subtopicName": "The Inter-war Economy", "description": [], "questionSets": [] },
-                { "subtopicName": "Rebuilding a World Economy: The Post-war Era", "description": [], "questionSets": [] }
+                {
+                   "subtopicName": "The Pre-modern World",
+                    "description": [
+                      {
+                        "title": "Early Global Connections",
+                        "content": "Humans have been interconnected for centuries through trade, migration, and cultural exchange. Traders, priests, and travelers carried goods, ideas, and even diseases across vast distances. By 3000 BCE, coastal trade linked the Indus Valley with West Asia, showing that global interactions existed long before modern globalization."
+                      },
+                      {
+                        "title": "The Silk Routes",
+                        "content": "The Silk Routes were ancient trade networks connecting Asia, Europe, and Africa. These routes were active even before the Christian Era and continued until the 15th century. Along with silk from China, traders exchanged pottery, spices, and precious metals, facilitating not just trade but also the spread of religions like Buddhism and Islam."
+                      },
+                      {
+                        "title": "Food and Cultural Exchange",
+                        "content": "New food crops spread across continents through trade. For example, noodles traveled from China to become Italian pasta, while tomatoes, potatoes, and maize were introduced to Europe only after the discovery of the Americas. The humble potato, once unknown in Europe, became a staple food, improving diets and increasing population growth."
+                      },
+                      {
+                        "title": "The Age of Exploration",
+                        "content": "The 15th and 16th centuries saw European explorers searching for sea routes to Asia and the Americas. The Portuguese and Spanish conquests changed global trade. Precious metals from South America, especially silver, boosted European wealth, while indigenous American populations suffered due to warfare, forced labor, and deadly diseases like smallpox."
+                      },
+                      {
+                        "title": "The Spread of Diseases",
+                        "content": "European explorers unknowingly brought deadly diseases like smallpox to the Americas. Native populations had no immunity, leading to mass deaths. This biological disaster helped European conquerors, as weakened indigenous communities were unable to resist colonization. Some estimates suggest that up to 90% of the indigenous population perished due to these diseases."
+                      },
+                      {
+                        "title": "Slave Trade and Forced Labor",
+                        "content": "From the 16th century onwards, millions of Africans were captured and transported to work on sugar and cotton plantations in the Americas. This brutal system of slavery was driven by European demand for cheap labor. Many enslaved people died due to harsh conditions, and their forced labor fueled the profits of European colonial powers."
+                      },
+                      {
+                        "title": "The Role of India in Global Trade",
+                        "content": "India played a crucial role in early global trade, exporting spices, textiles, and precious stones. Before the 18th century, India and China were among the richest economies. However, European powers, particularly the British, gradually gained control over Indian trade, shifting economic power to Europe and exploiting Indian resources for their industries."
+                      },
+                      {
+                        "title": "The Shift in Global Trade",
+                        "content": "Before European dominance, China and India were major economic centers. However, after 1500, the discovery of the Americas and new sea routes led to a shift in global trade. European nations, backed by colonialism, started controlling trade networks, leading to the decline of traditional Asian economies and the rise of Western economic dominance."
+                      },
+                      {
+                        "title": "Industrialization’s Impact on Global Economy",
+                        "content": "By the 19th century, industrialization in Europe changed global trade patterns. European factories needed raw materials, which they sourced from colonies like India. In return, they sold manufactured goods back to the colonies, creating an exploitative system that drained wealth from colonized nations while fueling European industrial growth."
+                      },
+                      {
+                        "title": "The World Before Modern Globalization",
+                        "content": "Before modern globalization, the world was already deeply connected through trade, culture, and migration. However, interactions were slower and mostly regional. European colonial expansion and industrialization accelerated global integration, leading to the modern economic system we see today. The roots of globalization can be traced back to these early connections."
+                      }
+                    ], 
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "The Nineteenth-Century Global Economy",
+                   "description": [
+                    {
+                      "title": "Industrial Growth and Trade Expansion",
+                      "content": "The 19th century saw rapid industrialization, especially in Britain, leading to an increase in the production of goods. Britain, known as the 'workshop of the world,' exported manufactured goods worldwide, while raw materials like cotton and food grains were imported from colonies to fuel its industries."
+                    },
+                    {
+                      "title": "The Role of Colonies",
+                      "content": "Colonies played a crucial role in this global economy. India and other colonies supplied raw materials such as cotton, jute, and wheat to Britain. In return, they were forced to buy expensive British manufactured goods, which harmed local industries and made them dependent on British trade."
+                    },
+                    {
+                      "title": "Migration and Labour Movement",
+                      "content": "With increasing demand for labor, millions of people migrated to different parts of the world. Indian and Chinese workers moved to plantations, mines, and railways in Africa, Southeast Asia, and the Caribbean. These migrations were often under harsh conditions, involving indentured labor contracts that resembled slavery."
+                    },
+                    {
+                      "title": "The Role of Agriculture in the Global Economy",
+                      "content": "As industrial nations demanded more food, regions like the US, Russia, and Argentina expanded agricultural production. Railways and new farming techniques helped increase exports of wheat and meat to Europe. This integration of agriculture into the global economy created new economic linkages between continents."
+                    },
+                    {
+                      "title": "The Impact of the Corn Laws",
+                      "content": "Britain’s Corn Laws, which had restricted grain imports to protect local farmers, were abolished in the 1840s. This led to cheaper food imports from America and Russia, making food more affordable in Britain. However, it also caused unemployment for many British farmers, forcing them to migrate or seek industrial jobs."
+                    },
+                    {
+                      "title": "Capital Investments and Banking",
+                      "content": "With expanding global trade, capital began flowing between countries. European banks and investors financed large infrastructure projects like railways, shipping, and mining in colonies and settler economies like the US and Australia. This made colonies economically dependent on European financial institutions."
+                    },
+                    {
+                      "title": "The Gold Standard and Global Trade",
+                      "content": "The Gold Standard was introduced in the 19th century, linking different currencies to a fixed amount of gold. This created stability in global trade but also made economies vulnerable to fluctuations in gold supply. Countries with large gold reserves, like Britain and the US, gained economic power."
+                    },
+                    {
+                      "title": "The Rise of Industrial Monopolies",
+                      "content": "By the late 19th century, industrial giants and monopolies emerged in Europe and the US. Companies controlled entire industries like steel, oil, and railways. These monopolies often used unfair trade practices to dominate markets, increasing the gap between industrial nations and their colonies."
+                    },
+                    {
+                      "title": "Impact on Indigenous Industries",
+                      "content": "The 19th-century global economy severely affected traditional industries in colonies. In India, handloom weavers lost their livelihood as British textiles flooded the market. Similarly, local crafts in Africa and Southeast Asia declined, leading to economic hardships and dependence on European goods."
+                    },
+                    {
+                      "title": "The Social and Environmental Consequences",
+                      "content": "The expansion of the global economy led to environmental degradation. Large-scale deforestation, soil depletion, and pollution increased due to plantation farming, mining, and industrial activities. Socially, workers faced long hours, low wages, and unsafe conditions, leading to labor movements and protests."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "The Inter-war Economy", 
+                  "description": [
+                    {
+                      "title": "Post-World War I Economic Impact",
+                      "content": "The First World War (1914-1918) caused massive destruction, leading to economic instability. European countries had borrowed heavily to finance the war, leaving them in deep debt. The war-torn economies struggled to recover, and countries like Britain and Germany faced severe financial crises, affecting global trade and production."
+                    },
+                    {
+                      "title": "Treaty of Versailles and Its Effects",
+                      "content": "The Treaty of Versailles (1919) imposed heavy reparations on Germany, further weakening its economy. Germany was forced to pay huge sums to the Allies, which led to hyperinflation and economic instability. This burden, along with the global slowdown, made economic recovery difficult for Europe in the 1920s."
+                    },
+                    {
+                      "title": "Economic Growth in the 1920s",
+                      "content": "Despite challenges, the 1920s saw some economic recovery, particularly in the United States. American industries grew rapidly, and countries like Britain and France benefited from U.S. investments. However, this recovery was fragile, as it was dependent on loans and credit, making the global economy unstable."
+                    },
+                    {
+                      "title": "The Great Depression Begins (1929)",
+                      "content": "The Wall Street Crash of October 1929 triggered the Great Depression. The U.S. stock market collapsed, wiping out billions of dollars. Factories shut down, banks failed, and unemployment soared. Since the U.S. was a major lender to Europe, its crisis affected economies worldwide, leading to global economic distress."
+                    },
+                    {
+                      "title": "Global Impact of the Great Depression",
+                      "content": "The Great Depression led to falling demand, declining industrial production, and mass unemployment. The collapse of the American economy meant that U.S. loans to Europe stopped. Countries like Germany and Britain suffered, as their exports declined. Agricultural economies also faced hardship due to falling crop prices."
+                    },
+                    {
+                      "title": "Britain’s Economic Struggles",
+                      "content": "Britain, once the world's leading economic power, struggled after the war. The cost of maintaining its empire, declining industrial output, and competition from new economies weakened Britain’s position. The country abandoned the gold standard in 1931 and adopted protectionist policies to safeguard its industries."
+                    },
+                    {
+                      "title": "Germany’s Hyperinflation Crisis",
+                      "content": "Germany faced one of the worst economic crises in the 1920s due to war reparations. The government printed excessive money, causing hyperinflation. By 1923, prices had skyrocketed—basic items cost millions of marks. The crisis led to widespread poverty and paved the way for extremist political movements like Nazism."
+                    },
+                    {
+                      "title": "The Rise of Protectionism",
+                      "content": "To combat the economic crisis, many countries imposed tariffs and trade restrictions, following protectionist policies. Instead of promoting global trade, countries prioritized their own industries, leading to economic isolation. This worsened the global economic situation, deepening the effects of the Great Depression."
+                    },
+                    {
+                      "title": "Economic Recovery Efforts",
+                      "content": "Governments took various measures to recover from the crisis. In the U.S., President Franklin D. Roosevelt introduced the New Deal (1933), which included job programs, social security, and financial reforms. In Germany, Hitler’s government focused on rearmament and infrastructure projects, leading to temporary economic improvement."
+                    },
+                    {
+                      "title": "The Road to World War II",
+                      "content": "The economic crisis of the inter-war period created political instability. In Germany and Italy, economic hardships fueled the rise of authoritarian regimes. The failure of democratic governments to address economic problems led to aggressive expansionist policies, ultimately contributing to the outbreak of World War II in 1939."
+                    }
+                  ],
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Rebuilding a World Economy: The Post-war Era", 
+                  "description": [
+                    {
+                      "title": "The Devastation of War",
+                      "content": "The Second World War (1939-1945) caused massive destruction. Many European and Asian countries faced economic collapse, industries were destroyed, and millions were left homeless. The war significantly impacted trade and production, leading to food shortages and inflation. Rebuilding the global economy became a major challenge."
+                    },
+                    {
+                      "title": "The Bretton Woods Conference",
+                      "content": "In July 1944, 730 delegates from 44 nations met at Bretton Woods, USA, to establish a new international economic order. The goal was to prevent economic instability like that of the interwar years. The conference led to the creation of financial institutions like the International Monetary Fund (IMF) and the World Bank."
+                    },
+                    {
+                      "title": "The International Monetary Fund (IMF)",
+                      "content": "The IMF was established to regulate global financial relations and maintain exchange rate stability. It provided short-term loans to countries facing balance-of-payment crises. Member nations contributed funds based on their economic strength. The IMF aimed to ensure smooth global trade by preventing sudden currency fluctuations."
+                    },
+                    {
+                      "title": "The World Bank",
+                      "content": "The World Bank, officially called the International Bank for Reconstruction and Development (IBRD), was set up to provide long-term loans for rebuilding war-torn economies. Initially, it focused on reconstructing European nations, but later, its role expanded to funding infrastructure projects in developing countries."
+                    },
+                    {
+                      "title": "The Fixed Exchange Rate System",
+                      "content": "Under the Bretton Woods system, major currencies were pegged to the US dollar, which was convertible to gold at a fixed rate. This system provided stability in international trade, as exchange rates remained predictable. The US emerged as the strongest economic power, holding most of the world’s gold reserves."
+                    },
+                    {
+                      "title": "Economic Recovery in the West",
+                      "content": "With US financial aid and the Marshall Plan (1948), Western European countries rapidly rebuilt their economies. Industrial production increased, and employment rose. The USA supported capitalist economies to counter the spread of communism, leading to the Cold War rivalry with the Soviet Union."
+                    },
+                    {
+                      "title": "The Growth of International Trade",
+                      "content": "The post-war era saw a boom in world trade. New technologies improved production, and countries sought global markets for their goods. Organizations like the General Agreement on Tariffs and Trade (GATT) were created to reduce trade barriers, promoting free trade and economic interdependence."
+                    },
+                    {
+                      "title": "The Decline of the Bretton Woods System",
+                      "content": "By the late 1960s, the US economy faced problems due to high military spending, particularly in the Vietnam War. In 1971, the US abandoned the gold standard, leading to the collapse of the Bretton Woods system. This shift resulted in floating exchange rates, where currency values fluctuated based on market forces."
+                    },
+                    {
+                      "title": "The Oil Crisis and Inflation",
+                      "content": "In 1973, oil-producing Arab nations imposed an oil embargo, drastically increasing oil prices. This caused inflation and economic slowdown worldwide. Western countries faced rising unemployment, and developing nations struggled with increased debt. The crisis exposed the vulnerabilities of the global economy."
+                    },
+                    {
+                      "title": "The Rise of Economic Globalization",
+                      "content": "By the 1980s and 1990s, globalization reshaped the world economy. Many countries adopted free-market policies, multinational corporations expanded, and financial markets became interconnected. However, economic inequalities widened, with developing nations facing challenges in competing with industrialized economies."
+                    }
+                  ], 
+                  "questionSets": []
+                 }
               ]
             },
             {
               "topicName": "The Age of Industrialisation",
               "subtopics": [
-                { "subtopicName": "Before the Industrial Revolution", "description": [], "questionSets": [] },
-                { "subtopicName": "Hand Labour and Steam Power", "description": [], "questionSets": [] },
-                { "subtopicName": "Industrialization in the Colonies", "description": [], "questionSets": [] },
-                { "subtopicName": "Factories Come Up", "description": [], "questionSets": [] },
-                { "subtopicName": "The Peculiarities of Industrial Growth", "description": [], "questionSets": [] },
-                { "subtopicName": "The Market for Goods", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "Before the Industrial Revolution",
+                   "description": [
+                    {
+                      "title": "The Meaning of Industrialisation",
+                      "content": "Before the Industrial Revolution, most goods were produced by hand using simple tools. People worked from their homes or in small workshops. The production process was slow, and goods were made only for local markets. Large-scale factory production did not exist yet."
+                    },
+                    {
+                      "title": "Proto-Industrialisation",
+                      "content": "Even before factories, there was large-scale production for international markets. Merchants supplied raw materials to peasants and artisans in rural areas. They worked from home to produce textiles, metal goods, and other items. This system is known as proto-industrialisation, and it helped Europe prepare for industrial growth."
+                    },
+                    {
+                      "title": "Role of Merchants in Pre-Industrial Era",
+                      "content": "Merchants played a crucial role in pre-industrial production. Since powerful guilds controlled town industries, merchants turned to the countryside. They provided money and materials to rural workers, who produced goods on a large scale. This decentralised system allowed merchants to expand trade and supply growing markets."
+                    },
+                    {
+                      "title": "The Importance of Trade Guilds",
+                      "content": "In towns, production was controlled by craft guilds. These were powerful associations of artisans and merchants. They trained apprentices, maintained quality, and controlled prices. Guilds held a monopoly over certain products, making it hard for new traders to start businesses. This forced many merchants to shift production to villages."
+                    },
+                    {
+                      "title": "The Decline of Open Fields",
+                      "content": "In earlier times, poor peasants relied on common lands for food and resources. However, with increasing demand for goods, common lands were enclosed. Many peasants lost access to these lands and had to seek alternative jobs. Some turned to home-based industrial work, producing goods for merchants."
+                    },
+                    {
+                      "title": "Family-Based Production System",
+                      "content": "Industrial work was often a family effort. Every member of a household contributed to production. Women and children helped with spinning, weaving, and dyeing textiles. Since families worked together, they could produce large quantities of goods while continuing small-scale farming on the side."
+                    },
+                    {
+                      "title": "The Rise of International Trade",
+                      "content": "As European nations expanded their colonies, demand for goods increased. Markets in Asia, Africa, and the Americas wanted textiles, metal products, and manufactured items. This trade growth encouraged merchants to invest in rural industries, leading to increased production even before factories emerged."
+                    },
+                    {
+                      "title": "Growth of Textile Production",
+                      "content": "Textile production was one of the most significant pre-industrial activities. Hand-spun and handwoven fabrics were in great demand, both in Europe and overseas. Cotton, wool, and silk textiles were produced in homes. However, production was slow, as each step was done manually using traditional tools."
+                    },
+                    {
+                      "title": "Limitations of Pre-Industrial Production",
+                      "content": "Despite its expansion, pre-industrial production had limitations. Work was slow, and quality varied between artisans. Large-scale production was difficult because there were no standardised processes. Additionally, workers were scattered across villages, making coordination and supply chain management challenging."
+                    },
+                    {
+                      "title": "The Transition to Factory System",
+                      "content": "The pre-industrial system laid the foundation for factory-based production. With increasing demand and technological innovations, the need for faster, more efficient production grew. Machines gradually replaced handwork, and industries moved from homes to factories. This shift marked the beginning of the Industrial Revolution."
+                    }
+                   ], 
+                   "questionSets": []
+                   },
+                { 
+                  "subtopicName": "Hand Labour and Steam Power",
+                   "description": [
+                    {
+                      "title": "Availability of Labour in Victorian Britain",
+                      "content": "In Victorian Britain, there was no shortage of human labour. Many poor peasants and unemployed workers moved to cities looking for jobs. Unlike industrialists in other countries who sought machines to replace workers, British industrialists preferred cheap, abundant human labour instead of costly machines."
+                    },
+                    {
+                      "title": "Preference for Manual Labour",
+                      "content": "Even though steam-powered machines could produce goods faster, many industries still relied on hand labour. This was because certain industries, like textiles, needed delicate, artistic designs, which machines couldn’t replicate. Rich customers preferred handmade products, considering them superior in quality and more luxurious than machine-made goods."
+                    },
+                    {
+                      "title": "Seasonal Demand for Labour",
+                      "content": "Many industries, such as those producing textiles and food processing, experienced seasonal demand. For example, gasworks and breweries needed more workers in winter, while bookbinders and printers hired more in the Christmas season. Since demand fluctuated, industrialists preferred employing temporary workers rather than investing in expensive machines."
+                    },
+                    {
+                      "title": "Differences in Industrialization Across Countries",
+                      "content": "In many other European countries, industrialization led to widespread use of machines, but Britain retained a large workforce dependent on manual labour. Countries like the USA and Germany, where workers were fewer and wages higher, adopted mechanization faster than Britain."
+                    },
+                    {
+                      "title": "Industrialists’ Hesitation to Use Machines",
+                      "content": "Many British industrialists were hesitant to install machines because they were expensive to buy and maintain. Moreover, many machines frequently broke down, leading to additional repair costs. As long as cheap labour was available, factory owners saw no urgency to switch to steam-powered machines."
+                    },
+                    {
+                      "title": "Role of Hand Labour in Certain Industries",
+                      "content": "Some industries, such as glasswork and ceramics, relied on the craftsmanship of skilled workers. Machines could not produce the intricate, customized designs that artisans could. Additionally, products like handmade carpets, lace, and jewelry were valued more in the market than machine-made alternatives."
+                    },
+                    {
+                      "title": "Impact on Indian Weavers",
+                      "content": "While British industries retained manual labour for certain goods, they heavily mechanized cotton production. This impacted Indian weavers, as cheap, machine-made textiles from Britain flooded Indian markets. Handloom weavers in India struggled to compete, leading to widespread unemployment and poverty."
+                    },
+                    {
+                      "title": "The Shift Towards Machines",
+                      "content": "By the late 19th century, some industries in Britain began shifting towards machine-based production. Railways, shipbuilding, and iron industries, which required large-scale production, increasingly adopted mechanization. However, traditional industries, such as shoemaking and tailoring, continued using hand labour."
+                    },
+                    {
+                      "title": "Decline of Cottage Industries",
+                      "content": "As factories expanded, small-scale artisans and weavers lost their livelihoods. The demand for hand-produced goods declined as factory-made goods became cheaper. This forced many craftsmen to either find industrial jobs or face extreme poverty."
+                    },
+                    {
+                      "title": "Coexistence of Hand Labour and Machines",
+                      "content": "Despite the rise of machines, hand labour remained a crucial part of British industries. While machines handled large-scale production, artisans were needed for fine finishing and customization. This coexistence of manual labour and mechanization defined the industrial landscape of Britain during the 19th century."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Industrialization in the Colonies",
+                   "description": [
+                    {
+                      "title": "Colonial Control Over Indian Industry",
+                      "content": "Before British rule, India was a major producer of textiles and handicrafts. However, British policies restricted Indian industries while promoting British goods. The British imposed high tariffs on Indian textiles and encouraged raw material exports, turning India into a supplier of raw cotton for British factories."
+                    },
+                    {
+                      "title": "Decline of Traditional Handicrafts",
+                      "content": "Indian weavers and artisans suffered due to competition from machine-made British goods. The introduction of British textiles led to the decline of traditional industries. Many skilled artisans lost their livelihoods as Indian markets were flooded with cheaper, factory-made cloth from Britain, reducing demand for handwoven products."
+                    },
+                    {
+                      "title": "Rise of British Cotton Mills in India",
+                      "content": "By the late 19th century, British businessmen set up cotton mills in cities like Bombay and Ahmedabad. These mills used modern machinery and cheap labor, producing textiles for local consumption and exports. However, they remained dependent on British capital and technology, limiting India’s industrial independence."
+                    },
+                    {
+                      "title": "Growth of Jute and Coal Industries",
+                      "content": "Jute mills were set up in Bengal, mainly by British firms, producing sacks and ropes for export. The coal industry also developed, supporting railway expansion and British factories. However, Indian capitalists had limited control over these industries as British firms dominated production, investment, and trade policies."
+                    },
+                    {
+                      "title": "Role of Railways in Industrialization",
+                      "content": "The British introduced railways in India to transport raw materials from interior regions to ports and British factories. This helped British industries grow while Indian industries remained underdeveloped. Railways also allowed cheap British goods to flood Indian markets, further damaging local manufacturers and craftsmen."
+                    },
+                    {
+                      "title": "Indian Entrepreneurs and Industrial Growth",
+                      "content": "Despite British control, Indian entrepreneurs like Jamsetji Tata and G.D. Birla started industries. Tata Iron and Steel Company (TISCO) was established in 1907, marking a significant step in Indian industrialization. However, Indian industries faced discrimination, as British policies favored European businesses over Indian-owned companies."
+                    },
+                    {
+                      "title": "Cheap Labor and Harsh Working Conditions",
+                      "content": "Industrial workers in British-owned factories faced poor wages, long working hours, and unsafe conditions. Employers exploited cheap labor, providing minimal rights to workers. Unlike in Britain, where labor unions fought for better conditions, Indian workers had limited power to demand fair wages or improved working environments."
+                    },
+                    {
+                      "title": "Limited Technological Advancement",
+                      "content": "The British restricted technological advancements in Indian industries. Indian factories relied on outdated machinery, as advanced machines were imported from Britain. This prevented India from becoming self-sufficient in industrial production, ensuring that the British maintained economic control over the colony."
+                    },
+                    {
+                      "title": "Impact of the Swadeshi Movement",
+                      "content": "During the early 20th century, nationalist leaders promoted the Swadeshi movement, urging Indians to boycott British goods and support Indian industries. This encouraged local production and led to the rise of Indian textile mills and other industries. However, British repression and economic barriers limited the movement’s success."
+                    },
+                    {
+                      "title": "Industrialization and the Indian Economy",
+                      "content": "While industrialization in India grew under colonial rule, it primarily served British economic interests. Indian industries faced restrictions, and most profits went to British companies. After independence, India focused on industrial growth through policies that promoted self-reliance, aiming to recover from the economic exploitation of colonial rule."
+                    }                
+                   ], 
+                   "questionSets": []
+                   },
+                { 
+                  "subtopicName": "Factories Come Up", 
+                  "description": [
+                    {
+                      "title": "The Growth of Factories",
+                      "content": "Factories began appearing in England around the 1730s. However, their numbers increased significantly only in the late 18th century. The demand for manufactured goods rose, leading to the establishment of centralized workplaces where workers and machines were brought together under one roof for efficient production."
+                    },
+                    {
+                      "title": "The Rise of the Cotton Industry",
+                      "content": "The first major factory-based industry was cotton textiles. In 1760, Britain imported 2.5 million pounds of raw cotton, and by 1787, this soared to 22 million pounds. Cotton mills used new machines to increase production, reducing the dependence on hand labor and making textiles cheaper and more widely available."
+                    },
+                    {
+                      "title": "Innovations in Textile Production",
+                      "content": "A series of inventions improved textile production. Machines like the Spinning Jenny (1764) and Water Frame (1769) enabled faster spinning of threads, while power looms mechanized weaving. Richard Arkwright’s cotton mill centralized production, increasing efficiency. These innovations helped factories replace the traditional household-based production system."
+                    },
+                    {
+                      "title": "The Role of Steam Power",
+                      "content": "The introduction of steam engines, developed by James Watt, transformed industrial production. Steam-powered machinery allowed factories to be located anywhere, not just near water sources. This increased production speed and efficiency, leading to rapid industrial expansion in Britain and beyond."
+                    },
+                    {
+                      "title": "Changing Landscape and Urbanization",
+                      "content": "With the rise of factories, towns and cities expanded rapidly. Workers migrated from villages to industrial centers, seeking employment. Industrial towns such as Manchester and Leeds grew, becoming hubs of textile production. However, urban overcrowding and poor living conditions became major challenges for the working class."
+                    },
+                    {
+                      "title": "Harsh Working Conditions",
+                      "content": "Factory workers faced long hours, typically 12-16 hours a day, in poorly ventilated and dangerous conditions. Child labor was common, with young children working in textile mills and mines. Factory owners prioritized profit over worker well-being, leading to health issues and poor wages for laborers."
+                    },
+                    {
+                      "title": "Impact on Traditional Craftsmen",
+                      "content": "The growth of factories negatively affected traditional craftsmen and artisans. Handmade textiles and goods could not compete with the mass-produced factory products. As a result, many weavers and artisans lost their livelihoods, leading to widespread economic distress among rural workers."
+                    },
+                    {
+                      "title": "Industrialization in the Colonies",
+                      "content": "Industrialization was not limited to Europe. British rule in India led to the decline of Indian handloom industries as cheap British textiles flooded the market. Indian cotton was exported to Britain as raw material, while finished goods were imported back, making India a colonial economy dependent on Britain."
+                    },
+                    {
+                      "title": "The Factory System Spreads Globally",
+                      "content": "By the mid-19th century, industrialization spread to other parts of Europe and North America. Countries like Germany, France, and the United States built their own factories, competing with Britain. Global trade expanded, connecting economies worldwide through the exchange of raw materials and finished products."
+                    },
+                    {
+                      "title": "The Growth of Worker Movements",
+                      "content": "As factories expanded, so did labor unrest. Workers began organizing protests and strikes demanding better wages, shorter hours, and safer working conditions. This led to labor laws, such as the Factory Act of 1833, which restricted child labor and set working hour limits, marking the beginning of labor rights movements."
+                    }
+                  ], 
+                  "questionSets": []
+                 },
+                { 
+                  "subtopicName": "The Peculiarities of Industrial Growth", 
+                  "description": [
+                    {
+                      "title": "Small-Scale Production Continued",
+                      "content": "Even as factories expanded in India, traditional industries did not disappear. Large industries were slow to develop, and small-scale production continued to dominate. Many artisans and craftspeople worked from their homes, producing goods for both local and international markets."
+                    },
+                    {
+                      "title": "Role of Handicrafts",
+                      "content": "Unlike in Europe, where mechanized industries replaced handcrafts, Indian handicrafts continued to exist alongside modern factories. Skilled artisans adapted by using simple machines, making handmade goods more refined. This helped traditional industries survive despite growing industrial competition."
+                    },
+                    {
+                      "title": "Growth Without Standardization",
+                      "content": "Industrial growth in India was different because new industries did not entirely replace old methods. While mass production was common in Britain, Indian goods were still produced in varied styles. Consumers often preferred handcrafted items over standardized machine-made products."
+                    },
+                    {
+                      "title": "The Influence of Colonial Rule",
+                      "content": "British policies shaped industrial growth in India. The colonial government focused on raw material exports rather than industrial development. Indian industries struggled due to heavy import duties on Indian textiles and cheap machine-made goods from Britain flooding Indian markets."
+                    },
+                    {
+                      "title": "Slow Expansion of Factories",
+                      "content": "Even by the early 20th century, factory production was limited. The industrial sector grew mainly in textile, jute, and steel industries, but a vast majority of workers still worked in small workshops or at home. This meant that industrial growth in India was uneven and limited."
+                    },
+                    {
+                      "title": "Dependence on Foreign Capital",
+                      "content": "Many industries in India depended on British capital and machinery. While Indian entrepreneurs like Tata and Birla tried to develop indigenous industries, large-scale industrialization was slow due to foreign control over trade and investment."
+                    },
+                    {
+                      "title": "Preference for Indigenous Goods",
+                      "content": "With the Swadeshi Movement, there was a growing demand for Indian-made goods. Nationalist leaders urged people to boycott British products, which boosted the sales of Indian textiles and handicrafts. This helped small-scale industries stay relevant."
+                    },
+                    {
+                      "title": "Industrial Growth in Select Regions",
+                      "content": "Industries were concentrated in certain regions like Bombay, Calcutta, and Madras. These cities became industrial hubs due to access to ports, financial institutions, and skilled labor. Rural areas, however, remained largely dependent on agriculture."
+                    },
+                    {
+                      "title": "Labor-Intensive Industries",
+                      "content": "Unlike Britain, where industries used advanced machines, Indian factories relied more on human labor. Wages were low, and workers operated under harsh conditions. This labor-intensive model allowed industries to produce goods at lower costs."
+                    },
+                    {
+                      "title": "Indian Entrepreneurs and Challenges",
+                      "content": "Indian businessmen faced many challenges, including competition from British firms and lack of government support. Despite these difficulties, Indian-owned companies slowly emerged, laying the foundation for future industrial expansion."
+                    }
+                  ], 
+                  "questionSets": [] 
+                },
+                { 
+                  "subtopicName": "The Market for Goods", 
+                  "description": [
+                    {
+                      "title": "Introduction to Market Expansion",
+                      "content": "With industrialization, manufactured goods needed markets. Companies focused on creating demand among buyers, ensuring that people were attracted to factory-made products instead of traditional handmade ones. Advertisements, branding, and catchy labels became crucial in making goods appealing to the masses."
+                    },
+                    {
+                      "title": "Role of Advertisements",
+                      "content": "Manufacturers used advertisements to persuade people to buy factory-made goods. They appeared in newspapers, calendars, and even on street walls. These ads were colorful, dramatic, and often made unrealistic claims about product quality, promising buyers modernity and progress."
+                    },
+                    {
+                      "title": "Calendars as a Marketing Tool",
+                      "content": "Unlike newspapers, calendars were used widely by manufacturers to promote products because they were free and used year-round. These calendars displayed images of deities, famous personalities, and modern technology to create an emotional connection between the brand and the people."
+                    },
+                    {
+                      "title": "Use of Indian Culture in Advertisements",
+                      "content": "To convince Indian buyers, foreign manufacturers incorporated Indian symbols and cultural references in their advertisements. Gods, kings, and nationalist leaders were depicted endorsing products, making them more appealing to local consumers. This strategy helped European brands compete with Indian artisans."
+                    },
+                    {
+                      "title": "Product Labeling for Brand Recognition",
+                      "content": "Labels played an essential role in branding goods. European manufacturers used labels to assure customers of high quality. Beautifully designed labels featuring images of emperors, gods, and grand buildings gave the impression that these products were superior and meant for elite customers."
+                    },
+                    {
+                      "title": "Competition with Indian Artisans",
+                      "content": "Indian artisans had been producing handcrafted goods for centuries. With the rise of industrialization, machine-made textiles and goods entered the market, undercutting local artisans. European companies used aggressive marketing to portray their products as modern and superior."
+                    },
+                    {
+                      "title": "Impact of Industrialization on Rural Markets",
+                      "content": "Factories not only targeted urban consumers but also expanded into rural markets. The railways and better transport systems helped factory-made products reach distant villages, reducing dependency on locally made goods. This led to the decline of many rural handicraft industries."
+                    },
+                    {
+                      "title": "Indian Brands and Their Struggles",
+                      "content": "Indian manufacturers also tried to establish their presence in the market. However, they struggled against foreign brands, which had strong networks and advertising strategies. Some Indian firms adopted similar marketing techniques, creating patriotic themes in their advertisements to appeal to nationalist sentiments."
+                    },
+                    {
+                      "title": "Swadeshi and the Push for Indian Goods",
+                      "content": "With the Swadeshi Movement, Indian consumers were encouraged to reject foreign goods and support local products. Indian brands highlighted their cultural and national identity, and the demand for locally made goods increased temporarily, posing a challenge to British manufacturers."
+                    },
+                    {
+                      "title": "Conclusion: A Changing Marketplace",
+                      "content": "Industrialization transformed the way goods were marketed and sold. Advertisements, branding, and clever strategies helped European manufacturers dominate Indian markets. However, Indian businesses gradually adopted similar techniques, leading to a more competitive commercial environment in the 20th century."
+                    }
+                  ], 
+                  "questionSets": [] 
+                }
               ]
             },
             {
               "topicName": "Print Culture and the Modern World",
               "subtopics": [
-                { "subtopicName": "The First Printed Books", "description": [], "questionSets": [] },
-                { "subtopicName": "Print Comes to Europe", "description": [], "questionSets": [] },
-                { "subtopicName": "The Print Revolution and Its Impact", "description": [], "questionSets": [] },
-                { "subtopicName": "The Reading Mania", "description": [], "questionSets": [] },
-                { "subtopicName": "The Nineteenth-Century Print Culture", "description": [], "questionSets": [] },
-                { "subtopicName": "Print and the Poor People", "description": [], "questionSets": [] },
-                { "subtopicName": "Print and Censorship", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "The First Printed Books",
+                   "description": [
+                    {
+                      "title": "The Earliest Print Technology",
+                      "content": "The earliest print technology developed in China, Japan, and Korea. Around AD 594, books in China were printed by rubbing paper—also invented there—against inked woodblocks. The thin sheets were folded and stitched, creating the accordion-style book. Skilled craftsmen duplicated calligraphy with remarkable accuracy."
+                    },
+                    {
+                      "title": "State-Sponsored Printing in China",
+                      "content": "The imperial state in China was the main producer of printed material. The civil service examinations, used to recruit government officials, increased the demand for printed books. The state printed vast numbers of textbooks, ensuring that scholars had access to study materials necessary for these competitive exams."
+                    },
+                    {
+                      "title": "The Expansion of Print Culture in China",
+                      "content": "By the seventeenth century, print was no longer just for officials. Urban culture in China flourished, and merchants, poets, and playwrights began using print. Reading became a leisure activity, and books on fiction, poetry, and autobiographies gained popularity. Women also started writing and publishing their own works."
+                    },
+                    {
+                      "title": "Western Printing Technology in China",
+                      "content": "Western printing technology entered China in the late nineteenth century when European powers expanded their influence. Shanghai became a major hub for the new print culture, catering to Western-style schools. As hand-printing declined, mechanical printing took over, marking a shift towards mass production of books."
+                    },
+                    {
+                      "title": "Early Printing in Japan",
+                      "content": "Japan also developed print technology early. The oldest printed book, the Diamond Sutra (AD 868), was a Buddhist text with six sheets of woodcut illustrations. Printing expanded to textiles, playing cards, and paper money. Soon, books on topics like etiquette, cooking, and music became widely available."
+                    },
+                    {
+                      "title": "Ukiyo-e and Japanese Print Culture",
+                      "content": "The ukiyo-e (pictures of the floating world) prints became popular in eighteenth-century Japan, depicting urban life, courtesans, and artists. These prints influenced European painters like Van Gogh and Monet. Publishers employed artists and skilled woodblock carvers to mass-produce illustrated books."
+                    },
+                    {
+                      "title": "Korea's Contribution to Print Technology",
+                      "content": "Korea also contributed to early print culture. The Tripitaka Koreana, a Buddhist text, was engraved on 80,000 wooden blocks. Another notable achievement was Jikji (1377), the world’s first book printed using movable metal type, over 70 years before Gutenberg’s press in Europe."
+                    },
+                    {
+                      "title": "The Spread of Paper and Print to Europe",
+                      "content": "In eleventh-century Europe, Chinese paper arrived via the Silk Route. Paper enabled the production of manuscripts, copied by scribes. By 1295, Marco Polo had brought knowledge of woodblock printing from China to Italy. Soon, woodblock-printed books became popular in European university towns."
+                    },
+                    {
+                      "title": "The Limitations of Handwritten Manuscripts",
+                      "content": "Despite growing demand, handwritten manuscripts remained expensive and fragile. Booksellers started employing scribes in large numbers, but manual copying was slow. By the fifteenth century, woodblock printing was used widely for textiles, playing cards, and religious images, setting the stage for future innovations."
+                    },
+                    {
+                      "title": "Gutenberg's Printing Press and the Print Revolution",
+                      "content": "The limitations of hand-printing led to a major breakthrough—Johann Gutenberg’s printing press in the 1430s. Inspired by wine presses and metal molds, Gutenberg’s invention allowed books to be produced faster and more cheaply, ushering in the print revolution that transformed knowledge and literacy in Europe."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                {
+                   "subtopicName": "Print Comes to Europe", 
+                   "description": [
+                    {
+                      "title": "The Arrival of Paper in Europe",
+                      "content": "For centuries, silk and spices from China reached Europe through the Silk Road. Along with these, paper-making technology also spread. By the eleventh century, Chinese paper arrived in Europe. This revolutionized writing and recording, making it easier to produce manuscripts before printing was introduced."
+                    },
+                    {
+                      "title": "Woodblock Printing in Europe",
+                      "content": "By the early 13th century, Europeans began using woodblock printing, a technique learned from the Chinese. Italians started printing books using this method, which soon spread across Europe. Woodblock printing was mainly used for religious pictures, playing cards, and textiles, making texts more accessible to the common people."
+                    },
+                    {
+                      "title": "Marco Polo and Printing Knowledge",
+                      "content": "In 1295, the Venetian explorer Marco Polo returned to Italy after spending years in China. He had witnessed the use of woodblock printing there and brought this knowledge back to Europe. Inspired by Chinese techniques, European merchants and scholars began experimenting with ways to improve book production."
+                    },
+                    {
+                      "title": "The Growth of Manuscript Production",
+                      "content": "Before printing presses, books were manually copied by scribes. These handwritten books were expensive and time-consuming to produce. Universities and scholars relied on these fragile manuscripts, but their availability was limited, making it difficult for knowledge to spread quickly across Europe."
+                    },
+                    {
+                      "title": "The Demand for Books Increases",
+                      "content": "By the 15th century, literacy rates in Europe began rising. Universities and scholars needed more books, but hand-copying was too slow to meet demand. Book fairs emerged in major cities where scribes, booksellers, and traders exchanged manuscripts, highlighting the need for a faster reproduction method."
+                    },
+                    {
+                      "title": "The Limitations of Handwritten Manuscripts",
+                      "content": "Handwritten books had many disadvantages. They were fragile, difficult to store, and required skilled scribes to produce. The cost of copying was high, making books accessible only to the rich. These limitations led to an urgent need for a more efficient and cheaper method of book production."
+                    },
+                    {
+                      "title": "The Rise of Woodblock Printing in Europe",
+                      "content": "By the early 1400s, European craftsmen improved woodblock printing. This method allowed multiple copies of a page to be made quickly. Soon, printed textiles, playing cards, and religious images became widely available. However, this method was still slow, as each block had to be carved by hand."
+                    },
+                    {
+                      "title": "The Search for a Better Printing Method",
+                      "content": "While woodblock printing helped increase book production, it still lacked speed and flexibility. Printers and inventors across Europe experimented with movable types, inspired by metal stamping techniques. These innovations set the stage for the invention of a more advanced and efficient printing system."
+                    },
+                    {
+                      "title": "Gutenberg’s Revolutionary Invention",
+                      "content": "In the 1430s, a German craftsman named Johann Gutenberg developed the first movable-type printing press. Inspired by his knowledge of metalwork, wine presses, and moulds, Gutenberg’s invention allowed books to be printed faster and in larger quantities, changing the course of European history."
+                    },
+                    {
+                      "title": "The Beginning of the Print Revolution",
+                      "content": "Gutenberg’s first printed book was the Bible, produced in 1448. Within a few decades, printing presses spread across Europe. This led to a print revolution, making books cheaper and widely available. Knowledge spread rapidly, and the rise of mass communication transformed European society forever."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "The Print Revolution and Its Impact", 
+                  "description": [
+                    {
+                      "title": "What was the Print Revolution?",
+                      "content": "The print revolution was not just a technological advancement but a major social change. The invention of the printing press in the 15th century allowed books to be mass-produced, making them cheaper and more accessible. This transformed education, religious beliefs, and political thinking across Europe."
+                    },
+                    {
+                      "title": "Increase in Book Production",
+                      "content": "Before printing, books were handwritten, making them expensive and rare. With the printing press, book production increased rapidly. By 1500, around 20 million copies of printed books were circulating in Europe, and by the 16th century, this number rose to about 200 million."
+                    },
+                    {
+                      "title": "Growth of Literacy and Knowledge",
+                      "content": "As books became more affordable, literacy rates increased. More people, including merchants, women, and artisans, gained access to books. Knowledge was no longer confined to scholars and religious leaders. People began reading about science, exploration, and philosophy, leading to intellectual and social changes."
+                    },
+                    {
+                      "title": "Impact on Religion",
+                      "content": "Printing played a key role in the Protestant Reformation. Reformers like Martin Luther used printed books to spread their ideas. Luther’s Bible translation in German allowed people to read religious texts themselves, weakening the Church’s control over religious knowledge. This led to debates and the questioning of traditional beliefs."
+                    },
+                    {
+                      "title": "Print and Public Debates",
+                      "content": "With more books and pamphlets in circulation, people started discussing ideas in public places. Print gave a voice to people who earlier had no platform to express themselves. Newspapers and political pamphlets enabled the spread of revolutionary ideas, challenging monarchies and feudal structures."
+                    },
+                    {
+                      "title": "Print and the French Revolution",
+                      "content": "Print culture helped shape political consciousness before the French Revolution. Thinkers like Rousseau and Voltaire published ideas on liberty, equality, and democracy. Pamphlets and cartoons criticized the monarchy, spreading revolutionary ideas among common people, fueling demands for change."
+                    },
+                    {
+                      "title": "Print and Women’s Education",
+                      "content": "More women gained access to books, leading to increased awareness of their rights. Women’s magazines and books promoted education and discussions on social issues. Female writers began publishing their works, inspiring others to seek knowledge and challenge societal norms."
+                    },
+                    {
+                      "title": "Print and Censorship",
+                      "content": "Governments and religious institutions feared the power of print. In many places, books and newspapers were censored to control ideas. However, underground printing flourished, helping spread revolutionary ideas despite restrictions. Eventually, censorship laws eased as print became an unstoppable force of change."
+                    }
+                  ], 
+                  "questionSets": [] 
+                },
+                {
+                   "subtopicName": "The Reading Mania", 
+                   "description": [
+                    {
+                      "title": "Rise in Literacy Rates in the Nineteenth Century",
+                      "content": "The nineteenth century saw a rise in literacy rates across Europe. As more people learned to read and write, books, newspapers, and pamphlets became widely available. Print material was no longer confined to elites. Ordinary people, including workers, artisans, and women, became avid readers, fueling a demand for more printed content."
+                    },
+                    {
+                      "title": "New Readers in Industrial Cities",
+                      "content": "The growth of industrial cities created new readers. Factory workers, small traders, and clerks sought knowledge and entertainment through print. Lending libraries, bookshops, and reading clubs emerged in urban areas. Even rural populations gained access to books through traveling libraries and affordable print editions, increasing their engagement with reading materials."
+                    },
+                    {
+                      "title": "The Popularity of Periodicals and Novels",
+                      "content": "Periodicals, novels, and newspapers became increasingly popular. Cheap books made literature more accessible. In France, penny chapbooks, short stories, and instructional books were sold at low prices. In Britain, lending libraries flourished. The German 'penny press' published stories for working-class readers, making printed material a part of daily life."
+                    },
+                    {
+                      "title": "Targeting Different Social Groups",
+                      "content": "Publishers actively catered to different social groups. Books on religious teachings, self-improvement, farming techniques, and political awareness were printed. Women, who were previously discouraged from reading, became enthusiastic readers, consuming novels, household guides, and educational texts, marking a shift in societal norms regarding education and literacy."
+                    },
+                    {
+                      "title": "Rise of Serialized Novels",
+                      "content": "The advent of serialized novels made reading even more engaging. Instead of buying entire books, people could purchase weekly or monthly installments. This format was popular in England and France. Writers like Charles Dickens published novels in serial form, attracting readers eager for the next chapter in newspapers or magazines."
+                    },
+                    {
+                      "title": "Advancements in Printing Technology",
+                      "content": "The demand for reading material led to innovations in print technology. Printing presses became more efficient, reducing the cost of books and newspapers. Steam-powered presses, rotary machines, and better-quality paper helped in mass-producing reading materials, making them cheaper and available to a broader audience."
+                    },
+                    {
+                      "title": "Government Support for Literacy",
+                      "content": "Governments saw print as a tool for educating the masses. Schools and educational institutions played a key role in promoting reading habits. Textbooks, primers, and children's literature were introduced to shape young minds, increasing literacy rates and making reading an essential part of formal education."
+                    },
+                    {
+                      "title": "Reading for Entertainment and Cultural Identity",
+                      "content": "Reading was not just for information but also for entertainment. Adventure stories, detective fiction, and romance novels gained popularity. Folk tales and historical narratives were printed in local languages. This allowed people to engage with their cultural heritage while enjoying the thrill of storytelling."
+                    },
+                    {
+                      "title": "Censorship and Control of Print",
+                      "content": "Censorship often tried to control what people read. Governments feared that printed material could spread revolutionary ideas. In many countries, authorities imposed restrictions on newspapers and political writings. However, underground publications and secret printing presses ensured that radical ideas continued to circulate among the public."
+                    },
+                    {
+                      "title": "The Social Transformation Through Reading",
+                      "content": "By the late nineteenth century, reading had become a widespread social activity. Public readings, book clubs, and literary discussions were common. Whether in cities or villages, people were eager to read, share ideas, and stay informed. The 'reading mania' transformed societies, shaping public opinion and fueling new cultural and political movements."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "The Nineteenth-Century Print Culture",
+                   "description": [
+                    {
+                      "title": "The Expansion of Print",
+                      "content": "By the nineteenth century, print culture expanded rapidly in Europe. Literacy rates increased, and books, newspapers, and journals became widely available. The printing press allowed mass production, making reading material cheaper and more accessible, fueling discussions on politics, social issues, and cultural debates."
+                    },
+                    {
+                      "title": "The Growth of Newspapers",
+                      "content": "Newspapers played a crucial role in shaping public opinion. They provided news, discussed political matters, and exposed social injustices. The growing literacy rate meant more people could engage with current affairs. This period also saw the rise of the penny press, which made newspapers affordable to the masses."
+                    },
+                    {
+                      "title": "Print and Political Change",
+                      "content": "Print culture influenced revolutionary ideas. In France, newspapers and pamphlets spread Enlightenment thoughts, questioning monarchy and advocating democracy. During the Industrial Revolution, print helped workers unite by sharing grievances. Books and leaflets allowed radical thinkers to reach broader audiences, challenging existing power structures."
+                    },
+                    {
+                      "title": "The Reading Mania",
+                      "content": "The nineteenth century saw a surge in reading habits. Not just the elite, but also the middle class and even workers started reading novels, magazines, and newspapers. Lending libraries flourished, making books available to a wider audience. Women and children, too, became active readers, consuming both fiction and non-fiction."
+                    },
+                    {
+                      "title": "Print and Social Reform",
+                      "content": "Printed material became a tool for reformers. Writers highlighted issues like child labor, women’s rights, and social inequalities. In India, reformers such as Raja Rammohan Roy used print to campaign against social evils like Sati and caste discrimination, helping spread modern ideas."
+                    },
+                    {
+                      "title": "The Role of Print in Education",
+                      "content": "Governments and social organizations used print to promote education. School textbooks were mass-produced, ensuring uniform learning across regions. In India, the colonial administration introduced printed books in schools to standardize education, but they also controlled content to support British rule."
+                    },
+                    {
+                      "title": "Print and the Rise of the Novel",
+                      "content": "The nineteenth century was the golden age of the novel. Writers like Charles Dickens, Jane Austen, and Leo Tolstoy became famous as their works reached large audiences. In India, writers like Bankim Chandra Chattopadhyay and Premchand popularized regional literature through print, addressing themes of nationalism and social reform."
+                    },
+                    {
+                      "title": "Print and Religious Debates",
+                      "content": "Religious texts were widely printed and circulated, sparking discussions and debates. Protestant Reformation had already used print to spread its ideas in Europe. In colonial India, different religious groups used print to defend their beliefs and respond to critics, leading to intense ideological battles."
+                    },
+                    {
+                      "title": "Print and Censorship",
+                      "content": "Governments, fearing the power of print, imposed censorship laws. In India, the British colonial state introduced the Vernacular Press Act of 1878, restricting local newspapers from criticizing British policies. Despite such restrictions, underground pamphlets and newspapers kept nationalist sentiments alive."
+                    },
+                    {
+                      "title": "Print and Nationalism",
+                      "content": "Printed material played a vital role in the rise of nationalism. Newspapers, books, and pamphlets helped spread nationalist ideas, uniting people against colonial rule. Leaders like Bal Gangadhar Tilak used print media to promote the freedom struggle. The print revolution thus became a powerful force in shaping modern political movements."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                {
+                   "subtopicName": "Print and the Poor People",
+                    "description": [
+                      {
+                        "title": "Before the Age of Print",
+                        "content": "Before the age of print, books were expensive and mainly owned by the rich. Poor people had limited access to written texts. They relied on oral traditions, storytellers, and religious preachers to learn about events, culture, and knowledge. However, with the rise of print, information slowly reached the masses."
+                      },
+                      {
+                        "title": "The Spread of Literacy",
+                        "content": "By the 19th century, books became cheaper due to advances in printing technology. This made reading accessible to artisans, laborers, and peasants. Many working-class people learned to read and began engaging with newspapers, pamphlets, and folk tales. Literacy spread as more schools and night classes opened for the poor."
+                      },
+                      {
+                        "title": "Print as a Tool for Education",
+                        "content": "Chaplains and social reformers used print to educate and uplift the lower classes. They distributed religious texts, moral stories, and simple books to encourage reading. Workers and servants, who previously had no access to books, now found cheap novels and pamphlets that helped them learn new ideas and broaden their perspectives."
+                      },
+                      {
+                        "title": "Print and Social Awareness",
+                        "content": "Print also encouraged social and political awareness among the poor. Cheap newspapers and leaflets informed them about government policies, wages, and working conditions. Many workers started forming opinions on social issues, labor rights, and economic exploitation. This print culture contributed to growing protests and movements for justice."
+                      },
+                      {
+                        "title": "Popular Literature for the Poor",
+                        "content": "Publishers recognized that poor people enjoyed folk stories, ballads, and local legends. As a result, many books were published in simple language, using stories of heroes, rebels, and ordinary people. These books were sold at markets, railway stations, and street corners, making literature a part of the daily life of common people."
+                      },
+                      {
+                        "title": "Censorship and Print Control",
+                        "content": "Despite increasing literacy, the government often restricted access to printed material. The British colonial authorities feared that cheap books and newspapers could incite rebellion. Censorship laws were introduced to control the spread of radical ideas. Still, underground publications and secret pamphlets played a role in shaping public opinion."
+                      },
+                      {
+                        "title": "Libraries for the Poor",
+                        "content": "Libraries for the poor were set up in some cities. These libraries provided free access to books and newspapers, helping the lower classes stay informed. Many social reformers encouraged reading, believing that education could improve living conditions and give poor people a voice in society."
+                      },
+                      {
+                        "title": "Print and Collective Reading",
+                        "content": "Print also influenced entertainment for the poor. Inexpensive books on magic tricks, crime stories, and adventure tales became popular. People gathered in tea shops and community centers to listen to someone reading aloud. This collective reading experience brought communities together and strengthened the tradition of shared knowledge."
+                      },
+                      {
+                        "title": "Women and Access to Print",
+                        "content": "Women from poor families also gained access to books for the first time. Some reformers and writers published books on women’s rights, education, and social issues. Slowly, reading became more common among women, helping them participate in discussions on gender equality and social reforms."
+                      },
+                      {
+                        "title": "Print as a Voice for the Poor",
+                        "content": "By the early 20th century, print had become a tool for the poor to challenge injustice. Many laborers, peasants, and workers wrote their own pamphlets and newspapers, expressing their struggles and demands. Print was no longer just for the elite—it had become a powerful weapon for the masses."
+                      }
+                    ], 
+                    "questionSets": [] },
+                { 
+                  "subtopicName": "Print and Censorship",
+                   "description": [
+                    {
+                      "title": "Introduction to Censorship",
+                      "content": "Censorship refers to government control over the press. Authorities restricted what could be printed to suppress dissent. Rulers feared that print could spread ideas that challenged their power. Over time, censorship policies varied across regions, depending on political situations and the ruling government's interests."
+                    },
+                    {
+                      "title": "Early Censorship in Europe",
+                      "content": "Before the printing press, handwritten manuscripts were monitored by religious institutions. With the invention of print, governments and the Church sought to regulate books. The Catholic Church published an 'Index of Prohibited Books' in 1558, banning texts that challenged its authority or promoted revolutionary ideas."
+                    },
+                    {
+                      "title": "The Licensing System in England",
+                      "content": "In England, print was heavily censored under the Licensing Act of 1662. Printers had to obtain licenses from the government before publishing any material. This law ensured that only state-approved texts reached the public. The system aimed to prevent criticism of the monarchy and government policies."
+                    },
+                    {
+                      "title": "Censorship in Colonial India",
+                      "content": "The British government in India imposed strict controls over print. The Vernacular Press Act of 1878 allowed the British to confiscate newspapers that criticized their rule. Indian-language newspapers faced heavy restrictions, while English newspapers were given more freedom. This law was aimed at suppressing nationalist ideas."
+                    },
+                    {
+                      "title": "Impact of Censorship on Newspapers",
+                      "content": "Despite censorship, nationalist newspapers found ways to resist. Editors used symbolic language and coded messages to bypass restrictions. For example, phrases like 'the ruler of the skies' were used to indirectly criticize the British government. This led to a rise in underground print movements that secretly circulated anti-colonial literature."
+                    },
+                    {
+                      "title": "Abolition of Censorship in Europe",
+                      "content": "During the 18th and 19th centuries, growing demands for freedom of speech led to the relaxation of censorship in many European countries. The French Revolution played a key role in promoting free press, as revolutionary leaders saw print as a tool to spread democratic ideals and mobilize the public."
+                    },
+                    {
+                      "title": "Role of Print in Revolutions",
+                      "content": "Printed materials played a crucial role in revolutions. In France, pamphlets and newspapers spread Enlightenment ideas that inspired the French Revolution. Similarly, in India, newspapers like 'Kesari' and 'The Hindu' helped unite people against colonial rule, despite strict censorship laws imposed by the British government."
+                    },
+                    {
+                      "title": "Indian Nationalists and Press Freedom",
+                      "content": "Indian leaders like Bal Gangadhar Tilak used print to spread nationalist ideas. Tilak’s newspaper, 'Kesari,' criticized British policies, leading to his arrest under sedition laws. His case highlighted how censorship was used to silence dissent, but it also inspired a stronger movement for press freedom in India."
+                    },
+                    {
+                      "title": "Press Freedom in the Modern Era",
+                      "content": "As colonial rule ended, many countries adopted press freedom as a fundamental right. In India, the Constitution guarantees freedom of speech and expression under Article 19. However, even today, governments impose censorship during emergencies, conflicts, or to prevent the spread of misinformation."
+                    },
+                    {
+                      "title": "Conclusion – The Legacy of Print and Censorship",
+                      "content": "Censorship has evolved over time, but the struggle for free speech continues. The digital age has introduced new challenges, with governments regulating online content. However, print and media remain powerful tools for spreading ideas, shaping public opinion, and holding authorities accountable, just as they did in history."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  }
               ]
             }
           ]
@@ -2978,28 +4175,569 @@
             {
               "topicName": "Themes in Indian History (Ancient)",
               "subtopics": [
-                { "subtopicName": "Bricks, Beads, and Bones – The Harappan Civilization", "description": [], "questionSets": [] },
-                { "subtopicName": "Kings, Farmers, and Towns – Early States and Economies (600 BCE - 600 CE)", "description": [], "questionSets": [] },
-                { "subtopicName": "Kinship, Caste, and Class – Early Societies (600 BCE - 600 CE)", "description": [], "questionSets": [] },
-                { "subtopicName": "Thinkers, Beliefs, and Buildings – Cultural Developments (600 BCE - 600 CE)", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "Bricks, Beads, and Bones – The Harappan Civilization",
+                   "description": [
+                    {
+                      "title": "The Discovery of Harappan Civilization",
+                      "content": "The Harappan civilization, also known as the Indus Valley Civilization, was discovered in the 1920s during excavations at Harappa (Punjab, Pakistan) and Mohenjodaro (Sindh, Pakistan). Archaeologists found well-planned cities, pottery, seals, and advanced drainage systems, proving the existence of a highly developed urban society from 2600 BCE to 1900 BCE."
+                    },
+                    {
+                      "title": "Harappan Settlements and Urban Planning",
+                      "content": "Harappan cities were divided into two parts: the Citadel (raised area) and the Lower Town (residential area). The Citadel housed important structures like granaries, large baths, and administrative buildings, while the Lower Town had houses made of standardized baked bricks, reflecting careful city planning."
+                    },
+                    {
+                      "title": "The Great Bath: A Marvel of Harappan Engineering",
+                      "content": "The Great Bath, discovered in Mohenjodaro, is one of the most well-known structures of the Harappan civilization. It was a large, rectangular water tank with steps on both sides, surrounded by rooms. It is believed to have been used for ritualistic bathing, indicating the importance of cleanliness and religious practices."
+                    },
+                    {
+                      "title": "Drainage and Sanitation System",
+                      "content": "Harappan cities had an advanced drainage system. Houses had bathrooms with drains that connected to street drains. The drains were covered with bricks and had inspection holes for cleaning. This complex system highlights the emphasis on hygiene and urban management in the civilization."
+                    },
+                    {
+                      "title": "Harappan Economy: Agriculture and Trade",
+                      "content": "The Harappans were skilled farmers, growing wheat, barley, lentils, and millets. They used irrigation systems and ploughed fields, as seen in Kalibangan. Trade was extensive, with goods like cotton, beads, and pottery exchanged with Mesopotamia, Afghanistan, and Central Asia."
+                    },
+                    {
+                      "title": "Harappan Art and Craft Production",
+                      "content": "Harappans were expert craftsmen. They made beautiful pottery, intricate bead jewelry, and bronze tools. Seals made of steatite (soapstone) had animal figures and script, possibly used for trade or administrative purposes. The famous bronze 'Dancing Girl' statue from Mohenjodaro showcases their metallurgical skills."
+                    },
+                    {
+                      "title": "The Mysterious Harappan Script",
+                      "content": "Harappans used a script with over 400 symbols, found on seals and pottery. Despite numerous studies, the script remains undeciphered. Scholars believe it may have represented an early language or administrative records, but without a bilingual inscription, its meaning is still unknown."
+                    },
+                    {
+                      "title": "Social and Political Life in Harappan Society",
+                      "content": "The Harappan civilization had a well-organized society. The uniformity in city planning and weights suggests a central authority. However, no evidence of palaces or kings has been found. Some historians believe that merchant groups or religious elites controlled governance."
+                    },
+                    {
+                      "title": "Religious Beliefs and Burial Practices",
+                      "content": "Harappans worshipped nature, animals, and fertility symbols. Some seals depict a 'proto-Shiva' figure surrounded by animals. They also buried their dead in simple graves, sometimes with pottery and ornaments, suggesting belief in an afterlife."
+                    },
+                    {
+                      "title": "The Decline of the Harappan Civilization",
+                      "content": "Around 1900 BCE, the Harappan civilization began to decline. Theories for its downfall include climate change, river drying, floods, or invasion by external groups. Cities were abandoned, and people migrated eastward. However, Harappan traditions influenced later cultures in the Indian subcontinent."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Kings, Farmers, and Towns – Early States and Economies (600 BCE - 600 CE)",
+                   "description": [
+                    {
+                      "title": "The Emergence of Early States",
+                      "content": "From the 6th century BCE, early states and empires began to emerge in the Indian subcontinent. Sixteen mahajanapadas dominated the political landscape, each with its own governance system. Some, like Magadha, expanded through conquest, while others maintained oligarchic rule through gana-sanghas, where decisions were made collectively."
+                    },
+                    {
+                      "title": "Magadha: The Most Powerful Mahajanapada",
+                      "content": "Magadha, located in present-day Bihar, became the most dominant of the mahajanapadas. Factors such as fertile land, access to iron mines, and an efficient administrative system helped its expansion. Kings like Bimbisara and Ajatasattu employed strategic alliances and warfare to strengthen their hold over North India."
+                    },
+                    {
+                      "title": "The Mauryan Empire: First Pan-Indian State",
+                      "content": "The Mauryan Empire, founded by Chandragupta Maurya in 321 BCE, was the first empire to unify large parts of India. His grandson, Ashoka, expanded the empire but later embraced Buddhism after the brutal Kalinga War. The empire maintained control through a centralized administration and an extensive network of officials."
+                    },
+                    {
+                      "title": "Ashoka’s Dhamma and Governance",
+                      "content": "Ashoka promoted the idea of 'Dhamma' (moral law) to ensure harmony across his vast empire. His edicts, inscribed on rocks and pillars, emphasized non-violence, religious tolerance, and respect for elders. Special officers, called dhamma mahamattas, were appointed to spread these teachings among people."
+                    },
+                    {
+                      "title": "Administration and Economy in the Mauryan Empire",
+                      "content": "The Mauryan administration was highly organized, with Pataliputra as the capital. The empire was divided into provinces, each governed by a royal prince. Revenue collection was systematic, with taxes levied on agriculture, trade, and crafts. The Arthashastra, attributed to Chanakya, detailed economic policies and governance strategies."
+                    },
+                    {
+                      "title": "Trade and Urbanization",
+                      "content": "Between 600 BCE and 600 CE, cities like Pataliputra, Mathura, and Ujjain flourished as trade hubs. Inland trade routes and river networks facilitated commerce, while ports like Bharuch and Tamralipti connected India with the Roman Empire and Southeast Asia. The introduction of coinage further boosted commercial activities."
+                    },
+                    {
+                      "title": "Land Grants and Agrarian Economy",
+                      "content": "During this period, kings began granting land to Brahmins and Buddhist monasteries, exempting them from taxation. These agrahara grants were recorded on copper plates and inscriptions. The use of iron tools and irrigation improved agricultural productivity, leading to surplus food production and the growth of urban centers."
+                    },
+                    {
+                      "title": "Social Structure and the Caste System",
+                      "content": "The varna system became more rigid during this period. Brahmins continued to hold religious authority, while Kshatriyas dominated politics. The expansion of agriculture led to the rise of new occupational groups, classified as Vaishyas and Shudras. Buddhist and Jain texts often criticized the rigidity of caste-based discrimination."
+                    },
+                    {
+                      "title": "The Role of Women in Early Societies",
+                      "content": "Women’s status varied across regions and communities. Some royal women, like Prabhavati Gupta, held administrative power, but in general, patriarchal norms restricted their roles. Manusmriti and other texts outlined strict rules for women, emphasizing their subordination to fathers, husbands, and sons."
+                    },
+                    {
+                      "title": "The Decline of the Mauryan Empire",
+                      "content": "The Mauryan Empire weakened after Ashoka’s death. Successors struggled to maintain central control, and provincial rulers declared independence. The Shungas, Kanvas, and later the Satavahanas ruled different regions. Trade and urbanization continued, but political fragmentation led to the rise of regional kingdoms."
+                    }
+                   ], 
+                   "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Kinship, Caste, and Class – Early Societies (600 BCE - 600 CE)", 
+                  "description": [
+                    {
+                      "title": "Understanding Kinship and Family Structures",
+                      "content": "In early Indian societies, kinship ties shaped social relationships and inheritance patterns. Family structures varied, with some societies emphasizing patriliny (descent through the father) and others following matriliny (descent through the mother). The Mahabharata provides valuable insights into how kinship played a role in political and social affairs."
+                    },
+                    {
+                      "title": "The Importance of Patriliny in Royal Succession",
+                      "content": "Patriliny was crucial in royal families, ensuring that sons inherited power and wealth. The Mahabharata reinforced this system, depicting kingship as passing from father to son. However, exceptions existed, such as rulers without sons who passed power to brothers or other kinsmen."
+                    },
+                    {
+                      "title": "The Role of Women in Kinship Systems",
+                      "content": "Women’s roles in early kinship systems were often limited. While daughters had little claim to family wealth, they played crucial roles in forging alliances through marriage. In some rare cases, women like Prabhavati Gupta exercised political power, challenging patrilineal norms."
+                    },
+                    {
+                      "title": "The Concept of Gotra in Social Organization",
+                      "content": "Brahmanical texts classified people by gotra, a system that traced descent from an ancient sage. Upon marriage, women were expected to adopt their husband's gotra. Gotra rules prohibited marriage within the same gotra, reinforcing social divisions."
+                    },
+                    {
+                      "title": "Marriage Rules and Social Hierarchies",
+                      "content": "Marriage rules varied by caste and class. Brahmanical texts emphasized endogamy (marriage within the same social group) and discouraged inter-caste unions. However, historical records show deviations, with some ruling families intermarrying across castes for political reasons."
+                    },
+                    {
+                      "title": "The Fourfold Varna System",
+                      "content": "The varna system categorized society into four groups—Brahmanas, Kshatriyas, Vaishyas, and Shudras. Brahmanas justified their superiority through religious texts, while Shudras were relegated to service roles. However, historical evidence shows flexibility, with some rulers of non-Kshatriya origin gaining power."
+                    },
+                    {
+                      "title": "Jatis and Social Mobility",
+                      "content": "Unlike the rigid fourfold varna system, jatis were more flexible. These occupational-based groups allowed some social mobility. Guilds of merchants and craftsmen functioned as independent economic units, sometimes challenging Brahmanical prescriptions."
+                    },
+                    {
+                      "title": "Property and Wealth Distribution",
+                      "content": "Access to wealth was influenced by gender and caste. Brahmanical texts outlined seven ways for men to acquire wealth, including inheritance and conquest, while women were limited to gifts and dowries. Despite this, wealthy Shudras existed, challenging rigid caste hierarchies."
+                    },
+                    {
+                      "title": "Polyandry and Alternative Marriage Practices",
+                      "content": "The Mahabharata describes Draupadi’s marriage to the five Pandavas, an example of polyandry. This practice, while rare, was more accepted in certain regions, such as the Himalayas. Brahmanical texts later sought to explain and justify this unusual marriage."
+                    },
+                    {
+                      "title": "Criticism of the Caste System",
+                      "content": "Buddhist and Jain traditions challenged the Brahmanical varna system, emphasizing equality. They rejected birth-based social status and allowed individuals to improve their position through ethical conduct. Such critiques indicate that caste rigidity was not universally accepted."
+                    }
+                  ], 
+                  "questionSets": []
+                 },
+                { 
+                  "subtopicName": "Thinkers, Beliefs, and Buildings – Cultural Developments (600 BCE - 600 CE)", 
+                  "description": [
+                    {
+                      "title": "The Mid-First Millennium BCE – A Period of Intellectual Change",
+                      "content": "The mid-first millennium BCE saw the emergence of influential thinkers like the Buddha and Mahavira. This was a period of questioning existing traditions, including Vedic sacrifices. New religious and philosophical debates emerged, focusing on ethics, existence, and the nature of reality. Many ideas were recorded in Upanishads, Buddhist, and Jain texts."
+                    },
+                    {
+                      "title": "The Role of the Upanishads in Religious Thought",
+                      "content": "The Upanishads, composed around the sixth century BCE, marked a shift from ritualistic sacrifices to philosophical inquiry. They explored deep questions about the self (Atman) and the ultimate reality (Brahman). Concepts like karma and rebirth were central. These texts emphasized meditation, knowledge, and self-realization as paths to liberation."
+                    },
+                    {
+                      "title": "Buddhist Teachings and the Concept of Dhamma",
+                      "content": "Buddhism, founded by Siddhartha Gautama (the Buddha), rejected rituals and the caste system. The core of his teachings is the Four Noble Truths—suffering (dukkha) exists, it has a cause, it can end, and the Eightfold Path leads to liberation. Buddhist monks and nuns formed the sangha, spreading these ideas across India."
+                    },
+                    {
+                      "title": "Jainism and the Idea of Non-Violence (Ahimsa)",
+                      "content": "Mahavira, the 24th Tirthankara of Jainism, emphasized non-violence (ahimsa) as the highest virtue. Jains believed that everything, including rocks and water, has life. To attain liberation from the cycle of birth and rebirth, one had to follow strict ethical rules, practice asceticism, and renounce worldly possessions."
+                    },
+                    {
+                      "title": "The Importance of Monastic Life in Buddhism and Jainism",
+                      "content": "Both Buddhism and Jainism encouraged their followers to renounce worldly life. Monasteries (viharas) became centers of learning and spiritual practice. Jain monks followed extreme asceticism, while Buddhist monks lived in organized communities. Lay followers supported these monastic orders through donations and patronage."
+                    },
+                    {
+                      "title": "The Spread of Buddhism – Ashoka’s Role",
+                      "content": "Emperor Ashoka, after the Kalinga War, adopted Buddhism and promoted dhamma (moral law). He sent missionaries to Sri Lanka and Central Asia and built stupas and viharas. His rock and pillar edicts, inscribed in Prakrit and Greek, spread the message of peace, tolerance, and compassion throughout his empire."
+                    },
+                    {
+                      "title": "Stupas and Their Symbolism in Buddhism",
+                      "content": "Stupas were sacred Buddhist monuments built to house relics of the Buddha. The Great Stupa at Sanchi is a prime example. Stupas symbolized the path to enlightenment, with their dome representing the universe. They had toranas (gateways) decorated with carvings depicting Jataka tales (stories of Buddha’s previous lives)."
+                    },
+                    {
+                      "title": "The Decline of Buddhism and the Rise of Hindu Temples",
+                      "content": "By the early medieval period, Buddhism declined in India due to various factors, including the revival of Brahmanical traditions, the rise of Bhakti movements, and foreign invasions. Hindu temples began to replace Buddhist monasteries, with deities like Vishnu, Shiva, and Devi becoming central to religious worship."
+                    },
+                    {
+                      "title": "Philosophical Debates and Religious Pluralism",
+                      "content": "Ancient India was home to multiple philosophical schools, including Buddhism, Jainism, and various Hindu traditions. Buddhist texts mention debates between monks and Brahmins in kutagarashalas (huts for discussions). Some philosophers, like the Ajivikas and Lokayatas, even denied the existence of an afterlife, emphasizing materialism."
+                    },
+                    {
+                      "title": "The Role of Art and Architecture in Religious Traditions",
+                      "content": "Religious ideas were expressed through art, including cave temples, sculptures, and paintings. The Ajanta and Ellora caves feature murals depicting scenes from the Buddha’s life. Ashokan pillars and temple structures evolved to reflect changing beliefs. These artistic traditions continued to influence Indian culture for centuries."
+                    }
+                  ], 
+                  "questionSets": [] 
+                }
               ]
             },
             {
               "topicName": "Themes in Indian History (Medieval)",
               "subtopics": [
-                { "subtopicName": "Through the Eyes of Travellers – Perceptions of Society (10th - 17th Century)", "description": [], "questionSets": [] },
-                { "subtopicName": "Bhakti-Sufi Traditions – Changes in Religious Beliefs and Devotional Texts (8th - 18th Century)", "description": [], "questionSets": [] },
-                { "subtopicName": "An Imperial Capital: Vijayanagara (14th - 16th Century)", "description": [], "questionSets": [] },
-                { "subtopicName": "Peasants, Zamindars, and the State – Agrarian Society under the Mughals (16th - 17th Century)", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "Through the Eyes of Travellers – Perceptions of Society (10th - 17th Century)", 
+                  "description": [
+                    {
+                      "title": "Introduction to Travel Accounts",
+                      "content": "Many foreign travelers visited India between the 10th and 17th centuries, leaving behind valuable descriptions of society, culture, and governance. These accounts provide insights into trade, religion, social customs, and everyday life. However, they were often influenced by the travelers' own backgrounds and perceptions."
+                    },
+                    {
+                      "title": "Al-Biruni and His Observations",
+                      "content": "Al-Biruni, a Persian scholar, traveled to India in the 11th century with Mahmud of Ghazni. He learned Sanskrit and wrote Kitab-ul-Hind, which examined Hindu traditions, caste structures, and religious practices. He admired Indian knowledge in mathematics and astronomy but criticized the rigidity of the caste system."
+                    },
+                    {
+                      "title": "Ibn Battuta’s Travel in India",
+                      "content": "Ibn Battuta, a Moroccan traveler, visited India in the 14th century and served in Muhammad bin Tughlaq’s court. His book, Rihla, describes Delhi’s grandeur, the Sultan’s unpredictable rule, and the bustling trade centers. He also observed strict social hierarchies and the role of women in public life."
+                    },
+                    {
+                      "title": "Francois Bernier’s Views on Mughal India",
+                      "content": "Francois Bernier, a French physician and traveler, spent 12 years in India during Aurangzeb’s reign. His writings compared Indian society with Europe, often highlighting the absence of private land ownership. He criticized Mughal administration for being overly centralized and believed it stifled economic progress."
+                    },
+                    {
+                      "title": "Social Structure and Caste System",
+                      "content": "Foreign travelers frequently commented on India’s caste system. While Al-Biruni attempted to understand it from a scholarly perspective, Bernier saw it as a rigid and oppressive structure. Some travelers noted how caste dictated people’s professions and social interactions, shaping daily life and customs."
+                    },
+                    {
+                      "title": "Economy and Trade",
+                      "content": "Ibn Battuta and other travelers described India as a thriving economic hub, with bustling markets, extensive trade networks, and a rich tradition of craftsmanship. Ports like Surat and Masulipatnam facilitated international trade, attracting merchants from Persia, Arabia, and China."
+                    },
+                    {
+                      "title": "Religious Beliefs and Practices",
+                      "content": "Foreign travelers observed India’s religious diversity. Al-Biruni studied Hindu philosophy, while Ibn Battuta documented the practices of Sufi saints. Bernier, however, viewed Indian religious rituals as superstitious. These accounts help historians understand the coexistence and conflicts between different religious groups."
+                    },
+                    {
+                      "title": "Role of Women in Society",
+                      "content": "Some travelers commented on the status of women in India. Ibn Battuta noted that elite women lived in seclusion, while others had active roles in trade and local administration. Bernier described practices like sati and purdah, often interpreting them from a European perspective."
+                    },
+                    {
+                      "title": "Urban and Rural Life",
+                      "content": "Travelers depicted India’s vibrant cities with grand palaces, mosques, and markets. Ibn Battuta was fascinated by Delhi’s wealth, while Bernier was critical of rural poverty. The contrast between the opulence of the Mughal court and the hardships of peasants is a recurring theme in these accounts."
+                    },
+                    {
+                      "title": "Impact of Travel Writings",
+                      "content": "The accounts of these travelers shaped European perceptions of India for centuries. While some descriptions were factual, others were exaggerated or biased. Historians analyze these texts critically, comparing them with local records to construct a balanced view of medieval Indian society."
+                    }
+                  ], 
+                  "questionSets": []
+                 },
+                { 
+                  "subtopicName": "Bhakti-Sufi Traditions – Changes in Religious Beliefs and Devotional Texts (8th - 18th Century)", 
+                  "description": [
+                    {
+                      "title": "The Bhakti Movement: An Alternative Path",
+                      "content": "The Bhakti movement emphasized devotion (bhakti) over rituals and caste distinctions. Saints like Kabir and Mirabai rejected orthodox practices and promoted a direct connection with God. Their teachings, expressed through poetry and songs, attracted followers from all social backgrounds, challenging Brahmanical dominance in religious discourse."
+                    },
+                    {
+                      "title": "Key Features of Bhakti Traditions",
+                      "content": "Bhakti saints believed in a personal relationship with the divine. They emphasized love, surrender, and equality before God. Some, like Tulsidas and Surdas, remained within Hindu traditions, while others, like Kabir, criticized both Hindu and Islamic orthodoxy. Bhakti traditions also encouraged the use of vernacular languages instead of Sanskrit."
+                    },
+                    {
+                      "title": "The Role of Sufi Saints",
+                      "content": "Sufism, the mystical branch of Islam, emphasized inner spirituality, love, and devotion to God. Sufi saints (pirs) lived in khanqahs (hospices) and attracted disciples through teachings and music (qawwali). Prominent Sufi orders, like the Chishti and Suhrawardi, played a major role in spreading Islam in India."
+                    },
+                    {
+                      "title": "Interaction Between Bhakti and Sufi Traditions",
+                      "content": "Both Bhakti and Sufi traditions rejected religious formalism and emphasized love for the divine. They encouraged inclusive worship, allowing lower castes and non-Muslims to participate. Bhakti poets like Kabir and Sufi saints like Baba Farid shared ideas on social equality, condemning religious intolerance and ritualism."
+                    },
+                    {
+                      "title": "Kabir: Bridging Hinduism and Islam",
+                      "content": "Kabir, a 15th-century poet-saint, rejected both Hindu and Muslim orthodoxies. His dohas (couplets) ridiculed meaningless rituals and emphasized devotion to a formless God. His teachings were later included in Sikhism’s Guru Granth Sahib. Kabir’s verses remain popular in Indian spiritual and folk traditions."
+                    },
+                    {
+                      "title": "Mirabai: Devotion Beyond Boundaries",
+                      "content": "Mirabai, a Rajput princess, defied societal norms by devoting herself to Lord Krishna. Her devotional songs (bhajans) expressed love and surrender to the deity. She rejected caste and gender hierarchies, wandering in search of spiritual fulfillment. Her compositions remain an integral part of Hindu devotional music."
+                    },
+                    {
+                      "title": "Guru Nanak and Sikhism",
+                      "content": "Guru Nanak, the founder of Sikhism, emphasized the unity of God and rejected caste distinctions. His teachings, recorded in the Guru Granth Sahib, blended Bhakti and Sufi ideas. Nanak’s emphasis on selfless service (sewa) and community kitchens (langar) fostered an inclusive spiritual tradition."
+                    },
+                    {
+                      "title": "The Role of Dargahs and Temples",
+                      "content": "Bhakti saints built temples dedicated to their chosen deities, while Sufi saints established dargahs (tombs of saints). Ajmer’s Dargah of Khwaja Moinuddin Chishti became a major pilgrimage site. These sacred spaces attracted devotees from diverse backgrounds, fostering interfaith interactions."
+                    },
+                    {
+                      "title": "Influence on Regional Literature",
+                      "content": "Bhakti and Sufi traditions encouraged the use of regional languages, making religious teachings more accessible. Saints like Namdev, Tukaram (Marathi), and Basava (Kannada) composed poetry in vernacular languages. Sufi poets like Amir Khusrau enriched Hindavi (early Hindi-Urdu), blending Persian and Indian literary traditions."
+                    },
+                    {
+                      "title": "Impact on Indian Society",
+                      "content": "The Bhakti-Sufi movements contributed to a more inclusive religious atmosphere in medieval India. They challenged caste hierarchies, supported women’s participation in religious discourse, and promoted communal harmony. Their legacy continues to shape Indian spirituality, influencing contemporary religious and cultural practices."
+                    }
+                  ], 
+                  "questionSets": [] 
+                },
+                { 
+                  "subtopicName": "An Imperial Capital: Vijayanagara (14th - 16th Century)",
+                   "description": [
+                    {
+                      "title": "The Foundation of Vijayanagara",
+                      "content": "The Vijayanagara Empire was founded in 1336 by Harihara and Bukka, two brothers who served under the Kakatiyas and later the Kampili rulers. They established the capital at Hampi, strategically located near the Tungabhadra River. The empire was founded amidst political turmoil following the decline of the Delhi Sultanate's influence in the Deccan."
+                    },
+                    {
+                      "title": "The City Layout and Fortifications",
+                      "content": "Hampi, the capital of Vijayanagara, was well-planned with massive fortifications. The city was enclosed by seven concentric walls, with watchtowers and gateways for security. Unlike other medieval cities, the fortifications incorporated natural features such as rivers and rocky terrain, making it difficult for invaders to breach."
+                    },
+                    {
+                      "title": "Royal and Sacred Enclosures",
+                      "content": "The city had distinct areas, including the Royal Enclosure, which housed palaces, audience halls, and administrative buildings, and the Sacred Centre, which contained important temples like the Virupaksha and Vitthala temples. These areas reflected the empire’s administrative and religious priorities, blending Dravidian and Indo-Islamic architectural influences."
+                    },
+                    {
+                      "title": "The Economy and Trade Networks",
+                      "content": "Vijayanagara was a hub of international trade. It engaged in trade with the Portuguese and Arabs, exporting spices, textiles, and precious stones. Markets were vibrant, with traders from different parts of the world exchanging goods. The empire controlled key ports on the west coast, facilitating maritime commerce."
+                    },
+                    {
+                      "title": "Agriculture and Irrigation Systems",
+                      "content": "The empire invested in extensive irrigation systems to support agriculture. Large reservoirs, canals, and wells ensured water supply for crops like rice, cotton, and spices. The most famous waterworks were at Kamalapuram, which supplied water to the capital. Efficient irrigation contributed to economic prosperity and population growth."
+                    },
+                    {
+                      "title": "The Vijayanagara Military and Warfare",
+                      "content": "The empire maintained a powerful military, comprising infantry, cavalry, and war elephants. It employed the Amaranayaka System, where military commanders, known as nayakas, controlled territories and maintained forces. The Battle of Talikota (1565) was a turning point, where the empire was defeated by the combined forces of the Deccan Sultanates."
+                    },
+                    {
+                      "title": "The Role of Religion and Patronage",
+                      "content": "Vijayanagara rulers were patrons of Hinduism, constructing grand temples and supporting religious institutions. The Virupaksha Temple, dedicated to Lord Shiva, was one of the most important religious sites. However, the empire was also known for its religious tolerance, with evidence of mosques and Islamic influences in architecture."
+                    },
+                    {
+                      "title": "The Splendor of Vijayanagara Architecture",
+                      "content": "Vijayanagara’s architecture was distinctive, with monolithic sculptures, ornate pillars, and intricate carvings. The Vitthala Temple is famous for its musical pillars, which produce sounds when struck. The Lotus Mahal, an Indo-Islamic styled structure, highlights the blend of different artistic traditions within the empire."
+                    },
+                    {
+                      "title": "The Decline of Vijayanagara",
+                      "content": "The empire faced internal conflicts and external threats. The decisive Battle of Talikota (1565) led to the empire’s downfall. The combined armies of the Deccan Sultanates defeated Vijayanagara, looting and destroying Hampi. Though rulers continued in the south, the empire never regained its former glory."
+                    },
+                    {
+                      "title": "Vijayanagara’s Legacy",
+                      "content": "Despite its fall, the legacy of Vijayanagara continues. Hampi, now a UNESCO World Heritage site, showcases the grandeur of the empire’s past. The architectural and cultural achievements of Vijayanagara influenced later South Indian kingdoms and continue to be a source of historical and archaeological interest today."
+                    }
+                   ],
+                    "questionSets": []
+                   },
+                { 
+                  "subtopicName": "Peasants, Zamindars, and the State – Agrarian Society under the Mughals (16th - 17th Century)",
+                   "description": [
+                    {
+                      "title": "Land Revenue System",
+                      "content": "The Mughal administration relied heavily on agricultural revenue. Land was classified based on fertility and productivity. The Zabt system, introduced by Akbar, required measurement of land and fixation of tax rates based on average production. The Ryotwari and Mahalwari systems were also used in different regions."
+                    },
+                    {
+                      "title": "Role of the Zamindars",
+                      "content": "Zamindars played a crucial role in revenue collection. They acted as intermediaries between the peasantry and the Mughal administration. While some were hereditary landlords, others were revenue farmers who leased land. Their power varied across regions, with some having military and judicial authority over their territories."
+                    },
+                    {
+                      "title": "Peasants and Agricultural Practices",
+                      "content": "Peasants, or ryots, formed the backbone of the agrarian economy. They cultivated staple crops like wheat and rice, as well as cash crops like indigo and cotton. The introduction of Persian wheel irrigation and crop rotation helped improve yields. Peasants paid taxes either in cash or in kind."
+                    },
+                    {
+                      "title": "Agrarian Conflicts and Peasant Revolts",
+                      "content": "High taxation and forced labor often led to agrarian unrest. The Jat and Sikh revolts in northern India and peasant uprisings in Deccan were direct results of excessive revenue demands and oppression by local officials. Many peasants fled to forests and tribal areas to escape taxation."
+                    },
+                    {
+                      "title": "Expansion of Agriculture",
+                      "content": "Under Mughal rule, cultivation expanded due to state incentives. The state encouraged the clearing of forests and the settlement of new agricultural communities. Revenue-free land grants, known as madad-i-maash, were given to religious leaders and scholars, helping spread agriculture into less developed regions."
+                    },
+                    {
+                      "title": "Rural Society and Caste Hierarchy",
+                      "content": "Mughal villages were structured around caste-based occupations. Upper-caste landowners controlled local administration, while lower-caste workers provided labor. Women played a role in farming but had limited land ownership rights. Artisans and traders in villages contributed to the rural economy by supplying goods to larger markets."
+                    },
+                    {
+                      "title": "Role of the Jagirdars",
+                      "content": "Jagirdars were officials assigned land (jagirs) instead of salaries. They collected revenue from their jagirs but had no ownership rights. Since jagirs were frequently transferred, jagirdars tried to maximize revenue collection, often leading to peasant distress and revolts."
+                    },
+                    {
+                      "title": "The Impact of Mughal Decline on Peasants",
+                      "content": "As Mughal central control weakened in the late 17th century, local chieftains and zamindars became more powerful. Revenue extraction became harsher, and many peasants abandoned their land. This decline in agricultural production contributed to economic instability and paved the way for British intervention in the 18th century."
+                    },
+                    {
+                      "title": "Irrigation and Agricultural Technology",
+                      "content": "Mughal rulers invested in irrigation projects, including wells, tanks, and canals, to boost agricultural output. The Persian wheel improved water distribution, and new crop varieties were introduced through trade networks. These advancements helped increase food production and support a growing population."
+                    },
+                    {
+                      "title": "The Relationship Between the State and Rural Elites",
+                      "content": "The Mughal state maintained a delicate balance with rural elites. While zamindars and jagirdars were essential for tax collection, the central authority often intervened to prevent excessive exploitation of peasants. Periodic surveys and audits were conducted to monitor land revenue and administrative efficiency."
+                    }
+                   ],
+                    "questionSets": [] 
+                  }
               ]
             },
             {
               "topicName": "Themes in Indian History (Modern)",
               "subtopics": [
-                { "subtopicName": "Colonialism and the Countryside – British Land Revenue Policies", "description": [], "questionSets": [] },
-                { "subtopicName": "Rebels and the Raj – The 1857 Revolt and its Representations", "description": [], "questionSets": [] },
-                { "subtopicName": "Mahatma Gandhi and the Nationalist Movement – Civil Disobedience and Beyond", "description": [], "questionSets": [] },
-                { "subtopicName": "Framing the Constitution – The Beginning of a New Era", "description": [], "questionSets": [] }
+                { 
+                  "subtopicName": "Colonialism and the Countryside – British Land Revenue Policies",
+                   "description": [
+                    {
+                      "title": "Introduction to British Land Revenue Policies",
+                      "content": "The British introduced new land revenue policies to maximize revenue collection from Indian agriculture. These policies significantly altered agrarian relations, affecting peasants, landlords, and the colonial administration. The major revenue systems introduced were the Permanent Settlement, Ryotwari System, and Mahalwari System, each with distinct characteristics and consequences."
+                    },
+                    {
+                      "title": "Permanent Settlement (1793)",
+                      "content": "Introduced by Lord Cornwallis in Bengal, Bihar, and Orissa, the Permanent Settlement made zamindars the landowners, fixing revenue payments permanently. Zamindars had to pay revenue to the British, failing which they lost their land. While it provided stability to the colonial administration, it burdened peasants who had to pay high rents."
+                    },
+                    {
+                      "title": "Ryotwari System",
+                      "content": "The Ryotwari System, introduced in Madras and Bombay Presidencies, recognized individual cultivators (ryots) as landowners who paid revenue directly to the British. While it removed intermediaries, revenue demand was often too high, forcing farmers into debt. This system increased the exploitation of peasants while giving the British direct control over land revenue collection."
+                    },
+                    {
+                      "title": "Mahalwari System",
+                      "content": "The Mahalwari System, introduced in North-Western Provinces and Punjab, was a modified system where revenue was settled with the village collectively. The village headman was responsible for collecting and paying the revenue. While it provided some flexibility, heavy tax burdens and British interference weakened traditional village structures."
+                    },
+                    {
+                      "title": "Impact on Peasants",
+                      "content": "Under all three systems, peasants bore the heaviest burden. They had no security of tenure, were frequently evicted for non-payment, and often had to rely on moneylenders. As British revenue demands were rigid and insensitive to agricultural conditions, peasants faced extreme poverty, periodic famines, and growing discontent."
+                    },
+                    {
+                      "title": "Growth of Indigo Cultivation",
+                      "content": "The British encouraged Indigo cultivation for export, forcing farmers to grow indigo instead of food crops. Peasants were trapped in unfair contracts where they had to accept advance loans and sell at low prices. This led to the Indigo Revolt (1859-60) in Bengal, where peasants protested against exploitative European planters."
+                    },
+                    {
+                      "title": "Peasant Resistance & Revolts",
+                      "content": "Peasant uprisings became common due to British exploitation. The Santhal Rebellion (1855-56) was one of the earliest revolts against the British and zamindars. The Deccan Riots (1875) saw peasants attacking moneylenders who had seized their land. These revolts reflected widespread dissatisfaction with British agrarian policies."
+                    },
+                    {
+                      "title": "British Response to Agrarian Distress",
+                      "content": "Facing growing unrest, the British made some reforms. The Deccan Agriculturists’ Relief Act (1879) aimed to reduce debt burdens by controlling moneylenders. However, fundamental issues like high revenue demands and landlessness remained unresolved. The colonial state prioritized revenue collection over peasant welfare."
+                    },
+                    {
+                      "title": "Long-term Effects of British Policies",
+                      "content": "British land revenue policies led to a decline in traditional agrarian economies. Self-sufficient village economies weakened, food crop production reduced, and large-scale indebtedness became common. The policies set the stage for widespread rural poverty, which continued even after independence."
+                    },
+                    {
+                      "title": "Conclusion: A Legacy of Colonial Exploitation",
+                      "content": "The British land revenue policies created a landscape of economic hardship in rural India. High taxation, debt cycles, and forced cultivation of cash crops led to agrarian distress, which fueled nationalist movements. The struggle of peasants against colonial rule became an important part of India's freedom movement."
+                    }
+                  
+                   ],
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Rebels and the Raj – The 1857 Revolt and its Representations", 
+                  "description": [
+                    {
+                      "title": "The Outbreak of Revolt",
+                      "content": "The Revolt of 1857 began in Meerut when Indian sepoys refused to use greased cartridges rumored to contain cow and pig fat. Their refusal led to severe punishment, sparking widespread anger. The rebellion spread rapidly to Delhi, Kanpur, Lucknow, and other regions, taking on a broader anti-colonial character."
+                    },
+                    {
+                      "title": "The Mughal Emperor as a Symbol",
+                      "content": "Bahadur Shah Zafar, the last Mughal emperor, was declared the leader of the revolt. Though old and politically weak, his name provided legitimacy to the uprising. The rebels saw him as a unifying figure against the British, despite his lack of real military control over the rebellion."
+                    },
+                    {
+                      "title": "Key Centers of the Revolt",
+                      "content": "The revolt was most intense in northern and central India. Kanpur saw fierce fighting under Nana Sahib, while Rani Lakshmibai of Jhansi fought bravely against the British. In Awadh, Begum Hazrat Mahal led resistance, while Tantia Tope conducted guerrilla warfare against British forces."
+                    },
+                    {
+                      "title": "The Role of Sepoys and Civilians",
+                      "content": "The rebellion was driven by sepoys, but civilians also played a crucial role. Peasants, landlords, and artisans, affected by British economic policies, joined the movement. The rebels targeted British officials, European civilians, and loyalist Indians, leading to a widespread insurrection."
+                    },
+                    {
+                      "title": "British Suppression and Brutality",
+                      "content": "The British used extreme violence to suppress the rebellion. They recaptured Delhi in September 1857 and executed thousands of suspected rebels. In Kanpur, after the massacre of British women and children, the British carried out brutal reprisals, hanging and executing Indian civilians in large numbers."
+                    },
+                    {
+                      "title": "The Role of Women in the Revolt",
+                      "content": "Women played significant roles in the revolt. Rani Lakshmibai of Jhansi led her troops in battle and died fighting. Begum Hazrat Mahal took charge in Awadh, mobilizing soldiers against the British. Many other unnamed women participated as warriors, spies, and supporters."
+                    },
+                    {
+                      "title": "Why the Revolt Failed",
+                      "content": "Despite initial success, the revolt failed due to a lack of unified leadership, superior British weaponry, and limited support from Indian elites. The British controlled communication and transportation, allowing them to suppress the uprising strategically. Many Indian princes and landlords sided with the British, weakening the rebellion."
+                    },
+                    {
+                      "title": "British Retaliation and the End of the Revolt",
+                      "content": "By mid-1858, the British had crushed the revolt. Bahadur Shah Zafar was captured and exiled to Burma, while many rebel leaders were killed. The British dissolved the Mughal Empire and abolished the East India Company’s rule, transferring India’s governance to the British Crown."
+                    },
+                    {
+                      "title": "Representations of the Revolt",
+                      "content": "The British saw the revolt as a 'mutiny' by disloyal soldiers, while Indian nationalists later portrayed it as India’s 'First War of Independence.' British historians highlighted the violence of the rebels, while Indian accounts focused on British cruelty and the resistance by Indian leaders."
+                    },
+                    {
+                      "title": "The Aftermath: Changes in British Policies",
+                      "content": "The revolt led to major administrative changes. The British Crown took direct control of India, ending Company rule. The army was reorganized to prevent future mutinies, and policies were adjusted to gain loyalty from Indian rulers and elites. The revolt also sowed seeds of nationalism in India."
+                    }
+                  ], 
+                  "questionSets": [] 
+                },
+                { 
+                  "subtopicName": "Mahatma Gandhi and the Nationalist Movement – Civil Disobedience and Beyond",
+                   "description": [
+                    {
+                      "title": "The Early Political Career of Gandhi",
+                      "content": "Mahatma Gandhi emerged as a key figure in the Indian freedom struggle after his return from South Africa in 1915. He initially focused on resolving local issues like the Champaran Satyagraha (1917) and Kheda Satyagraha (1918). These movements helped Gandhi establish himself as a leader who could mobilize the masses using non-violent resistance."
+                    },
+                    {
+                      "title": "The Non-Cooperation Movement (1920-1922)",
+                      "content": "The Non-Cooperation Movement was launched in response to the Jallianwala Bagh massacre and the repressive Rowlatt Act. Gandhi urged Indians to boycott British institutions, including schools, courts, and foreign goods. The movement saw massive participation but was withdrawn in 1922 after the Chauri Chaura incident, where protesters turned violent."
+                    },
+                    {
+                      "title": "Salt Satyagraha and the Civil Disobedience Movement (1930)",
+                      "content": "In 1930, Gandhi launched the Civil Disobedience Movement by leading the famous Dandi March. Covering 240 miles in 24 days, he reached the coastal town of Dandi and broke the salt laws. This act of defiance against British taxation led to widespread protests, boycotts, and arrests across India."
+                    },
+                    {
+                      "title": "The Gandhi-Irwin Pact (1931)",
+                      "content": "The Civil Disobedience Movement led to mass arrests, including that of Gandhi. However, it forced the British government to negotiate. The Gandhi-Irwin Pact was signed in 1931, leading to the release of political prisoners and the temporary suspension of the movement. In return, Gandhi agreed to participate in the Second Round Table Conference."
+                    },
+                    {
+                      "title": "The Failure of the Second Round Table Conference (1931)",
+                      "content": "Gandhi attended the Second Round Table Conference in London as the sole representative of the Indian National Congress. However, deep divisions among different Indian groups and British reluctance to grant real autonomy led to the failure of the talks. This setback led to the resumption of the Civil Disobedience Movement."
+                    },
+                    {
+                      "title": "Quit India Movement (1942)",
+                      "content": "As World War II progressed, the British government failed to meet Indian demands for independence. In August 1942, Gandhi launched the Quit India Movement with the slogan 'Do or Die.' The movement was met with severe repression, mass arrests, and violent protests, but it marked a decisive step towards India's independence."
+                    },
+                    {
+                      "title": "Role of Women in Gandhi's Movements",
+                      "content": "Gandhi encouraged women’s participation in nationalist movements. Leaders like Sarojini Naidu and Aruna Asaf Ali played crucial roles. Women picketed liquor shops, participated in salt-making, and protested against British policies, redefining their role in public life and the independence struggle."
+                    },
+                    {
+                      "title": "Gandhi’s Role in Hindu-Muslim Unity",
+                      "content": "Gandhi worked tirelessly to bridge communal divides, particularly after the Khilafat Movement. However, communal tensions escalated in the 1940s, leading to the demand for Pakistan. Gandhi opposed the partition, emphasizing unity, but the political situation made division inevitable."
+                    },
+                    {
+                      "title": "The Partition and Independence (1947)",
+                      "content": "Despite Gandhi's efforts, India was partitioned into India and Pakistan in 1947. He spent his last days trying to ensure peace amidst the communal violence that erupted. His principles of non-violence and tolerance remained central to his vision of a free India."
+                    },
+                    {
+                      "title": "Gandhi’s Assassination (1948)",
+                      "content": "On January 30, 1948, Mahatma Gandhi was assassinated by Nathuram Godse, a Hindu nationalist who blamed him for appeasing Muslims. His death marked the end of an era, but his philosophy of non-violence continues to inspire movements for civil rights and freedom worldwide."
+                    }
+                   ],
+                    "questionSets": [] 
+                  },
+                { 
+                  "subtopicName": "Framing the Constitution – The Beginning of a New Era",
+                   "description": [
+                    {
+                      "title": "The Constituent Assembly: Birth of a Vision",
+                      "content": "The Constituent Assembly was formed in December 1946 to draft the Indian Constitution. It had representatives from various backgrounds, including lawyers, scholars, and freedom fighters. Dr. B.R. Ambedkar was the Chairman of the Drafting Committee, and Jawaharlal Nehru, Sardar Patel, and Maulana Azad played significant roles in shaping India's foundational document."
+                    },
+                    {
+                      "title": "The Influence of Past Experiences",
+                      "content": "India’s struggle against colonial rule deeply influenced the Constitution. Leaders sought to ensure democracy, justice, and equality, learning from British rule and historical governance models like the Mauryan and Mughal empires. The failures of colonial laws, such as the Rowlatt Act and Government of India Acts, shaped the need for fundamental rights and parliamentary democracy."
+                    },
+                    {
+                      "title": "Fundamental Rights: Securing Individual Liberties",
+                      "content": "The Constitution guarantees Fundamental Rights such as equality, freedom of speech, and protection against discrimination. These rights ensure that every citizen, regardless of caste, religion, or gender, is treated fairly. The framers emphasized rights to prevent any future authoritarian rule and to empower historically disadvantaged communities."
+                    },
+                    {
+                      "title": "Directive Principles: A Vision for Welfare",
+                      "content": "The Directive Principles of State Policy outline goals like social justice, education for all, and economic equality. While not legally enforceable, they serve as guidelines for governments to create policies ensuring the well-being of citizens. These principles were inspired by ideals from the Irish Constitution and Gandhi’s vision of a just society."
+                    },
+                    {
+                      "title": "Debates and Conflicts in the Assembly",
+                      "content": "The framing of the Constitution involved intense debates. Some members favored a strong central government, while others demanded more power for states. Disagreements arose on issues like reservations, minority rights, and economic policies. Despite differences, the Assembly worked through consensus, demonstrating the spirit of democracy in action."
+                    },
+                    {
+                      "title": "The Role of B.R. Ambedkar",
+                      "content": "Dr. B.R. Ambedkar, as the chief architect of the Constitution, fought for the inclusion of social justice principles. He ensured that Scheduled Castes and Tribes received adequate representation and legal protection. His speeches in the Assembly emphasized the importance of equality, fraternity, and individual dignity as the pillars of the new India."
+                    },
+                    {
+                      "title": "Federalism and Center-State Relations",
+                      "content": "The Constitution established a federal structure where powers were divided between the central and state governments. Subjects were categorized into Union, State, and Concurrent Lists. While states had autonomy in certain matters, key areas like defense, foreign affairs, and communications were under central control to maintain national unity."
+                    },
+                    {
+                      "title": "Adoption and Enactment of the Constitution",
+                      "content": "On November 26, 1949, the Constituent Assembly adopted the Constitution, which came into effect on January 26, 1950. This day is celebrated as Republic Day. The enactment marked the transition from colonial rule to a sovereign democratic republic, fulfilling the dreams of countless freedom fighters."
+                    },
+                    {
+                      "title": "Challenges in Implementing the Constitution",
+                      "content": "After independence, the government faced challenges like refugee resettlement, economic instability, and communal tensions. Implementing constitutional provisions, such as land reforms and universal adult suffrage, required significant effort. The first general elections in 1952 tested India's commitment to democratic governance."
+                    },
+                    {
+                      "title": "Legacy and Evolution of the Constitution",
+                      "content": "Over the years, amendments have refined the Constitution to address emerging challenges. Landmark changes, such as the 42nd and 73rd Amendments, have strengthened democracy by expanding fundamental duties and empowering local governance. The Constitution remains a dynamic document, adapting to India's evolving needs while preserving its core democratic principles."
+                    }
+                   ], 
+                   "questionSets": []
+                   }
               ]
             }
           ]
