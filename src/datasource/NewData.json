@@ -34711,7 +34711,657 @@
                     }
                   
                    ],
-                    "questionSets": [] 
+                    "questionSets": [
+                      {
+                        "setNumber": 1,
+                        "questions": [
+                          {
+                            "question": "Who introduced the Permanent Settlement?",
+                            "options": ["Lord Wellesley", "Lord Dalhousie", "Lord Cornwallis", "Lord Hastings"],
+                            "answer": "Lord Cornwallis",
+                            "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793 in Bengal, Bihar, and Orissa to ensure a fixed revenue system with zamindars."
+                          },
+                          {
+                            "question": "Which system recognized ryots as landowners?",
+                            "options": ["Permanent Settlement", "Mahalwari System", "Ryotwari System", "Zamindari System"],
+                            "answer": "Ryotwari System",
+                            "explanation": "The Ryotwari System, implemented in Madras and Bombay Presidencies, made ryots (cultivators) direct landowners responsible for paying revenue."
+                          },
+                          {
+                            "question": "What year was the Permanent Settlement introduced?",
+                            "options": ["1793", "1800", "1857", "1765"],
+                            "answer": "1793",
+                            "explanation": "The Permanent Settlement was introduced in 1793 by Lord Cornwallis to create a stable revenue system in British India."
+                          },
+                          {
+                            "question": "Which system required revenue to be paid by the village collectively?",
+                            "options": ["Ryotwari", "Zamindari", "Mahalwari", "Subsidiary Alliance"],
+                            "answer": "Mahalwari",
+                            "explanation": "Under the Mahalwari System, revenue was settled with the village as a whole, with the village headman responsible for collection."
+                          },
+                          {
+                            "question": "Which area was the Ryotwari System mainly applied to?",
+                            "options": ["Punjab", "Madras & Bombay", "Bengal", "Awadh"],
+                            "answer": "Madras & Bombay",
+                            "explanation": "The Ryotwari System was implemented in the Madras and Bombay Presidencies, making individual farmers responsible for tax payments."
+                          },
+                          {
+                            "question": "What was a key consequence of the Permanent Settlement?",
+                            "options": ["Zamindars lost land", "Peasants paid lower taxes", "Revenue was fixed", "British reduced taxation"],
+                            "answer": "Revenue was fixed",
+                            "explanation": "Under the Permanent Settlement, zamindars had to pay a fixed revenue to the British, leading to pressure on peasants."
+                          },
+                          {
+                            "question": "Why did many peasants suffer under British policies?",
+                            "options": ["Low land tax", "High revenue demands", "More land rights", "Better farming methods"],
+                            "answer": "High revenue demands",
+                            "explanation": "The British insisted on high revenue payments even during poor harvests, forcing peasants into debt and hardship."
+                          },
+                          {
+                            "question": "What led to the Indigo Revolt of 1859-60?",
+                            "options": ["Low crop prices", "Forced Indigo farming", "British land grants", "New farming tools"],
+                            "answer": "Forced Indigo farming",
+                            "explanation": "Indigo planters forced farmers into unfair contracts, leading to widespread protests and the Indigo Revolt in Bengal."
+                          },
+                          {
+                            "question": "Which rebellion occurred in 1855-56 against British policies?",
+                            "options": ["Santhal Rebellion", "Indigo Revolt", "Deccan Riots", "Revolt of 1857"],
+                            "answer": "Santhal Rebellion",
+                            "explanation": "The Santhal Rebellion (1855-56) was an uprising by tribal communities against oppressive British policies and zamindars."
+                          },
+                          {
+                            "question": "Which act was passed to reduce peasant debt in 1879?",
+                            "options": ["Deccan Agriculturists' Relief Act", "Ryotwari Act", "Pitt's India Act", "Permanent Settlement Act"],
+                            "answer": "Deccan Agriculturists' Relief Act",
+                            "explanation": "The Deccan Agriculturists' Relief Act (1879) was introduced to curb exploitation by moneylenders and help indebted farmers."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 2,
+                        "questions": [
+                          {
+                            "question": "Which system fixed land revenue permanently?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "Zamindari"],
+                            "answer": "Permanent Settlement",
+                            "explanation": "The Permanent Settlement of 1793 fixed the land revenue permanently, benefiting the zamindars but burdening the peasants."
+                          },
+                          {
+                            "question": "Which province saw the Indigo Revolt?",
+                            "options": ["Madras", "Bengal", "Punjab", "Bombay"],
+                            "answer": "Bengal",
+                            "explanation": "The Indigo Revolt (1859-60) took place in Bengal, where peasants protested against forced indigo cultivation."
+                          },
+                          {
+                            "question": "What was a major flaw of the Ryotwari System?",
+                            "options": ["Low revenue", "No tax collection", "High taxation", "Land ownership given to zamindars"],
+                            "answer": "High taxation",
+                            "explanation": "The Ryotwari System imposed high revenue demands on peasants, often leading them into debt."
+                          },
+                          {
+                            "question": "Who was the main beneficiary of the Permanent Settlement?",
+                            "options": ["Peasants", "British Officials", "Zamindars", "Village Headmen"],
+                            "answer": "Zamindars",
+                            "explanation": "Zamindars benefited the most under the Permanent Settlement as they collected revenue and owned land."
+                          },
+                          {
+                            "question": "Which system eliminated intermediaries?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "Zamindari System"],
+                            "answer": "Ryotwari",
+                            "explanation": "The Ryotwari System removed intermediaries, making peasants directly responsible for paying revenue to the British."
+                          },
+                          {
+                            "question": "What was a major consequence of British land policies?",
+                            "options": ["Wealth growth", "Peasant prosperity", "Debt and poverty", "Zamindar decline"],
+                            "answer": "Debt and poverty",
+                            "explanation": "British land policies led to widespread debt, poverty, and landlessness among Indian peasants."
+                          },
+                          {
+                            "question": "Which region was affected by the Santhal Rebellion?",
+                            "options": ["Bengal", "Bombay", "Deccan", "Punjab"],
+                            "answer": "Bengal",
+                            "explanation": "The Santhal Rebellion (1855-56) occurred in Bengal, where Santhals revolted against zamindars and British rule."
+                          },
+                          {
+                            "question": "Which system allowed villages to pay taxes collectively?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "Zamindari"],
+                            "answer": "Mahalwari",
+                            "explanation": "The Mahalwari System allowed the village community to pay land revenue collectively."
+                          },
+                          {
+                            "question": "What was a direct impact of British land revenue policies?",
+                            "options": ["Better agriculture", "Rural prosperity", "Food shortage", "Increased trade"],
+                            "answer": "Food shortage",
+                            "explanation": "British policies forced peasants to grow cash crops instead of food crops, leading to food shortages."
+                          },
+                          {
+                            "question": "Which revolt targeted moneylenders in 1875?",
+                            "options": ["Santhal Rebellion", "Indigo Revolt", "Deccan Riots", "Sepoy Mutiny"],
+                            "answer": "Deccan Riots",
+                            "explanation": "The Deccan Riots of 1875 were led by peasants against moneylenders who had taken over their land."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 3,
+                        "questions": [
+                          {
+                            "question": "Who introduced the Permanent Settlement system?",
+                            "options": ["Lord Wellesley", "Lord Cornwallis", "Lord Curzon", "Lord Dalhousie"],
+                            "answer": "Lord Cornwallis",
+                            "explanation": "The Permanent Settlement system was introduced by Lord Cornwallis in 1793 to ensure a fixed revenue collection from zamindars."
+                          },
+                          {
+                            "question": "Which class benefited the most from Permanent Settlement?",
+                            "options": ["Peasants", "Zamindars", "British officials", "Moneylenders"],
+                            "answer": "Zamindars",
+                            "explanation": "Zamindars gained land ownership under the Permanent Settlement, but peasants suffered due to high rents and lack of land rights."
+                          },
+                          {
+                            "question": "What was a major drawback of the Ryotwari System?",
+                            "options": ["Low taxes", "No land ownership", "High revenue demand", "Peasants became rich"],
+                            "answer": "High revenue demand",
+                            "explanation": "The Ryotwari System imposed high revenue demands directly on cultivators, often pushing them into debt and poverty."
+                          },
+                          {
+                            "question": "In which region was the Mahalwari System introduced?",
+                            "options": ["Bengal", "Madras", "North-West Provinces", "Bombay"],
+                            "answer": "North-West Provinces",
+                            "explanation": "The Mahalwari System was implemented in the North-Western Provinces and Punjab, where revenue was collected at the village level."
+                          },
+                          {
+                            "question": "Why did peasants oppose indigo cultivation?",
+                            "options": ["Low wages", "Unfair contracts", "High profits", "British support"],
+                            "answer": "Unfair contracts",
+                            "explanation": "Indigo planters forced peasants into unfair contracts, making them grow indigo at low prices, leading to the Indigo Revolt (1859-60)."
+                          },
+                          {
+                            "question": "Which revolt was led by the Santhal tribes?",
+                            "options": ["Deccan Riots", "Santhal Rebellion", "Indigo Revolt", "Moplah Rebellion"],
+                            "answer": "Santhal Rebellion",
+                            "explanation": "The Santhal Rebellion (1855-56) was an uprising by the Santhal tribes against British oppression and zamindari exploitation."
+                          },
+                          {
+                            "question": "What was the role of moneylenders under British rule?",
+                            "options": ["Reduced farmer debts", "Provided fair loans", "Exploited peasants", "Supported agriculture"],
+                            "answer": "Exploited peasants",
+                            "explanation": "Moneylenders took advantage of high tax burdens and lack of land security, trapping peasants in debt cycles."
+                          },
+                          {
+                            "question": "Which act tried to control moneylenders?",
+                            "options": ["Regulating Act", "Deccan Agriculturists’ Relief Act", "Charter Act", "Pitt’s India Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "The Deccan Agriculturists’ Relief Act (1879) aimed to reduce exploitation by moneylenders but did not fully solve peasant distress."
+                          },
+                          {
+                            "question": "Which system was called 'a gamble in the monsoons'?",
+                            "options": ["Permanent Settlement", "Ryotwari System", "Mahalwari System", "Zamindari System"],
+                            "answer": "Ryotwari System",
+                            "explanation": "The Ryotwari System depended on annual revenue payments, making farmers vulnerable to monsoon failures and debt."
+                          },
+                          {
+                            "question": "What was a long-term effect of British land policies?",
+                            "options": ["Increased food crops", "Less poverty", "Rural debt", "Better wages"],
+                            "answer": "Rural debt",
+                            "explanation": "High revenue demands, moneylender exploitation, and forced cash crop cultivation led to widespread rural debt and poverty."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 4,
+                        "questions": [
+                          {
+                            "question": "Who introduced the Permanent Settlement?",
+                            "options": ["Lord Wellesley", "Lord Hastings", "Lord Cornwallis", "Lord Dalhousie"],
+                            "answer": "Lord Cornwallis",
+                            "explanation": "The Permanent Settlement was introduced by Lord Cornwallis in 1793 to fix land revenue permanently."
+                          },
+                          {
+                            "question": "What was a key feature of the Ryotwari System?",
+                            "options": ["Revenue paid to zamindars", "Revenue paid directly by farmers", "Village collective payment", "No revenue payment"],
+                            "answer": "Revenue paid directly by farmers",
+                            "explanation": "In the Ryotwari System, farmers (ryots) paid land revenue directly to the British, without intermediaries."
+                          },
+                          {
+                            "question": "Which group collected revenue in the Mahalwari System?",
+                            "options": ["British officials", "Zamindars", "Village headmen", "Moneylenders"],
+                            "answer": "Village headmen",
+                            "explanation": "In the Mahalwari System, the village headman was responsible for collecting revenue and paying it to the British."
+                          },
+                          {
+                            "question": "What was a major drawback of the Ryotwari System?",
+                            "options": ["Low revenue", "Heavy tax burden", "No British involvement", "Farmers became rich"],
+                            "answer": "Heavy tax burden",
+                            "explanation": "The Ryotwari System demanded high revenue, forcing many farmers into debt and extreme poverty."
+                          },
+                          {
+                            "question": "Why did the Indigo Revolt happen?",
+                            "options": ["Farmers wanted more money", "Peasants resisted forced cultivation", "British increased wages", "Zamindars helped peasants"],
+                            "answer": "Peasants resisted forced cultivation",
+                            "explanation": "Peasants revolted in 1859-60 because European planters forced them to grow indigo instead of food crops."
+                          },
+                          {
+                            "question": "Which Act aimed to reduce peasant debt in 1879?",
+                            "options": ["Pitt’s India Act", "Deccan Agriculturists’ Relief Act", "Regulating Act", "Charter Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "The Deccan Agriculturists’ Relief Act of 1879 aimed to control exploitative moneylenders."
+                          },
+                          {
+                            "question": "Where was the Mahalwari System introduced?",
+                            "options": ["Bengal", "Punjab & NW Provinces", "Madras", "Bombay"],
+                            "answer": "Punjab & NW Provinces",
+                            "explanation": "The Mahalwari System was introduced in Punjab and North-Western Provinces as a modified revenue system."
+                          },
+                          {
+                            "question": "What was a long-term effect of British land policies?",
+                            "options": ["Improved agriculture", "Rural prosperity", "Widespread poverty", "More land ownership for peasants"],
+                            "answer": "Widespread poverty",
+                            "explanation": "High taxation, debt cycles, and forced cultivation led to persistent rural poverty in India."
+                          },
+                          {
+                            "question": "Which group suffered most under British land policies?",
+                            "options": ["Zamindars", "British officials", "Peasants", "Merchants"],
+                            "answer": "Peasants",
+                            "explanation": "Peasants bore the highest burden, facing eviction, debt, and food insecurity."
+                          },
+                          {
+                            "question": "Which rebellion was against moneylenders in 1875?",
+                            "options": ["Santhal Rebellion", "Deccan Riots", "Indigo Revolt", "Sepoy Mutiny"],
+                            "answer": "Deccan Riots",
+                            "explanation": "The Deccan Riots of 1875 saw peasants attacking moneylenders due to exploitative lending practices."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 5,
+                        "questions": [
+                          {
+                            "question": "What was the main aim of British land revenue policies?",
+                            "options": ["Improve farming", "Maximize revenue", "Help peasants", "Abolish zamindars"],
+                            "answer": "Maximize revenue",
+                            "explanation": "The British aimed to extract as much revenue as possible from Indian agriculture."
+                          },
+                          {
+                            "question": "Which system made zamindars landowners?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "None of these"],
+                            "answer": "Permanent Settlement",
+                            "explanation": "The Permanent Settlement made zamindars landowners and responsible for revenue collection."
+                          },
+                          {
+                            "question": "In which region was the Ryotwari System introduced?",
+                            "options": ["Bengal", "Punjab", "Madras & Bombay", "Awadh"],
+                            "answer": "Madras & Bombay",
+                            "explanation": "The Ryotwari System was introduced in the Madras and Bombay Presidencies."
+                          },
+                          {
+                            "question": "What was a major flaw in the Mahalwari System?",
+                            "options": ["Low taxes", "High revenue demands", "No British involvement", "Peasants owned land"],
+                            "answer": "High revenue demands",
+                            "explanation": "Despite collective payment, the Mahalwari System imposed high taxes on villages."
+                          },
+                          {
+                            "question": "Which Act controlled moneylenders in Deccan?",
+                            "options": ["Deccan Agriculturists’ Relief Act", "Pitt’s Act", "Charter Act", "Indian Councils Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "This Act was introduced in 1879 to curb exploitative moneylenders."
+                          },
+                          {
+                            "question": "Which cash crop was forced upon Indian peasants?",
+                            "options": ["Wheat", "Rice", "Indigo", "Maize"],
+                            "answer": "Indigo",
+                            "explanation": "The British forced peasants to grow indigo for export instead of food crops."
+                          },
+                          {
+                            "question": "What led to the Santhal Rebellion?",
+                            "options": ["High rent", "Indigo farming", "Oppression by landlords", "None of these"],
+                            "answer": "Oppression by landlords",
+                            "explanation": "The Santhals rebelled in 1855-56 due to exploitation by zamindars and British officials."
+                          },
+                          {
+                            "question": "What was an outcome of the Indigo Revolt?",
+                            "options": ["Planters reduced exploitation", "British ignored it", "Peasants were jailed", "New taxation introduced"],
+                            "answer": "Planters reduced exploitation",
+                            "explanation": "The revolt forced the British to intervene, leading to some relief for peasants."
+                          },
+                          {
+                            "question": "What was the result of British land revenue policies?",
+                            "options": ["Peasant prosperity", "Food security", "Widespread debt", "Improved irrigation"],
+                            "answer": "Widespread debt",
+                            "explanation": "High revenue demands and moneylender exploitation led to massive peasant debt."
+                          },
+                          {
+                            "question": "Which system involved direct revenue payment to British?",
+                            "options": ["Permanent Settlement", "Mahalwari System", "Ryotwari System", "None"],
+                            "answer": "Ryotwari System",
+                            "explanation": "In the Ryotwari System, peasants paid revenue directly to the British."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 6,
+                        "questions": [
+                          {
+                            "question": "Which British official introduced the Ryotwari System?",
+                            "options": ["Lord Cornwallis", "Thomas Munro", "Warren Hastings", "Lord Dalhousie"],
+                            "answer": "Thomas Munro",
+                            "explanation": "Thomas Munro introduced the Ryotwari System in Madras and Bombay Presidencies."
+                          },
+                          {
+                            "question": "What was the primary reason for introducing the Mahalwari System?",
+                            "options": ["Increase British revenue", "Reduce taxes", "Help zamindars", "End peasant debts"],
+                            "answer": "Increase British revenue",
+                            "explanation": "The Mahalwari System was introduced to maximize revenue collection from villages."
+                          },
+                          {
+                            "question": "Which region was most affected by the Indigo Revolt?",
+                            "options": ["Punjab", "Bengal", "Madras", "Bombay"],
+                            "answer": "Bengal",
+                            "explanation": "The Indigo Revolt (1859-60) took place in Bengal, where peasants protested against forced indigo farming."
+                          },
+                          {
+                            "question": "What was a direct impact of the Permanent Settlement?",
+                            "options": ["Peasants became landowners", "Zamindars collected revenue", "Tax burden reduced", "British left India"],
+                            "answer": "Zamindars collected revenue",
+                            "explanation": "Under the Permanent Settlement, zamindars became revenue collectors for the British."
+                          },
+                          {
+                            "question": "Why did peasants suffer under British land revenue policies?",
+                            "options": ["High taxation", "More land ownership", "Low revenue", "British reduced control"],
+                            "answer": "High taxation",
+                            "explanation": "Peasants faced high taxes, which led to debts and frequent evictions."
+                          },
+                          {
+                            "question": "Which system allowed individual farmers to own land?",
+                            "options": ["Mahalwari", "Ryotwari", "Permanent Settlement", "None of these"],
+                            "answer": "Ryotwari",
+                            "explanation": "The Ryotwari System recognized individual farmers (ryots) as landowners."
+                          },
+                          {
+                            "question": "Who was responsible for tax collection in the Mahalwari System?",
+                            "options": ["Peasants", "Zamindars", "Village headmen", "British officials"],
+                            "answer": "Village headmen",
+                            "explanation": "The village headman collected and paid revenue under the Mahalwari System."
+                          },
+                          {
+                            "question": "Which act aimed to relieve peasants from moneylenders?",
+                            "options": ["Charter Act", "Deccan Agriculturists’ Relief Act", "Pitt’s India Act", "Government of India Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "This Act (1879) was introduced to curb moneylender exploitation in the Deccan."
+                          },
+                          {
+                            "question": "Which cash crop led to widespread peasant protests?",
+                            "options": ["Wheat", "Indigo", "Cotton", "Rice"],
+                            "answer": "Indigo",
+                            "explanation": "The British forced peasants to grow indigo instead of food crops, leading to the Indigo Revolt."
+                          },
+                          {
+                            "question": "What was a major consequence of British land policies?",
+                            "options": ["Rural prosperity", "Food shortage", "Increased landownership", "Reduced taxation"],
+                            "answer": "Food shortage",
+                            "explanation": "Peasants were forced to grow cash crops, reducing food production and causing shortages."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 7,
+                        "questions": [
+                          {
+                            "question": "When was the Permanent Settlement introduced?",
+                            "options": ["1757", "1793", "1857", "1879"],
+                            "answer": "1793",
+                            "explanation": "The Permanent Settlement was introduced in 1793 by Lord Cornwallis in Bengal, Bihar, and Orissa."
+                          },
+                          {
+                            "question": "Who were the main beneficiaries of the Permanent Settlement?",
+                            "options": ["Peasants", "British officials", "Zamindars", "Moneylenders"],
+                            "answer": "Zamindars",
+                            "explanation": "Zamindars benefited as they collected fixed revenues from peasants under the Permanent Settlement."
+                          },
+                          {
+                            "question": "What led to the Deccan Riots of 1875?",
+                            "options": ["Indigo farming", "High land revenue", "Oppression by moneylenders", "British reforms"],
+                            "answer": "Oppression by moneylenders",
+                            "explanation": "The Deccan Riots occurred due to moneylenders exploiting peasants with high-interest loans."
+                          },
+                          {
+                            "question": "Which system was implemented in Punjab?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "None of these"],
+                            "answer": "Mahalwari",
+                            "explanation": "The Mahalwari System was introduced in Punjab and North-Western Provinces."
+                          },
+                          {
+                            "question": "What was a major problem with the Ryotwari System?",
+                            "options": ["Revenue was too low", "Farmers had to pay high taxes", "British controlled villages", "No cash crops"],
+                            "answer": "Farmers had to pay high taxes",
+                            "explanation": "The British set high revenue demands, leading to farmer debt and poverty."
+                          },
+                          {
+                            "question": "Which cash crop was widely cultivated under British rule?",
+                            "options": ["Jute", "Wheat", "Indigo", "Tea"],
+                            "answer": "Indigo",
+                            "explanation": "Indigo was grown extensively for export, leading to exploitation of farmers."
+                          },
+                          {
+                            "question": "What was the main cause of peasant revolts?",
+                            "options": ["High wages", "British protection", "Oppression & exploitation", "Land grants"],
+                            "answer": "Oppression & exploitation",
+                            "explanation": "Harsh taxation, evictions, and forced farming led to widespread revolts."
+                          },
+                          {
+                            "question": "Which rebellion took place in 1855-56?",
+                            "options": ["Santhal Rebellion", "Deccan Riots", "Indigo Revolt", "Sepoy Mutiny"],
+                            "answer": "Santhal Rebellion",
+                            "explanation": "The Santhal Rebellion was an early revolt against British rule and zamindari oppression."
+                          },
+                          {
+                            "question": "Why did the Mahalwari System fail?",
+                            "options": ["Low taxes", "Lack of revenue", "British corruption", "High tax burden"],
+                            "answer": "High tax burden",
+                            "explanation": "Despite collective responsibility, high taxes led to peasant distress."
+                          },
+                          {
+                            "question": "What was a key effect of British land policies?",
+                            "options": ["More landownership", "Increased debt", "Better farming", "Reduced famine"],
+                            "answer": "Increased debt",
+                            "explanation": "Farmers took loans from moneylenders due to high revenue demands, leading to debt cycles."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 8,
+                        "questions": [
+                          {
+                            "question": "Who introduced the Permanent Settlement in India?",
+                            "options": ["Lord Dalhousie", "Lord Cornwallis", "Warren Hastings", "Lord Canning"],
+                            "answer": "Lord Cornwallis",
+                            "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793 to fix land revenue collections."
+                          },
+                          {
+                            "question": "Which class of people benefited the most from Permanent Settlement?",
+                            "options": ["Peasants", "Zamindars", "British officials", "Artisans"],
+                            "answer": "Zamindars",
+                            "explanation": "Under the Permanent Settlement, zamindars became landlords and collected revenue from peasants."
+                          },
+                          {
+                            "question": "In which Presidency was the Ryotwari System first introduced?",
+                            "options": ["Bengal", "Madras", "Punjab", "Oudh"],
+                            "answer": "Madras",
+                            "explanation": "The Ryotwari System was first introduced in the Madras Presidency and later in Bombay."
+                          },
+                          {
+                            "question": "What was the key feature of the Mahalwari System?",
+                            "options": ["Fixed revenue", "Revenue shared by villages", "No taxes", "Land given to moneylenders"],
+                            "answer": "Revenue shared by villages",
+                            "explanation": "In the Mahalwari System, the village collectively paid the land revenue through the headman."
+                          },
+                          {
+                            "question": "Which Act was passed to control moneylenders in Deccan?",
+                            "options": ["Government of India Act", "Pitt’s India Act", "Deccan Agriculturists’ Relief Act", "Charter Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "The Act was passed in 1879 to prevent moneylenders from exploiting peasants."
+                          },
+                          {
+                            "question": "What was a major drawback of the Ryotwari System?",
+                            "options": ["Low revenue", "Land given to zamindars", "High tax burden", "British loss"],
+                            "answer": "High tax burden",
+                            "explanation": "The Ryotwari System forced peasants to pay high taxes, pushing them into debt."
+                          },
+                          {
+                            "question": "Why did the Indigo Revolt take place?",
+                            "options": ["Tax increase", "Forced Indigo farming", "British reforms", "Land grants"],
+                            "answer": "Forced Indigo farming",
+                            "explanation": "Peasants were forced to cultivate indigo instead of food crops, leading to the revolt."
+                          },
+                          {
+                            "question": "Where did the Santhal Rebellion take place?",
+                            "options": ["Bengal", "Deccan", "Punjab", "Orissa"],
+                            "answer": "Bengal",
+                            "explanation": "The Santhal Rebellion (1855-56) occurred in Bengal due to oppression by landlords and the British."
+                          },
+                          {
+                            "question": "Which land revenue system involved direct payment to the British?",
+                            "options": ["Mahalwari", "Ryotwari", "Permanent Settlement", "None of these"],
+                            "answer": "Ryotwari",
+                            "explanation": "Under the Ryotwari System, peasants paid revenue directly to the British without intermediaries."
+                          },
+                          {
+                            "question": "What was a major effect of British land policies?",
+                            "options": ["Increased peasant prosperity", "Growth of food crops", "Rise in rural poverty", "End of moneylenders"],
+                            "answer": "Rise in rural poverty",
+                            "explanation": "British revenue policies led to debt, evictions, and widespread rural poverty."
+                          }
+                        ]
+                      }, {
+                        "setNumber": 9,
+                        "questions": [
+                          {
+                            "question": "What was the primary goal of British land revenue policies?",
+                            "options": ["Peasant welfare", "Revenue collection", "Land reforms", "Industrial growth"],
+                            "answer": "Revenue collection",
+                            "explanation": "The British aimed to maximize revenue from Indian agriculture."
+                          },
+                          {
+                            "question": "Which British policy recognized individual cultivators as landowners?",
+                            "options": ["Permanent Settlement", "Ryotwari System", "Mahalwari System", "Jagirdari System"],
+                            "answer": "Ryotwari System",
+                            "explanation": "The Ryotwari System made ryots the landowners, paying revenue directly to the British."
+                          },
+                          {
+                            "question": "Who was responsible for collecting revenue in the Mahalwari System?",
+                            "options": ["Village headman", "British officials", "Zamindars", "Moneylenders"],
+                            "answer": "Village headman",
+                            "explanation": "In the Mahalwari System, the village headman collected and paid revenue."
+                          },
+                          {
+                            "question": "What happened to zamindars who failed to pay land revenue?",
+                            "options": ["They were rewarded", "They lost their land", "They became British officials", "They reduced peasant taxes"],
+                            "answer": "They lost their land",
+                            "explanation": "Zamindars under Permanent Settlement lost their land if they failed to pay revenue."
+                          },
+                          {
+                            "question": "Which land revenue system was introduced in Bengal in 1793?",
+                            "options": ["Ryotwari System", "Mahalwari System", "Permanent Settlement", "Subsidiary Alliance"],
+                            "answer": "Permanent Settlement",
+                            "explanation": "The Permanent Settlement was introduced by Lord Cornwallis in Bengal in 1793."
+                          },
+                          {
+                            "question": "What led to rural indebtedness under British rule?",
+                            "options": ["Low taxes", "High revenue demands", "Land grants", "British subsidies"],
+                            "answer": "High revenue demands",
+                            "explanation": "Excessive revenue demands pushed peasants into debt as they borrowed from moneylenders."
+                          },
+                          {
+                            "question": "Which peasant revolt occurred due to indigo farming oppression?",
+                            "options": ["Santhal Rebellion", "Deccan Riots", "Indigo Revolt", "Sepoy Mutiny"],
+                            "answer": "Indigo Revolt",
+                            "explanation": "The Indigo Revolt (1859-60) was against the forced cultivation of indigo by European planters."
+                          },
+                          {
+                            "question": "What was a major criticism of the Ryotwari System?",
+                            "options": ["Low revenue demand", "Exploitation of peasants", "Zamindar control", "No British involvement"],
+                            "answer": "Exploitation of peasants",
+                            "explanation": "Under the Ryotwari System, high revenue demands led to extreme peasant distress."
+                          },
+                          {
+                            "question": "Which rebellion was led by the Santhal tribes?",
+                            "options": ["Santhal Rebellion", "Indigo Revolt", "Deccan Riots", "Kol Uprising"],
+                            "answer": "Santhal Rebellion",
+                            "explanation": "The Santhal Rebellion (1855-56) was an uprising against landlords and British oppression."
+                          },
+                          {
+                            "question": "Which Act was passed in 1879 to protect peasants from moneylenders?",
+                            "options": ["Pitt’s India Act", "Deccan Agriculturists’ Relief Act", "Government of India Act", "Charter Act"],
+                            "answer": "Deccan Agriculturists’ Relief Act",
+                            "explanation": "The Act aimed to reduce exploitation by controlling moneylenders in the Deccan."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 10,
+                        "questions": [
+                          {
+                            "question": "What was a long-term effect of British land revenue policies?",
+                            "options": ["Increased trade", "Rural poverty", "Peasant prosperity", "Stronger villages"],
+                            "answer": "Rural poverty",
+                            "explanation": "British policies led to economic distress, rural poverty, and suffering."
+                          },
+                          {
+                            "question": "Which group benefited the most under the Permanent Settlement?",
+                            "options": ["Peasants", "British government", "Zamindars", "Moneylenders"],
+                            "answer": "Zamindars",
+                            "explanation": "Zamindars gained power and wealth under the Permanent Settlement."
+                          },
+                          {
+                            "question": "What was a key feature of the Mahalwari System?",
+                            "options": ["Fixed revenue", "Village-based revenue collection", "No intermediaries", "No taxes"],
+                            "answer": "Village-based revenue collection",
+                            "explanation": "In the Mahalwari System, the village collectively paid the revenue through the headman."
+                          },
+                          {
+                            "question": "Why did British land revenue policies lead to food shortages?",
+                            "options": ["Peasants refused to farm", "Forced cash crop cultivation", "British banned farming", "Zamindars destroyed crops"],
+                            "answer": "Forced cash crop cultivation",
+                            "explanation": "Peasants were forced to grow cash crops like indigo instead of food crops."
+                          },
+                          {
+                            "question": "Who led the Indigo Revolt of 1859-60?",
+                            "options": ["Gandhi", "Digambar Biswas", "Raja Rammohan Roy", "Sardar Patel"],
+                            "answer": "Digambar Biswas",
+                            "explanation": "Digambar Biswas was one of the leaders of the Indigo Revolt in Bengal."
+                          },
+                          {
+                            "question": "Which system directly connected the British to peasants?",
+                            "options": ["Mahalwari", "Ryotwari", "Permanent Settlement", "Jagirdari"],
+                            "answer": "Ryotwari",
+                            "explanation": "In the Ryotwari System, peasants paid revenue directly to the British."
+                          },
+                          {
+                            "question": "Which rebellion was an early resistance against British land policies?",
+                            "options": ["Sepoy Mutiny", "Santhal Rebellion", "Deccan Riots", "Champaran Movement"],
+                            "answer": "Santhal Rebellion",
+                            "explanation": "The Santhal Rebellion (1855-56) was an uprising against zamindars and the British."
+                          },
+                          {
+                            "question": "What was the main reason behind the Deccan Riots of 1875?",
+                            "options": ["Famine", "Tax increase", "Oppression by moneylenders", "Zamindari expansion"],
+                            "answer": "Oppression by moneylenders",
+                            "explanation": "Peasants revolted against moneylenders who seized their land due to unpaid debts."
+                          },
+                          {
+                            "question": "What was a major problem with the Permanent Settlement?",
+                            "options": ["Flexible revenue", "Peasant exploitation", "Zamindars had no power", "British lost revenue"],
+                            "answer": "Peasant exploitation",
+                            "explanation": "Peasants had to pay high rents to zamindars, leading to hardships."
+                          },
+                          {
+                            "question": "Which policy was mainly applied in the North-Western Provinces?",
+                            "options": ["Ryotwari", "Mahalwari", "Permanent Settlement", "Zamindari"],
+                            "answer": "Mahalwari",
+                            "explanation": "The Mahalwari System was mainly implemented in the North-Western Provinces and Punjab."
+                          }
+                        ]
+                      }
+                    ] 
                   },
                 { 
                   "subtopicName": "Rebels and the Raj – The 1857 Revolt and its Representations", 
@@ -34757,7 +35407,658 @@
                       "content": "The revolt led to major administrative changes. The British Crown took direct control of India, ending Company rule. The army was reorganized to prevent future mutinies, and policies were adjusted to gain loyalty from Indian rulers and elites. The revolt also sowed seeds of nationalism in India."
                     }
                   ], 
-                  "questionSets": [] 
+                  "questionSets": [
+                    {
+                      "setNumber": 1,
+                      "questions": [
+                        {
+                          "question": "Where did the Revolt of 1857 begin?",
+                          "options": ["Delhi", "Meerut", "Kanpur", "Lucknow"],
+                          "answer": "Meerut",
+                          "explanation": "The revolt started in Meerut when Indian sepoys refused to use greased cartridges, leading to their punishment and the outbreak of rebellion."
+                        },
+                        {
+                          "question": "Who was declared the leader of the Revolt of 1857?",
+                          "options": ["Nana Sahib", "Tantia Tope", "Bahadur Shah Zafar", "Rani Lakshmibai"],
+                          "answer": "Bahadur Shah Zafar",
+                          "explanation": "Though weak, Bahadur Shah Zafar was made the symbolic leader to unify the rebellion against British rule."
+                        },
+                        {
+                          "question": "Which of these leaders fought in Kanpur?",
+                          "options": ["Rani Lakshmibai", "Nana Sahib", "Begum Hazrat Mahal", "Tantia Tope"],
+                          "answer": "Nana Sahib",
+                          "explanation": "Nana Sahib led the rebellion in Kanpur, where fierce battles took place against the British."
+                        },
+                        {
+                          "question": "Which city was recaptured by the British in September 1857?",
+                          "options": ["Lucknow", "Jhansi", "Delhi", "Kanpur"],
+                          "answer": "Delhi",
+                          "explanation": "The British recaptured Delhi in September 1857, marking a major turning point in suppressing the revolt."
+                        },
+                        {
+                          "question": "Who led the resistance in Awadh during the revolt?",
+                          "options": ["Rani Lakshmibai", "Nana Sahib", "Begum Hazrat Mahal", "Tantia Tope"],
+                          "answer": "Begum Hazrat Mahal",
+                          "explanation": "Begum Hazrat Mahal played a crucial role in organizing resistance against the British in Awadh."
+                        },
+                        {
+                          "question": "What was one reason for the failure of the revolt?",
+                          "options": ["Strong leadership", "British control over communication", "Support from Indian elites", "More Indian soldiers"],
+                          "answer": "British control over communication",
+                          "explanation": "The British controlled telegraph and transport, which helped them suppress the revolt effectively."
+                        },
+                        {
+                          "question": "Where was Bahadur Shah Zafar exiled after the revolt?",
+                          "options": ["Burma", "Afghanistan", "Andaman Islands", "England"],
+                          "answer": "Burma",
+                          "explanation": "After the revolt, Bahadur Shah Zafar was captured and sent to Burma by the British."
+                        },
+                        {
+                          "question": "What was the British view of the revolt?",
+                          "options": ["A fight for freedom", "A religious movement", "A soldiers' mutiny", "A peasant uprising"],
+                          "answer": "A soldiers' mutiny",
+                          "explanation": "The British dismissed the revolt as a mutiny by Indian soldiers rather than a nationalist struggle."
+                        },
+                        {
+                          "question": "What was the impact of the revolt on British policies?",
+                          "options": ["End of British rule", "More power to East India Company", "British Crown took control", "Formation of a new army"],
+                          "answer": "British Crown took control",
+                          "explanation": "After the revolt, the British government ended Company rule and brought India directly under the Crown."
+                        },
+                        {
+                          "question": "Which leader is known for guerrilla warfare during the revolt?",
+                          "options": ["Nana Sahib", "Rani Lakshmibai", "Tantia Tope", "Bahadur Shah Zafar"],
+                          "answer": "Tantia Tope",
+                          "explanation": "Tantia Tope used guerrilla tactics to fight the British even after the main revolt was suppressed."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 2,
+                      "questions": [
+                        {
+                          "question": "Which of these was NOT a reason for the revolt?",
+                          "options": ["High taxes", "Introduction of railways", "Religious interference", "Use of greased cartridges"],
+                          "answer": "Introduction of railways",
+                          "explanation": "While railways were introduced, they were not a primary reason for the revolt, unlike economic and religious grievances."
+                        },
+                        {
+                          "question": "Who among these did NOT participate in the revolt?",
+                          "options": ["Tantia Tope", "Nana Sahib", "Mahatma Gandhi", "Rani Lakshmibai"],
+                          "answer": "Mahatma Gandhi",
+                          "explanation": "Mahatma Gandhi was born in 1869, after the revolt, and played a role in India's independence movement later."
+                        },
+                        {
+                          "question": "What was the fate of Rani Lakshmibai?",
+                          "options": ["Exiled to Nepal", "Died fighting", "Captured and executed", "Escaped to Burma"],
+                          "answer": "Died fighting",
+                          "explanation": "Rani Lakshmibai died fighting against the British in the battle of Gwalior in 1858."
+                        },
+                        {
+                          "question": "Which British official played a key role in suppressing the revolt?",
+                          "options": ["Lord Dalhousie", "Lord Canning", "Colin Campbell", "Robert Clive"],
+                          "answer": "Colin Campbell",
+                          "explanation": "Colin Campbell was instrumental in recapturing Lucknow and suppressing the revolt."
+                        },
+                        {
+                          "question": "Which act abolished the rule of the East India Company?",
+                          "options": ["Regulating Act", "Government of India Act 1858", "Charter Act 1833", "Indian Councils Act"],
+                          "answer": "Government of India Act 1858",
+                          "explanation": "The Government of India Act 1858 transferred Indian governance from the East India Company to the British Crown."
+                        },
+                        {
+                          "question": "Which Indian social class largely remained loyal to the British?",
+                          "options": ["Peasants", "Landlords", "Sepoys", "Artisans"],
+                          "answer": "Landlords",
+                          "explanation": "Many landlords supported the British to maintain their privileges and land ownership."
+                        },
+                        {
+                          "question": "What was the British term for the 1857 Revolt?",
+                          "options": ["War of Independence", "Great Uprising", "Sepoy Mutiny", "Indian Rebellion"],
+                          "answer": "Sepoy Mutiny",
+                          "explanation": "The British referred to the revolt as the 'Sepoy Mutiny' to downplay its significance."
+                        },
+                        {
+                          "question": "Who took control of Delhi during the revolt?",
+                          "options": ["Tantia Tope", "Bahadur Shah Zafar", "Nana Sahib", "Rani Lakshmibai"],
+                          "answer": "Bahadur Shah Zafar",
+                          "explanation": "The rebels declared Bahadur Shah Zafar as their leader and controlled Delhi temporarily."
+                        },
+                        {
+                          "question": "What was one of the lasting impacts of the revolt?",
+                          "options": ["Abolition of zamindari", "Start of Congress", "Rise of nationalism", "End of British rule"],
+                          "answer": "Rise of nationalism",
+                          "explanation": "The revolt inspired future nationalist movements despite its failure."
+                        },
+                        {
+                          "question": "Which city saw a major uprising under Begum Hazrat Mahal?",
+                          "options": ["Delhi", "Lucknow", "Kanpur", "Gwalior"],
+                          "answer": "Lucknow",
+                          "explanation": "Begum Hazrat Mahal led the revolt in Lucknow, fiercely resisting British control."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 3,
+                      "questions": [
+                        {
+                          "question": "Where did the Revolt of 1857 begin?",
+                          "options": ["Delhi", "Meerut", "Kanpur", "Lucknow"],
+                          "answer": "Meerut",
+                          "explanation": "The revolt started in Meerut when Indian sepoys refused to use greased cartridges."
+                        },
+                        {
+                          "question": "Who was declared the leader of the revolt?",
+                          "options": ["Rani Lakshmibai", "Nana Sahib", "Bahadur Shah Zafar", "Tantia Tope"],
+                          "answer": "Bahadur Shah Zafar",
+                          "explanation": "The rebels declared Bahadur Shah Zafar as their symbolic leader to unite against the British."
+                        },
+                        {
+                          "question": "Which leader used guerrilla tactics in the revolt?",
+                          "options": ["Tantia Tope", "Nana Sahib", "Rani Lakshmibai", "Begum Hazrat Mahal"],
+                          "answer": "Tantia Tope",
+                          "explanation": "Tantia Tope continued the struggle through guerrilla warfare after the fall of major centers."
+                        },
+                        {
+                          "question": "Who led the revolt in Lucknow?",
+                          "options": ["Begum Hazrat Mahal", "Rani Lakshmibai", "Nana Sahib", "Tantia Tope"],
+                          "answer": "Begum Hazrat Mahal",
+                          "explanation": "Begum Hazrat Mahal played a key role in leading the rebellion against the British in Lucknow."
+                        },
+                        {
+                          "question": "Which of these was NOT a reason for the failure of the revolt?",
+                          "options": ["Lack of unity", "Limited weapons", "British support for rebels", "Superior British army"],
+                          "answer": "British support for rebels",
+                          "explanation": "The British did not support the rebels; instead, they had superior weapons and military strategies."
+                        },
+                        {
+                          "question": "Which city was recaptured by the British in September 1857?",
+                          "options": ["Kanpur", "Delhi", "Lucknow", "Jhansi"],
+                          "answer": "Delhi",
+                          "explanation": "Delhi was recaptured by the British in September 1857, marking a turning point in the suppression of the revolt."
+                        },
+                        {
+                          "question": "Which social group supported the British during the revolt?",
+                          "options": ["Sepoys", "Peasants", "Landlords", "Artisans"],
+                          "answer": "Landlords",
+                          "explanation": "Many landlords and Indian elites sided with the British, fearing the loss of their privileges."
+                        },
+                        {
+                          "question": "What was the impact of the revolt on British rule?",
+                          "options": ["Mughal Empire was restored", "Company rule ended", "Indians gained freedom", "British policies remained unchanged"],
+                          "answer": "Company rule ended",
+                          "explanation": "After the revolt, the British Crown took direct control of India, ending East India Company rule."
+                        },
+                        {
+                          "question": "What was Bahadur Shah Zafar’s fate after the revolt?",
+                          "options": ["Executed", "Exiled", "Made British governor", "Imprisoned in Delhi"],
+                          "answer": "Exiled",
+                          "explanation": "Bahadur Shah Zafar was captured and exiled to Burma by the British, where he died."
+                        },
+                        {
+                          "question": "How did Indian nationalists later view the revolt?",
+                          "options": ["As a failure", "As a minor rebellion", "As the First War of Independence", "As a British victory"],
+                          "answer": "As the First War of Independence",
+                          "explanation": "Indian nationalists viewed the revolt as the First War of Independence, a major step in India's struggle against colonial rule."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 4,
+                      "questions": [
+                        {
+                          "question": "Which year did the Revolt of 1857 take place?",
+                          "options": ["1856", "1857", "1858", "1860"],
+                          "answer": "1857",
+                          "explanation": "The revolt began in 1857, starting with the sepoy mutiny in Meerut before spreading across India."
+                        },
+                        {
+                          "question": "Which group of people supported the British during the revolt?",
+                          "options": ["Peasants", "Landlords", "Sepoys", "Mughal Emperor"],
+                          "answer": "Landlords",
+                          "explanation": "Many landlords and Indian princes sided with the British, fearing loss of their privileges under the rebels."
+                        },
+                        {
+                          "question": "Which act led to the end of the East India Company's rule?",
+                          "options": ["Regulating Act", "Pitt's India Act", "Government of India Act 1858", "Charter Act"],
+                          "answer": "Government of India Act 1858",
+                          "explanation": "The Government of India Act 1858 transferred Indian administration from the East India Company to the British Crown."
+                        },
+                        {
+                          "question": "Which major city was an important center of the revolt?",
+                          "options": ["Madras", "Bombay", "Calcutta", "Lucknow"],
+                          "answer": "Lucknow",
+                          "explanation": "Lucknow was a key center where Begum Hazrat Mahal led the resistance against the British."
+                        },
+                        {
+                          "question": "Who was the governor-general before the revolt?",
+                          "options": ["Lord Canning", "Lord Dalhousie", "Lord Wellesley", "Lord Ripon"],
+                          "answer": "Lord Dalhousie",
+                          "explanation": "Lord Dalhousie was the Governor-General before the revolt and introduced policies like the Doctrine of Lapse."
+                        },
+                        {
+                          "question": "Who led the revolt in Jhansi?",
+                          "options": ["Tantia Tope", "Rani Lakshmibai", "Nana Sahib", "Begum Hazrat Mahal"],
+                          "answer": "Rani Lakshmibai",
+                          "explanation": "Rani Lakshmibai of Jhansi fought bravely against the British and died in battle."
+                        },
+                        {
+                          "question": "Which policy allowed the British to annex Indian states?",
+                          "options": ["Doctrine of Lapse", "Subsidiary Alliance", "Permanent Settlement", "Divide and Rule"],
+                          "answer": "Doctrine of Lapse",
+                          "explanation": "The Doctrine of Lapse enabled the British to annex states without a direct male heir."
+                        },
+                        {
+                          "question": "What happened to Bahadur Shah Zafar after the revolt?",
+                          "options": ["Executed", "Exiled to Burma", "Remained in Delhi", "Made British governor"],
+                          "answer": "Exiled to Burma",
+                          "explanation": "Bahadur Shah Zafar was captured by the British and exiled to Burma, where he later died."
+                        },
+                        {
+                          "question": "Which region saw guerrilla warfare under Tantia Tope?",
+                          "options": ["Awadh", "Jhansi", "Kanpur", "Central India"],
+                          "answer": "Central India",
+                          "explanation": "Tantia Tope continued resistance through guerrilla warfare in Central India after the fall of major centers."
+                        },
+                        {
+                          "question": "How did the British portray the Revolt of 1857?",
+                          "options": ["A war of independence", "A national uprising", "A mutiny", "A political reform"],
+                          "answer": "A mutiny",
+                          "explanation": "The British referred to the revolt as a 'Sepoy Mutiny' to downplay its anti-colonial significance."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 5,
+                      "questions": [
+                        {
+                          "question": "Which leader is associated with Kanpur during the revolt?",
+                          "options": ["Rani Lakshmibai", "Begum Hazrat Mahal", "Nana Sahib", "Tantia Tope"],
+                          "answer": "Nana Sahib",
+                          "explanation": "Nana Sahib led the revolt in Kanpur, where major battles took place against the British."
+                        },
+                        {
+                          "question": "Which leader fought in Awadh during the revolt?",
+                          "options": ["Begum Hazrat Mahal", "Nana Sahib", "Tantia Tope", "Rani Lakshmibai"],
+                          "answer": "Begum Hazrat Mahal",
+                          "explanation": "Begum Hazrat Mahal led the resistance against British rule in Awadh during the revolt."
+                        },
+                        {
+                          "question": "What was the major reason for the failure of the revolt?",
+                          "options": ["Lack of unity", "Weak British army", "Foreign support for rebels", "Heavy rainfall"],
+                          "answer": "Lack of unity",
+                          "explanation": "The revolt failed due to lack of unified leadership and coordination among different rebel groups."
+                        },
+                        {
+                          "question": "Who led the recapture of Delhi for the British?",
+                          "options": ["Colin Campbell", "John Nicholson", "Lord Dalhousie", "Tantia Tope"],
+                          "answer": "John Nicholson",
+                          "explanation": "John Nicholson played a key role in recapturing Delhi for the British during the suppression of the revolt."
+                        },
+                        {
+                          "question": "What was a major consequence of the revolt?",
+                          "options": ["Mughal Empire expanded", "British Crown took control", "Rebels won", "Company rule strengthened"],
+                          "answer": "British Crown took control",
+                          "explanation": "After the revolt, the British Crown took direct control of India, ending Company rule."
+                        },
+                        {
+                          "question": "Which British commander was responsible for suppressing the revolt?",
+                          "options": ["Colin Campbell", "Lord Canning", "Robert Clive", "Warren Hastings"],
+                          "answer": "Colin Campbell",
+                          "explanation": "Colin Campbell played a significant role in suppressing the revolt and recapturing key cities."
+                        },
+                        {
+                          "question": "Which Indian community played a key role in the rebellion?",
+                          "options": ["Missionaries", "Merchants", "Sepoys", "British officials"],
+                          "answer": "Sepoys",
+                          "explanation": "Indian sepoys were the primary force behind the rebellion, which started in the Bengal Army."
+                        },
+                        {
+                          "question": "Who was the first leader to declare Bahadur Shah Zafar as emperor?",
+                          "options": ["Nana Sahib", "Rani Lakshmibai", "Tantia Tope", "Rebels in Delhi"],
+                          "answer": "Rebels in Delhi",
+                          "explanation": "The rebels in Delhi proclaimed Bahadur Shah Zafar as their leader to unify the revolt."
+                        },
+                        {
+                          "question": "What was the fate of Nana Sahib after the revolt?",
+                          "options": ["Captured", "Killed in battle", "Escaped", "Exiled to Burma"],
+                          "answer": "Escaped",
+                          "explanation": "Nana Sahib is believed to have escaped after the revolt, and his exact fate remains unknown."
+                        },
+                        {
+                          "question": "Which policy was introduced after the revolt to appease Indians?",
+                          "options": ["Doctrine of Lapse", "Divide and Rule", "Queen's Proclamation", "Subsidiary Alliance"],
+                          "answer": "Queen's Proclamation",
+                          "explanation": "Queen Victoria's Proclamation assured Indians of religious freedom and equal treatment under British rule."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 6,
+                      "questions": [
+                        {
+                          "question": "What was the primary reason for the sepoys' revolt?",
+                          "options": ["High taxes", "Greased cartridges", "Land disputes", "British laws"],
+                          "answer": "Greased cartridges",
+                          "explanation": "The use of greased cartridges, rumored to contain cow and pig fat, offended both Hindu and Muslim soldiers."
+                        },
+                        {
+                          "question": "Which leader fought against the British in Kanpur?",
+                          "options": ["Nana Sahib", "Tantia Tope", "Rani Lakshmibai", "Bahadur Shah Zafar"],
+                          "answer": "Nana Sahib",
+                          "explanation": "Nana Sahib led the revolt in Kanpur, fiercely resisting the British."
+                        },
+                        {
+                          "question": "What role did Rani Lakshmibai play in the revolt?",
+                          "options": ["Diplomat", "Warrior", "Advisor", "Messenger"],
+                          "answer": "Warrior",
+                          "explanation": "Rani Lakshmibai led her forces in battle and died fighting against the British."
+                        },
+                        {
+                          "question": "Which British officer played a major role in suppressing the revolt?",
+                          "options": ["Lord Dalhousie", "Sir Hugh Rose", "Warren Hastings", "Cornwallis"],
+                          "answer": "Sir Hugh Rose",
+                          "explanation": "Sir Hugh Rose led British forces and played a key role in defeating Rani Lakshmibai."
+                        },
+                        {
+                          "question": "Which region saw strong civilian participation in the revolt?",
+                          "options": ["Punjab", "Awadh", "Madras", "Bengal"],
+                          "answer": "Awadh",
+                          "explanation": "Awadh saw active participation from peasants and landlords, led by Begum Hazrat Mahal."
+                        },
+                        {
+                          "question": "Which event marked the official end of the Mughal Empire?",
+                          "options": ["Revolt of 1857", "Partition of Bengal", "Quit India Movement", "Battle of Plassey"],
+                          "answer": "Revolt of 1857",
+                          "explanation": "After the revolt, the British exiled Bahadur Shah Zafar and ended the Mughal Empire."
+                        },
+                        {
+                          "question": "Why did some Indian rulers support the British?",
+                          "options": ["Loyalty", "Fear", "Bribes", "All of these"],
+                          "answer": "All of these",
+                          "explanation": "Many rulers sided with the British due to fear, loyalty, and financial incentives."
+                        },
+                        {
+                          "question": "What change did the British make after the revolt?",
+                          "options": ["Ended Company rule", "Gave India independence", "Increased taxes", "Reduced army size"],
+                          "answer": "Ended Company rule",
+                          "explanation": "After the revolt, the British Crown took direct control of India, ending East India Company rule."
+                        },
+                        {
+                          "question": "Where was Bahadur Shah Zafar exiled?",
+                          "options": ["Rangoon", "London", "Calcutta", "Delhi"],
+                          "answer": "Rangoon",
+                          "explanation": "Bahadur Shah Zafar was exiled to Rangoon (Burma) by the British."
+                        },
+                        {
+                          "question": "How did the British portray the revolt?",
+                          "options": ["War of Independence", "Mutiny", "Victory", "Religious conflict"],
+                          "answer": "Mutiny",
+                          "explanation": "The British called it a 'mutiny' to downplay its significance, while Indian nationalists later saw it as the First War of Independence."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 7,
+                      "questions": [
+                        {
+                          "question": "Which group played a key role in the revolt?",
+                          "options": ["Sepoys", "British officers", "Merchants", "Missionaries"],
+                          "answer": "Sepoys",
+                          "explanation": "Indian sepoys led the rebellion against British rule, starting in Meerut."
+                        },
+                        {
+                          "question": "Who led the revolt in Awadh?",
+                          "options": ["Nana Sahib", "Begum Hazrat Mahal", "Tantia Tope", "Rani Lakshmibai"],
+                          "answer": "Begum Hazrat Mahal",
+                          "explanation": "Begum Hazrat Mahal led the revolt in Awadh and strongly resisted British rule."
+                        },
+                        {
+                          "question": "Which act formally ended the East India Company’s rule?",
+                          "options": ["Regulating Act", "Government of India Act 1858", "Pitt’s India Act", "Charter Act"],
+                          "answer": "Government of India Act 1858",
+                          "explanation": "The Government of India Act 1858 transferred control from the East India Company to the British Crown."
+                        },
+                        {
+                          "question": "Who among the following was NOT a leader in the revolt?",
+                          "options": ["Nana Sahib", "Lord Dalhousie", "Tantia Tope", "Rani Lakshmibai"],
+                          "answer": "Lord Dalhousie",
+                          "explanation": "Lord Dalhousie was a British official, not a leader of the 1857 revolt."
+                        },
+                        {
+                          "question": "Which city witnessed fierce resistance led by Nana Sahib?",
+                          "options": ["Kanpur", "Lucknow", "Delhi", "Jhansi"],
+                          "answer": "Kanpur",
+                          "explanation": "Nana Sahib led the rebellion in Kanpur, where intense fighting took place."
+                        },
+                        {
+                          "question": "What was a major reason for the failure of the revolt?",
+                          "options": ["Lack of unity", "British support for rebels", "Indian military superiority", "Strong rebel leadership"],
+                          "answer": "Lack of unity",
+                          "explanation": "The revolt lacked unified leadership and coordination, leading to its failure."
+                        },
+                        {
+                          "question": "Who recaptured Delhi from the rebels?",
+                          "options": ["John Nicholson", "Tantia Tope", "Nana Sahib", "Bahadur Shah Zafar"],
+                          "answer": "John Nicholson",
+                          "explanation": "John Nicholson led British forces to recapture Delhi from the rebels in September 1857."
+                        },
+                        {
+                          "question": "What happened to the Mughal Empire after the revolt?",
+                          "options": ["It was restored", "It was abolished", "It expanded", "It merged with British rule"],
+                          "answer": "It was abolished",
+                          "explanation": "After the revolt, the British abolished the Mughal Empire and exiled Bahadur Shah Zafar."
+                        },
+                        {
+                          "question": "Which British policy changed after the revolt?",
+                          "options": ["End of Company rule", "Abolition of monarchy", "Indian self-rule", "Immediate independence"],
+                          "answer": "End of Company rule",
+                          "explanation": "After the revolt, British rule in India was transferred from the East India Company to the Crown."
+                        },
+                        {
+                          "question": "How do Indian historians view the revolt?",
+                          "options": ["First War of Independence", "A British victory", "A minor rebellion", "A failed mutiny"],
+                          "answer": "First War of Independence",
+                          "explanation": "Indian historians consider the 1857 revolt as the First War of Independence against British rule."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 8,
+                      "questions": [
+                        {
+                          "question": "When did the Revolt of 1857 begin?",
+                          "options": ["April 1857", "May 1857", "June 1857", "July 1857"],
+                          "answer": "May 1857",
+                          "explanation": "The revolt started on May 10, 1857, in Meerut, after sepoys refused to use greased cartridges."
+                        },
+                        {
+                          "question": "Which ruler led the resistance in Jhansi?",
+                          "options": ["Nana Sahib", "Tantia Tope", "Rani Lakshmibai", "Bahadur Shah Zafar"],
+                          "answer": "Rani Lakshmibai",
+                          "explanation": "Rani Lakshmibai of Jhansi fought bravely against the British but was killed in battle."
+                        },
+                        {
+                          "question": "What was the main reason for the revolt?",
+                          "options": ["High taxes", "Western education", "Greased cartridges", "Railway construction"],
+                          "answer": "Greased cartridges",
+                          "explanation": "The use of cartridges rumored to contain cow and pig fat offended both Hindu and Muslim soldiers."
+                        },
+                        {
+                          "question": "Where was Bahadur Shah Zafar exiled after the revolt?",
+                          "options": ["Burma", "Afghanistan", "Nepal", "Andaman Islands"],
+                          "answer": "Burma",
+                          "explanation": "After being captured by the British, Bahadur Shah Zafar was exiled to Rangoon, Burma."
+                        },
+                        {
+                          "question": "Which leader used guerrilla warfare against the British?",
+                          "options": ["Tantia Tope", "Rani Lakshmibai", "Nana Sahib", "Begum Hazrat Mahal"],
+                          "answer": "Tantia Tope",
+                          "explanation": "Tantia Tope led guerrilla warfare against the British after the fall of Kanpur."
+                        },
+                        {
+                          "question": "Which city was recaptured by the British in September 1857?",
+                          "options": ["Lucknow", "Delhi", "Kanpur", "Jhansi"],
+                          "answer": "Delhi",
+                          "explanation": "Delhi was a major center of the revolt and was recaptured by the British in September 1857."
+                        },
+                        {
+                          "question": "Which British official was responsible for suppressing the revolt?",
+                          "options": ["Lord Canning", "John Nicholson", "Colin Campbell", "All of these"],
+                          "answer": "All of these",
+                          "explanation": "Several British officials, including Canning, Nicholson, and Campbell, led efforts to crush the revolt."
+                        },
+                        {
+                          "question": "What was a major impact of the revolt?",
+                          "options": ["End of British rule", "End of Mughal rule", "Formation of Congress", "Indian independence"],
+                          "answer": "End of Mughal rule",
+                          "explanation": "After the revolt, the British formally ended Mughal rule in India and took direct control."
+                        },
+                        {
+                          "question": "How did the British view the revolt?",
+                          "options": ["First War of Independence", "Mutiny", "Glorious Revolution", "A civil war"],
+                          "answer": "Mutiny",
+                          "explanation": "The British called the revolt a ‘mutiny’ as they saw it as a betrayal by Indian soldiers."
+                        },
+                        {
+                          "question": "Which social group supported the British during the revolt?",
+                          "options": ["Peasants", "Princes", "Sepoys", "Artisans"],
+                          "answer": "Princes",
+                          "explanation": "Many Indian princes and landlords sided with the British to maintain their privileges."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 9,
+                      "questions": [
+                        {
+                          "question": "Which event sparked the Revolt of 1857?",
+                          "options": ["Partition of Bengal", "Greased cartridges issue", "Doctrine of Lapse", "Jallianwala Bagh massacre"],
+                          "answer": "Greased cartridges issue",
+                          "explanation": "Indian sepoys refused to use greased cartridges rumored to contain cow and pig fat, leading to the revolt."
+                        },
+                        {
+                          "question": "Who was declared the leader of the revolt?",
+                          "options": ["Tantia Tope", "Bahadur Shah Zafar", "Nana Sahib", "Rani Lakshmibai"],
+                          "answer": "Bahadur Shah Zafar",
+                          "explanation": "The rebels declared Bahadur Shah Zafar as their leader to unify their cause against the British."
+                        },
+                        {
+                          "question": "Where did the revolt begin?",
+                          "options": ["Delhi", "Lucknow", "Meerut", "Kanpur"],
+                          "answer": "Meerut",
+                          "explanation": "The revolt began in Meerut on May 10, 1857, when Indian soldiers rebelled against British officers."
+                        },
+                        {
+                          "question": "Who led the revolt in Kanpur?",
+                          "options": ["Tantia Tope", "Nana Sahib", "Begum Hazrat Mahal", "Rani Lakshmibai"],
+                          "answer": "Nana Sahib",
+                          "explanation": "Nana Sahib led the resistance in Kanpur, which became a major center of the revolt."
+                        },
+                        {
+                          "question": "Which factor contributed to the failure of the revolt?",
+                          "options": ["Lack of weapons", "No public support", "British naval power", "Disunity among rebels"],
+                          "answer": "Disunity among rebels",
+                          "explanation": "The lack of a unified command and coordination weakened the rebels' efforts against the British."
+                        },
+                        {
+                          "question": "Which British officer led the recapture of Delhi?",
+                          "options": ["John Nicholson", "Lord Canning", "Colin Campbell", "James Outram"],
+                          "answer": "John Nicholson",
+                          "explanation": "John Nicholson led British forces in the brutal recapture of Delhi from the rebels."
+                        },
+                        {
+                          "question": "What happened to Bahadur Shah Zafar after the revolt?",
+                          "options": ["He was executed", "He was exiled", "He became king", "He escaped to Nepal"],
+                          "answer": "He was exiled",
+                          "explanation": "After the British recaptured Delhi, Bahadur Shah Zafar was exiled to Burma."
+                        },
+                        {
+                          "question": "Which leader fought bravely in Jhansi?",
+                          "options": ["Begum Hazrat Mahal", "Tantia Tope", "Nana Sahib", "Rani Lakshmibai"],
+                          "answer": "Rani Lakshmibai",
+                          "explanation": "Rani Lakshmibai led a strong resistance in Jhansi but died in battle."
+                        },
+                        {
+                          "question": "Which policy ended after the revolt?",
+                          "options": ["Doctrine of Lapse", "Subsidiary Alliance", "Pitt’s India Act", "Permanent Settlement"],
+                          "answer": "Doctrine of Lapse",
+                          "explanation": "After the revolt, the British ended the Doctrine of Lapse to gain the support of Indian rulers."
+                        },
+                        {
+                          "question": "How did the British describe the revolt?",
+                          "options": ["First War of Independence", "Mutiny", "Great Revolution", "Civil War"],
+                          "answer": "Mutiny",
+                          "explanation": "The British called the 1857 uprising a ‘mutiny’ because it was led by Indian soldiers in their army."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 10,
+                      "questions": [
+                        {
+                          "question": "Where did the Revolt of 1857 first break out?",
+                          "options": ["Delhi", "Kanpur", "Meerut", "Lucknow"],
+                          "answer": "Meerut",
+                          "explanation": "The revolt started in Meerut when sepoys refused to use greased cartridges."
+                        },
+                        {
+                          "question": "Who was declared the symbolic leader of the revolt?",
+                          "options": ["Tantia Tope", "Nana Sahib", "Bahadur Shah Zafar", "Begum Hazrat Mahal"],
+                          "answer": "Bahadur Shah Zafar",
+                          "explanation": "The rebels declared Bahadur Shah Zafar as their symbolic leader."
+                        },
+                        {
+                          "question": "Who led the rebellion in Kanpur?",
+                          "options": ["Rani Lakshmibai", "Nana Sahib", "Tantia Tope", "Bahadur Shah Zafar"],
+                          "answer": "Nana Sahib",
+                          "explanation": "Nana Sahib led the rebellion in Kanpur against the British."
+                        },
+                        {
+                          "question": "Which factor contributed to the failure of the revolt?",
+                          "options": ["Lack of unity", "British support", "More weapons", "Strong leadership"],
+                          "answer": "Lack of unity",
+                          "explanation": "The revolt failed due to a lack of unified leadership and coordination."
+                        },
+                        {
+                          "question": "Which queen led the rebellion in Jhansi?",
+                          "options": ["Begum Hazrat Mahal", "Victoria", "Rani Lakshmibai", "Durgavati"],
+                          "answer": "Rani Lakshmibai",
+                          "explanation": "Rani Lakshmibai bravely fought against the British in Jhansi."
+                        },
+                        {
+                          "question": "Which year did the British capture Delhi during the revolt?",
+                          "options": ["June 1857", "September 1857", "December 1857", "March 1858"],
+                          "answer": "September 1857",
+                          "explanation": "British forces recaptured Delhi in September 1857."
+                        },
+                        {
+                          "question": "What happened to Bahadur Shah Zafar after the revolt?",
+                          "options": ["Crowned King", "Exiled to Burma", "Executed", "Escaped to Nepal"],
+                          "answer": "Exiled to Burma",
+                          "explanation": "After the revolt, the British exiled Bahadur Shah Zafar to Burma."
+                        },
+                        {
+                          "question": "Which British act ended the rule of the East India Company?",
+                          "options": ["Regulating Act", "Government of India Act 1858", "Pitt’s India Act", "Charter Act"],
+                          "answer": "Government of India Act 1858",
+                          "explanation": "This act transferred power from the East India Company to the British Crown."
+                        },
+                        {
+                          "question": "How did the British describe the revolt?",
+                          "options": ["Mutiny", "Freedom struggle", "National movement", "People’s war"],
+                          "answer": "Mutiny",
+                          "explanation": "The British referred to the revolt as a ‘mutiny’ by disloyal sepoys."
+                        },
+                        {
+                          "question": "What was a major consequence of the revolt?",
+                          "options": ["India's independence", "Abolition of Mughal rule", "More Indian rule", "Stronger Company rule"],
+                          "answer": "Abolition of Mughal rule",
+                          "explanation": "The British formally ended the Mughal Empire after the revolt."
+                        }
+                      ]
+                    }
+                  ]
                 },
                 { 
                   "subtopicName": "Mahatma Gandhi and the Nationalist Movement – Civil Disobedience and Beyond",
@@ -34803,7 +36104,660 @@
                       "content": "On January 30, 1948, Mahatma Gandhi was assassinated by Nathuram Godse, a Hindu nationalist who blamed him for appeasing Muslims. His death marked the end of an era, but his philosophy of non-violence continues to inspire movements for civil rights and freedom worldwide."
                     }
                    ],
-                    "questionSets": [] 
+                    "questionSets": [
+                      {
+                        "setNumber": 1,
+                        "questions": [
+                          {
+                            "question": "Where did Gandhi first apply Satyagraha in India?",
+                            "options": ["Champaran", "Kheda", "Ahmedabad", "Bardoli"],
+                            "answer": "Champaran",
+                            "explanation": "Gandhi first applied Satyagraha in India during the Champaran movement in 1917, where he fought for indigo farmers' rights."
+                          },
+                          {
+                            "question": "Which act led to the launch of the Non-Cooperation Movement?",
+                            "options": ["Rowlatt Act", "Pitt’s Act", "Charter Act", "Regulating Act"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "The Rowlatt Act of 1919 allowed British authorities to detain Indians without trial, sparking protests and leading to the Non-Cooperation Movement."
+                          },
+                          {
+                            "question": "When was the Civil Disobedience Movement launched?",
+                            "options": ["1929", "1930", "1931", "1932"],
+                            "answer": "1930",
+                            "explanation": "Gandhi launched the Civil Disobedience Movement in 1930 with the famous Dandi March, protesting British salt laws."
+                          },
+                          {
+                            "question": "What was the outcome of the Gandhi-Irwin Pact?",
+                            "options": ["End of British rule", "Release of prisoners", "Formation of Pakistan", "Abolition of salt tax"],
+                            "answer": "Release of prisoners",
+                            "explanation": "The Gandhi-Irwin Pact of 1931 resulted in the release of political prisoners and the suspension of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Where did Gandhi attend the Second Round Table Conference?",
+                            "options": ["Delhi", "New York", "London", "Paris"],
+                            "answer": "London",
+                            "explanation": "Gandhi attended the Second Round Table Conference in London in 1931, but it failed due to disagreements."
+                          },
+                          {
+                            "question": "What was Gandhi’s slogan during Quit India Movement?",
+                            "options": ["Jai Hind", "Do or Die", "Quit India", "Vande Mataram"],
+                            "answer": "Do or Die",
+                            "explanation": "During the Quit India Movement in 1942, Gandhi gave the famous slogan 'Do or Die' to demand complete independence."
+                          },
+                          {
+                            "question": "Who was a key woman leader in the Salt Satyagraha?",
+                            "options": ["Sarojini Naidu", "Indira Gandhi", "Rani Laxmi Bai", "Kasturba Gandhi"],
+                            "answer": "Sarojini Naidu",
+                            "explanation": "Sarojini Naidu played a vital role in the Salt Satyagraha, leading protests and picketing British institutions."
+                          },
+                          {
+                            "question": "Which movement did Gandhi support for Hindu-Muslim unity?",
+                            "options": ["Quit India", "Khilafat Movement", "Swadeshi", "Home Rule"],
+                            "answer": "Khilafat Movement",
+                            "explanation": "Gandhi supported the Khilafat Movement to unite Hindus and Muslims against British rule."
+                          },
+                          {
+                            "question": "What year did India gain independence?",
+                            "options": ["1945", "1946", "1947", "1948"],
+                            "answer": "1947",
+                            "explanation": "India gained independence from British rule on August 15, 1947, following years of struggle and partition."
+                          },
+                          {
+                            "question": "Who assassinated Mahatma Gandhi?",
+                            "options": ["Nathuram Godse", "Bhagat Singh", "Sardar Patel", "Jawaharlal Nehru"],
+                            "answer": "Nathuram Godse",
+                            "explanation": "On January 30, 1948, Mahatma Gandhi was assassinated by Nathuram Godse, who opposed his views on Hindu-Muslim unity."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 2,
+                        "questions": [
+                          {
+                            "question": "In which year did Gandhi return to India from South Africa?",
+                            "options": ["1910", "1915", "1920", "1905"],
+                            "answer": "1915",
+                            "explanation": "Mahatma Gandhi returned to India from South Africa in 1915 and became involved in the Indian freedom struggle."
+                          },
+                          {
+                            "question": "What was the main reason for the failure of the Second Round Table Conference?",
+                            "options": ["British opposition", "Indian disunity", "Economic issues", "Lack of leadership"],
+                            "answer": "Indian disunity",
+                            "explanation": "The Second Round Table Conference in 1931 failed due to deep divisions among Indian groups and British reluctance to grant real autonomy."
+                          },
+                          {
+                            "question": "Which movement was started by Gandhi after the Jallianwala Bagh massacre?",
+                            "options": ["Civil Disobedience", "Quit India", "Non-Cooperation", "Swadeshi"],
+                            "answer": "Non-Cooperation",
+                            "explanation": "Gandhi launched the Non-Cooperation Movement in response to the Jallianwala Bagh massacre and the Rowlatt Act."
+                          },
+                          {
+                            "question": "Which city did Gandhi reach at the end of the Dandi March?",
+                            "options": ["Mumbai", "Surat", "Dandi", "Ahmedabad"],
+                            "answer": "Dandi",
+                            "explanation": "Gandhi completed the 240-mile-long Dandi March in 1930 at the coastal town of Dandi, where he broke the salt law."
+                          },
+                          {
+                            "question": "What was the immediate cause of the Quit India Movement?",
+                            "options": ["Failure of Round Table Talks", "WWII and British policies", "Simon Commission", "Jallianwala Bagh massacre"],
+                            "answer": "WWII and British policies",
+                            "explanation": "The Quit India Movement was launched in 1942 due to British failure to grant independence during World War II."
+                          },
+                          {
+                            "question": "Who coined the term 'Sarvodaya' which Gandhi promoted?",
+                            "options": ["Vinoba Bhave", "Tilak", "Nehru", "Gokhale"],
+                            "answer": "Vinoba Bhave",
+                            "explanation": "The term 'Sarvodaya', meaning welfare for all, was coined by Vinoba Bhave and later promoted by Gandhi."
+                          },
+                          {
+                            "question": "Which act allowed the British to arrest Indians without trial?",
+                            "options": ["Government of India Act", "Rowlatt Act", "Indian Councils Act", "Regulating Act"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "The Rowlatt Act (1919) allowed the British to detain Indians without trial, leading to widespread protests."
+                          },
+                          {
+                            "question": "Which leader was associated with the Salt Satyagraha along with Gandhi?",
+                            "options": ["Vallabhbhai Patel", "Jawaharlal Nehru", "Sarojini Naidu", "Lala Lajpat Rai"],
+                            "answer": "Sarojini Naidu",
+                            "explanation": "Sarojini Naidu played a key role in the Salt Satyagraha, leading protests in various parts of India."
+                          },
+                          {
+                            "question": "What was the main demand of the Gandhi-Irwin Pact?",
+                            "options": ["Release of prisoners", "End of British rule", "Formation of a new government", "Abolition of salt tax"],
+                            "answer": "Release of prisoners",
+                            "explanation": "The Gandhi-Irwin Pact (1931) resulted in the release of political prisoners and temporary suspension of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Who was responsible for Gandhi's assassination?",
+                            "options": ["Bhagat Singh", "Nathuram Godse", "Sukhdev", "Rajguru"],
+                            "answer": "Nathuram Godse",
+                            "explanation": "Nathuram Godse, a Hindu nationalist, assassinated Gandhi on January 30, 1948, blaming him for appeasing Muslims."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 3,
+                        "questions": [
+                          {
+                            "question": "Which was Gandhi’s first major movement in India?",
+                            "options": ["Salt Satyagraha", "Champaran Satyagraha", "Quit India", "Non-Cooperation"],
+                            "answer": "Champaran Satyagraha",
+                            "explanation": "Gandhi's first major movement in India was the Champaran Satyagraha in 1917, where he fought for indigo farmers' rights."
+                          },
+                          {
+                            "question": "What was Gandhi’s profession before joining politics?",
+                            "options": ["Doctor", "Lawyer", "Journalist", "Teacher"],
+                            "answer": "Lawyer",
+                            "explanation": "Gandhi was trained as a lawyer and practiced law in South Africa before returning to India."
+                          },
+                          {
+                            "question": "Which British law was protested during the Civil Disobedience Movement?",
+                            "options": ["Rowlatt Act", "Government of India Act", "Salt Law", "Pitt’s Act"],
+                            "answer": "Salt Law",
+                            "explanation": "Gandhi protested against the British salt laws through the Civil Disobedience Movement in 1930."
+                          },
+                          {
+                            "question": "Who was the British Viceroy during the Gandhi-Irwin Pact?",
+                            "options": ["Lord Irwin", "Lord Linlithgow", "Lord Mountbatten", "Lord Wavell"],
+                            "answer": "Lord Irwin",
+                            "explanation": "Lord Irwin was the British Viceroy who negotiated the Gandhi-Irwin Pact in 1931."
+                          },
+                          {
+                            "question": "Which city was Gandhi in when India gained independence?",
+                            "options": ["Delhi", "Ahmedabad", "Mumbai", "Kolkata"],
+                            "answer": "Kolkata",
+                            "explanation": "During India's independence in 1947, Gandhi was in Kolkata, trying to prevent communal riots."
+                          },
+                          {
+                            "question": "What was the primary cause of the Khilafat Movement?",
+                            "options": ["Opposition to British rule", "Support for Ottoman Empire", "Demand for independence", "Land reforms"],
+                            "answer": "Support for Ottoman Empire",
+                            "explanation": "The Khilafat Movement aimed to support the Ottoman Caliphate, which was under threat after World War I."
+                          },
+                          {
+                            "question": "Who led the Salt Satyagraha along with Gandhi?",
+                            "options": ["Subhas Bose", "Vallabhbhai Patel", "Sarojini Naidu", "Bhagat Singh"],
+                            "answer": "Sarojini Naidu",
+                            "explanation": "Sarojini Naidu played a crucial role in the Salt Satyagraha and led protests against British salt laws."
+                          },
+                          {
+                            "question": "Which year was the Quit India Movement launched?",
+                            "options": ["1939", "1940", "1942", "1945"],
+                            "answer": "1942",
+                            "explanation": "The Quit India Movement was launched by Gandhi in August 1942 to demand an end to British rule in India."
+                          },
+                          {
+                            "question": "What did Gandhi call untouchables?",
+                            "options": ["Dalits", "Shudras", "Harijans", "Adivasis"],
+                            "answer": "Harijans",
+                            "explanation": "Gandhi called untouchables 'Harijans,' meaning 'children of God,' as part of his efforts to uplift them."
+                          },
+                          {
+                            "question": "Which newspaper was founded by Gandhi in South Africa?",
+                            "options": ["Harijan", "Young India", "Navjeevan", "Indian Opinion"],
+                            "answer": "Indian Opinion",
+                            "explanation": "Gandhi founded 'Indian Opinion' in South Africa in 1903 to promote civil rights and justice for Indians."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 4,
+                        "questions": [
+                          {
+                            "question": "In which year did Gandhi return to India from South Africa?",
+                            "options": ["1913", "1915", "1917", "1920"],
+                            "answer": "1915",
+                            "explanation": "Gandhi returned to India from South Africa in 1915 and began his involvement in the Indian freedom struggle."
+                          },
+                          {
+                            "question": "Which movement was launched after the Jallianwala Bagh massacre?",
+                            "options": ["Civil Disobedience", "Quit India", "Non-Cooperation", "Khilafat"],
+                            "answer": "Non-Cooperation",
+                            "explanation": "Gandhi launched the Non-Cooperation Movement in 1920 after the Jallianwala Bagh massacre in 1919."
+                          },
+                          {
+                            "question": "Where did Gandhi break the salt law during the Dandi March?",
+                            "options": ["Mumbai", "Dandi", "Surat", "Porbandar"],
+                            "answer": "Dandi",
+                            "explanation": "Gandhi reached Dandi on April 6, 1930, and broke the salt law, marking the beginning of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Which pact led to Gandhi attending the Second Round Table Conference?",
+                            "options": ["Poona Pact", "Lucknow Pact", "Gandhi-Irwin Pact", "Delhi Pact"],
+                            "answer": "Gandhi-Irwin Pact",
+                            "explanation": "The Gandhi-Irwin Pact (1931) led to the suspension of the Civil Disobedience Movement and Gandhi's participation in the Second Round Table Conference."
+                          },
+                          {
+                            "question": "What was the name of Gandhi’s newspaper in South Africa?",
+                            "options": ["Young India", "Harijan", "Indian Opinion", "Navjivan"],
+                            "answer": "Indian Opinion",
+                            "explanation": "Gandhi started 'Indian Opinion' in South Africa to fight for the rights of Indians and spread awareness about injustice."
+                          },
+                          {
+                            "question": "Which act was opposed by Gandhi in the Rowlatt Satyagraha?",
+                            "options": ["Government of India Act", "Rowlatt Act", "Pitt's Act", "Simon Commission Act"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "Gandhi opposed the Rowlatt Act (1919), which allowed the British to arrest people without trial."
+                          },
+                          {
+                            "question": "Who was the British Viceroy during the Quit India Movement?",
+                            "options": ["Lord Mountbatten", "Lord Irwin", "Lord Wavell", "Lord Linlithgow"],
+                            "answer": "Lord Linlithgow",
+                            "explanation": "Lord Linlithgow was the Viceroy of India during the Quit India Movement in 1942."
+                          },
+                          {
+                            "question": "What was Gandhi’s view on partition?",
+                            "options": ["He supported it", "He was neutral", "He opposed it", "He suggested it"],
+                            "answer": "He opposed it",
+                            "explanation": "Gandhi strongly opposed the partition of India, believing in Hindu-Muslim unity and peaceful coexistence."
+                          },
+                          {
+                            "question": "Which protest by Gandhi aimed to help peasants in Gujarat?",
+                            "options": ["Kheda Satyagraha", "Champaran Satyagraha", "Dandi March", "Swadeshi Movement"],
+                            "answer": "Kheda Satyagraha",
+                            "explanation": "The Kheda Satyagraha (1918) was launched by Gandhi to help Gujarat’s peasants who suffered due to famine and high taxes."
+                          },
+                          {
+                            "question": "Who assassinated Mahatma Gandhi?",
+                            "options": ["Bhagat Singh", "Nathuram Godse", "Vinayak Savarkar", "Subhas Chandra Bose"],
+                            "answer": "Nathuram Godse",
+                            "explanation": "Nathuram Godse, a Hindu nationalist, assassinated Mahatma Gandhi on January 30, 1948."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 5,
+                        "questions": [
+                          {
+                            "question": "What was Gandhi’s profession before joining politics?",
+                            "options": ["Doctor", "Lawyer", "Teacher", "Journalist"],
+                            "answer": "Lawyer",
+                            "explanation": "Gandhi was trained as a lawyer in England and practiced in South Africa before joining the freedom struggle."
+                          },
+                          {
+                            "question": "In which year did Gandhi return to India from South Africa?",
+                            "options": ["1913", "1915", "1917", "1920"],
+                            "answer": "1915",
+                            "explanation": "Mahatma Gandhi returned to India from South Africa in 1915 and soon became involved in Indian politics."
+                          },
+                          {
+                            "question": "Which movement was started by Gandhi against the Rowlatt Act?",
+                            "options": ["Salt March", "Non-Cooperation", "Rowlatt Satyagraha", "Quit India"],
+                            "answer": "Rowlatt Satyagraha",
+                            "explanation": "Gandhi launched the Rowlatt Satyagraha in 1919 to oppose the Rowlatt Act, which allowed detention without trial."
+                          },
+                          {
+                            "question": "Which social issue did Gandhi oppose strongly?",
+                            "options": ["Untouchability", "Industrialization", "Partition", "Foreign Trade"],
+                            "answer": "Untouchability",
+                            "explanation": "Gandhi worked to abolish untouchability and promoted equality through campaigns and the Harijan movement."
+                          },
+                          {
+                            "question": "What was the main goal of the Non-Cooperation Movement?",
+                            "options": ["Boycott British goods", "Fight in World War I", "Support British rule", "Promote education"],
+                            "answer": "Boycott British goods",
+                            "explanation": "The Non-Cooperation Movement aimed to boycott British goods, institutions, and services to protest colonial rule."
+                          },
+                          {
+                            "question": "Which newspaper was started by Gandhi in South Africa?",
+                            "options": ["The Hindu", "Harijan", "Young India", "Indian Opinion"],
+                            "answer": "Indian Opinion",
+                            "explanation": "Gandhi started 'Indian Opinion' in 1903 to raise awareness about racial discrimination against Indians in South Africa."
+                          },
+                          {
+                            "question": "Where did Gandhi sign the Gandhi-Irwin Pact?",
+                            "options": ["Bombay", "Delhi", "London", "Allahabad"],
+                            "answer": "Delhi",
+                            "explanation": "The Gandhi-Irwin Pact was signed in Delhi in 1931, leading to the suspension of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Who was the Viceroy of India during the Civil Disobedience Movement?",
+                            "options": ["Lord Linlithgow", "Lord Irwin", "Lord Wavell", "Lord Mountbatten"],
+                            "answer": "Lord Irwin",
+                            "explanation": "Lord Irwin was the Viceroy of India when Gandhi launched the Civil Disobedience Movement in 1930."
+                          },
+                          {
+                            "question": "What was Gandhi’s vision for India’s economy?",
+                            "options": ["Large industries", "Self-sufficient villages", "British investments", "Global trade"],
+                            "answer": "Self-sufficient villages",
+                            "explanation": "Gandhi promoted village industries and self-sufficiency as the foundation of India’s economic development."
+                          },
+                          {
+                            "question": "Which prison did Gandhi visit frequently due to his protests?",
+                            "options": ["Cellular Jail", "Yerwada Jail", "Tihar Jail", "Alipore Jail"],
+                            "answer": "Yerwada Jail",
+                            "explanation": "Gandhi was imprisoned several times in Yerwada Jail, including during the Civil Disobedience Movement and Quit India Movement."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 6,
+                        "questions": [
+                          {
+                            "question": "Who led the Salt Satyagraha along with Gandhi?",
+                            "options": ["Vallabhbhai Patel", "Sarojini Naidu", "Subhash Chandra Bose", "Jawaharlal Nehru"],
+                            "answer": "Sarojini Naidu",
+                            "explanation": "Sarojini Naidu played a key role in the Salt Satyagraha and led protests alongside Gandhi."
+                          },
+                          {
+                            "question": "Which movement is associated with the slogan 'Do or Die'?",
+                            "options": ["Non-Cooperation", "Civil Disobedience", "Quit India", "Swadeshi"],
+                            "answer": "Quit India",
+                            "explanation": "Gandhi gave the slogan 'Do or Die' during the Quit India Movement in 1942."
+                          },
+                          {
+                            "question": "Who was the British Viceroy during the Salt March?",
+                            "options": ["Lord Irwin", "Lord Linlithgow", "Lord Wavell", "Lord Mountbatten"],
+                            "answer": "Lord Irwin",
+                            "explanation": "Lord Irwin was the British Viceroy during the Salt March in 1930."
+                          },
+                          {
+                            "question": "Which law did Gandhi break during the Salt March?",
+                            "options": ["Rowlatt Act", "Salt Law", "Government of India Act", "Press Act"],
+                            "answer": "Salt Law",
+                            "explanation": "Gandhi broke the British-imposed Salt Law in 1930, leading to the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Which conference did Gandhi attend after the Gandhi-Irwin Pact?",
+                            "options": ["First Round Table", "Second Round Table", "Third Round Table", "Poona Conference"],
+                            "answer": "Second Round Table",
+                            "explanation": "After signing the Gandhi-Irwin Pact in 1931, Gandhi attended the Second Round Table Conference in London."
+                          },
+                          {
+                            "question": "Which leader opposed Gandhi on the issue of partition?",
+                            "options": ["Sardar Patel", "Subhash Chandra Bose", "Jawaharlal Nehru", "Muhammad Ali Jinnah"],
+                            "answer": "Muhammad Ali Jinnah",
+                            "explanation": "Muhammad Ali Jinnah, the leader of the Muslim League, strongly supported the partition of India, which Gandhi opposed."
+                          },
+                          {
+                            "question": "What was the main aim of the Quit India Movement?",
+                            "options": ["Reduce taxes", "End British rule", "Increase trade", "Gain Dominion status"],
+                            "answer": "End British rule",
+                            "explanation": "The Quit India Movement of 1942 aimed to force the British to leave India immediately."
+                          },
+                          {
+                            "question": "Which event forced Gandhi to call off the Non-Cooperation Movement?",
+                            "options": ["Salt March", "Chauri Chaura Incident", "Jallianwala Bagh", "Round Table Conference"],
+                            "answer": "Chauri Chaura Incident",
+                            "explanation": "After the violent Chauri Chaura incident in 1922, where a police station was burned, Gandhi called off the movement."
+                          },
+                          {
+                            "question": "Which newspaper was started by Gandhi in South Africa?",
+                            "options": ["Harijan", "Young India", "Indian Opinion", "Navjivan"],
+                            "answer": "Indian Opinion",
+                            "explanation": "Gandhi started 'Indian Opinion' in South Africa to support the rights of Indian immigrants."
+                          },
+                          {
+                            "question": "Which act led to the Jallianwala Bagh massacre?",
+                            "options": ["Pitt's India Act", "Government of India Act", "Rowlatt Act", "Salt Law"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "The Rowlatt Act allowed detention without trial, leading to protests and the Jallianwala Bagh massacre in 1919."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 7,
+                        "questions": [
+                          {
+                            "question": "Who was the first Governor-General of independent India?",
+                            "options": ["Lord Mountbatten", "C. Rajagopalachari", "Jawaharlal Nehru", "Dr. Rajendra Prasad"],
+                            "answer": "Lord Mountbatten",
+                            "explanation": "Lord Mountbatten became the first Governor-General of independent India in 1947."
+                          },
+                          {
+                            "question": "Which movement did Gandhi launch in response to the Rowlatt Act?",
+                            "options": ["Khilafat Movement", "Non-Cooperation Movement", "Civil Disobedience Movement", "Satyagraha Movement"],
+                            "answer": "Satyagraha Movement",
+                            "explanation": "Gandhi launched the Satyagraha Movement in 1919 to protest against the Rowlatt Act, which allowed detention without trial."
+                          },
+                          {
+                            "question": "Where was Gandhi imprisoned during the Quit India Movement?",
+                            "options": ["Ahmedabad Jail", "Lahore Jail", "Aga Khan Palace", "Cellular Jail"],
+                            "answer": "Aga Khan Palace",
+                            "explanation": "During the Quit India Movement, Gandhi was imprisoned in Aga Khan Palace, Pune, where Kasturba Gandhi passed away."
+                          },
+                          {
+                            "question": "Which newspaper was founded by Gandhi in South Africa?",
+                            "options": ["The Hindu", "Harijan", "Indian Opinion", "Young India"],
+                            "answer": "Indian Opinion",
+                            "explanation": "Gandhi founded the newspaper 'Indian Opinion' in 1903 in South Africa to support civil rights struggles."
+                          },
+                          {
+                            "question": "Who played a key role in negotiating the Gandhi-Irwin Pact?",
+                            "options": ["Lord Linlithgow", "Lord Reading", "Lord Irwin", "Lord Wavell"],
+                            "answer": "Lord Irwin",
+                            "explanation": "Lord Irwin, the then Viceroy of India, negotiated and signed the Gandhi-Irwin Pact in 1931."
+                          },
+                          {
+                            "question": "What was the main purpose of the Khilafat Movement?",
+                            "options": ["Support British rule", "Protect Ottoman Caliphate", "Demand Swaraj", "Oppose Partition"],
+                            "answer": "Protect Ottoman Caliphate",
+                            "explanation": "The Khilafat Movement aimed to protect the Ottoman Caliphate after World War I, and Gandhi supported it to unite Hindus and Muslims."
+                          },
+                          {
+                            "question": "Who was known as the 'Frontier Gandhi'?",
+                            "options": ["Subhas Chandra Bose", "Khan Abdul Ghaffar Khan", "Bhagat Singh", "C. Rajagopalachari"],
+                            "answer": "Khan Abdul Ghaffar Khan",
+                            "explanation": "Khan Abdul Ghaffar Khan, also called 'Frontier Gandhi', was a strong advocate of non-violence in British India."
+                          },
+                          {
+                            "question": "Which book was written by Gandhi?",
+                            "options": ["Discovery of India", "Hind Swaraj", "Gita Rahasya", "India Wins Freedom"],
+                            "answer": "Hind Swaraj",
+                            "explanation": "Gandhi wrote 'Hind Swaraj' in 1909, outlining his vision for India's independence through non-violence."
+                          },
+                          {
+                            "question": "Which movement was launched after the failure of the Cripps Mission?",
+                            "options": ["Non-Cooperation Movement", "Quit India Movement", "Khilafat Movement", "Civil Disobedience Movement"],
+                            "answer": "Quit India Movement",
+                            "explanation": "After the failure of the Cripps Mission in 1942, Gandhi launched the Quit India Movement demanding an end to British rule."
+                          },
+                          {
+                            "question": "Which session of the Indian National Congress declared Purna Swaraj?",
+                            "options": ["Bombay Session", "Lahore Session", "Calcutta Session", "Lucknow Session"],
+                            "answer": "Lahore Session",
+                            "explanation": "The Lahore Session of 1929 declared Purna Swaraj (Complete Independence) and decided to celebrate 26th January as Independence Day."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 8,
+                        "questions": [
+                          {
+                            "question": "Who designed the Swaraj Flag hoisted in 1921?",
+                            "options": ["Pingali Venkayya", "B.R. Ambedkar", "Dadabhai Naoroji", "Subhas Chandra Bose"],
+                            "answer": "Pingali Venkayya",
+                            "explanation": "Pingali Venkayya designed the Swaraj Flag, which later inspired India's national flag."
+                          },
+                          {
+                            "question": "Which prison was Gandhi sent to after the Salt March?",
+                            "options": ["Yerwada Jail", "Tihar Jail", "Andaman Jail", "Naini Jail"],
+                            "answer": "Yerwada Jail",
+                            "explanation": "Gandhi was imprisoned in Yerwada Jail after his arrest during the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Who was the Viceroy of India during the Quit India Movement?",
+                            "options": ["Lord Linlithgow", "Lord Mountbatten", "Lord Wavell", "Lord Curzon"],
+                            "answer": "Lord Linlithgow",
+                            "explanation": "Lord Linlithgow was the Viceroy when Gandhi launched the Quit India Movement in 1942."
+                          },
+                          {
+                            "question": "What was the main aim of the Gandhi-Irwin Pact?",
+                            "options": ["End British rule", "End Civil Disobedience", "Release prisoners", "Form new government"],
+                            "answer": "Release prisoners",
+                            "explanation": "The Gandhi-Irwin Pact in 1931 led to the release of political prisoners and the temporary suspension of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Who founded the Khilafat Movement along with Gandhi?",
+                            "options": ["Ali Brothers", "Bal Gangadhar Tilak", "Subhas Chandra Bose", "Lala Lajpat Rai"],
+                            "answer": "Ali Brothers",
+                            "explanation": "The Ali Brothers, Shaukat Ali and Mohammad Ali, worked with Gandhi to lead the Khilafat Movement."
+                          },
+                          {
+                            "question": "What was the result of the Second Round Table Conference?",
+                            "options": ["Failure", "Success", "Partial agreement", "Postponed"],
+                            "answer": "Failure",
+                            "explanation": "The Second Round Table Conference in 1931 failed due to British reluctance and divisions among Indian leaders."
+                          },
+                          {
+                            "question": "What was Gandhi’s response to Partition?",
+                            "options": ["Accepted it", "Protested it", "Ignored it", "Supported it"],
+                            "answer": "Protested it",
+                            "explanation": "Gandhi strongly opposed Partition and worked for Hindu-Muslim unity till his assassination."
+                          },
+                          {
+                            "question": "Which leader took charge of India after Gandhi’s assassination?",
+                            "options": ["Nehru", "Patel", "Rajendra Prasad", "Ambedkar"],
+                            "answer": "Nehru",
+                            "explanation": "Jawaharlal Nehru led India as Prime Minister after Gandhi’s assassination in 1948."
+                          },
+                          {
+                            "question": "Where was the first Round Table Conference held?",
+                            "options": ["London", "Delhi", "Bombay", "Paris"],
+                            "answer": "London",
+                            "explanation": "The first Round Table Conference was held in London in 1930 to discuss constitutional reforms in India."
+                          },
+                          {
+                            "question": "What was Gandhi’s slogan in the Quit India Movement?",
+                            "options": ["Do or Die", "Jai Hind", "Quit Now", "Victory or Death"],
+                            "answer": "Do or Die",
+                            "explanation": "Gandhi gave the slogan 'Do or Die' in 1942, urging Indians to fight for complete independence."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 9,
+                        "questions": [
+                          {
+                            "question": "Which movement did Gandhi call the ‘Himalayan Blunder’?",
+                            "options": ["Non-Cooperation Movement", "Civil Disobedience Movement", "Quit India Movement", "Khilafat Movement"],
+                            "answer": "Non-Cooperation Movement",
+                            "explanation": "Gandhi called the withdrawal of the Non-Cooperation Movement in 1922 after the Chauri Chaura incident a ‘Himalayan Blunder’."
+                          },
+                          {
+                            "question": "What was the main objective of the Dandi March?",
+                            "options": ["Boycott foreign goods", "Protest salt tax", "Demand full independence", "End British rule"],
+                            "answer": "Protest salt tax",
+                            "explanation": "The Dandi March in 1930 was a symbolic act of defiance against the British salt tax, marking the start of the Civil Disobedience Movement."
+                          },
+                          {
+                            "question": "Which British Act allowed detention without trial?",
+                            "options": ["Government of India Act 1919", "Rowlatt Act", "Pitt’s India Act", "Indian Councils Act"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "The Rowlatt Act of 1919 allowed the British to detain Indians without trial, leading to protests and the Jallianwala Bagh massacre."
+                          },
+                          {
+                            "question": "What was the name of Gandhi’s Sabarmati Ashram newspaper?",
+                            "options": ["Young India", "Harijan", "Navjivan", "Indian Opinion"],
+                            "answer": "Navjivan",
+                            "explanation": "Gandhi published 'Navjivan' in Gujarat, spreading his ideas of self-reliance, swadeshi, and non-violence."
+                          },
+                          {
+                            "question": "Who coined the term ‘Satyagraha’?",
+                            "options": ["Jawaharlal Nehru", "Gopal Krishna Gokhale", "Mahatma Gandhi", "Bal Gangadhar Tilak"],
+                            "answer": "Mahatma Gandhi",
+                            "explanation": "Mahatma Gandhi coined the term 'Satyagraha' to describe his philosophy of truth and non-violent resistance."
+                          },
+                          {
+                            "question": "Which conference did Gandhi attend as the sole INC representative?",
+                            "options": ["First Round Table Conference", "Second Round Table Conference", "Third Round Table Conference", "Cripps Mission"],
+                            "answer": "Second Round Table Conference",
+                            "explanation": "Gandhi attended the Second Round Table Conference in 1931 as the sole representative of the Indian National Congress."
+                          },
+                          {
+                            "question": "Which fast did Gandhi undertake to protest against separate electorates?",
+                            "options": ["Dandi Fast", "Salt Satyagraha", "Poona Pact Fast", "Quit India Fast"],
+                            "answer": "Poona Pact Fast",
+                            "explanation": "Gandhi’s fast in 1932 led to the Poona Pact, which ended separate electorates for Dalits."
+                          },
+                          {
+                            "question": "What was the final British proposal for Indian independence?",
+                            "options": ["Simon Commission", "Mountbatten Plan", "Cripps Mission", "Cabinet Mission"],
+                            "answer": "Mountbatten Plan",
+                            "explanation": "The Mountbatten Plan of 1947 proposed the partition of India and led to independence on August 15, 1947."
+                          },
+                          {
+                            "question": "Who led the Salt Satyagraha in Tamil Nadu?",
+                            "options": ["Rajaji", "Nehru", "Patel", "Tilak"],
+                            "answer": "Rajaji",
+                            "explanation": "C. Rajagopalachari led the Salt Satyagraha in Tamil Nadu, following Gandhi’s example in Dandi."
+                          },
+                          {
+                            "question": "Who assassinated Mahatma Gandhi?",
+                            "options": ["Nathuram Godse", "Vinayak Savarkar", "Bhagat Singh", "Subhas Chandra Bose"],
+                            "answer": "Nathuram Godse",
+                            "explanation": "On January 30, 1948, Nathuram Godse assassinated Gandhi, blaming him for policies favoring Muslims."
+                          }
+                        ]
+                      },
+                      {
+                        "setNumber": 10,
+                        "questions": [
+                          {
+                            "question": "Who was the Viceroy of India during the Quit India Movement?",
+                            "options": ["Lord Linlithgow", "Lord Wavell", "Lord Irwin", "Lord Mountbatten"],
+                            "answer": "Lord Linlithgow",
+                            "explanation": "Lord Linlithgow was the Viceroy of India when the Quit India Movement was launched in 1942."
+                          },
+                          {
+                            "question": "Which movement marked Gandhi’s first mass political campaign?",
+                            "options": ["Quit India Movement", "Non-Cooperation Movement", "Civil Disobedience Movement", "Khilafat Movement"],
+                            "answer": "Non-Cooperation Movement",
+                            "explanation": "The Non-Cooperation Movement (1920-1922) was Gandhi's first mass political campaign against British rule."
+                          },
+                          {
+                            "question": "In which year did Gandhi participate in the Round Table Conference?",
+                            "options": ["1929", "1931", "1935", "1942"],
+                            "answer": "1931",
+                            "explanation": "Gandhi attended the Second Round Table Conference in London in 1931 as the sole representative of the Indian National Congress."
+                          },
+                          {
+                            "question": "What was Gandhi’s main method of resistance against British rule?",
+                            "options": ["Armed rebellion", "Violent protests", "Non-violent resistance", "Legal battles"],
+                            "answer": "Non-violent resistance",
+                            "explanation": "Gandhi's principle of non-violent resistance, or Satyagraha, was central to India’s freedom struggle."
+                          },
+                          {
+                            "question": "Which act led to the Jallianwala Bagh massacre?",
+                            "options": ["Pitt's India Act", "Rowlatt Act", "Government of India Act", "Simon Commission"],
+                            "answer": "Rowlatt Act",
+                            "explanation": "The Rowlatt Act (1919) allowed detention without trial and led to protests, culminating in the Jallianwala Bagh massacre."
+                          },
+                          {
+                            "question": "What was Gandhi’s slogan during the Quit India Movement?",
+                            "options": ["Jai Hind", "Do or Die", "Satyameva Jayate", "Vande Mataram"],
+                            "answer": "Do or Die",
+                            "explanation": "Gandhi gave the slogan 'Do or Die' in 1942, urging Indians to fight for complete independence."
+                          },
+                          {
+                            "question": "Who assassinated Mahatma Gandhi?",
+                            "options": ["Bhagat Singh", "Nathuram Godse", "Vinayak Savarkar", "Subhas Chandra Bose"],
+                            "answer": "Nathuram Godse",
+                            "explanation": "Mahatma Gandhi was assassinated by Nathuram Godse on January 30, 1948, for his perceived stance on Hindu-Muslim unity."
+                          },
+                          {
+                            "question": "Which British law forced Gandhi to launch the Salt March?",
+                            "options": ["Rowlatt Act", "Salt Tax", "Government of India Act", "Simon Commission"],
+                            "answer": "Salt Tax",
+                            "explanation": "The British imposed a heavy tax on salt, leading Gandhi to launch the famous Salt March in 1930."
+                          },
+                          {
+                            "question": "Where did Gandhi hold his first major protest in South Africa?",
+                            "options": ["Cape Town", "Durban", "Pretoria", "Johannesburg"],
+                            "answer": "Durban",
+                            "explanation": "Gandhi held his first major protest against racial discrimination in Durban, South Africa, in 1894."
+                          },
+                          {
+                            "question": "Which political party did Gandhi lead during India’s freedom struggle?",
+                            "options": ["Indian National Congress", "Muslim League", "Forward Bloc", "Hindu Mahasabha"],
+                            "answer": "Indian National Congress",
+                            "explanation": "Gandhi was the prominent leader of the Indian National Congress, which led the independence movement against British rule."
+                          }
+                        ]
+                      }
+                      
+                    ]
+                     
                   },
                 { 
                   "subtopicName": "Framing the Constitution – The Beginning of a New Era",
@@ -34849,7 +36803,666 @@
                       "content": "Over the years, amendments have refined the Constitution to address emerging challenges. Landmark changes, such as the 42nd and 73rd Amendments, have strengthened democracy by expanding fundamental duties and empowering local governance. The Constitution remains a dynamic document, adapting to India's evolving needs while preserving its core democratic principles."
                     }
                    ], 
-                   "questionSets": []
+                   "questionSets": [
+                    {
+                      "setNumber": 1,
+                      "questions": [
+                        {
+                          "question": "Who was the Chairman of the Drafting Committee?",
+                          "options": ["Jawaharlal Nehru", "Sardar Patel", "B.R. Ambedkar", "Maulana Azad"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. B.R. Ambedkar was appointed as the Chairman of the Drafting Committee to frame the Indian Constitution."
+                        },
+                        {
+                          "question": "When was the Constituent Assembly formed?",
+                          "options": ["1945", "1946", "1947", "1950"],
+                          "answer": "1946",
+                          "explanation": "The Constituent Assembly was formed in December 1946 to draft the Indian Constitution."
+                        },
+                        {
+                          "question": "Which historical governance model influenced the Constitution?",
+                          "options": ["Mughal Empire", "British Empire", "Mauryan Empire", "All of these"],
+                          "answer": "All of these",
+                          "explanation": "India's Constitution was influenced by British rule, Mughal governance, and Mauryan administration."
+                        },
+                        {
+                          "question": "Which law influenced the need for Fundamental Rights?",
+                          "options": ["Rowlatt Act", "Salt Act", "Pitt’s India Act", "Government of India Act 1935"],
+                          "answer": "Rowlatt Act",
+                          "explanation": "The Rowlatt Act denied civil liberties, influencing the inclusion of Fundamental Rights in the Constitution."
+                        },
+                        {
+                          "question": "Which article guarantees equality before law?",
+                          "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+                          "answer": "Article 14",
+                          "explanation": "Article 14 ensures that all citizens are equal before the law, prohibiting discrimination."
+                        },
+                        {
+                          "question": "Which country’s Constitution inspired Directive Principles?",
+                          "options": ["USA", "UK", "Ireland", "France"],
+                          "answer": "Ireland",
+                          "explanation": "The Directive Principles were influenced by the Irish Constitution, promoting social justice."
+                        },
+                        {
+                          "question": "Which leader advocated for social justice in the Constitution?",
+                          "options": ["Gandhi", "Ambedkar", "Nehru", "Patel"],
+                          "answer": "Ambedkar",
+                          "explanation": "Dr. Ambedkar ensured that Scheduled Castes and Tribes received legal protection in the Constitution."
+                        },
+                        {
+                          "question": "Which list contains subjects under central control?",
+                          "options": ["State List", "Union List", "Concurrent List", "Residual List"],
+                          "answer": "Union List",
+                          "explanation": "The Union List includes subjects like defense, foreign affairs, and communications, controlled by the center."
+                        },
+                        {
+                          "question": "On which date was the Constitution adopted?",
+                          "options": ["August 15, 1947", "January 26, 1950", "November 26, 1949", "December 9, 1946"],
+                          "answer": "November 26, 1949",
+                          "explanation": "The Constitution was adopted on November 26, 1949, and came into effect on January 26, 1950."
+                        },
+                        {
+                          "question": "Which amendment strengthened local governance?",
+                          "options": ["42nd", "44th", "73rd", "86th"],
+                          "answer": "73rd",
+                          "explanation": "The 73rd Amendment strengthened local governance by granting constitutional status to Panchayati Raj institutions."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 2,
+                      "questions": [
+                        {
+                          "question": "What was the primary goal of the Constituent Assembly?",
+                          "options": ["To draft the Constitution", "To declare independence", "To form the government", "To write laws"],
+                          "answer": "To draft the Constitution",
+                          "explanation": "The Constituent Assembly was formed in 1946 with the goal of drafting the Indian Constitution."
+                        },
+                        {
+                          "question": "Who was the first President of the Constituent Assembly?",
+                          "options": ["Rajendra Prasad", "B.R. Ambedkar", "Sardar Patel", "Nehru"],
+                          "answer": "Rajendra Prasad",
+                          "explanation": "Dr. Rajendra Prasad was elected as the first President of the Constituent Assembly."
+                        },
+                        {
+                          "question": "Which amendment expanded Fundamental Duties?",
+                          "options": ["42nd", "44th", "73rd", "86th"],
+                          "answer": "42nd",
+                          "explanation": "The 42nd Amendment added more Fundamental Duties to promote responsible citizenship."
+                        },
+                        {
+                          "question": "Which major event tested India's democracy in 1952?",
+                          "options": ["First general election", "Emergency", "Partition", "Formation of states"],
+                          "answer": "First general election",
+                          "explanation": "The first general election in 1952 was a major test for India's democratic process."
+                        },
+                        {
+                          "question": "Which principle is a Directive Principle of State Policy?",
+                          "options": ["Social justice", "Freedom of speech", "Right to vote", "Right to equality"],
+                          "answer": "Social justice",
+                          "explanation": "Directive Principles focus on social justice, economic welfare, and equality."
+                        },
+                        {
+                          "question": "Which system was introduced to ensure political decentralization?",
+                          "options": ["Panchayati Raj", "Judiciary", "Bureaucracy", "Federalism"],
+                          "answer": "Panchayati Raj",
+                          "explanation": "The Panchayati Raj system was introduced to decentralize governance and empower local bodies."
+                        },
+                        {
+                          "question": "Who proposed the Objectives Resolution?",
+                          "options": ["Nehru", "Ambedkar", "Gandhi", "Patel"],
+                          "answer": "Nehru",
+                          "explanation": "Jawaharlal Nehru proposed the Objectives Resolution in 1946, which guided the Constitution's ideals."
+                        },
+                        {
+                          "question": "Which section of the Constitution outlines Fundamental Rights?",
+                          "options": ["Part III", "Part IV", "Part V", "Part VI"],
+                          "answer": "Part III",
+                          "explanation": "Part III of the Indian Constitution enshrines Fundamental Rights for citizens."
+                        },
+                        {
+                          "question": "Which act laid the foundation for India's parliamentary system?",
+                          "options": ["Government of India Act 1935", "Rowlatt Act", "Pitt’s India Act", "Regulating Act 1773"],
+                          "answer": "Government of India Act 1935",
+                          "explanation": "The Government of India Act 1935 introduced a parliamentary system and federal structure."
+                        },
+                        {
+                          "question": "Which document ensures India's sovereignty and democracy?",
+                          "options": ["The Constitution", "The Penal Code", "The Civil Code", "The Preamble"],
+                          "answer": "The Constitution",
+                          "explanation": "The Indian Constitution is the supreme law that ensures sovereignty and democracy in India."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 3,
+                      "questions": [
+                        {
+                          "question": "Who was known as the 'Chief Architect' of the Constitution?",
+                          "options": ["B.R. Ambedkar", "Jawaharlal Nehru", "Sardar Patel", "Rajendra Prasad"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. B.R. Ambedkar played a key role in drafting the Constitution as Chairman of the Drafting Committee."
+                        },
+                        {
+                          "question": "Which act influenced the need for Parliamentary democracy?",
+                          "options": ["Government of India Act 1919", "Government of India Act 1935", "Rowlatt Act", "Indian Independence Act 1947"],
+                          "answer": "Government of India Act 1935",
+                          "explanation": "The Government of India Act 1935 introduced federalism and a parliamentary system, influencing India's Constitution."
+                        },
+                        {
+                          "question": "Which Fundamental Right protects freedom of speech?",
+                          "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+                          "answer": "Article 19",
+                          "explanation": "Article 19 guarantees freedom of speech, allowing citizens to express their views without fear."
+                        },
+                        {
+                          "question": "Which Directive Principle focuses on education?",
+                          "options": ["Right to Equality", "Right to Education", "Universal Adult Suffrage", "Social Welfare"],
+                          "answer": "Right to Education",
+                          "explanation": "Directive Principles include provisions for free and compulsory education for children under Article 45."
+                        },
+                        {
+                          "question": "What was one major challenge in implementing the Constitution?",
+                          "options": ["Lack of laws", "Economic instability", "Foreign invasion", "No leadership"],
+                          "answer": "Economic instability",
+                          "explanation": "After independence, India faced economic instability, refugee crises, and social challenges while implementing the Constitution."
+                        },
+                        {
+                          "question": "Which country’s system influenced India's federal structure?",
+                          "options": ["USA", "UK", "France", "Russia"],
+                          "answer": "USA",
+                          "explanation": "India adopted federalism from the USA, where power is divided between central and state governments."
+                        },
+                        {
+                          "question": "Which day is observed as Constitution Day?",
+                          "options": ["January 26", "November 26", "August 15", "October 2"],
+                          "answer": "November 26",
+                          "explanation": "November 26 is celebrated as Constitution Day, marking the adoption of the Indian Constitution in 1949."
+                        },
+                        {
+                          "question": "Which list allows both state and central governments to legislate?",
+                          "options": ["Union List", "State List", "Concurrent List", "Residual List"],
+                          "answer": "Concurrent List",
+                          "explanation": "The Concurrent List includes subjects like education and criminal law, where both center and states can legislate."
+                        },
+                        {
+                          "question": "Which amendment is called the 'Mini-Constitution'?",
+                          "options": ["42nd", "44th", "73rd", "86th"],
+                          "answer": "42nd",
+                          "explanation": "The 42nd Amendment introduced major changes, including adding Fundamental Duties and strengthening the central government."
+                        },
+                        {
+                          "question": "Who gave the final assent to the Constitution?",
+                          "options": ["Dr. Rajendra Prasad", "B.R. Ambedkar", "Mahatma Gandhi", "Jawaharlal Nehru"],
+                          "answer": "Dr. Rajendra Prasad",
+                          "explanation": "As the President of the Constituent Assembly, Dr. Rajendra Prasad gave the final assent to the Indian Constitution."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 4,
+                      "questions": [
+                        {
+                          "question": "When was the Constituent Assembly formed?",
+                          "options": ["1945", "1946", "1947", "1950"],
+                          "answer": "1946",
+                          "explanation": "The Constituent Assembly was formed in December 1946 to draft the Indian Constitution."
+                        },
+                        {
+                          "question": "Which historical governance models influenced the Constitution?",
+                          "options": ["Gupta Empire", "Mauryan & Mughal Empires", "Greek Empire", "Roman Empire"],
+                          "answer": "Mauryan & Mughal Empires",
+                          "explanation": "India's Constitution was shaped by lessons from the Mauryan and Mughal governance models."
+                        },
+                        {
+                          "question": "Which law highlighted the need for Fundamental Rights?",
+                          "options": ["Rowlatt Act", "Simon Commission", "Cripps Mission", "Indian Councils Act"],
+                          "answer": "Rowlatt Act",
+                          "explanation": "The Rowlatt Act restricted civil liberties, making it clear that India needed strong Fundamental Rights."
+                        },
+                        {
+                          "question": "What is the significance of Republic Day?",
+                          "options": ["Independence Day", "Adoption of the Constitution", "End of British Rule", "Formation of the Assembly"],
+                          "answer": "Adoption of the Constitution",
+                          "explanation": "January 26, 1950, marks the day when the Indian Constitution came into effect, making India a republic."
+                        },
+                        {
+                          "question": "Who played a key role in unifying princely states?",
+                          "options": ["Sardar Patel", "B.R. Ambedkar", "Jawaharlal Nehru", "Dr. Rajendra Prasad"],
+                          "answer": "Sardar Patel",
+                          "explanation": "Sardar Patel was instrumental in integrating princely states into the Indian Union."
+                        },
+                        {
+                          "question": "Which principle ensures economic and social equality?",
+                          "options": ["Fundamental Rights", "Directive Principles", "Preamble", "Union List"],
+                          "answer": "Directive Principles",
+                          "explanation": "Directive Principles guide the government to ensure economic and social justice for all citizens."
+                        },
+                        {
+                          "question": "What was the biggest challenge after independence?",
+                          "options": ["Land reforms", "Refugee resettlement", "Industrialization", "Foreign trade"],
+                          "answer": "Refugee resettlement",
+                          "explanation": "After partition, India faced a massive refugee crisis, requiring urgent resettlement efforts."
+                        },
+                        {
+                          "question": "Which amendment empowered local governance in India?",
+                          "options": ["42nd", "73rd", "86th", "44th"],
+                          "answer": "73rd",
+                          "explanation": "The 73rd Amendment gave constitutional status to Panchayati Raj, strengthening local governance."
+                        },
+                        {
+                          "question": "Which country’s Constitution influenced Fundamental Rights?",
+                          "options": ["USA", "UK", "France", "Germany"],
+                          "answer": "USA",
+                          "explanation": "India's Fundamental Rights were inspired by the Bill of Rights in the US Constitution."
+                        },
+                        {
+                          "question": "Who was the first President of the Constituent Assembly?",
+                          "options": ["Dr. Rajendra Prasad", "B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru"],
+                          "answer": "Dr. Rajendra Prasad",
+                          "explanation": "Dr. Rajendra Prasad served as the first President of the Constituent Assembly and later became India’s first President."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 5,
+                      "questions": [
+                        {
+                          "question": "Who introduced the Objectives Resolution in the Assembly?",
+                          "options": ["Jawaharlal Nehru", "B.R. Ambedkar", "Sardar Patel", "Dr. Rajendra Prasad"],
+                          "answer": "Jawaharlal Nehru",
+                          "explanation": "Jawaharlal Nehru introduced the Objectives Resolution in 1946, outlining the principles of the Constitution."
+                        },
+                        {
+                          "question": "Which part of the Constitution deals with Fundamental Duties?",
+                          "options": ["Part III", "Part IV", "Part IVA", "Part VI"],
+                          "answer": "Part IVA",
+                          "explanation": "Fundamental Duties were added by the 42nd Amendment in 1976 and are listed under Part IVA."
+                        },
+                        {
+                          "question": "Which document influenced India's Directive Principles?",
+                          "options": ["US Constitution", "Irish Constitution", "French Constitution", "Japanese Constitution"],
+                          "answer": "Irish Constitution",
+                          "explanation": "India borrowed the concept of Directive Principles from the Irish Constitution to promote social justice."
+                        },
+                        {
+                          "question": "What does the Preamble of the Constitution declare India as?",
+                          "options": ["Monarchy", "Federal State", "Sovereign Republic", "Colonial State"],
+                          "answer": "Sovereign Republic",
+                          "explanation": "The Preamble declares India as a Sovereign, Socialist, Secular, and Democratic Republic."
+                        },
+                        {
+                          "question": "How many schedules were originally in the Constitution?",
+                          "options": ["8", "10", "12", "14"],
+                          "answer": "8",
+                          "explanation": "The original Indian Constitution had 8 schedules, but later amendments increased the number to 12."
+                        },
+                        {
+                          "question": "Which Article of the Constitution abolishes untouchability?",
+                          "options": ["Article 15", "Article 16", "Article 17", "Article 19"],
+                          "answer": "Article 17",
+                          "explanation": "Article 17 prohibits untouchability and its practice in any form, ensuring social equality."
+                        },
+                        {
+                          "question": "Who was the last Governor-General of independent India?",
+                          "options": ["Lord Mountbatten", "C. Rajagopalachari", "Dr. Rajendra Prasad", "Jawaharlal Nehru"],
+                          "answer": "C. Rajagopalachari",
+                          "explanation": "C. Rajagopalachari was the last Governor-General of India before the country became a republic in 1950."
+                        },
+                        {
+                          "question": "What was the main concern in federalism debates?",
+                          "options": ["State rights", "Presidential system", "Judicial powers", "Education policies"],
+                          "answer": "State rights",
+                          "explanation": "In the Constituent Assembly, debates centered on the division of power between states and the center."
+                        },
+                        {
+                          "question": "Which body was created to review constitutional amendments?",
+                          "options": ["Election Commission", "Supreme Court", "Parliament", "Constituent Assembly"],
+                          "answer": "Supreme Court",
+                          "explanation": "The Supreme Court has the power of judicial review to ensure constitutional amendments align with basic principles."
+                        },
+                        {
+                          "question": "How many members were in the Drafting Committee?",
+                          "options": ["5", "7", "9", "11"],
+                          "answer": "7",
+                          "explanation": "The Drafting Committee had 7 members, with Dr. B.R. Ambedkar as its Chairman."
+                        }
+                      ]
+                    }
+                    ,
+                    {
+                      "setNumber": 6,
+                      "questions": [
+                        {
+                          "question": "Who proposed the 'Objectives Resolution' in the Assembly?",
+                          "options": ["B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru", "Dr. Rajendra Prasad"],
+                          "answer": "Jawaharlal Nehru",
+                          "explanation": "Jawaharlal Nehru proposed the 'Objectives Resolution' in 1946, outlining the ideals of the Constitution."
+                        },
+                        {
+                          "question": "Which country’s Constitution influenced the Directive Principles?",
+                          "options": ["USA", "UK", "Ireland", "France"],
+                          "answer": "Ireland",
+                          "explanation": "India borrowed the idea of Directive Principles from the Irish Constitution to guide state policies."
+                        },
+                        {
+                          "question": "Which part of the Constitution describes India as a 'Sovereign, Socialist, Secular, Democratic Republic'?",
+                          "options": ["Fundamental Rights", "Directive Principles", "Preamble", "Schedules"],
+                          "answer": "Preamble",
+                          "explanation": "The Preamble defines India’s fundamental values, including sovereignty, democracy, and secularism."
+                        },
+                        {
+                          "question": "How many schedules were originally in the Constitution?",
+                          "options": ["10", "12", "8", "14"],
+                          "answer": "8",
+                          "explanation": "The original Constitution had 8 schedules, which were later expanded to 12 through amendments."
+                        },
+                        {
+                          "question": "What does Article 32 of the Constitution guarantee?",
+                          "options": ["Right to Equality", "Right to Constitutional Remedies", "Right to Property", "Right to Education"],
+                          "answer": "Right to Constitutional Remedies",
+                          "explanation": "Article 32 allows citizens to approach the Supreme Court if their Fundamental Rights are violated."
+                        },
+                        {
+                          "question": "Which key issue led to debates in the Constituent Assembly?",
+                          "options": ["Presidential vs. Parliamentary System", "Currency Design", "National Flag", "Choice of National Language"],
+                          "answer": "Presidential vs. Parliamentary System",
+                          "explanation": "The Assembly debated whether India should adopt a presidential or parliamentary form of government."
+                        },
+                        {
+                          "question": "Which leader played a major role in securing minority rights?",
+                          "options": ["Sardar Patel", "B.R. Ambedkar", "Subhas Chandra Bose", "Jawaharlal Nehru"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. Ambedkar ensured legal protections for minorities and disadvantaged communities in the Constitution."
+                        },
+                        {
+                          "question": "Which amendment lowered the voting age from 21 to 18?",
+                          "options": ["42nd", "44th", "61st", "73rd"],
+                          "answer": "61st",
+                          "explanation": "The 61st Amendment (1988) lowered the voting age from 21 to 18, strengthening democratic participation."
+                        },
+                        {
+                          "question": "Which schedule of the Constitution lists the Union and State subjects?",
+                          "options": ["Seventh", "Fifth", "Eighth", "Tenth"],
+                          "answer": "Seventh",
+                          "explanation": "The Seventh Schedule divides subjects into Union, State, and Concurrent Lists for governance."
+                        },
+                        {
+                          "question": "Who was the first Law Minister of independent India?",
+                          "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "B.R. Ambedkar", "Sardar Patel"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. B.R. Ambedkar served as India's first Law Minister and led the drafting of the Constitution."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 7,
+                      "questions": [
+                        {
+                          "question": "Who proposed the Objectives Resolution in the Assembly?",
+                          "options": ["B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru", "Rajendra Prasad"],
+                          "answer": "Jawaharlal Nehru",
+                          "explanation": "Jawaharlal Nehru proposed the Objectives Resolution in 1946, outlining India's constitutional vision."
+                        },
+                        {
+                          "question": "Which part of the Constitution enshrines Fundamental Rights?",
+                          "options": ["Part I", "Part III", "Part IV", "Part V"],
+                          "answer": "Part III",
+                          "explanation": "Fundamental Rights are listed in Part III of the Indian Constitution to protect individual freedoms."
+                        },
+                        {
+                          "question": "Which feature of the Indian Constitution was borrowed from Ireland?",
+                          "options": ["Fundamental Rights", "Directive Principles", "Federalism", "Judicial Review"],
+                          "answer": "Directive Principles",
+                          "explanation": "Directive Principles of State Policy were inspired by the Irish Constitution to promote social welfare."
+                        },
+                        {
+                          "question": "Which act provided the framework for the Constituent Assembly?",
+                          "options": ["Government of India Act 1919", "Rowlatt Act", "Cabinet Mission Plan", "Simon Commission"],
+                          "answer": "Cabinet Mission Plan",
+                          "explanation": "The Cabinet Mission Plan of 1946 proposed the formation of the Constituent Assembly to draft India's Constitution."
+                        },
+                        {
+                          "question": "Which language is used for the original Constitution?",
+                          "options": ["English", "Hindi", "Sanskrit", "Urdu"],
+                          "answer": "English",
+                          "explanation": "The original Indian Constitution was written in English, though Hindi and other languages were later included."
+                        },
+                        {
+                          "question": "How many schedules did the original Constitution have?",
+                          "options": ["8", "10", "12", "14"],
+                          "answer": "8",
+                          "explanation": "The original Indian Constitution had 8 schedules, which later expanded to 12 through amendments."
+                        },
+                        {
+                          "question": "Which leader strongly advocated for minority rights?",
+                          "options": ["Sardar Patel", "B.R. Ambedkar", "Jawaharlal Nehru", "Subhas Chandra Bose"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. B.R. Ambedkar emphasized constitutional safeguards for minorities and Scheduled Castes."
+                        },
+                        {
+                          "question": "What is the significance of Article 32?",
+                          "options": ["Right to Equality", "Right to Constitutional Remedies", "Directive Principles", "Right to Property"],
+                          "answer": "Right to Constitutional Remedies",
+                          "explanation": "Article 32, called the 'heart and soul' of the Constitution by Ambedkar, allows citizens to approach the Supreme Court for rights enforcement."
+                        },
+                        {
+                          "question": "Which was the last princely state to join India?",
+                          "options": ["Hyderabad", "Junagadh", "Manipur", "Sikkim"],
+                          "answer": "Sikkim",
+                          "explanation": "Sikkim joined India as a state in 1975 after a referendum, completing India's territorial integration."
+                        },
+                        {
+                          "question": "Which article establishes India as a secular state?",
+                          "options": ["Article 12", "Article 19", "Article 25", "Article 42"],
+                          "answer": "Article 25",
+                          "explanation": "Article 25 guarantees freedom of religion, ensuring India remains a secular state."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 8,
+                      "questions": [
+                        {
+                          "question": "Who proposed the Objective Resolution in the Assembly?",
+                          "options": ["B.R. Ambedkar", "Sardar Patel", "Jawaharlal Nehru", "Dr. Rajendra Prasad"],
+                          "answer": "Jawaharlal Nehru",
+                          "explanation": "Jawaharlal Nehru introduced the Objective Resolution in 1946, outlining the vision for independent India's Constitution."
+                        },
+                        {
+                          "question": "Which governance system did India adopt?",
+                          "options": ["Monarchy", "Presidential", "Federal Parliamentary", "Unitary"],
+                          "answer": "Federal Parliamentary",
+                          "explanation": "India adopted a federal parliamentary system, balancing central and state powers while ensuring democratic governance."
+                        },
+                        {
+                          "question": "Which part of the Constitution lists Fundamental Duties?",
+                          "options": ["Part III", "Part IV", "Part IV-A", "Part V"],
+                          "answer": "Part IV-A",
+                          "explanation": "Fundamental Duties were added in Part IV-A through the 42nd Amendment in 1976."
+                        },
+                        {
+                          "question": "Which document inspired India's Directive Principles?",
+                          "options": ["US Bill of Rights", "French Constitution", "Irish Constitution", "British Parliament Acts"],
+                          "answer": "Irish Constitution",
+                          "explanation": "Directive Principles of State Policy were influenced by the Irish Constitution’s provisions for social and economic justice."
+                        },
+                        {
+                          "question": "What does Article 32 of the Constitution guarantee?",
+                          "options": ["Right to Education", "Right to Move Courts", "Right to Equality", "Right to Property"],
+                          "answer": "Right to Move Courts",
+                          "explanation": "Article 32 allows citizens to approach the Supreme Court to protect Fundamental Rights."
+                        },
+                        {
+                          "question": "What was a major demand during the debates on federalism?",
+                          "options": ["Stronger states", "More central power", "One-party rule", "No Constitution"],
+                          "answer": "Stronger states",
+                          "explanation": "Many Assembly members argued for greater autonomy for states within India's federal structure."
+                        },
+                        {
+                          "question": "What was the role of the Drafting Committee?",
+                          "options": ["To pass laws", "To frame the Constitution", "To elect leaders", "To make policies"],
+                          "answer": "To frame the Constitution",
+                          "explanation": "The Drafting Committee, led by B.R. Ambedkar, was responsible for preparing India's Constitution."
+                        },
+                        {
+                          "question": "Which Act served as a base for the Indian Constitution?",
+                          "options": ["Government of India Act 1919", "Government of India Act 1935", "Rowlatt Act", "Indian Independence Act"],
+                          "answer": "Government of India Act 1935",
+                          "explanation": "The Government of India Act 1935 provided the basic administrative framework for the Indian Constitution."
+                        },
+                        {
+                          "question": "Which Fundamental Right ensures protection from discrimination?",
+                          "options": ["Right to Freedom", "Right to Equality", "Right to Education", "Right to Property"],
+                          "answer": "Right to Equality",
+                          "explanation": "The Right to Equality (Article 14-18) ensures no citizen faces discrimination based on caste, religion, or gender."
+                        },
+                        {
+                          "question": "Which body officially adopted the Indian Constitution?",
+                          "options": ["Parliament", "Constituent Assembly", "Supreme Court", "British Government"],
+                          "answer": "Constituent Assembly",
+                          "explanation": "The Constituent Assembly adopted the Indian Constitution on November 26, 1949."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 9,
+                      "questions": [
+                        {
+                          "question": "Who proposed the Objectives Resolution in the Constituent Assembly?",
+                          "options": ["Sardar Patel", "Dr. Rajendra Prasad", "Jawaharlal Nehru", "B.R. Ambedkar"],
+                          "answer": "Jawaharlal Nehru",
+                          "explanation": "Jawaharlal Nehru proposed the Objectives Resolution in 1946, outlining the vision for India’s Constitution."
+                        },
+                        {
+                          "question": "Which feature of the Constitution was inspired by the Irish Constitution?",
+                          "options": ["Fundamental Rights", "Directive Principles", "Federalism", "Judicial Review"],
+                          "answer": "Directive Principles",
+                          "explanation": "India adopted Directive Principles of State Policy from the Irish Constitution to guide governance."
+                        },
+                        {
+                          "question": "What was the total number of members in the Constituent Assembly?",
+                          "options": ["299", "308", "389", "420"],
+                          "answer": "389",
+                          "explanation": "The Constituent Assembly initially had 389 members, but after partition, it was reduced to 299."
+                        },
+                        {
+                          "question": "Which part of the Constitution outlines Fundamental Duties?",
+                          "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+                          "answer": "Part IVA",
+                          "explanation": "Fundamental Duties were added to the Constitution under Part IVA by the 42nd Amendment in 1976."
+                        },
+                        {
+                          "question": "Which committee was responsible for drafting the Constitution?",
+                          "options": ["Union Powers Committee", "Drafting Committee", "Provincial Committee", "States Reorganization Committee"],
+                          "answer": "Drafting Committee",
+                          "explanation": "The Drafting Committee, chaired by Dr. B.R. Ambedkar, was responsible for drafting the Indian Constitution."
+                        },
+                        {
+                          "question": "Which term is NOT mentioned in the original Preamble?",
+                          "options": ["Socialist", "Secular", "Democratic", "Federal"],
+                          "answer": "Federal",
+                          "explanation": "The terms ‘Socialist’ and ‘Secular’ were added in 1976, but ‘Federal’ was never included in the Preamble."
+                        },
+                        {
+                          "question": "Which schedule of the Constitution deals with official languages?",
+                          "options": ["5th Schedule", "7th Schedule", "8th Schedule", "12th Schedule"],
+                          "answer": "8th Schedule",
+                          "explanation": "The 8th Schedule of the Indian Constitution lists the recognized official languages of India."
+                        },
+                        {
+                          "question": "What was the main objective of the first Constitutional Amendment?",
+                          "options": ["Abolish Zamindari", "Strengthen Fundamental Rights", "Curb press freedom", "Expand Directive Principles"],
+                          "answer": "Abolish Zamindari",
+                          "explanation": "The First Amendment in 1951 aimed to abolish the Zamindari system and introduce land reforms."
+                        },
+                        {
+                          "question": "Who was the last Governor-General of independent India?",
+                          "options": ["Lord Mountbatten", "C. Rajagopalachari", "Dr. Rajendra Prasad", "Sardar Patel"],
+                          "answer": "C. Rajagopalachari",
+                          "explanation": "C. Rajagopalachari was the last Governor-General of India before the position was abolished in 1950."
+                        },
+                        {
+                          "question": "Which article provides special status to Jammu & Kashmir (before abrogation)?",
+                          "options": ["Article 352", "Article 370", "Article 356", "Article 368"],
+                          "answer": "Article 370",
+                          "explanation": "Article 370 granted special status to Jammu & Kashmir before its abrogation in 2019."
+                        }
+                      ]
+                    },
+                    {
+                      "setNumber": 10,
+                      "questions": [
+                        {
+                          "question": "Who was the first Law Minister of independent India?",
+                          "options": ["Sardar Patel", "B.R. Ambedkar", "Jawaharlal Nehru", "Dr. Rajendra Prasad"],
+                          "answer": "B.R. Ambedkar",
+                          "explanation": "Dr. B.R. Ambedkar was India’s first Law Minister and played a key role in drafting the Constitution."
+                        },
+                        {
+                          "question": "Which act served as the foundation for the Indian Constitution?",
+                          "options": ["Regulating Act 1773", "Government of India Act 1935", "Rowlatt Act 1919", "Indian Independence Act 1947"],
+                          "answer": "Government of India Act 1935",
+                          "explanation": "The Government of India Act 1935 laid the structural foundation for the Indian Constitution."
+                        },
+                        {
+                          "question": "Which feature of the Indian Constitution was borrowed from Britain?",
+                          "options": ["Judicial Review", "Parliamentary System", "Fundamental Rights", "Directive Principles"],
+                          "answer": "Parliamentary System",
+                          "explanation": "India adopted the Parliamentary System of governance from the British model."
+                        },
+                        {
+                          "question": "Which schedule of the Constitution deals with Panchayati Raj?",
+                          "options": ["5th Schedule", "9th Schedule", "10th Schedule", "11th Schedule"],
+                          "answer": "11th Schedule",
+                          "explanation": "The 11th Schedule, added by the 73rd Amendment, defines Panchayati Raj institutions and their powers."
+                        },
+                        {
+                          "question": "Who was the Vice-President of the Constituent Assembly?",
+                          "options": ["Dr. Rajendra Prasad", "Jawaharlal Nehru", "H.C. Mookerjee", "B.R. Ambedkar"],
+                          "answer": "H.C. Mookerjee",
+                          "explanation": "H.C. Mookerjee served as the Vice-President of the Constituent Assembly alongside Dr. Rajendra Prasad."
+                        },
+                        {
+                          "question": "Which amendment is known as the ‘Mini Constitution’?",
+                          "options": ["24th", "42nd", "44th", "73rd"],
+                          "answer": "42nd",
+                          "explanation": "The 42nd Amendment (1976) introduced major changes and is called the ‘Mini Constitution’."
+                        },
+                        {
+                          "question": "Which article of the Constitution deals with emergency provisions?",
+                          "options": ["Article 352", "Article 356", "Article 360", "All of these"],
+                          "answer": "All of these",
+                          "explanation": "Articles 352, 356, and 360 deal with National, State, and Financial emergencies respectively."
+                        },
+                        {
+                          "question": "Who described the Constitution as a ‘lawyer’s paradise’?",
+                          "options": ["Jawaharlal Nehru", "Nehru Report", "B.R. Ambedkar", "Ivor Jennings"],
+                          "answer": "Ivor Jennings",
+                          "explanation": "British constitutional expert Ivor Jennings referred to the Indian Constitution as a ‘lawyer’s paradise’ due to its complexity."
+                        },
+                        {
+                          "question": "Which part of the Constitution deals with citizenship?",
+                          "options": ["Part I", "Part II", "Part III", "Part IV"],
+                          "answer": "Part II",
+                          "explanation": "Part II of the Constitution deals with the provisions related to citizenship in India."
+                        },
+                        {
+                          "question": "How many schedules were originally in the Constitution?",
+                          "options": ["8", "10", "12", "6"],
+                          "answer": "8",
+                          "explanation": "The Indian Constitution originally had 8 schedules, but later additions increased the number to 12."
+                        }
+                      ]
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   ]
                    }
               ]
             }
