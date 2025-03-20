@@ -57,7 +57,7 @@ export class SwiftchatMessageService extends MessageService {
     );
     return response;
   }
-  async sendInitialTopics(from:string){
+  async sendInitialClasses(from:string){
     const messageData = createMainTopicButtons(from);
     const response = await this.sendMessage(
       this.baseUrl,
