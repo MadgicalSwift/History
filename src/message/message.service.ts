@@ -58,7 +58,7 @@ export abstract class MessageService {
     currentQuestionIndex: number,
   );
   abstract sendName(from:string);
-  abstract sendInitialTopics(from:string);
+  abstract sendInitialClasses(from:string);
   abstract getQuestionBySet(
     from: string,
     answer: string,

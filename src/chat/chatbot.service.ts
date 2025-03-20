@@ -52,32 +52,32 @@ export class ChatbotService {
       await this.userService.createUser(from, 'english', botID);
       userData = await this.userService.findUserByMobileNumber(from, botID);
     }
-  
+
     // Convert plain user data to a User class instance
     const user = plainToClass(User, userData);
-    
+
 
     // ✅ Persistent Menu Response Handling
-if (persistent_menu_response ) {
-  
-  if (persistent_menu_response.body == 'Class Selection') {
-      console.log('Triggering class selection menu...');
-      await this.resetQuizData(user);
-      await this.message.sendInitialTopics(from);
-      return 'ok';
-  } else if (persistent_menu_response.body== 'Topic Selection') {
-      console.log('Triggering topic selection menu...');
-      await this.resetQuizData(user);
-      const topic = this.topics.find((t) => t.topicName === user.selectedMainTopic);
-      if (topic) {
+    if (persistent_menu_response) {
+
+      if (persistent_menu_response.body == 'Class Selection') {
+        console.log('Triggering class selection menu...');
+        await this.resetQuizData(user);
+        await this.message.sendInitialClasses(from);
+        return 'ok';
+      } else if (persistent_menu_response.body == 'Topic Selection') {
+        console.log('Triggering topic selection menu...');
+        await this.resetQuizData(user);
+        const topic = this.topics.find((t) => t.topicName === user.selectedMainTopic);
+        if (topic) {
           await this.message.sendSubTopics(from, topic.topicName);
-      } else {
+        } else {
           console.error('Error: Selected topic not found.');
+        }
       }
-  }
-  return 'ok';
-}
-  
+      return 'ok';
+    }
+
 
 
 
@@ -102,7 +102,7 @@ if (persistent_menu_response ) {
         user.score = 0;
         await this.userService.saveUser(user);
         await this.message.sendWelcomeMessage(from, user.language);
-        await this.message.sendInitialTopics(from);
+        await this.message.sendInitialClasses(from);
         return 'ok';
       }
       // Handle 'Retake Quiz' button - reset quiz progress and send the first question
@@ -125,7 +125,7 @@ if (persistent_menu_response ) {
         );
         return 'ok';
       }
-      if(buttonBody=== localised.viewChallenge){
+      if (buttonBody === localised.viewChallenge) {
         await this.handleViewChallenges(from, userData);
         await this.message.endMessage(from);
         return 'ok';
@@ -149,22 +149,22 @@ if (persistent_menu_response ) {
           .find((subtopic) => subtopic.subtopicName === topic);
         if (subtopic) {
           const descriptions = subtopic.description;
-         
-          
+
+
           let description = descriptions[user.descriptionIndex]
           const subtopicName = subtopic.subtopicName;
-          if ((descriptions.length-1) == user.descriptionIndex){
-            
-            
+          if ((descriptions.length - 1) == user.descriptionIndex) {
+
+
             await this.message.sendCompleteExplanation(from, description, topic);
           }
-          else{
+          else {
             await this.message.sendExplanation(from, description, subtopicName);
-            user.descriptionIndex += 1; 
+            user.descriptionIndex += 1;
             await this.userService.saveUser(user);
 
           }
-        } 
+        }
         return 'ok';
       }
 
@@ -188,13 +188,13 @@ if (persistent_menu_response ) {
       // // Handle difficulty selection buttons (Easy, Medium, Hard) - save the selected difficulty and send the first question
       // if (['Easy', 'Medium', 'Hard'].includes(buttonBody)) {
         user.selectedDifficulty = buttonBody;
-        user.questionsAnswered=0;
+        user.questionsAnswered = 0;
         await this.userService.saveUser(user);
 
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
-        
+
         const { randomSet } = await this.message.sendQuestion(
           from,
           selectedMainTopic,
@@ -203,14 +203,14 @@ if (persistent_menu_response ) {
         );
 
         user.selectedSet = randomSet;
-        
+
         await this.userService.saveUser(user);
 
         return 'ok';
       }
       // Handle quiz answer submission - check if the user is answering a quiz question
       if (user.selectedDifficulty && user.selectedSet) {
-        
+
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
@@ -235,9 +235,9 @@ if (persistent_menu_response ) {
         if (user.questionsAnswered >= 10) {
 
           let badge = '';
-          if (user.score=== 10) {
+          if (user.score === 10) {
             badge = 'Gold 🥇';
-          } else if (user.score>= 7) {
+          } else if (user.score >= 7) {
             badge = 'Silver 🥈';
           } else if (user.score >= 5) {
             badge = 'Bronze 🥉';
@@ -248,8 +248,8 @@ if (persistent_menu_response ) {
           // Store the data to be stored in database
           const challengeData = {
             topic: selectedMainTopic,
-            subTopic:selectedSubtopic,
-            level:selectedDifficulty,
+            subTopic: selectedSubtopic,
+            level: selectedDifficulty,
             question: [
               {
                 setNumber: randomSet,
@@ -264,9 +264,9 @@ if (persistent_menu_response ) {
             userData.Botid,
             challengeData,
           );
-          console.log("Challenge Data:",challengeData)
+          console.log("Challenge Data:", challengeData)
           await this.message.newscorecard(from, user.score, user.questionsAnswered, badge)
-        
+
           return 'ok';
         }
         // Send the next quiz question
@@ -289,13 +289,13 @@ if (persistent_menu_response ) {
       if (topic) {
         const mainTopic = topic.topicName;
 
-       // 🛑 Check if the topic is already selected to prevent duplicate messages
-  if (user.selectedMainTopic !== mainTopic) {
-    user.selectedMainTopic = mainTopic;
-    await this.userService.saveUser(user);
-    await this.message.sendSubTopics(from, mainTopic);
-  } 
-        
+        // 🛑 Check if the topic is already selected to prevent duplicate messages
+        if (user.selectedMainTopic !== mainTopic) {
+          user.selectedMainTopic = mainTopic;
+          await this.userService.saveUser(user);
+          await this.message.sendSubTopics(from, mainTopic);
+        }
+
         return 'ok';
       } else {
         // Handle subtopic selection - find the subtopic and send an explanation
@@ -306,7 +306,7 @@ if (persistent_menu_response ) {
           const subtopicName = subtopic.subtopicName;
           const description = subtopic.description[0];
           if (!description) {
-            
+
           }
 
           user.selectedSubtopic = subtopicName;
@@ -316,7 +316,7 @@ if (persistent_menu_response ) {
           await this.message.sendExplanation(from, description, subtopicName);
           return 'ok';
         } else {
-          
+
         }
       }
 
@@ -324,7 +324,7 @@ if (persistent_menu_response ) {
     }
 
     // Handle text message input - reset user data and send a welcome message
-    else{
+    else {
 
       if (localised.validText.includes(text.body)) {
         const userData = await this.userService.findUserByMobileNumber(
@@ -334,29 +334,29 @@ if (persistent_menu_response ) {
         if (!userData) {
           await this.userService.createUser(from, 'English', botID);
         }
-        user.selectedDifficulty=null;
-        user.selectedSet= null;   
-        user.selectedMainTopic=null;
-        user.selectedSubtopic=null;
-        user.score=0; 
-        user.questionsAnswered=0;
-        await this.userService.saveUser(user);   
-        console.log("user data -",userData)
-        if(userData.name==null){
+        user.selectedDifficulty = null;
+        user.selectedSet = null;
+        user.selectedMainTopic = null;
+        user.selectedSubtopic = null;
+        user.score = 0;
+        user.questionsAnswered = 0;
+        await this.userService.saveUser(user);
+        console.log("user data -", userData)
+        if (userData.name == null) {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendName(from);
         }
-        else{
+        else {
           await this.message.sendWelcomeMessage(from, user.language);
-          await this.message.sendInitialTopics(from);
+          await this.message.sendInitialClasses(from);
         }
       }
-      else{
+      else {
 
         await this.userService.saveUserName(from, botID, text.body);
-        await this.message.sendInitialTopics(from);
+        await this.message.sendInitialClasses(from);
       }
-       
+
     }
 
     return 'ok';
@@ -364,28 +364,28 @@ if (persistent_menu_response ) {
 
   //added
   private async resetQuizData(user: User): Promise<void> {
-    
+
     user.selectedSet = null;
     user.questionsAnswered = 0;
     user.score = 0;
     user.descriptionIndex = 0;
     await this.userService.saveUser(user);
   }
-  
 
-  async handleViewChallenges(from: string, userData: any): Promise<void>{
-    try { 
+
+  async handleViewChallenges(from: string, userData: any): Promise<void> {
+    try {
       console.log(userData)
       const topStudents = await this.userService.getTopStudents(
         userData.Botid,
         userData.selectedMainTopic,
         userData.selectedSet,
-        userData.selectedSubtopic, 
+        userData.selectedSubtopic,
         userData.selectedDifficulty
       );
       if (topStudents.length === 0) {
-  
-        await this.swiftchatMessageService.sendMessage(this.baseUrl,{
+
+        await this.swiftchatMessageService.sendMessage(this.baseUrl, {
           to: from,
           type: 'text',
           text: { body: 'No challenges have been completed yet.' },
@@ -397,7 +397,7 @@ if (persistent_menu_response ) {
       topStudents.forEach((student, index) => {
         const totalScore = student.score || 0;
         const studentName = student.name || 'Unknown';
-      
+
         let badge = '';
         if (totalScore === 10) {
           badge = 'Gold 🥇';
@@ -415,14 +415,14 @@ if (persistent_menu_response ) {
       });
 
       // Send the message with the top students' names, scores, and badges
-      await this.swiftchatMessageService.sendMessage(this.baseUrl,{
+      await this.swiftchatMessageService.sendMessage(this.baseUrl, {
         to: from,
         type: 'text',
         text: { body: message },
       }, this.apiKey);
     } catch (error) {
       console.error('Error handling View Challenges:', error);
-      await this.swiftchatMessageService.sendMessage(this.baseUrl,{
+      await this.swiftchatMessageService.sendMessage(this.baseUrl, {
         to: from,
         type: 'text',
         text: {
