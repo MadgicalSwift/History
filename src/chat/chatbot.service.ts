@@ -3,7 +3,8 @@ import IntentClassifier from '../intent/intent.classifier';
 import { MessageService } from 'src/message/message.service';
 import { UserService } from 'src/model/user.service';
 import { localised } from 'src/i18n/en/localised-strings';
-import data from '../datasource/data.json';
+// import data from '../datasource/data.json';
+import data from '../datasource/NewData.json';
 import { SwiftchatMessageService } from 'src/swiftchat/swiftchat.service';
 import { plainToClass } from 'class-transformer';
 import { User } from 'src/model/user.entity';
@@ -22,7 +23,7 @@ export class ChatbotService {
   private readonly message: MessageService;
   private readonly userService: UserService;
   private readonly swiftchatMessageService: SwiftchatMessageService;
-  private readonly topics: any[] = data.topics;
+  private readonly topics: any[] = data.classes;
   private readonly mixpanel: MixpanelService;
 
   constructor(
@@ -57,20 +58,20 @@ export class ChatbotService {
     const user = plainToClass(User, userData);
 
 
-    // ✅ Persistent Menu Response Handling
+    //  Persistent Menu Response Handling
     if (persistent_menu_response) {
 
       if (persistent_menu_response.body == 'Class Selection') {
-        console.log('Triggering class selection menu...');
+        
         await this.resetQuizData(user);
         await this.message.sendInitialClasses(from);
         return 'ok';
       } else if (persistent_menu_response.body == 'Topic Selection') {
-        console.log('Triggering topic selection menu...');
+        
         await this.resetQuizData(user);
-        const topic = this.topics.find((t) => t.topicName === user.selectedMainTopic);
+        const topic = this.topics.find((t) => t.class === user.selectedMainTopic);
         if (topic) {
-          await this.message.sendSubTopics(from, topic.topicName);
+          await this.message.sendSubTopics(from, topic.class);
         } else {
           console.error('Error: Selected topic not found.');
         }
@@ -114,15 +115,7 @@ export class ChatbotService {
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
         const randomSet = user.selectedSet;
-        await this.message.getQuestionBySet(
-          from,
-          buttonBody,
-          selectedMainTopic,
-          selectedSubtopic,
-          selectedDifficulty,
-          randomSet,
-          user.questionsAnswered,
-        );
+        await this.message.getQuestionBySet(from,buttonBody,selectedMainTopic, selectedSubtopic, selectedDifficulty,randomSet, user.questionsAnswered);
         return 'ok';
       }
       if (buttonBody === localised.viewChallenge) {
@@ -145,14 +138,18 @@ export class ChatbotService {
 
         // Find the selected subtopic in the list of topics
         const subtopic = this.topics
-          .flatMap((topic) => topic.subtopics)
-          .find((subtopic) => subtopic.subtopicName === topic);
+          .flatMap((topic) => topic.topics)
+          .find((subtopic) => subtopic.topicName === topic);
         if (subtopic) {
-          const descriptions = subtopic.description;
+          console.log('subtopic',subtopic);
+          
+          const descriptions = subtopic.description; ///
 
 
           let description = descriptions[user.descriptionIndex]
-          const subtopicName = subtopic.subtopicName;
+          const subtopicName = subtopic.topicName;
+          console.log('subtopicName',subtopicName);
+          
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
 
@@ -195,12 +192,7 @@ export class ChatbotService {
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
 
-        const { randomSet } = await this.message.sendQuestion(
-          from,
-          selectedMainTopic,
-          selectedSubtopic,
-          selectedDifficulty,
-        );
+        const { randomSet } = await this.message.sendQuestion(from,selectedMainTopic,selectedSubtopic,selectedDifficulty,);
 
         user.selectedSet = randomSet;
 
@@ -210,21 +202,12 @@ export class ChatbotService {
       }
       // Handle quiz answer submission - check if the user is answering a quiz question
       if (user.selectedDifficulty && user.selectedSet) {
-
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
         const randomSet = user.selectedSet;
         const currentQuestionIndex = user.questionsAnswered;
-        const { result } = await this.message.checkAnswer(
-          from,
-          buttonBody,
-          selectedMainTopic,
-          selectedSubtopic,
-          selectedDifficulty,
-          randomSet,
-          currentQuestionIndex,
-        );
+        const { result } = await this.message.checkAnswer(from,buttonBody,selectedMainTopic,selectedSubtopic,selectedDifficulty,randomSet,currentQuestionIndex);
 
         // Update user score and questions answered
         user.score += result;
@@ -284,10 +267,10 @@ export class ChatbotService {
       }
 
       // Handle topic selection - find the main topic and save it to the user data
-      const topic = this.topics.find((topic) => topic.topicName === buttonBody);
+      const topic = this.topics.find((topic) => topic.class === buttonBody);
 
       if (topic) {
-        const mainTopic = topic.topicName;
+        const mainTopic = topic.class;
 
         // 🛑 Check if the topic is already selected to prevent duplicate messages
         if (user.selectedMainTopic !== mainTopic) {
