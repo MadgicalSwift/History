@@ -289,10 +289,17 @@ export class ChatbotService {
         // console.log("topic2", topic);
         // console.log("this.topics", this.topics);
         console.log('buttonBody23', buttonBody);
-        console.log("waint",this.topics[1].topics[0].subtopics[0].subtopicName);
-        // console.log("waint1",this.topics[0].subtopics);
+        // console.log("waint",this.topics[1].topics[0].subtopics[0].subtopicName);
+      
+
+
+        // workin on it
         const subtopic1 = this.topics?.flatMap((topic) => topic.topics)?.flatMap((subtopics) => subtopics.subtopicName);
         console.log("subtopic2", subtopic1);
+
+
+
+        
         const subtopic = this.topics.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
         
         
