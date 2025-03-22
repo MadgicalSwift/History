@@ -62,12 +62,12 @@ export class ChatbotService {
     if (persistent_menu_response) {
 
       if (persistent_menu_response.body == 'Class Selection') {
-        
+
         await this.resetQuizData(user);
         await this.message.sendInitialClasses(from);
         return 'ok';
       } else if (persistent_menu_response.body == 'Topic Selection') {
-        
+
         await this.resetQuizData(user);
         const topic = this.topics.find((t) => t.class === user.selectedMainTopic);
         if (topic) {
@@ -127,12 +127,6 @@ export class ChatbotService {
 
 
 
-
-
-
-
-
-
       if (buttonBody === localised.Moreexplanation) {
         const topic = user.selectedSubtopic;
 
@@ -141,15 +135,15 @@ export class ChatbotService {
           .flatMap((topic) => topic.topics)
           .find((subtopic) => subtopic.topicName === topic);
         if (subtopic) {
-          console.log('subtopic',subtopic);
-          
+          console.log('subtopic', subtopic);
+
           const descriptions = subtopic.description; ///
 
 
           let description = descriptions[user.descriptionIndex]
           const subtopicName = subtopic.topicName;
-          console.log('subtopicName',subtopicName);
-          
+          console.log('subtopicName', subtopicName);
+
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
 
@@ -164,15 +158,6 @@ export class ChatbotService {
         }
         return 'ok';
       }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -192,7 +177,7 @@ export class ChatbotService {
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
 
-        const { randomSet } = await this.message.sendQuestion(from,selectedMainTopic,selectedSubtopic,selectedDifficulty,);
+        const { randomSet } = await this.message.sendQuestion(from, selectedMainTopic, selectedSubtopic, selectedDifficulty,);
 
         user.selectedSet = randomSet;
 
@@ -266,59 +251,69 @@ export class ChatbotService {
       }
 
       // Handle topic selection - find the main topic and save it to the user data
-      console.log('My-buttonBody',buttonBody);
+      console.log("user", user);
       
+      console.log('My-buttonBody', buttonBody);
+
       const topic = this.topics.find((topic) => topic.class === buttonBody);
 
+      console.log("topic", topic);
+
       if (topic) {
-        // console.log("topic1", topic);
         const mainTopic = topic.class;
         console.log("mainTopic1", mainTopic);
-        // 🛑 Check if the topic is already selected to prevent duplicate messages
         if (user.selectedMainTopic !== mainTopic) {
           user.selectedMainTopic = mainTopic;
           await this.userService.saveUser(user);
-          // await this.message.sendSubTopics(from, mainTopic);
         }
-        
+
         await this.message.sendSubTopics(from, mainTopic);
-        
+
+        console.log("user1", user);
         return 'ok';
       } else {
-        // Handle subtopic selection - find the subtopic and send an explanation
-        // console.log("topic2", topic);
-        // console.log("this.topics", this.topics);
+
         console.log('buttonBody23', buttonBody);
-        // console.log("waint",this.topics[1].topics[0].subtopics[0].subtopicName);
-      
 
+        const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
+        const subTopic = topic.topics.find(topic => topic.topicName === buttonBody);
 
-        // workin on it
-        const subtopic1 = this.topics?.flatMap((topic) => topic.topics)?.flatMap((subtopics) => subtopics.subtopicName);
-        console.log("subtopic2", subtopic1);
+        console.log("topics-2", subTopic);
 
-
-
-        
-        const subtopic = this.topics.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
-        
-        
-        if (subtopic) {
-          
-          
-          const subtopicName = subtopic.subtopicName;
-          const description = subtopic.description[0];
-          if (!description) {
-
+        if (subTopic) {
+          const mainSubTopic = subTopic.topicName
+          console.log("mainSubTopic", mainSubTopic);
+          if (user.selectedSubtopic !== mainSubTopic) {
+            user.selectedSubtopic = mainSubTopic;
+            await this.userService.saveUser(user);
           }
 
-          user.selectedSubtopic = subtopicName;
+          await this.message.sendSubTopics2(from, mainSubTopic);
 
-          await this.userService.saveUser(user);
-
-          await this.message.sendExplanation(from, description, subtopicName);
-          return 'ok';
+          console.log("user2", user);
+          
+          
         } else {
+
+          const subtopic = this.topics.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
+
+
+          if (subtopic) {
+  
+  
+            const subtopicName = subtopic.subtopicName;
+            const description = subtopic.description[0];
+            if (!description) {
+  
+            }
+  
+            user.selectedSubtopic = subtopicName;
+  
+            await this.userService.saveUser(user);
+  
+            await this.message.sendExplanation(from, description, subtopicName);
+            return 'ok';
+          } 
 
         }
       }
