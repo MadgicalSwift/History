@@ -128,21 +128,34 @@ export class ChatbotService {
 
 
       if (buttonBody === localised.Moreexplanation) {
-        const topic = user.selectedSubtopic;
+
+
+        const subTopicName = user.selectedSubtopicName;
+        console.log("selectedSubtopicName => ", subTopicName);
+        
+        const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
+        const subTopic = topic.topics.find(topic => topic.topicName === user.selectedSubtopic);
+        const subtopicNameArr = subTopic.subtopics.find((subtopic) => subtopic.subtopicName === user.selectedSubtopicName);
+
+        console.log("subtopicNamej =>", subtopicNameArr);
 
         // Find the selected subtopic in the list of topics
-        const subtopic = this.topics
-          .flatMap((topic) => topic.topics)
-          .find((subtopic) => subtopic.topicName === topic);
-        if (subtopic) {
-          console.log('subtopic', subtopic);
-
-          const descriptions = subtopic.description; ///
+        // const subtopic = this.topics
+        //   .flatMap((topic) => topic.topics)
+        //   .find((subtopic) => subtopic.topicName === topic);
+        //   console.log('subtopic => ', subtopic);
+          // vishal pending
 
 
-          let description = descriptions[user.descriptionIndex]
-          const subtopicName = subtopic.topicName;
-          console.log('subtopicName', subtopicName);
+        if (subtopicNameArr) {
+
+          const descriptions = subtopicNameArr.description; 
+
+          console.log('descriptions => ', descriptions);
+
+          let description = descriptions[user.descriptionIndex].content
+          const subtopicName = subtopicNameArr.subtopicName;
+          console.log('subtopicName =>', subtopicName);
 
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
@@ -297,8 +310,6 @@ export class ChatbotService {
 
           const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
           const subTopic = topic.topics.find(topic => topic.topicName === user.selectedSubtopic);
-
-          // const subtopicName = subTopic.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
 
           const subtopicName = subTopic.subtopics.find((subtopic) => subtopic.subtopicName === buttonBody);
 
