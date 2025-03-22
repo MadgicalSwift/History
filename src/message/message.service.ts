@@ -31,6 +31,7 @@ export abstract class MessageService {
 
   abstract sendWelcomeMessage(from: string, language: string);
   abstract sendSubTopics(from: string, topicName: string);
+  abstract sendSubTopics2(from: string, topicName: string);
   abstract sendExplanation(
     from: string,
     description: string,

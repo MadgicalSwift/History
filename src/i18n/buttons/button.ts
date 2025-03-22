@@ -1,4 +1,5 @@
 // import data from '../../datasource/data.json';
+import { User } from 'src/model/user.entity';
 import data from '../../datasource/NewData.json';
 import { localised } from '../en/localised-strings';
 import _ from 'lodash';
@@ -67,6 +68,46 @@ export function createSubTopicButtons(from: string, topicName: string) {
   }
 }
 
+export function createSubTopicButtons2(from: string, topicName: string) {
+  // Find the topic in the data
+  const topic = data.classes.find((topic) => topic.class !== topicName);
+  console.log("topicName", topicName);
+  console.log("kuushUser", topic);
+  
+  
+  // If the topic exists, create buttons for each subtopic
+  console.log('topic.subtopics-1v',topic.topics);
+
+  const matchingTopic = topic.topics.find(topic => topic.topicName === topicName);
+
+console.log("matchingTopic", matchingTopic.subtopics);
+
+  if (topic && topic.topics) {
+    const buttons = matchingTopic.subtopics.map((subtopic) => ({
+      type: 'solid',
+      body: subtopic.subtopicName,
+      reply: subtopic.subtopicName,
+    }));
+
+    return {
+      to: from,
+      type: 'button',
+      button: {
+        body: {
+          type: 'text',
+          text: {
+            body: localised.selectSubtopic(topicName),
+          },
+        },
+        buttons: buttons,
+        allow_custom_response: false,
+      },
+    };
+  } else {
+    
+    return null;
+  }
+}
 export function createButtonWithExplanation(
   from: string,
   description: string,

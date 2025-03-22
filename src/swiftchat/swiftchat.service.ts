@@ -7,6 +7,7 @@ import data from '../datasource/data.json';
 import {
   createMainTopicButtons,
   createSubTopicButtons,
+  createSubTopicButtons2,
   createButtonWithExplanation,
   createDifficultyButtons,
   createTestYourSelfButton,
@@ -80,6 +81,17 @@ export class SwiftchatMessageService extends MessageService {
   async sendSubTopics(from: string, topicName: string) {
     
     const messageData = createSubTopicButtons(from, topicName);
+    const response = await this.sendMessage(
+      this.baseUrl,
+      messageData,
+      this.apiKey,
+    );
+    return response;
+  }
+
+  async sendSubTopics2(from: string, topicName: string) {
+    
+    const messageData = createSubTopicButtons2(from, topicName);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
