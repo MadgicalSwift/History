@@ -173,6 +173,7 @@ export class UserService {
         name: user.name,
         selectedMainTopic: user.selectedMainTopic,
         selectedSubtopic: user.selectedSubtopic,
+        selectedSubtopicName: user.selectedSubtopicName,
         selectedDifficulty: user.selectedDifficulty,
         selectedSet: user.selectedSet,
         questionsAnswered: user.questionsAnswered,
@@ -187,6 +188,7 @@ export class UserService {
     user.selectedSet = null;
     user.selectedMainTopic = null;
     user.selectedSubtopic = null;
+    user.selectedSubtopicName = null;
     user.score = 0;
     user.topics = null;
     user.questionsAnswered = 0;

@@ -252,7 +252,7 @@ export class ChatbotService {
 
       // Handle topic selection - find the main topic and save it to the user data
       console.log("user", user);
-      
+
       console.log('My-buttonBody', buttonBody);
 
       const topic = this.topics.find((topic) => topic.class === buttonBody);
@@ -291,29 +291,35 @@ export class ChatbotService {
           await this.message.sendSubTopics2(from, mainSubTopic);
 
           console.log("user2", user);
-          
-          
+
+
         } else {
 
-          const subtopic = this.topics.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
+          const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
+          const subTopic = topic.topics.find(topic => topic.topicName === user.selectedSubtopic);
+
+          // const subtopicName = subTopic.flatMap((topic) => topic.subtopics).find((subtopic) => subtopic.subtopicName === buttonBody);
+
+          const subtopicName = subTopic.subtopics.find((subtopic) => subtopic.subtopicName === buttonBody);
+
+          console.log("subtopicName", subtopicName);
+
+          if (subtopicName) {
 
 
-          if (subtopic) {
-  
-  
-            const subtopicName = subtopic.subtopicName;
-            const description = subtopic.description[0];
-            if (!description) {
-  
+            const subTopicName = subtopicName.subtopicName;
+            console.log("subTopicName2", subTopicName);
+            const description = subtopicName.description[0].content;
+            if (user.selectedSubtopicName !== subTopicName) {
+              user.selectedSubtopicName = subTopicName;
+              await this.userService.saveUser(user);
             }
-  
-            user.selectedSubtopic = subtopicName;
-  
-            await this.userService.saveUser(user);
-  
-            await this.message.sendExplanation(from, description, subtopicName);
+
+            await this.message.sendExplanation(from, description, subTopicName);
+
+            console.log("user3", user);
             return 'ok';
-          } 
+          }
 
         }
       }
