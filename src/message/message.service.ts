@@ -48,26 +48,26 @@ export abstract class MessageService {
     selectedSubtopic: string,
     selectedDifficulty: string,
   );
-  abstract checkAnswer(
-    from: string,
-    answer: string,
-    selectedMainTopic: string,
-    selectedSubtopic: string,
-    selectedDifficulty: string,
-    randomSet: string,
-    currentQuestionIndex: number,
-  );
+  // abstract checkAnswer(
+  //   from: string,
+  //   answer: string,
+  //   selectedMainTopic: string,
+  //   selectedSubtopic: string,
+  //   selectedDifficulty: string,
+  //   randomSet: string,
+  //   currentQuestionIndex: number,
+  // );
   abstract sendName(from:string);
   abstract sendInitialClasses(from:string);
-  abstract getQuestionBySet(
-    from: string,
-    answer: string,
-    selectedMainTopic: string,
-    selectedSubtopic: string,
-    selectedDifficulty: string,
-    randomSet: string,
-    currentQuestionIndex: number,
-  );
+  // abstract getQuestionBySet(
+  //   from: string,
+  //   answer: string,
+  //   selectedMainTopic: string,
+  //   selectedSubtopic: string,
+  //   selectedDifficulty: string,
+  //   randomSet: string,
+  //   currentQuestionIndex: number,
+  // );
   abstract endMessage(from:string);
   abstract sendLanguageChangedMessage(from: string, language: string);
   abstract newscorecard(from,score, questionsAnswered, badge);
