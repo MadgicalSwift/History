@@ -22,6 +22,8 @@ export class User {
   @IsString()
   selectedSubtopic: string | null;
 
+  @IsString()
+  selectedSubtopicName: string | null;
 
   @IsString()
   descriptionIndex: number = 0;
