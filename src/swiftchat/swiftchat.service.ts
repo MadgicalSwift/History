@@ -133,42 +133,20 @@ export class SwiftchatMessageService extends MessageService {
     return { response, randomSet };
   }
 
-  async sendExplanation(
-    from: string,
-    description: string,
-    subtopicName: string,
-  ) {
-    const messageData = createButtonWithExplanation(
-      from,
-      description,
-      subtopicName,
-    );
-    const response = await this.sendMessage(
-      this.baseUrl,
-      messageData,
-      this.apiKey,
-    );
+  async sendExplanation(from: string,description: string,subtopicName: string) {
+    const messageData = createButtonWithExplanation(from,description,subtopicName);
+    const response = await this.sendMessage(this.baseUrl,messageData,this.apiKey);
     return response;
   }
 
-  async sendCompleteExplanation(
-    from: string,
-    description: string,
-    subtopicName: string,
-  ) {
-    
-    const messageData = createTestYourSelfButton(
-      from,
-      description,
-      subtopicName,
-    );
-    const response = await this.sendMessage(
-      this.baseUrl,
-      messageData,
-      this.apiKey,
-    );
+  async sendCompleteExplanation(from: string, description: string, subtopicName: string) {
+    const messageData = createTestYourSelfButton(from, description, subtopicName);
+    const response = await this.sendMessage(this.baseUrl, messageData,this.apiKey);
     return response;
   }
+
+
+
   // async checkAnswer(
   //   from: string,
   //   answer: string,
@@ -234,6 +212,8 @@ export class SwiftchatMessageService extends MessageService {
 
 
   // new add 
+  
+  
   async newscorecard(from: string, score: number, totalQuestions: number, badge: string) {
     let backgroundColor = "teal";
     if (score >= 9) backgroundColor = "orange";
