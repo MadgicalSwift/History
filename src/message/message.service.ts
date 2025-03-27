@@ -47,7 +47,6 @@ export abstract class MessageService {
     from: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
-    selectedDifficulty: string,
     selectedSubtopicName: string,
     currentQuestionIndex: number
   );
@@ -56,7 +55,6 @@ export abstract class MessageService {
     answer: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
-    selectedDifficulty: string,
     randomSet: string,
     currentQuestionIndex: number,
     selectedSubtopicName: string,
@@ -68,7 +66,6 @@ export abstract class MessageService {
     answer: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
-    selectedDifficulty: string,
     randomSet: string,
     currentQuestionIndex: number,
     selectedSubtopicName: string,

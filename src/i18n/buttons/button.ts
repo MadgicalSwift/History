@@ -179,7 +179,7 @@ export function createDifficultyButtons(from: string) {
   };
 }//not used
 
-export function questionButton(from: string, selectedMainTopic: string, selectedSubtopic: string, selectedDifficulty: string, selectedSubtopicName: string,currentQuestionIndex:number) {
+export function questionButton(from: string, selectedMainTopic: string, selectedSubtopic: string, selectedSubtopicName: string, currentQuestionIndex: number) {
   const topic = data.classes.find(
     (topic) => topic.class === selectedMainTopic,
   );
@@ -194,7 +194,7 @@ export function questionButton(from: string, selectedMainTopic: string, selected
     (subtopic) => subtopic.topicName == selectedSubtopic,
   );
 
-  
+
 
   if (!subtopic) {
 
@@ -202,9 +202,9 @@ export function questionButton(from: string, selectedMainTopic: string, selected
 
 
   const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
- 
+
   const questionSets = subtopicName.questionSets
- 
+
   const questionSet = _.sample(questionSets);
   if (!questionSet) {
 
@@ -245,13 +245,12 @@ export function answerFeedback(
   answer: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
-  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
   selectedSubtopicName: string,
 ) {
   const topic = data.classes.find((t) => t.class === selectedMainTopic);
- 
+
 
   if (!topic) {
 
@@ -260,7 +259,7 @@ export function answerFeedback(
   const subtopic = topic.topics.find(
     (st) => st.topicName === selectedSubtopic,
   );
- 
+
 
   if (!subtopic) {
 
@@ -269,7 +268,7 @@ export function answerFeedback(
   // Find the question set by its level and set number
 
   const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
- 
+
 
   const questionSets = subtopicName.questionSets
 
@@ -352,7 +351,6 @@ export function optionButton(
   from: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
-  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
   selectedSubtopicName: string,
@@ -387,7 +385,7 @@ export function optionButton(
       set.setNumber === parseInt(randomSet),
   );
 
- 
+
 
   if (!questionSet) {
 
