@@ -58,10 +58,14 @@ export function createSubTopicButtons(from: string, topicName: string) {
   }
 }
 
-export function createSubTopicButtons2(from: string, topicName: string) {
-  const topic = data.classes.find((topic) => topic.class !== topicName);
-  const matchingTopic = topic.topics.find(topic => topic.topicName === topicName);
+export function createSubTopicButtons2(from: string, mainTopic: string,  subtopic: string) {
+  const topic = data.classes.find((topic) => topic.class === mainTopic);
+  console.log("topic", topic);
+  
+  const matchingTopic = topic.topics.find(topic => topic.topicName === subtopic);
+  console.log("matchingTopic", matchingTopic);
   if (topic && topic.topics) {
+    
     const buttons = matchingTopic.subtopics.map((subtopic) => ({
       type: 'solid',
       body: subtopic.subtopicName,
@@ -75,7 +79,7 @@ export function createSubTopicButtons2(from: string, topicName: string) {
         body: {
           type: 'text',
           text: {
-            body: localised.selectSubtopic(topicName),
+            body: localised.selectSubtopic(subtopic),
           },
         },
         buttons: buttons,
