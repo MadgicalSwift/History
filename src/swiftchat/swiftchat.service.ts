@@ -37,9 +37,9 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   async sendWelcomeMessage(from: string, language: string) {
-    
-    const message= localised.welcomeMessage;
-    const requestData= this.prepareRequestData(from, message);
+
+    const message = localised.welcomeMessage;
+    const requestData = this.prepareRequestData(from, message);
     const response = await this.sendMessage(
       this.baseUrl,
       requestData,
@@ -48,9 +48,9 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
   async endMessage(from: string) {
-    
-    const message= localised.endMessage;
-    const requestData= this.prepareRequestData(from, message);
+
+    const message = localised.endMessage;
+    const requestData = this.prepareRequestData(from, message);
     const response = await this.sendMessage(
       this.baseUrl,
       requestData,
@@ -58,7 +58,7 @@ export class SwiftchatMessageService extends MessageService {
     );
     return response;
   }
-  async sendInitialClasses(from:string){
+  async sendInitialClasses(from: string) {
     const messageData = createMainTopicButtons(from);
     const response = await this.sendMessage(
       this.baseUrl,
@@ -67,9 +67,9 @@ export class SwiftchatMessageService extends MessageService {
     );
     return response;
   }
-  async sendName(from:string){
-    const message= "Can you please tell me your name?";
-    const requestData= this.prepareRequestData(from, message);
+  async sendName(from: string) {
+    const message = "Can you please tell me your name?";
+    const requestData = this.prepareRequestData(from, message);
     const response = await this.sendMessage(
       this.baseUrl,
       requestData,
@@ -79,7 +79,7 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   async sendSubTopics(from: string, topicName: string) {
-    
+
     const messageData = createSubTopicButtons(from, topicName);
     const response = await this.sendMessage(
       this.baseUrl,
@@ -89,9 +89,9 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendSubTopics2(from: string, topicName: string) {
-    
-    const messageData = createSubTopicButtons2(from, topicName);
+  async sendSubTopics2(from: string, mainTopic: string, subtopic: string) {
+
+    const messageData = createSubTopicButtons2(from, mainTopic, subtopic);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
@@ -123,7 +123,7 @@ export class SwiftchatMessageService extends MessageService {
       selectedSubtopic,
       selectedSubtopicName,
       currentQuestionIndex,
-      
+
     );
     if (!messageData) {
       return;
@@ -136,15 +136,15 @@ export class SwiftchatMessageService extends MessageService {
     return { response, randomSet };
   }
 
-  async sendExplanation(from: string,description: string,subtopicName: string) {
-    const messageData = createButtonWithExplanation(from,description,subtopicName);
-    const response = await this.sendMessage(this.baseUrl,messageData,this.apiKey);
+  async sendExplanation(from: string, description: string, subtopicName: string) {
+    const messageData = createButtonWithExplanation(from, description, subtopicName);
+    const response = await this.sendMessage(this.baseUrl, messageData, this.apiKey);
     return response;
   }
 
   async sendCompleteExplanation(from: string, description: string, subtopicName: string) {
     const messageData = createTestYourSelfButton(from, description, subtopicName);
-    const response = await this.sendMessage(this.baseUrl, messageData,this.apiKey);
+    const response = await this.sendMessage(this.baseUrl, messageData, this.apiKey);
     return response;
   }
 
@@ -209,55 +209,55 @@ export class SwiftchatMessageService extends MessageService {
 
 
 
-  
+
   async newscorecard(from: string, score: number, totalQuestions: number, badge: string) {
     let backgroundColor = "teal";
     if (score >= 9) backgroundColor = "orange";
     else if (score >= 7) backgroundColor = "blue";
     else if (score >= 5) backgroundColor = "green";
     else if (score >= 3) backgroundColor = "pink";
-    
+
     let shareMessage = "Keep going! You got this!";
     if (score >= 9) shareMessage = "Outstanding! Keep shining!";
     else if (score >= 7) shareMessage = "Great work! Keep improving!";
     else if (score >= 5) shareMessage = "Good effort! Keep practicing!";
     else if (score >= 3) shareMessage = "Nice try! You’re learning!";
-    
+
     const performanceScore = `${(score / totalQuestions) * 100}%`;
-    
+
     const payload = {
-        to: from,
-        type: "scorecard",
-        scorecard: {
-            theme: "theme2",
-            background: backgroundColor,
-            performance: "high",
-            share_message: shareMessage,
-            text1: `Quiz-${new Date().getDate()}-${new Date().getMonth() + 1}-${new Date().getFullYear() % 100}`,
-            text2: shareMessage,
-            text3: performanceScore,
-            text4: `${badge} `,
-            score: `${score}/${totalQuestions}`,
-            animation: "confetti"
-        }
+      to: from,
+      type: "scorecard",
+      scorecard: {
+        theme: "theme2",
+        background: backgroundColor,
+        performance: "high",
+        share_message: shareMessage,
+        text1: `Quiz-${new Date().getDate()}-${new Date().getMonth() + 1}-${new Date().getFullYear() % 100}`,
+        text2: shareMessage,
+        text3: performanceScore,
+        text4: `${badge} `,
+        score: `${score}/${totalQuestions}`,
+        animation: "confetti"
+      }
     };
-    
+
     const response = await axios.post(this.baseUrl, payload, {
       headers: {
         Authorization: `Bearer ${this.apiKey}`,
         'Content-Type': 'application/json',
       },
     });
-    
+
     const messageData = buttonWithScore(from, score, totalQuestions, badge);
     await this.sendMessage(this.baseUrl, messageData, this.apiKey);
-    
+
     return response;
-}
+  }
 
 
 
-  
+
   async sendLanguageChangedMessage(from: string, language: string) {
     const localisedStrings = LocalizationService.getLocalisedString(language);
     const requestData = this.prepareRequestData(

@@ -283,17 +283,30 @@ export class ChatbotService {
       else {
 
         const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
-        const subTopic = topic.topics.find(topic => topic.topicName === buttonBody);
+        console.log('Topic Selection 1:=>', topic);
+        const mainTopic = topic.class;
+        
+        const subTopic = topic.topics.find(topic => (topic.topicName === buttonBody || topic.topicName === user.selectedSubtopic));
+        const subtopic = subTopic.topicName
 
-        if (subTopic) {
-          const mainSubTopic = subTopic.topicName
+        console.log('Topic Selection 2:=>', mainTopic, subtopic);
+        
 
-          if (user.selectedSubtopic !== mainSubTopic) {
-            user.selectedSubtopic = mainSubTopic;
+        if (subTopic && user.selectedSubtopic == null) {
+          const subtopic = subTopic.topicName
+
+          console.log('Topic Selection 3:=>', subtopic);
+          
+
+          if (user.selectedSubtopic !== subtopic) {
+            user.selectedSubtopic = subtopic;
             await this.userService.saveUser(user);
           }
 
-          await this.message.sendSubTopics2(from, mainSubTopic);
+          console.log('Topic Selection User:=>', user);
+          
+
+          await this.message.sendSubTopics2(from, mainTopic, subtopic);
 
           console.log('Subtopic Selection User:=>', user);
 
@@ -301,6 +314,9 @@ export class ChatbotService {
 
         }
         else {
+
+          console.log("hello vishal");
+          
 
           const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
           const subTopic = topic.topics.find(topic => topic.topicName === user.selectedSubtopic);
@@ -331,6 +347,8 @@ export class ChatbotService {
           }
 
         }
+
+
       }
 
       return 'ok';
