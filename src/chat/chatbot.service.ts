@@ -3,7 +3,6 @@ import IntentClassifier from '../intent/intent.classifier';
 import { MessageService } from 'src/message/message.service';
 import { UserService } from 'src/model/user.service';
 import { localised } from 'src/i18n/en/localised-strings';
-// import data from '../datasource/data.json';
 import data from '../datasource/NewData.json';
 import { SwiftchatMessageService } from 'src/swiftchat/swiftchat.service';
 import { plainToClass } from 'class-transformer';
@@ -142,9 +141,6 @@ export class ChatbotService {
       if (buttonBody === localised.Moreexplanation) {
 
 
-        // const subTopicName = user.selectedSubtopicName;
-
-
         const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
         const subTopic = topic.topics.find(topic => topic.topicName === user.selectedSubtopic);
         const subtopicNameArr = subTopic.subtopics.find((subtopic) => subtopic.subtopicName === user.selectedSubtopicName);
@@ -159,11 +155,11 @@ export class ChatbotService {
 
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
-            // await this.message.sendCompleteExplanation(from, description, subtopicName);
+           
             await this.message.sendCompleteExplanation(from, description, title);
           }
           else {
-            // await this.message.sendExplanation(from, description, subtopicName);
+            
             await this.message.sendExplanation(from, description, title);
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
@@ -183,11 +179,7 @@ export class ChatbotService {
 
 
       if (buttonBody === localised.testYourself) {
-      //   await this.message.difficultyButtons(from);
-      //   return 'ok';
-      // }
-      // // Handle difficulty selection buttons (Easy, Medium, Hard) - save the selected difficulty and send the first question
-      // if (['Easy', 'Medium', 'Hard'].includes(buttonBody)) {
+    
         user.selectedDifficulty = buttonBody;
         user.questionsAnswered = 0;
         await this.userService.saveUser(user);
@@ -217,7 +209,7 @@ export class ChatbotService {
         const currentQuestionIndex = user.questionsAnswered;
         const selectedSubtopicName = user.selectedSubtopicName;
         const { result } = await this.message.checkAnswer(from, buttonBody, selectedMainTopic, selectedSubtopic, selectedDifficulty, randomSet, currentQuestionIndex, selectedSubtopicName);
-        // const result = 4
+
         // Update user score and questions answered
         user.score += result;
         user.questionsAnswered += 1;
@@ -336,7 +328,7 @@ export class ChatbotService {
               await this.userService.saveUser(user);
             }
 
-            // await this.message.sendExplanation(from, description, subTopicName);
+            
             await this.message.sendExplanation(from, description, title);
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
@@ -388,7 +380,7 @@ export class ChatbotService {
     return 'ok';
   }
 
-  //added
+
   private async resetQuizData(user: User): Promise<void> {
 
     user.selectedSet = null;
