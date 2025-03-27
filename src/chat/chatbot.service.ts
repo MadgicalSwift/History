@@ -125,11 +125,11 @@ export class ChatbotService {
       // Handle 'Test Yourself' button - show difficulty options to the user
 
       if (buttonBody === localised.testYourself) {
-        await this.message.difficultyButtons(from);
-        return 'ok';
-      }
-      // Handle difficulty selection buttons (Easy, Medium, Hard) - save the selected difficulty and send the first question
-      if (['Easy', 'Medium', 'Hard'].includes(buttonBody)) {
+      //   await this.message.difficultyButtons(from);
+      //   return 'ok';
+      // }
+      // // Handle difficulty selection buttons (Easy, Medium, Hard) - save the selected difficulty and send the first question
+      // if (['Easy', 'Medium', 'Hard'].includes(buttonBody)) {
         user.selectedDifficulty = buttonBody;
         user.questionsAnswered=0;
         await this.userService.saveUser(user);
