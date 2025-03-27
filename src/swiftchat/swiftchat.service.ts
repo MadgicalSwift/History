@@ -215,13 +215,6 @@ export class SwiftchatMessageService extends MessageService {
 
 
 
-
-
-
-
-
-  // new add 
-  
   
   async newscorecard(from: string, score: number, totalQuestions: number, badge: string) {
     let backgroundColor = "teal";

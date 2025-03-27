@@ -65,8 +65,8 @@ export class ChatbotService {
         await this.resetQuizData(user);
         await this.message.sendInitialClasses(from);
         return 'ok';
-      } else if (persistent_menu_response.body == 'Topic Selection') {
-
+      } 
+      else if (persistent_menu_response.body == 'Topic Selection') {
         await this.resetQuizData(user);
         const topic = this.topics.find((t) => t.class === user.selectedMainTopic);
         if (topic) {
@@ -74,18 +74,7 @@ export class ChatbotService {
         } else {
           console.error('Error: Selected topic not found.');
         }
-      } else if (persistent_menu_response.body == 'Retake Quiz') {
-        user.questionsAnswered = 0;
-        user.score = 0;
-        await this.userService.saveUser(user);
-        const selectedMainTopic = user.selectedMainTopic;
-        const selectedSubtopic = user.selectedSubtopic;
-        const selectedDifficulty = user.selectedDifficulty;
-        const randomSet = user.selectedSet;
-        const selectedSubtopicName = user.selectedSubtopicName;
-        await this.message.getQuestionBySet(from, 'Retake Quiz', selectedMainTopic, selectedSubtopic, selectedDifficulty, randomSet, user.questionsAnswered, selectedSubtopicName);
-        return 'ok';
-      }
+      } 
       return 'ok';
     }
 
@@ -151,7 +140,7 @@ export class ChatbotService {
           let description = descriptions[user.descriptionIndex].content
           let title = descriptions[user.descriptionIndex].title
 
-          const subtopicName = subtopicNameArr.subtopicName;
+          // const subtopicName = subtopicNameArr.subtopicName;
 
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
@@ -255,16 +244,7 @@ export class ChatbotService {
           return 'ok';
         }
         // Send the next quiz question
-        await this.message.getQuestionBySet(from,
-          buttonBody,
-          selectedMainTopic,
-          selectedSubtopic,
-          selectedDifficulty,
-          randomSet,
-          user.questionsAnswered,
-          selectedSubtopicName
-        );
-
+        await this.message.getQuestionBySet(from, buttonBody, selectedMainTopic,selectedSubtopic,selectedDifficulty,randomSet,user.questionsAnswered,selectedSubtopicName);
         return 'ok';
       }
 
