@@ -49,6 +49,7 @@ export abstract class MessageService {
     selectedSubtopic: string,
     selectedDifficulty: string,
     selectedSubtopicName: string,
+    currentQuestionIndex: number
   );
   abstract checkAnswer(
     from: string,
