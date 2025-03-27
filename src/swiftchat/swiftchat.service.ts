@@ -12,8 +12,8 @@ import {
   createDifficultyButtons,
   createTestYourSelfButton,
   questionButton,
-  // answerFeedback,
-  // optionButton,
+  answerFeedback,
+  optionButton,
   buttonWithScore
 } from 'src/i18n/buttons/button';
 import axios from 'axios';
@@ -115,12 +115,14 @@ export class SwiftchatMessageService extends MessageService {
     selectedMainTopic: string,
     selectedSubtopic: string,
     selectedDifficulty: string,
+    selectedSubtopicName: string,
   ) {
     const { messageData, randomSet } = await questionButton(
       from,
       selectedMainTopic,
       selectedSubtopic,
       selectedDifficulty,
+      selectedSubtopicName,
     );
     if (!messageData) {
       return;
@@ -147,62 +149,66 @@ export class SwiftchatMessageService extends MessageService {
 
 
 
-  // async checkAnswer(
-  //   from: string,
-  //   answer: string,
-  //   selectedMainTopic: string,
-  //   selectedSubtopic: string,
-  //   selectedDifficulty: string,
-  //   randomSet: string,
-  //   currentQuestionIndex: number,
-  // ) {
-  //   const { feedbackMessage, result } = answerFeedback(
-  //     from,
-  //     answer,
-  //     selectedMainTopic,
-  //     selectedSubtopic,
-  //     selectedDifficulty,
-  //     randomSet,
-  //     currentQuestionIndex,
-  //   );
+  async checkAnswer(
+    from: string,
+    answer: string,
+    selectedMainTopic: string,
+    selectedSubtopic: string,
+    selectedDifficulty: string,
+    randomSet: string,
+    currentQuestionIndex: number,
+    selectedSubtopicName: string,
+  ) {
+    const { feedbackMessage, result } = answerFeedback(
+      from,
+      answer,
+      selectedMainTopic,
+      selectedSubtopic,
+      selectedDifficulty,
+      randomSet,
+      currentQuestionIndex,
+      selectedSubtopicName,
+    );
 
-  //   const requestData = this.prepareRequestData(from, feedbackMessage);
-  //   try {
-  //     const response = await this.sendMessage(
-  //       this.baseUrl,
-  //       requestData,
-  //       this.apiKey,
-  //     );
-  //     return { response, result };
-  //   } catch (error) {
-  //     console.error('Error sending message:', error);
-  //   }
-  // }
+    const requestData = this.prepareRequestData(from, feedbackMessage);
+    try {
+      const response = await this.sendMessage(
+        this.baseUrl,
+        requestData,
+        this.apiKey,
+      );
+      return { response, result };
+    } catch (error) {
+      console.error('Error sending message:', error);
+    }
+  }
 
-  // async getQuestionBySet(
-  //   from: string,
-  //   answer: string,
-  //   selectedMainTopic: string,
-  //   selectedSubtopic: string,
-  //   selectedDifficulty: string,
-  //   randomSet: string,
-  //   currentQuestionIndex: number,
-  // ) {
-  //   const messageData = optionButton(
-  //     from,
-  //     selectedMainTopic,
-  //     selectedSubtopic,
-  //     selectedDifficulty,
-  //     randomSet,
-  //     currentQuestionIndex,
-  //   );
-  //   const response = await this.sendMessage(
-  //     this.baseUrl,
-  //     messageData,
-  //     this.apiKey,
-  //   );
-  //   return { response, randomSet };
-  // }
+  async getQuestionBySet(
+    from: string,
+    answer: string,
+    selectedMainTopic: string,
+    selectedSubtopic: string,
+    selectedDifficulty: string,
+    randomSet: string,
+    currentQuestionIndex: number,
+    selectedSubtopicName: string,
+  ) {
+    const messageData = optionButton(
+      from,
+      selectedMainTopic,
+      selectedSubtopic,
+      selectedDifficulty,
+      randomSet,
+      currentQuestionIndex,
+      selectedSubtopicName,
+    );
+    const response = await this.sendMessage(
+      this.baseUrl,
+      messageData,
+      this.apiKey,
+    );
+    return { response, randomSet };
+  }
 
 
 

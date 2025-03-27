@@ -3,7 +3,7 @@ export const localised = {
   language_hindi: 'हिन्दी',
   language_english: 'English',
   language_changed: 'Language changed to English',
-  welcomeMessage: `😊 *Welcome to the Indian History Chatbot!* 🏰\n📚 This bot is designed for students of Class 4-12, based on the NCERT curriculum. \n🔎 Let's dive into history! 🚀`,
+  welcomeMessage: `😊 *Welcome to the Indian History Chatbot!* 🏰\n📚 This bot is designed for students of Class 6-12, based on the NCERT curriculum. \n🔎 Let's dive into history! 🚀`,
  validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
   selectSubtopic: (topicName: string) =>
   `📜 Please select a Subtopic for *${topicName}*:`,
@@ -12,7 +12,7 @@ export const localised = {
   retakeQuiz:'Retake Quiz',
   testYourself: 'Test Yourself',
   Moreexplanation:'More Explanation',
-  viewChallenge:"View Challenges",
+  viewChallenge:"View Challengers",
   endMessage:"Whenever you're ready to continue, just type 'Hi' to start the bot again. Looking forward to helping you out! 😊",
   explanation: (subtopicName: string, description: string) =>
   `📖 *Explanation of ${subtopicName}:*\n${description}`,
