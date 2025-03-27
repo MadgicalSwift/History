@@ -29,9 +29,6 @@ export class User {
   descriptionIndex: number = 0;
 
   @IsString()
-  selectedDifficulty: string | null;
-
-  @IsString()
   selectedSet: string | null;
 
   @IsString()
