@@ -192,21 +192,19 @@ export class ChatbotService {
         user.questionsAnswered = 0;
         await this.userService.saveUser(user);
 
-        console.log("user Difficulty-1 data -", user);
-
-
         const selectedMainTopic = user.selectedMainTopic;
         const selectedSubtopic = user.selectedSubtopic;
         const selectedDifficulty = user.selectedDifficulty;
         const selectedSubtopicName = user.selectedSubtopicName;
+        const currentQuestionIndex = user.questionsAnswered;
 
-        const { randomSet } = await this.message.sendQuestion(from, selectedMainTopic, selectedSubtopic, selectedDifficulty, selectedSubtopicName);
+        const { randomSet } = await this.message.sendQuestion(from, selectedMainTopic, selectedSubtopic, selectedDifficulty, selectedSubtopicName,currentQuestionIndex);
 
         user.selectedSet = randomSet;
 
         await this.userService.saveUser(user);
 
-        console.log("user Difficulty-2 data -", user);
+       
 
         return 'ok';
       }
@@ -225,7 +223,7 @@ export class ChatbotService {
         user.questionsAnswered += 1;
         await this.userService.saveUser(user);
 
-        console.log("user data 3 -", user)
+       
         // If the user has answered 10 questions, send their final score
         if (user.questionsAnswered >= 10) {
 

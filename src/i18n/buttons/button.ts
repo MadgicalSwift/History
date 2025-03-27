@@ -180,12 +180,11 @@ export function createDifficultyButtons(from: string) {
   };
 }//not used
 
-export function questionButton(from: string, selectedMainTopic: string, selectedSubtopic: string, selectedDifficulty: string, selectedSubtopicName: string) {
+export function questionButton(from: string, selectedMainTopic: string, selectedSubtopic: string, selectedDifficulty: string, selectedSubtopicName: string,currentQuestionIndex:number) {
   const topic = data.classes.find(
     (topic) => topic.class === selectedMainTopic,
   );
 
-  // console.log("questionButton -> topic", topic);
 
 
   if (!topic) {
@@ -196,7 +195,7 @@ export function questionButton(from: string, selectedMainTopic: string, selected
     (subtopic) => subtopic.topicName == selectedSubtopic,
   );
 
-  // console.log("questionButton -> subtopic", subtopic);
+  
 
   if (!subtopic) {
 
@@ -204,28 +203,14 @@ export function questionButton(from: string, selectedMainTopic: string, selected
 
 
   const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
-  //  console.log("questionButton -> subtopicName", subtopicName);
-
-  // const questionSets = [1,2,3]
-  // const questionSets = subtopic.subtopicName.questionSets.filter((set) => set.level ===selectedDifficulty);
-
-
+ 
   const questionSets = subtopicName.questionSets
-  // console.log("questionButton -> questionSets", questionSets);
-
-  // if (questionSets.length === 0) {
-  // questionSets
-  //   return;
-  // }
-
-  // Randomly select a question set based on difficulty level
+ 
   const questionSet = _.sample(questionSets);
   if (!questionSet) {
 
     return;
   }
-
-  // console.log("questionButton -> questionSet", questionSet);
 
 
   const randomSet = questionSet.setNumber;
@@ -245,7 +230,7 @@ export function questionButton(from: string, selectedMainTopic: string, selected
       body: {
         type: 'text',
         text: {
-          body: `Question. ${question.question}`,
+          body: `*Question ${currentQuestionIndex + 1} :*  \n ${question.question}`,
         },
       },
       buttons: buttons,
@@ -267,7 +252,7 @@ export function answerFeedback(
   selectedSubtopicName: string,
 ) {
   const topic = data.classes.find((t) => t.class === selectedMainTopic);
-  // console.log("answerFeedback -> topic", topic);
+ 
 
   if (!topic) {
 
@@ -276,7 +261,7 @@ export function answerFeedback(
   const subtopic = topic.topics.find(
     (st) => st.topicName === selectedSubtopic,
   );
-  // console.log("answerFeedback -> subtopic", subtopic);
+ 
 
   if (!subtopic) {
 
@@ -285,27 +270,15 @@ export function answerFeedback(
   // Find the question set by its level and set number
 
   const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
-  //  console.log("answerFeedback -> subtopicName", subtopicName);
-
+ 
 
   const questionSets = subtopicName.questionSets
-  //  console.log("answerFeedback -> questionSets", questionSets);
-
 
 
   const questionSet = questionSets.find(
     (qs) =>
       qs.setNumber === parseInt(randomSet),
   );
-
-
-  // const questionSet = subtopic.questionSets.find(
-  //   (qs) =>
-  //     qs.level === selectedDifficulty && qs.setNumber === parseInt(randomSet),
-  // );
-
-
-  // console.log("answerFeedback -> questionSet", questionSet);
 
 
 
@@ -351,20 +324,21 @@ export function buttonWithScore(from: string, score: number, totalQuestions: num
         },
       },
       buttons: [
+
         {
           type: 'solid',
-          body: 'Main Menu',
-          reply: 'Main Menu',
+          body: localised.mainMenu,
+          reply: localised.mainMenu,
         },
         {
           type: 'solid',
-          body: 'Retake Quiz',
-          reply: 'Retake Quiz',
+          body: localised.retakeQuiz,
+          reply: localised.retakeQuiz,
         },
         {
           type: 'solid',
-          body: 'View Challenges',
-          reply: 'View Challenges',
+          body: localised.viewChallenge,
+          reply: localised.viewChallenge,
         }
       ],
       allow_custom_response: false,
@@ -414,7 +388,7 @@ export function optionButton(
       set.setNumber === parseInt(randomSet),
   );
 
-  // console.log("optionButton -> questionSet", questionSet);
+ 
 
   if (!questionSet) {
 
@@ -446,7 +420,7 @@ export function optionButton(
       body: {
         type: 'text',
         text: {
-          body: `Question. ${question.question}`,
+          body: `*Question ${currentQuestionIndex + 1} :* \n  ${question.question}`,
         },
       },
       buttons: buttons,
