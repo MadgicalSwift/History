@@ -1,4 +1,3 @@
-// import data from '../../datasource/data.json';
 import { User } from 'src/model/user.entity';
 import data from '../../datasource/NewData.json';
 import { localised } from '../en/localised-strings';
