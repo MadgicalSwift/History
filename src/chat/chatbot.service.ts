@@ -56,6 +56,7 @@ export class ChatbotService {
     // Convert plain user data to a User class instance
     const user = plainToClass(User, userData);
 
+    console.log('User:=>', user);
 
     //  Persistent Menu Response Handling
     if (persistent_menu_response) {
@@ -65,7 +66,7 @@ export class ChatbotService {
         await this.resetQuizData(user);
         await this.message.sendInitialClasses(from);
         return 'ok';
-      } 
+      }
       else if (persistent_menu_response.body == 'Topic Selection') {
         await this.resetQuizData(user);
         const topic = this.topics.find((t) => t.class === user.selectedMainTopic);
@@ -74,7 +75,7 @@ export class ChatbotService {
         } else {
           console.error('Error: Selected topic not found.');
         }
-      } 
+      }
       return 'ok';
     }
 
@@ -95,6 +96,7 @@ export class ChatbotService {
       this.mixpanel.track('Button_Click', trackingData);
 
       // Handle 'Main Menu' button - reset user quiz data and send welcome message
+
       if (buttonBody === localised.mainMenu) {
         user.selectedDifficulty = null;
         user.selectedSet = null;
@@ -104,7 +106,8 @@ export class ChatbotService {
         await this.message.sendWelcomeMessage(from, user.language);
         await this.message.sendInitialClasses(from);
         return 'ok';
-      }
+      };
+
       // Handle 'Retake Quiz' button - reset quiz progress and send the first question
       if (buttonBody === localised.retakeQuiz) {
         user.questionsAnswered = 0;
@@ -144,11 +147,11 @@ export class ChatbotService {
 
           if ((descriptions.length - 1) == user.descriptionIndex) {
 
-           
+
             await this.message.sendCompleteExplanation(from, description, title);
           }
           else {
-            
+
             await this.message.sendExplanation(from, description, title);
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
@@ -159,17 +162,11 @@ export class ChatbotService {
       }
 
 
-
-
-
       // Handle 'Test Yourself' button - show difficulty options to the user
 
-
-
-
       if (buttonBody === localised.testYourself) {
-    
-        user.selectedDifficulty = buttonBody;
+
+        user.selectedDifficulty = "Easy";
         user.questionsAnswered = 0;
         await this.userService.saveUser(user);
 
@@ -179,13 +176,13 @@ export class ChatbotService {
         const selectedSubtopicName = user.selectedSubtopicName;
         const currentQuestionIndex = user.questionsAnswered;
 
-        const { randomSet } = await this.message.sendQuestion(from, selectedMainTopic, selectedSubtopic, selectedDifficulty, selectedSubtopicName,currentQuestionIndex);
+        const { randomSet } = await this.message.sendQuestion(from, selectedMainTopic, selectedSubtopic, selectedDifficulty, selectedSubtopicName, currentQuestionIndex);
 
         user.selectedSet = randomSet;
 
         await this.userService.saveUser(user);
 
-       
+
 
         return 'ok';
       }
@@ -204,7 +201,7 @@ export class ChatbotService {
         user.questionsAnswered += 1;
         await this.userService.saveUser(user);
 
-       
+
         // If the user has answered 10 questions, send their final score
         if (user.questionsAnswered >= 10) {
 
@@ -244,7 +241,7 @@ export class ChatbotService {
           return 'ok';
         }
         // Send the next quiz question
-        await this.message.getQuestionBySet(from, buttonBody, selectedMainTopic,selectedSubtopic,selectedDifficulty,randomSet,user.questionsAnswered,selectedSubtopicName);
+        await this.message.getQuestionBySet(from, buttonBody, selectedMainTopic, selectedSubtopic, selectedDifficulty, randomSet, user.questionsAnswered, selectedSubtopicName);
         return 'ok';
       }
 
@@ -308,7 +305,7 @@ export class ChatbotService {
               await this.userService.saveUser(user);
             }
 
-            
+
             await this.message.sendExplanation(from, description, title);
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
@@ -336,10 +333,10 @@ export class ChatbotService {
         user.selectedSet = null;
         user.selectedMainTopic = null;
         user.selectedSubtopic = null;
+        user.selectedSubtopicName = null;
         user.score = 0;
         user.questionsAnswered = 0;
         await this.userService.saveUser(user);
-        console.log("user data -", userData)
         if (userData.name == null) {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendName(from);
@@ -367,6 +364,8 @@ export class ChatbotService {
     user.questionsAnswered = 0;
     user.score = 0;
     user.descriptionIndex = 0;
+    user.selectedSubtopicName = null;
+    user.selectedMainTopic = null;
     await this.userService.saveUser(user);
   }
 
