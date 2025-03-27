@@ -83,7 +83,7 @@ export class UserService {
     }
   }
 
-  async getTopStudents(Botid: string, topic: string, setNumber: number, subTopic:string): Promise<User[] | any> {
+  async getTopStudents(Botid: string, topic: string, setNumber: number, subTopic:string, subTopicName:string): Promise<User[] | any> {
     try {
         const params = {
             TableName: USERS_TABLE,
@@ -92,7 +92,7 @@ export class UserService {
                 ':Botid': Botid,
             },
         };
-        console.log(Botid, topic, subTopic, setNumber);
+        console.log(Botid, topic, subTopic, setNumber, subTopicName);
         const result = await dynamoDBClient().query(params).promise();
         // console.log(result)
         const users = result.Items || [];

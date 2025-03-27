@@ -353,27 +353,42 @@ export class ChatbotService {
         user.selectedSubtopicName = null;
         user.score = 0;
         user.questionsAnswered = 0;
+        user.descriptionIndex = 0;
         await this.userService.saveUser(user);
         if (userData.name == null) {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendName(from);
+          console.log("sendName User =>", user);
+
+          return 'ok';
+          
         }
         else {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendInitialClasses(from);
+
+          console.log("sendInitialClasses-1 User => ", user);
+
+          return 'ok';
+          
         }
       }
       else {
 
         await this.userService.saveUserName(from, botID, text.body);
         await this.message.sendInitialClasses(from);
+
+        console.log("sendInitialClasses-2 User =>", user);
+
+        return 'ok';
+        
       }
 
     }
 
-    console.log('End User:=>', user);
+    // console.log('End User:=>', user);
     
-    return 'ok';
+    // return 'ok';
   }
 
 
@@ -398,6 +413,7 @@ export class ChatbotService {
         userData.selectedMainTopic,
         userData.selectedSet,
         userData.selectedSubtopic,
+        userData.selectedSubtopicName,
       );
       if (topStudents.length === 0) {
 
