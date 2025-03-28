@@ -141,7 +141,17 @@ export class ChatbotService {
 
       if (buttonBody === localised.viewChallenge) {
         await this.handleViewChallenges(from, userData);
-        await this.message.endMessage(from);
+        // await this.message.endMessage(from);
+        user.descriptionIndex = 0;
+        user.questionsAnswered = 0;
+        user.score = 0;
+        user.selectedSet = null;
+        user.selectedMainTopic = null;
+        user.selectedSubtopic = null;
+        user.selectedSubtopicName = null;
+        await this.userService.saveUser(user);
+        // await this.message.sendWelcomeMessage(from, user.language);
+        await this.message.sendInitialClasses(from);
         return 'ok';
       }
 
