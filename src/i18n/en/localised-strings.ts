@@ -16,7 +16,7 @@ export const localised = {
   viewChallenge:"View Challengers",
   endMessage:"Whenever you're ready to continue, just type 'Hi' to start the bot again. Looking forward to helping you out! 😊",
   explanation: (subtopicName: string, description: string) =>
-  `📖 *Explanation of ${subtopicName}:*\n${description}`,
+  `📖\u00A0\u00A0\u00A0\u00A0*${subtopicName}:*\n${description}`,
   moreExplanation: (subtopicName: string, description: string) =>
   `📝 *${subtopicName}:*\n${description}`,
   difficulty: `🎯 Choose your quiz level to get started!🚀`,
