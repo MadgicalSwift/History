@@ -76,8 +76,6 @@ GET  /api/status: Endpoint for checking the status of  api
 
 ```bash
 src/
-    ├── app.controller.ts
-    ├── app.module.ts
     ├── chat/
     │   ├── chat.service.ts
     │   └── chatbot.model.ts
