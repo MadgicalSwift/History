@@ -6,6 +6,8 @@ export const localised = {
   language_changed: 'Language changed to English',
   welcomeMessage: `😊 *Welcome to the Indian History Chatbot!* 🏰\n📚 This bot is designed for students of Class 6-12, based on the NCERT curriculum. \n🔎 Let's dive into history! 🚀`,
  validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola'],
+ selectTopic: (topicName: string) =>
+  `📜 Please select a topic for *${topicName}*:`,
   selectSubtopic: (topicName: string) =>
   `📜 Please select a Subtopic for *${topicName}*:`,
   mainMenu:'Main Menu',

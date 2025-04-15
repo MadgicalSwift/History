@@ -45,7 +45,7 @@ export function createSubTopicButtons(from: string, topicName: string) {
         body: {
           type: 'text',
           text: {
-            body: localised.selectSubtopic(topicName),
+            body: localised.selectTopic(topicName),
           },
         },
         buttons: buttons,
@@ -60,10 +60,10 @@ export function createSubTopicButtons(from: string, topicName: string) {
 
 export function createSubTopicButtons2(from: string, mainTopic: string,  subtopic: string) {
   const topic = data.classes.find((topic) => topic.class === mainTopic);
-  console.log("topic", topic);
+ 
   
   const matchingTopic = topic.topics.find(topic => topic.topicName === subtopic);
-  console.log("matchingTopic", matchingTopic);
+ 
   if (topic && topic.topics) {
     
     const buttons = matchingTopic.subtopics.map((subtopic) => ({

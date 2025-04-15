@@ -24,7 +24,7 @@ export abstract class MessageService {
       });
       return response.data;
     } catch (error) {
-      // console.log('Error sending message:', error.response?.data);
+      
       throw new CustomException(error);
     }
   }

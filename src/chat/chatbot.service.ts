@@ -56,7 +56,8 @@ export class ChatbotService {
     // Convert plain user data to a User class instance
     const user = plainToClass(User, userData);
 
-    // console.log('Start User:=>', user);
+ 
+    
 
     //  Persistent Menu Response Handling
     if (persistent_menu_response) {
@@ -66,7 +67,8 @@ export class ChatbotService {
 
         await this.resetQuizData(user);
         await this.message.sendInitialClasses(from);
-        // console.log('Class Selection User:=>', user);
+     
+        
         
         return 'ok';
       }
@@ -81,7 +83,8 @@ export class ChatbotService {
         const topic = this.topics.find((t) => t.class === user.selectedMainTopic);
         if (topic) {
           await this.message.sendSubTopics(from, topic.class);
-          // console.log('Topic Selection User:=>', user);
+       
+          
           
         } else {
           console.error('Error: Selected topic not found.');
@@ -118,7 +121,7 @@ export class ChatbotService {
         await this.message.sendWelcomeMessage(from, user.language);
         await this.message.sendInitialClasses(from);
 
-        // console.log('Main Menu User:=>', user);
+    
         
         return 'ok';
       };
@@ -133,7 +136,7 @@ export class ChatbotService {
         const randomSet = user.selectedSet;
         const selectedSubtopicName = user.selectedSubtopicName;
         await this.message.getQuestionBySet(from, buttonBody, selectedMainTopic, selectedSubtopic, randomSet, user.questionsAnswered, selectedSubtopicName);
-        // console.log('Retake Quiz User:=>', user);
+     
         
         return 'ok';
       }
@@ -178,7 +181,7 @@ export class ChatbotService {
 
             await this.message.sendCompleteExplanation(from, description, title);
 
-            // console.log('Complete Explanation User:=>', user);
+          
           }
           else {
 
@@ -186,7 +189,7 @@ export class ChatbotService {
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
 
-            // console.log('More Explanation User:=>', user);
+         
           }
         }
         return 'ok';
@@ -212,7 +215,7 @@ export class ChatbotService {
 
         await this.userService.saveUser(user);
 
-        // console.log('Test Yourself User:=>', user);
+       
         
 
         return 'ok';
@@ -232,7 +235,7 @@ export class ChatbotService {
         user.questionsAnswered += 1;
         await this.userService.saveUser(user);
 
-        // console.log('Quiz Answer User:=>', user);
+      
         
 
 
@@ -292,26 +295,26 @@ export class ChatbotService {
 
         await this.message.sendSubTopics(from, mainTopic);
 
-        // console.log('Topic Selection User:=>', user);
+       
         
         return 'ok';
       }
       else {
 
         const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
-        // console.log('Topic Selection 1:=>', topic);
+     
         const mainTopic = topic.class;
         
         const subTopic = topic.topics.find(topic => (topic.topicName === buttonBody || topic.topicName === user.selectedSubtopic));
         const subtopic = subTopic.topicName
 
-        // console.log('Topic Selection 2:=>', mainTopic, subtopic);
+     
         
 
         if (subTopic && user.selectedSubtopic == null) {
           const subtopic = subTopic.topicName
 
-          // console.log('Topic Selection 3:=>', subtopic);
+         
           
 
           if (user.selectedSubtopic !== subtopic) {
@@ -319,19 +322,19 @@ export class ChatbotService {
             await this.userService.saveUser(user);
           }
 
-          // console.log('Topic Selection User:=>', user);
+     
           
 
           await this.message.sendSubTopics2(from, mainTopic, subtopic);
 
-          // console.log('Subtopic Selection User:=>', user);
+        
 
           return 'ok';
 
         }
         else {
 
-          // console.log("hello vishal");
+         
           
 
           const topic = this.topics.find(topic => topic.class === user.selectedMainTopic);
@@ -357,7 +360,8 @@ export class ChatbotService {
             await this.message.sendExplanation(from, description, title);
             user.descriptionIndex += 1;
             await this.userService.saveUser(user);
-            // console.log('Subtopic Name Selection User:=>', user);
+          
+            
             
             return 'ok';
           }
@@ -392,7 +396,8 @@ export class ChatbotService {
         if (userData.name == null) {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendName(from);
-          // console.log("sendName User =>", user);
+        
+          
 
           return 'ok';
           
@@ -401,7 +406,8 @@ export class ChatbotService {
           await this.message.sendWelcomeMessage(from, user.language);
           await this.message.sendInitialClasses(from);
 
-          // console.log("sendInitialClasses-1 User => ", user);
+       
+          
 
           return 'ok';
           
@@ -412,7 +418,8 @@ export class ChatbotService {
         await this.userService.saveUserName(from, botID, text.body);
         await this.message.sendInitialClasses(from);
 
-        // console.log("sendInitialClasses-2 User =>", user);
+     
+        
 
         return 'ok';
         
