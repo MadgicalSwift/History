@@ -76,6 +76,11 @@ GET  /api/status: Endpoint for checking the status of  api
 
 ```bash
 src/
+<<<<<<< HEAD
+=======
+    ├── app.controller.ts
+    ├── app.module.ts
+>>>>>>> flowCreateVishal
     ├── chat/
     │   ├── chat.service.ts
     │   └── chatbot.model.ts
