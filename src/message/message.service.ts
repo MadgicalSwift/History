@@ -24,14 +24,13 @@ export abstract class MessageService {
       });
       return response.data;
     } catch (error) {
-      
+     
       throw new CustomException(error);
     }
   }
 
   abstract sendWelcomeMessage(from: string, language: string);
   abstract sendSubTopics(from: string, topicName: string);
-  abstract sendSubTopics2(from: string, mainTopic: string, subtopic: string);
   abstract sendExplanation(
     from: string,
     description: string,
@@ -39,7 +38,7 @@ export abstract class MessageService {
   );
   abstract sendCompleteExplanation(
     from: string,
-    description: string,
+    description: string[],
     subtopicName: string,
   );
   abstract difficultyButtons(from: string);
@@ -47,31 +46,30 @@ export abstract class MessageService {
     from: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
-    selectedSubtopicName: string,
-    currentQuestionIndex: number
+    selectedDifficulty: string,
   );
   abstract checkAnswer(
     from: string,
     answer: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
+    selectedDifficulty: string,
     randomSet: string,
     currentQuestionIndex: number,
-    selectedSubtopicName: string,
   );
   abstract sendName(from:string);
-  abstract sendInitialClasses(from:string);
+  abstract sendInitialTopics(from:string);
   abstract getQuestionBySet(
     from: string,
     answer: string,
     selectedMainTopic: string,
     selectedSubtopic: string,
+    selectedDifficulty: string,
     randomSet: string,
     currentQuestionIndex: number,
-    selectedSubtopicName: string,
   );
+  // abstract handleViewChallenges(from:string, userData:any);
+  abstract sendScore(from: string, score: number, totalQuestions: number, badge:string);
   abstract endMessage(from:string);
   abstract sendLanguageChangedMessage(from: string, language: string);
-  abstract newscorecard(from,score, questionsAnswered, badge);
-        
 }

@@ -1,15 +1,14 @@
-#  History Quiz Bot
+#  Chatbot NestJS Boilerplate
 
-The History Quiz Bot is an interactive educational tool designed to help students understand historical concepts through engaging quizzes. The bot covers various topics, starting with "What is History?" for Class 6 students, and includes multiple-choice questions with explanations to reinforce learning.
+In this comprehensive guide, we introduce you to our Chatbot Starter Kit, a resource designed to empower developers in building robust chatbot applications. Whether you are just starting your journey in chatbot development or are an experienced developer seeking an efficient solution, this document is your go-to resource for mastering the use of our starter kit.
 
-The History Quiz Bot is a fun and educational way to encourage History Knowledge through interactive learning!
 
 # Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 * Node.js and npm installed
 * Nest.js CLI installed (npm install -g @nestjs/cli)
-* DynomoDB database accessible
+* MySQL database accessible
 
 ## Getting Started
 ### Installation
@@ -19,11 +18,11 @@ Click the "Fork" button in the upper right corner of the repository page. This w
 
 * Clone this repository:
 ```
-https://github.com/MadgicalSwift/History.git
+https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git
 ```
 * Navigate to the Project Directory:
 ```
-cd History
+cd chatbot-nestjs-boilerplate
 ```
 * Install Project Dependencies:
 ```bash
@@ -59,72 +58,60 @@ $ npm run test:cov
 # Add the following environment variables:
 
 ```bash
-USERS_TABLE = user_table
-REGION = region
-ACCESS_KEY_ID = access_key_id
-SECRET_ACCESS_KEY = secret_access_key
-API_URL = api_url
-BOT_ID = bot_id
-API_KEY = api_key
+API_URL = API_URL
+BOT_ID = BOT_ID
+API_KEY = API_KEY
+DATA_BASE=DATA_BASE
+DB_HOST=DB_HOST
+DB_USER=DB_USER
+DB_PASSWORD=DB_PASSWORD
 ```
 # API Endpoints
 ```
-POST /api/message: Endpoint for handling user requests. 
-GET  /api/status: Endpoint for checking the status of  api
+POST api/message: Endpoint for handling user requests. 
+Get/api/status: Endpoint for checking the status of  api
 ```
 # folder structure
 
 ```bash
 src/
-<<<<<<< HEAD
-=======
-    ├── app.controller.ts
-    ├── app.module.ts
->>>>>>> flowCreateVishal
-    ├── chat/
-    │   ├── chat.service.ts
-    │   └── chatbot.model.ts
-    ├── common/
-    │   ├── exceptions/
-    │   │   ├── custom.exception.ts
-    │   │   └── http-exception.filter.ts
-    │   ├── middleware/
-    │   │   ├── logger.help.ts
-    │   │   └── logger.middleware.ts
-    │   └── utils/
-    │       └── date.service.ts
-    ├── config/
-    │   └── database-config.service.ts
-    ├── datasource/
-    │   └── NewData.json
-    ├── i18n/
-    │   ├── buttons/
-    │   │   └── button.ts
-        ├── en/
-    │   │   └── localised-strings.ts
-    │   └── hn/
-    │       └── localised-strings.ts
-    ├── intent/
-    │   └── intent.classifier.ts
-    ├── localization/
-    │   ├── localization.service.ts
-    │   └── localization.module.ts
-    ├── message/
-    │   ├── message.service.ts
-    │   └── message.module.ts
-    ├── mixpanel/
-    │   ├── mixpanel.service.ts
-    │   └── mixpanel.service.spec.ts
-    ├── model/
-    │   ├── user.entity.ts
-    │   ├── user.module.ts
-    │   └── user.service.ts
-    ├── swiftchat/
-    │   ├── swiftchat.module.ts
-    │   └── swiftchat.service.ts
-    ├── main.ts
-    ├── app.controller.ts
-    └── app.module.ts
+├── app.controller.ts
+├── app.module.ts
+├── main.ts
+├── chat/
+│   ├── chat.service.ts
+│   └── chatbot.model.ts
+├── common/
+│   ├── exceptions/
+│   │   ├── custom.exception.ts
+│   │   └── http-exception.filter.ts
+│   ├── middleware/
+│   │   ├── log.helper.ts
+│   │   └── log.middleware.ts
+│   └── utils/
+│       └── date.service.ts
+├── config/
+│   └── database.config.ts
+├── i18n/
+│   ├── en/
+│   │   └── localised-strings.ts
+│   └── hi/
+│       └── localised-strings.ts
+├── localization/
+│   ├── localization.service.ts
+│   └── localization.module.ts
+│
+├── message/
+│   ├── message.service.ts
+│   └── message.service.ts
+└── model/
+│   ├── user.entity.ts
+│   ├──user.module.ts
+│   └──query.ts
+└── swiftchat/
+    ├── swiftchat.module.ts
+    └── swiftchat.service.ts
+
 ```
 
 # Link

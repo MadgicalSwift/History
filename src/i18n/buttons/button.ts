@@ -1,11 +1,12 @@
-import { User } from 'src/model/user.entity';
-import data from '../../datasource/NewData.json';
+import data from '../../datasource/data.json';
 import { localised } from '../en/localised-strings';
 import _ from 'lodash';
 
 export function createMainTopicButtons(from: string) {
-  const topics = data.classes.map((topic) => topic.class);
+  // Extract topic names from the data
+  const topics = data.topics.map((topic) => topic.topicName);
 
+  // Create buttons for each topic
   const buttons = topics.map((topicName) => ({
     type: 'solid',
     body: topicName,
@@ -29,44 +30,12 @@ export function createMainTopicButtons(from: string) {
 }
 
 export function createSubTopicButtons(from: string, topicName: string) {
-  const topic = data.classes.find((topic) => topic.class === topicName);
+  // Find the topic in the data
+  const topic = data.topics.find((topic) => topic.topicName === topicName);
 
-  if (topic && topic.topics) {
-    const buttons = topic.topics.map((subtopic) => ({
-      type: 'solid',
-      body: subtopic.topicName,
-      reply: subtopic.topicName,
-    }));
-
-    return {
-      to: from,
-      type: 'button',
-      button: {
-        body: {
-          type: 'text',
-          text: {
-            body: localised.selectTopic(topicName),
-          },
-        },
-        buttons: buttons,
-        allow_custom_response: false,
-      },
-    };
-  } else {
-
-    return null;
-  }
-}
-
-export function createSubTopicButtons2(from: string, mainTopic: string,  subtopic: string) {
-  const topic = data.classes.find((topic) => topic.class === mainTopic);
- 
-  
-  const matchingTopic = topic.topics.find(topic => topic.topicName === subtopic);
- 
-  if (topic && topic.topics) {
-    
-    const buttons = matchingTopic.subtopics.map((subtopic) => ({
+  // If the topic exists, create buttons for each subtopic
+  if (topic && topic.subtopics) {
+    const buttons = topic.subtopics.map((subtopic) => ({
       type: 'solid',
       body: subtopic.subtopicName,
       reply: subtopic.subtopicName,
@@ -79,7 +48,7 @@ export function createSubTopicButtons2(from: string, mainTopic: string,  subtopi
         body: {
           type: 'text',
           text: {
-            body: localised.selectSubtopic(subtopic),
+            body: localised.selectSubtopic(topicName),
           },
         },
         buttons: buttons,
@@ -87,23 +56,26 @@ export function createSubTopicButtons2(from: string, mainTopic: string,  subtopi
       },
     };
   } else {
-
+    
     return null;
   }
 }
 
-
-export function createButtonWithExplanation(from: string, description: string, subtopicName: string) {
+export function createButtonWithExplanation(
+  from: string,
+  description: string,
+  subtopicName: string,
+) {
   const buttons = [
     {
       type: 'solid',
-      body: localised.Moreexplanation,
-      reply: localised.Moreexplanation,
+      body: 'More Explanation',
+      reply: 'More Explanation',
     },
     {
       type: 'solid',
-      body: localised.testYourself,
-      reply: localised.testYourself,
+      body: 'Test Yourself',
+      reply: 'Test Yourself',
     },
   ];
   return {
@@ -121,15 +93,16 @@ export function createButtonWithExplanation(from: string, description: string, s
     },
   };
 }
-
-
-
-export function createTestYourSelfButton(from: string, description: string, subtopicName: string) {
+export function createTestYourSelfButton(
+  from: string,
+  description: string,
+  subtopicName: string,
+) {
   const buttons = [
     {
       type: 'solid',
-      body: localised.testYourself,
-      reply: localised.testYourself,
+      body: 'Test Yourself',
+      reply: 'Test Yourself',
     },
   ];
   return {
@@ -139,7 +112,7 @@ export function createTestYourSelfButton(from: string, description: string, subt
       body: {
         type: 'text',
         text: {
-          body: localised.explanation(subtopicName, description)
+          body: localised.moreExplanation(subtopicName, description),
         },
       },
       buttons: buttons,
@@ -147,8 +120,6 @@ export function createTestYourSelfButton(from: string, description: string, subt
     },
   };
 }
-
-
 export function createDifficultyButtons(from: string) {
   const buttons = [
     {
@@ -181,40 +152,43 @@ export function createDifficultyButtons(from: string) {
       allow_custom_response: false,
     },
   };
-}//not used
+}
 
-export function questionButton(from: string, selectedMainTopic: string, selectedSubtopic: string, selectedSubtopicName: string, currentQuestionIndex: number) {
-  const topic = data.classes.find(
-    (topic) => topic.class === selectedMainTopic,
+export function questionButton(
+  from: string,
+  selectedMainTopic: string,
+  selectedSubtopic: string,
+  selectedDifficulty: string,
+) {
+  const topic = data.topics.find(
+    (topic) => topic.topicName === selectedMainTopic,
   );
-
-
-
   if (!topic) {
-
+    
   }
 
-  const subtopic = topic.topics.find(
-    (subtopic) => subtopic.topicName == selectedSubtopic,
+  const subtopic = topic.subtopics.find(
+    (subtopic) => subtopic.subtopicName == selectedSubtopic,
+  );
+  if (!subtopic) {
+    
+  }
+
+  const questionSets = subtopic.questionSets.filter(
+    (set) => set.level === selectedDifficulty,
   );
 
-
-
-  if (!subtopic) {
-
-  }
-
-
-  const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
-
-  const questionSets = subtopicName.questionSets
-
-  const questionSet = _.sample(questionSets);
-  if (!questionSet) {
-
+  if (questionSets.length === 0) {
+   
     return;
   }
 
+  // Randomly select a question set based on difficulty level
+  const questionSet = _.sample(questionSets);
+  if (!questionSet) {
+    
+    return;
+  }
 
   const randomSet = questionSet.setNumber;
   const question = questionSet.questions[0];
@@ -233,7 +207,7 @@ export function questionButton(from: string, selectedMainTopic: string, selected
       body: {
         type: 'text',
         text: {
-          body: `*Question ${currentQuestionIndex + 1} :*  \n ${question.question}`,
+          body: question.question,
         },
       },
       buttons: buttons,
@@ -249,61 +223,49 @@ export function answerFeedback(
   answer: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
+  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
-  selectedSubtopicName: string,
 ) {
-  const topic = data.classes.find((t) => t.class === selectedMainTopic);
-
-
+  const topic = data.topics.find((t) => t.topicName === selectedMainTopic);
   if (!topic) {
-
+    
   }
 
-  const subtopic = topic.topics.find(
-    (st) => st.topicName === selectedSubtopic,
+  const subtopic = topic.subtopics.find(
+    (st) => st.subtopicName === selectedSubtopic,
   );
-
-
   if (!subtopic) {
-
+    
   }
 
   // Find the question set by its level and set number
 
-  const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
-
-
-  const questionSets = subtopicName.questionSets
-
-
-  const questionSet = questionSets.find(
+  const questionSet = subtopic.questionSets.find(
     (qs) =>
-      qs.setNumber === parseInt(randomSet),
+      qs.level === selectedDifficulty && qs.setNumber === parseInt(randomSet),
   );
-
-
-
+ 
   if (!questionSet) {
-
+   
   }
 
   const question = questionSet.questions[currentQuestionIndex];
+  
 
-
-
+  
   const explanation = question.explanation;
   if (!explanation) {
-
+    
   }
 
   if (!question.answer) {
-
+    
   }
   const correctAnswer = question.answer;
   const userAnswer = Array.isArray(answer) ? answer[0] : answer;
   const correctAns = Array.isArray(correctAnswer) ? correctAnswer[0] : correctAnswer;
-
+  
   const isCorrect = userAnswer === correctAns;
   const feedbackMessage =
     isCorrect
@@ -314,7 +276,12 @@ export function answerFeedback(
   return { feedbackMessage, result };
 }
 
-export function buttonWithScore(from: string, score: number, totalQuestions: number, badge: string) {
+export function buttonWithScore(
+  from: string,
+  score: number,
+  totalQuestions: number,
+  badge:string
+) {
   return {
     to: from,
     type: 'button',
@@ -326,73 +293,61 @@ export function buttonWithScore(from: string, score: number, totalQuestions: num
         },
       },
       buttons: [
-
         {
           type: 'solid',
-          body: localised.mainMenu,
-          reply: localised.mainMenu,
+          body: 'Main Menu',
+          reply: 'Main Menu',
         },
         {
           type: 'solid',
-          body: localised.retakeQuiz,
-          reply: localised.retakeQuiz,
+          body: 'Retake Quiz',
+          reply: 'Retake Quiz',
         },
         {
           type: 'solid',
-          body: localised.viewChallenge,
-          reply: localised.viewChallenge,
+          body: 'View Challenges',
+          reply: 'View Challenges',
         }
       ],
       allow_custom_response: false,
     },
   };
 }
-
-
-
-
 export function optionButton(
   from: string,
   selectedMainTopic: string,
   selectedSubtopic: string,
+  selectedDifficulty: string,
   randomSet: string,
   currentQuestionIndex: number,
-  selectedSubtopicName: string,
 ) {
   // Find the selected topic
-
-  const topic = data.classes.find((t) => t.class === selectedMainTopic);
+  const topic = data.topics.find(
+    (topic) => topic.topicName === selectedMainTopic,
+  );
   if (!topic) {
-
-
+    
+    
     return;
   }
 
   // Find the selected subtopic
-  const subtopic = topic.topics.find(
-    (subtopic) => subtopic.topicName === selectedSubtopic,
+  const subtopic = topic.subtopics.find(
+    (subtopic) => subtopic.subtopicName === selectedSubtopic,
   );
-
   if (!subtopic) {
-
-
+    
+    
     return;
   }
 
-  const subtopicName = subtopic.subtopics.find((subtopic) => subtopic.subtopicName === selectedSubtopicName);
-
-
-  const questionSets = subtopicName.questionSets
-
-  const questionSet = questionSets.find(
+  // Find the question set based on difficulty and set number
+  const questionSet = subtopic.questionSets.find(
     (set) =>
-      set.setNumber === parseInt(randomSet),
+      set.level === selectedDifficulty && set.setNumber === parseInt(randomSet),
   );
-
-
-
   if (!questionSet) {
-
+    
     return;
   }
 
@@ -401,7 +356,7 @@ export function optionButton(
     currentQuestionIndex < 0 ||
     currentQuestionIndex >= questionSet.questions.length
   ) {
-
+    
     return;
   }
 
@@ -421,7 +376,7 @@ export function optionButton(
       body: {
         type: 'text',
         text: {
-          body: `*Question ${currentQuestionIndex + 1} :* \n  ${question.question}`,
+          body: question.question,
         },
       },
       buttons: buttons,
